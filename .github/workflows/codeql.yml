@@ -33,7 +33,7 @@ jobs:
     name: 分析 JavaScript
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
       - name: 初始化 CodeQL
         uses: github/codeql-action/init@v4
