@@ -5,8 +5,8 @@
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-11%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-11%2F11-brightgreen" alt="在线">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-12%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-12%2F12-brightgreen" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24175-success" alt="首日可得">
   <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--29%2012.56%20UTC-informational" alt="数据更新">
 </p>
@@ -22,7 +22,8 @@
   <a href="https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"><b>Matrix 注册</b></a> ·
   <a href="https://anyrouter.top/register?aff=Z24N"><b>AnyRouter 注册</b></a> ·
   <a href="https://api.cheapcodex.online/register?aff=U7SSQZSDB36S"><b>CheapCodex 注册</b></a> ·
-  <a href="https://nofx.one/zh-CN/sign-in?ref=J369GHY4"><b>NOFX 注册</b></a>
+  <a href="https://nofx.one/zh-CN/sign-in?ref=J369GHY4"><b>NOFX 注册</b></a> ·
+  <a href="https://api.dshapi.icu/r/T8KiaeGU"><b>DSH API 注册</b></a>
 </p>
 
 <p align="center"><a href="https://panxunying.github.io/ai-coding-welfare/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://panxunying.github.io/ai-coding-welfare/status/">🩺 可用性历史</a> · <a href="https://panxunying.github.io/ai-coding-welfare/changelog/">🗓 变动日志</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">🔔 Atom 订阅</a></p>
@@ -49,6 +50,7 @@
 | **AnyRouter** | 🟢 在线 | **$150** | 注册 $75 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://anyrouter.top/register?aff=Z24N) | — |
 | **CheapCodex** | 🟢 在线 | **$40** | 本页邀请 $20 + 首签 $20 | $20/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | 🟢 在线 | **15 积分** | 本页邀请 10 积分 + 首签 5 积分 | 5 积分/天 | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
+| **DSH API** | 🟢 在线 | 按量计费（人民币），无固定赠额；实测 1 元人民币跑出的 token 量约为官网同等价的 10 倍 | — | — | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://api.dshapi.icu/r/T8KiaeGU) | — |
 
 > **Mirasim Go套餐 $1/月：用量按每 5 小时估算，不是每月总次数。** 官网估算，共享额度按模型折算，各模型次数不可相加；实际用量以站内为准。 付费套餐不计入下方免费额度合计。[官网定价](https://mirasim.ai/pricing)（2026-09-23 核对）。
 
@@ -172,7 +174,7 @@ curl -s https://api.artbloom.tech/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 142 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 146 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
@@ -1177,6 +1179,111 @@ curl -s https://api.cheapcodex.online/v1/chat/completions \
 - 落地页的 CTA 写「注册领取 $20 积分」，而本页登记的邀请注册是 10 积分——两个口径站点没在公开页面上对齐，进后台看实际到账数
 - 「分享到 X」那 $20 要发带自己邀请码的推文并上传截图过审，本质是替站点做推广，要不要做自己判断
 - 站点公开面读不到任何机器可读的状态：robots.txt 禁掉了 /api/ 与控制台各页，本页只探 sitemap.xml 判断站点还活着，所以「实时数据」一栏只有延迟
+
+---
+
+### 🟢 DSH API
+
+> 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic
+
+<a href="https://api.dshapi.icu/r/T8KiaeGU"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-DSH%20API-brightgreen?style=for-the-badge" alt="注册 DSH API"></a>
+
+**为什么值得注册**
+
+- 国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x
+- 同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连
+- 十一个可用模型：deepseek-v4-flash / v4.1-flash / pro、glm-5.2 / 5.3 / 5.3-flash、kimi-k2.8 / k3、minimax-m3、hy3 / hy4
+- QQ 邮箱注册，支付宝 / 微信充值，余额不过期，国内直连不需代理
+- 四个端点实测全通：1.61s / 2.19s / 2.37s / 3.94s
+
+**能拿多少额度**
+
+- 免费范围：按量计费（人民币），无固定赠额；实测 1 元人民币跑出的 token 量约为官网同等价的 10 倍
+
+**实时数据**（自动抓取站点公开接口）
+
+- 接口延迟：2550 ms
+
+> 可用模型：deepseek-v4-flash $1/$4、deepseek-v4.1-flash $1/$4、deepseek-v4-pro $4.5/$13.5、glm-5.2 $8/$28、glm-5.3 $8/$28、glm-5.3-flash $0.8/$2.8、kimi-k2.8 $20/$100、kimi-k3 $20/$100、minimax-m3 $2.1/$8.4、hy3 $1/$4、hy4 $6/$18（单位：美元 / 百万 token，以上是未乘分组倍率的标价；国模分组 0.08x 后即为实付）。平台机器人公告价与官网一致，不掺水。
+
+**注册要求**
+
+- 从本页链接进入注册（带短链邀请），邀请关系在注册那一刻绑定
+- QQ 邮箱即可，不需要海外手机号或外币卡
+- 登录后到「API 密钥」页建 key，到「可用渠道」页看分组倍率
+
+**接入配置**
+
+<details open><summary><b>Claude Code</b>（Anthropic 兼容，Base URL 不带 <code>/v1</code>）</summary>
+
+```bash
+# macOS / Linux
+export ANTHROPIC_BASE_URL=https://api.dshapi.icu
+export ANTHROPIC_AUTH_TOKEN=你在站点后台创建的 Key
+export ANTHROPIC_MODEL=<登录后台查看可用模型名>
+npm install -g @anthropic-ai/claude-code@latest && claude
+```
+
+```powershell
+# Windows PowerShell
+$env:ANTHROPIC_BASE_URL = "https://api.dshapi.icu"
+$env:ANTHROPIC_AUTH_TOKEN = "你在站点后台创建的 Key"
+$env:ANTHROPIC_MODEL = "<登录后台查看可用模型名>"
+claude
+```
+
+</details>
+
+<details><summary><b>Codex CLI</b>（OpenAI 兼容，写入 <code>~/.codex/config.toml</code>）</summary>
+
+```toml
+model = "<登录后台查看可用模型名>"
+model_provider = "dshapi"
+
+[model_providers.dshapi]
+name = "DSH API"
+base_url = "https://api.dshapi.icu/v1"
+env_key = "DSHAPI_API_KEY"
+wire_api = "chat"
+```
+
+</details>
+
+<details><summary><b>OpenAI SDK / Cherry Studio / Cursor 等通用客户端</b></summary>
+
+```python
+from openai import OpenAI
+
+client = OpenAI(api_key="你的 Key", base_url="https://api.dshapi.icu/v1")
+resp = client.chat.completions.create(model="<登录后台查看可用模型名>", messages=[{"role": "user", "content": "ping"}])
+print(resp.choices[0].message.content)
+```
+
+通用客户端只需填两项：**Base URL** = `https://api.dshapi.icu/v1`，**API Key** = 站点后台创建的 Key。
+
+</details>
+
+<details><summary><b>连通性自测</b></summary>
+
+```bash
+curl -s https://api.dshapi.icu/v1/chat/completions \
+  -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" \
+  -d '{"model":"<登录后台查看可用模型名>","messages":[{"role":"user","content":"只回复 OK"}]}'
+```
+
+</details>
+
+**如何继续拿额度**
+
+- 邀请返佣 10%，不冻结、无上限、无每日发放上限
+- 充值送额活动以站内公告为准
+
+**⚠️ 使用前必读**
+
+- 按量计费而非免费额度：注册不送额度，需充值后使用
+- 属链接包含邀请短链，非直接官网入口
+- 速率与稳定性以实测为准，建议先小额充值试跑
+- 平台面板接口未开放公开的 /api/status，本页只探 robots 放行的 /v1/models（不带 key 回 401 即为存活证据）
 
 ---
 

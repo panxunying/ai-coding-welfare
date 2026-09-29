@@ -32,6 +32,7 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) |
 | **CheapCodex** | Acessível | **$40** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| **DSH API** | Acessível | **Não divulgado publicamente** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://api.dshapi.icu/r/T8KiaeGU) |
 
 **Créditos indicativos em USD no primeiro dia: $699.5 em 7 serviços que aceitam novos usuários.**
 
@@ -475,6 +476,41 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 Não divulgado publicamente
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/nofx/)
+## DSH API
+
+Agregador de relay de API de IA. Uma única base URL atende protocolos compatíveis com OpenAI e com Anthropic, então Claude Code e Codex CLI conectam sem alterar código. O console lista um grupo de modelos CN a 0,08x do preço de tabela e um grupo open ai pro a 0,22x.
+
+[Abrir serviço / cadastrar](https://api.dshapi.icu/r/T8KiaeGU) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/dshapi/)
+
+
+- **Créditos no primeiro dia / plano**: Não divulgado publicamente
+- **Créditos diários**: Não divulgado publicamente
+- **Status**: Acessível
+- **Dados atualizados em**: 2026-09-29 16:32 UTC
+
+
+### Requisitos de cadastro
+
+Cadastro por e-mail (QQ Mail serve). Use o link de indicação completo, pois a atribuição ocorre no cadastro; não é preciso telefone ou cartão estrangeiro.
+
+### Recompensas, limites e cuidados importantes
+
+Cobrança por uso em CNY em vez de crédito grátis. A lista de modelos e os multiplicadores de grupo vêm do console do provedor. Não há /api/status público, então apenas /v1/models é verificado - um 401 sem chave é o sinal de vida. Teste os quatro endpoints antes de cargas reais.
+
+### Configuração do cliente
+
+Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
+
+- Anthropic Base URL: `https://api.dshapi.icu`
+- OpenAI Base URL: `https://api.dshapi.icu/v1`
+
+### Dados públicos dos modelos
+
+Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
+
+Não divulgado publicamente
+
+[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/dshapi/)
 
 ## Serviços arquivados
 

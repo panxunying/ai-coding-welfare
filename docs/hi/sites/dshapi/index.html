@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>DSH API — AI Coding मुफ़्त क्रेडिट डायरेक्टरी</title>
+<meta name="description" content="AI API रिले एग्रीगेटर। एक ही base URL OpenAI-संगत और Anthropic-संगत दोनों प्रोटोकॉल चलाता है, इसलिए Claude Code और Codex CLI बिना कोड बदले जुड़ जाते हैं। कंसोल में CN-मॉडल समूह 0.08x (सूची मूल्य का 8%) और open ai pro समूह 0.22x दिखता है।">
+<meta name="keywords" content="AI Coding मुफ़्त क्रेडिट डायरेक्टरी,Claude Code,Codex,Cursor,API">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DSH API — AI Coding मुफ़्त क्रेडिट डायरेक्टरी">
+<meta property="og:description" content="AI API रिले एग्रीगेटर। एक ही base URL OpenAI-संगत और Anthropic-संगत दोनों प्रोटोकॉल चलाता है, इसलिए Claude Code और Codex CLI बिना कोड बदले जुड़ जाते हैं। कंसोल में CN-मॉडल समूह 0.08x (सूची मूल्य का 8%) और open ai pro समूह 0.22x दिखता है।">
+<meta property="og:url" content="https://panxunying.github.io/ai-coding-welfare/hi/sites/dshapi/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://panxunying.github.io/ai-coding-welfare/hi/sites/dshapi/">
+<link rel="alternate" type="application/atom+xml" title="बदलावों का रिकॉर्ड (चीनी)" href="https://panxunying.github.io/ai-coding-welfare/feed.xml">
+<link rel="alternate" hreflang="zh-CN" href="https://panxunying.github.io/ai-coding-welfare/sites/dshapi/">
+<link rel="alternate" hreflang="en" href="https://panxunying.github.io/ai-coding-welfare/en/sites/dshapi/">
+<link rel="alternate" hreflang="hi" href="https://panxunying.github.io/ai-coding-welfare/hi/sites/dshapi/">
+<link rel="alternate" hreflang="pt-BR" href="https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/dshapi/">
+<link rel="alternate" hreflang="ja" href="https://panxunying.github.io/ai-coding-welfare/ja/sites/dshapi/">
+<link rel="alternate" hreflang="de" href="https://panxunying.github.io/ai-coding-welfare/de/sites/dshapi/">
+<link rel="alternate" hreflang="x-default" href="https://panxunying.github.io/ai-coding-welfare/sites/dshapi/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Coding मुफ़्त क्रेडिट डायरेक्टरी","item":"https://panxunying.github.io/ai-coding-welfare/hi/"},{"@type":"ListItem","position":2,"name":"DSH API","item":"https://panxunying.github.io/ai-coding-welfare/hi/sites/dshapi/"}]}</script>
+<style>
+/* AI Coding 福利站导航 — 落地页样式（手写，非生成物） */
+:root {
+  --bg: #0a0c11;
+  --bg-soft: #11141c;
+  --card: #151924;
+  --line: #232838;
+  --fg: #e8ecf6;
+  --fg-dim: #98a1b8;
+  --accent: #7c5cff;
+  --accent-2: #22d3ee;
+  --ok: #34d399;
+  --bad: #f87171;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(900px 500px at 15% -10%, rgba(124, 92, 255, 0.22), transparent 60%),
+    radial-gradient(800px 460px at 95% 0%, rgba(34, 211, 238, 0.16), transparent 55%),
+    var(--bg);
+  color: var(--fg);
+  font: 16px/1.7 ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: anywhere;
+}
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* ---------- hero ---------- */
+header.hero { padding: 84px 0 56px; text-align: center; }
+.hero h1 {
+  margin: 0 0 14px;
+  font-size: clamp(30px, 5.6vw, 52px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  background: linear-gradient(96deg, #fff 20%, var(--accent-2) 55%, var(--accent) 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero p.sub { margin: 0 auto 26px; max-width: 620px; color: var(--fg-dim); font-size: clamp(15px, 2vw, 18px); }
+
+/* 投稿公告：大标题上方的一条横幅，首屏第一眼就能看到；窄屏时文字和两个入口各自折行 */
+.announce {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 14px;
+  width: fit-content; max-width: 100%; margin: 0 auto 22px; padding: 8px 16px;
+  border: 1px solid rgba(124, 92, 255, 0.45); border-radius: 12px;
+  background: rgba(124, 92, 255, 0.1); color: var(--fg-dim); font-size: 13px; line-height: 1.6;
+}
+.announce b { color: var(--fg); }
+.announce a { color: var(--accent-2); font-weight: 600; text-decoration: none; white-space: nowrap; }
+.announce a:hover { text-decoration: underline; }
+
+.pills { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 30px; }
+.pill {
+  padding: 6px 13px; border: 1px solid var(--line); border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03); color: var(--fg-dim); font-size: 13px;
+}
+.pill b { color: var(--fg); }
+
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 24px; border-radius: 12px; text-decoration: none;
+  font-weight: 650; font-size: 15px; transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.btn-primary {
+  color: #0a0c11; background: linear-gradient(96deg, var(--accent-2), var(--accent));
+  box-shadow: 0 8px 26px rgba(124, 92, 255, 0.32);
+}
+.btn-ghost { color: var(--fg); border: 1px solid var(--line); background: var(--bg-soft); }
+.btn:hover { transform: translateY(-2px); }
+
+/* ---------- sections ---------- */
+section { padding: 44px 0; }
+h2 { font-size: clamp(21px, 3vw, 28px); margin: 0 0 6px; letter-spacing: -0.01em; }
+h2 + .hint { margin: 0 0 26px; color: var(--fg-dim); font-size: 14px; }
+
+.grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+
+.card {
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--card);
+  padding: 22px; display: flex; flex-direction: column; gap: 14px; min-width: 0;
+}
+.card.featured { border-color: rgba(124, 92, 255, 0.55); box-shadow: 0 0 0 1px rgba(124, 92, 255, 0.18) inset; }
+.card h3 { margin: 0; font-size: 20px; display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+.card .desc { margin: 0; color: var(--fg-dim); font-size: 14px; }
+
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.dot.up { background: var(--ok); box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.16); }
+.dot.down { background: var(--bad); box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.16); }
+
+.tag { font-size: 12px; padding: 3px 9px; border-radius: 6px; background: rgba(124, 92, 255, 0.14); color: #c4b5fd; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.kv { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 6px 14px; font-size: 14px; margin: 0; }
+.kv dt { color: var(--fg-dim); }
+.kv dd { margin: 0; }
+.kv dd b { color: var(--ok); }
+/* 额度构成写在首日额度后面，压暗一档，别抢主数字的视觉 */
+.kv dd small { color: var(--fg-dim); font-size: 12px; display: block; }
+
+/* 订阅价与用量估算：和免费赠额分开显示，复用卡片的颜色与信息层级。 */
+.subscription { padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg-soft); }
+.subscription-price { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+.subscription-price b { color: var(--ok); font-size: 24px; line-height: 1.3; }
+.subscription-price span, .subscription-window { color: var(--fg-dim); font-size: 13px; }
+.subscription-window { margin: 0 0 8px; }
+.subscription-note { margin: 12px 0 0; font-size: 12px; color: var(--fg-dim); }
+.subscription-note a { color: var(--accent-2); }
+section > .subscription { margin: 16px 0; }
+
+ul.hl, ol.hl { margin: 0; padding-left: 18px; font-size: 14px; color: var(--fg-dim); }
+ul.hl li, ol.hl li { margin-bottom: 5px; }
+ul.hl li::marker, ol.hl li::marker { color: var(--accent); }
+
+pre {
+  margin: 0; padding: 14px 16px; overflow-x: auto; font-size: 13px; line-height: 1.65;
+  background: #0c0e15; border: 1px solid var(--line); border-radius: 10px;
+  font-family: ui-monospace, SFMono-Regular, "Cascadia Code", Consolas, monospace;
+}
+pre code { color: #cbd5e1; }
+.copy {
+  align-self: flex-start; margin-top: 8px; padding: 5px 11px; font-size: 12px; cursor: pointer;
+  color: var(--fg-dim); background: transparent; border: 1px solid var(--line); border-radius: 7px;
+}
+.copy:hover { color: var(--fg); border-color: var(--accent); }
+
+details { border: 1px solid var(--line); border-radius: 10px; background: var(--bg-soft); padding: 14px 16px; margin-bottom: 10px; }
+details summary { cursor: pointer; font-weight: 600; }
+details p { color: var(--fg-dim); margin: 10px 0 0; font-size: 14px; }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 560px; }
+table th, table td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+table th { color: var(--fg-dim); font-weight: 600; }
+table code { color: var(--accent-2); }
+
+footer { padding: 40px 0 64px; border-top: 1px solid var(--line); color: var(--fg-dim); font-size: 13px; }
+footer ul { padding-left: 18px; }
+footer a { color: var(--accent-2); }
+
+/* ---------- 站内导航（多页之后加的） ---------- */
+.nav { border-bottom: 1px solid var(--line); background: rgba(10, 12, 17, 0.72); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 20; }
+.navrow { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; padding: 10px 20px; }
+.navlink {
+  padding: 7px 12px; border-radius: 9px; text-decoration: none;
+  color: var(--fg-dim); font-size: 14px; white-space: nowrap;
+}
+.navlink:hover { color: var(--fg); background: rgba(255, 255, 255, 0.05); }
+.navlink.active { color: var(--fg); background: rgba(124, 92, 255, 0.16); }
+.navspace { flex: 1 1 auto; }
+
+/* Native language links work without JavaScript and preserve the current service. */
+.languages { display: flex; flex-wrap: wrap; gap: 4px 8px; padding: 16px 0; }
+.languages a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 8px 12px;
+  border: 1px solid var(--line); border-radius: 9px;
+  color: var(--fg-dim); text-decoration: none; font-size: 14px;
+}
+.languages a:hover, .languages a[aria-current="page"] { color: var(--fg); background: var(--bg-soft); }
+.languages a[aria-current="page"] { border-color: var(--accent-2); font-weight: 650; }
+.localized-nav .navrow { flex-wrap: nowrap; overflow-x: auto; }
+.localized-nav .navlink { flex-shrink: 0; }
+a:focus-visible, button:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--accent-2); outline-offset: 4px;
+}
+.localized a:not(.btn):not(.navlink) { color: var(--accent-2); }
+.localized .card h3 { line-height: 1.5; }
+.localized .kv { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); }
+.localized .notice { margin: 12px 0; }
+.localized .section-copy { color: var(--fg-dim); }
+@media (max-width: 480px) {
+  .localized .kv { grid-template-columns: minmax(0, 1fr); }
+  .localized .kv dd { margin-bottom: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn { transition: none; }
+}
+
+/* 面包屑：详情页比首页深两层，给个回头路 */
+.crumb { margin: 0 0 10px; font-size: 13px; color: var(--fg-dim); }
+.crumb a { color: var(--accent-2); text-decoration: none; }
+
+/* ---------- 可用性色条 ---------- */
+.bars { display: flex; gap: 3px; align-items: flex-end; min-width: 120px; }
+.bar { display: block; width: 9px; height: 22px; border-radius: 3px; background: var(--line); }
+.bar.ok { background: var(--ok); }
+.bar.part { background: linear-gradient(to top, var(--bad) 50%, var(--ok) 50%); }
+.bar.bad { background: var(--bad); }
+/* 没有样本 ≠ 掉线：留一格暗底，别让空档看着像故障 */
+.bar.nodata { background: repeating-linear-gradient(45deg, #1b1f2b, #1b1f2b 2px, #232838 2px, #232838 4px); }
+
+/* ---------- 变动日志 ---------- */
+section.day { padding: 22px 0; border-top: 1px solid var(--line); }
+section.day h2 { font-size: 18px; }
+section.day h2 a { color: var(--fg); text-decoration: none; }
+ul.events { list-style: none; margin: 12px 0 0; padding: 0; font-size: 14px; }
+ul.events li { display: flex; align-items: baseline; gap: 8px; padding: 6px 0; color: var(--fg-dim); flex-wrap: wrap; }
+.ev-ico { flex: none; width: 18px; text-align: center; }
+.ev-site { color: var(--accent-2); text-decoration: none; font-size: 12px; }
+.muted { color: #6b7385; font-size: 12px; font-weight: 400; }
+#graveyard .muted { color: var(--fg-dim); }
+
+.mt-auto { margin-top: auto; }
+
+/* ---------- 停注：站点还在跑，但不收新用户 ---------- */
+/* 这类站点仍然留在页面上（老用户还看得上、也方便看它什么时候回来），
+   但额度对新人不成立，所以视觉上必须一眼区分，不能和还能注册的站长得一样。 */
+.tag.warn { background: rgba(251, 191, 36, 0.16); color: #fbbf24; }
+.pill.warn { border-color: rgba(251, 191, 36, 0.45); color: #fbbf24; }
+.card.shut { border-color: rgba(251, 191, 36, 0.34); }
+.card.shut .kv b.struck,
+.kv b.struck { text-decoration: line-through; color: var(--fg-dim); }
+tr.shut td { color: var(--fg-dim); }
+.notice {
+  margin: 0;
+  padding: 9px 12px;
+  border-left: 3px solid #fbbf24;
+  border-radius: 0 8px 8px 0;
+  background: rgba(251, 191, 36, 0.08);
+  color: #f3d38a;
+  font-size: 13px;
+  line-height: 1.6;
+}
+@media (max-width: 640px) {
+  header.hero { padding: 40px 0 36px; }
+  .card { padding: 18px; }
+  .navrow { padding: 8px 12px; gap: 2px; }
+  .navlink { padding: 6px 9px; font-size: 13px; }
+}
+</style>
+</head>
+<body>
+<nav class="nav localized-nav"><div class="wrap navrow"><a class="navlink active" href="../../../hi/">सेवाओं की सूची</a><a class="navlink" href="../../../compare/">कीमतों की तुलना (चीनी)</a><a class="navlink" href="../../../status/">उपलब्धता का इतिहास (चीनी)</a><a class="navlink" href="../../../changelog/">बदलावों का रिकॉर्ड (चीनी)</a><span class="navspace"></span><a class="navlink" href="../../../feed.xml">Atom फ़ीड (चीनी)</a></div></nav>
+<div class="wrap">
+<nav class="languages" aria-label="भाषा"><a href="../../../sites/dshapi/" lang="zh-CN" hreflang="zh-CN">简体中文</a><a href="../../../en/sites/dshapi/" lang="en" hreflang="en">English</a><a href="../../../hi/sites/dshapi/" lang="hi" hreflang="hi" aria-current="page">हिन्दी</a><a href="../../../pt-BR/sites/dshapi/" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a><a href="../../../ja/sites/dshapi/" lang="ja" hreflang="ja">日本語</a><a href="../../../de/sites/dshapi/" lang="de" hreflang="de">Deutsch</a></nav>
+<main class="localized">
+    <header class="hero"><p class="crumb"><a href="../../">सेवाओं की सूची</a> / DSH API</p>
+      <h1>DSH API</h1><p class="sub">AI API रिले एग्रीगेटर। एक ही base URL OpenAI-संगत और Anthropic-संगत दोनों प्रोटोकॉल चलाता है, इसलिए Claude Code और Codex CLI बिना कोड बदले जुड़ जाते हैं। कंसोल में CN-मॉडल समूह 0.08x (सूची मूल्य का 8%) और open ai pro समूह 0.22x दिखता है।</p><a class="btn btn-ghost" href="https://api.dshapi.icu/r/T8KiaeGU">सेवा खोलें / पंजीकरण करें →</a>
+      </header>
+    <section><h2>पहले दिन के क्रेडिट / प्लान</h2><dl class="kv"><dt>पहले दिन के क्रेडिट / प्लान</dt><dd><b>सार्वजनिक रूप से नहीं बताया गया</b></dd><dt>दैनिक क्रेडिट</dt><dd>सार्वजनिक रूप से नहीं बताया गया</dd><dt>स्थिति</dt><dd>पहुँच योग्य</dd><dt>डेटा अपडेट</dt><dd>2026-09-29 16:32 UTC</dd></dl><p class="section-copy">क्रेडिट नियम प्रदाता की घोषणाओं से मैन्युअल रूप से दर्ज होते हैं; सार्वजनिक API हमेशा इन्हें नहीं बताती। जहाँ अनुमति है, मॉडल, कीमतें और पहुँच की स्थिति अपने-आप अपडेट होती है। पहुँच योग्य होने से सफल पंजीकरण या मॉडल उपयोग सिद्ध नहीं होता।</p></section>
+    <section><h2>पंजीकरण की शर्तें</h2><p class="section-copy">ईमेल से पंजीकरण (QQ मेल चलेगा)। पूरा रेफ़रल लिंक इस्तेमाल करें क्योंकि संबंध पंजीकरण के समय बंधता है; विदेशी फ़ोन नंबर या कार्ड की ज़रूरत नहीं।</p>
+      </section>
+    <section><h2>पुरस्कार, सीमाएँ और ज़रूरी सावधानियाँ</h2><p class="section-copy">मुफ़्त क्रेडिट नहीं, बल्कि CNY में उपयोग-आधारित बिलिंग। मॉडल सूची और समूह गुणक प्रदाता कंसोल से हैं। सार्वजनिक /api/status नहीं है, इसलिए केवल /v1/models जाँचा जाता है - बिना कुंजी का 401 जीवित होने का प्रमाण है। असली काम से पहले चारों एंडपॉइंट स्वयं जाँचें।</p></section>
+    <section><h2>क्लाइंट सेटअप</h2><p class="section-copy">सेवा के डैशबोर्ड में API कुंजी बनाएँ और केवल अपने खाते के लिए उपलब्ध मॉडल इस्तेमाल करें। Anthropic Base URL में /v1 नहीं होता; OpenAI-संगत URL में आम तौर पर होता है। प्रोटोकॉल का endpoint उपलब्ध होना हर मॉडल या क्लाइंट के समर्थन की गारंटी नहीं है।</p>
+      <p>Anthropic Base URL</p><pre><code>https://api.dshapi.icu</code></pre><p>OpenAI Base URL</p><pre><code>https://api.dshapi.icu/v1</code></pre>
+
+
+      </section>
+    <section><h2>सार्वजनिक मॉडल डेटा</h2><p class="section-copy">केवल सार्वजनिक डेटा में मिले मॉडल दिखाए गए हैं; डेटा न मिलने का अर्थ मॉडल न होना नहीं है। मौजूदा कीमतें, खाता समूह और उपलब्धता डैशबोर्ड में जाँचें। प्रति अनुरोध की कीमत टोकन की कीमत नहीं है।</p><p class="section-copy">सार्वजनिक रूप से नहीं बताया गया</p></section>
+    <section><h2>पूरी मूल जानकारी (चीनी)</h2><p><a href="https://panxunying.github.io/ai-coding-welfare/sites/dshapi/">पूरी मूल जानकारी (चीनी)</a></p></section>
+    <aside class="announce"><strong>📣 अपना प्रोजेक्ट साझा करें — Issues मुफ़्त प्रचार का माध्यम हैं</strong><span>कोई उपयोगी सेवा मिली है या आप स्वयं चलाते हैं? Issue खोलें और अपना रेफ़रल लिंक भी दें। Issues सार्वजनिक हैं और लोगों को आपका प्रोजेक्ट खोजने में मदद कर सकते हैं। विशेष रूप से उपयोगी और जाँची हुई सेवाओं को मैं मुख्य सूची में शामिल कर सकता हूँ; पोस्ट करने से सूची में जगह की गारंटी नहीं मिलती।</span>
+    <a href="https://github.com/panxunying/ai-coding-welfare/issues/new/choose">Issue भेजें</a> <a href="https://github.com/panxunying/ai-coding-welfare/issues">Issues देखें</a></aside></main>
+  <footer>
+    <h2>सुरक्षा और प्रकटीकरण</h2><ul><li>लिंक में रेफ़रल कोड हो सकते हैं। पुरस्कार और पात्रता प्रत्येक प्रदाता तय करता है; केवल पंजीकरण से पुरस्कार की गारंटी नहीं है।</li><li>यह स्वतंत्र डायरेक्टरी है, सेवा संचालक या uptime की गारंटी नहीं। मुफ़्त ऑफ़र, कीमतें और नियम बदल या समाप्त हो सकते हैं।</li><li>अज्ञात गेटवे को प्रोडक्शन के गुप्त विवरण, निजी डेटा या कंपनी का कोड न भेजें। महत्वपूर्ण काम के लिए आधिकारिक API इस्तेमाल करें।</li><li>प्रदाता और मूल सेवा की शर्तें मानें। बड़े पैमाने पर खाते न बनाएँ, ऑफ़र का दुरुपयोग न करें और क्रेडिट न बेचें।</li><li>Issues समुदाय के सदस्य पोस्ट करते हैं और उनकी जाँच न हुई हो सकती है। पंजीकरण से पहले स्वयं मूल्यांकन करें।</li></ul>
+    <p>डेटा अपडेट: 2026-09-29 12:56 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">GitHub रिपॉज़िटरी</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Atom फ़ीड (चीनी)</a></p>
+  </footer>
+</div>
+</body>
+</html>

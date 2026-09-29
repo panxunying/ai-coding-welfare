@@ -32,6 +32,7 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 | **AnyRouter** | 到達可能 | **$150** | $25/日 · 毎日のチェックイン | [サービスを開く / 登録](https://anyrouter.top/register?aff=Z24N) |
 | **CheapCodex** | 到達可能 | **$40** | $20/日 · 毎日のチェックイン | [サービスを開く / 登録](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | 到達可能 | **15 ポイント** | 5 ポイント/日 · 毎日のチェックイン | [サービスを開く / 登録](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| **DSH API** | 到達可能 | **公表されていません** | 公表されていません | [サービスを開く / 登録](https://api.dshapi.icu/r/T8KiaeGU) |
 
 **初日の米ドル建てクレジット目安：新規登録を受け付ける 7 サービスで計 $699.5。**
 
@@ -475,6 +476,41 @@ GitHub OAuth のみ。作成から 365 日以上のアカウントと Cloudflare
 公表されていません
 
 [詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/nofx/)
+## DSH API
+
+AI API 中継アグリゲーター。1 つの base URL で OpenAI 互換と Anthropic 互換の両プロトコルに対応し、Claude Code と Codex CLI はコード変更なしで接続できます。コンソールには国産モデルグループ 0.08x（定価の 8%）と open ai pro グループ 0.22x が表示されています。
+
+[サービスを開く / 登録](https://api.dshapi.icu/r/T8KiaeGU) · [詳細](https://panxunying.github.io/ai-coding-welfare/ja/sites/dshapi/)
+
+
+- **初日のクレジット / プラン**: 公表されていません
+- **毎日のクレジット**: 公表されていません
+- **状態**: 到達可能
+- **データ更新日時**: 2026-09-29 16:32 UTC
+
+
+### 登録条件
+
+メール登録（QQ メール可）。招待関係は登録時点で確定するため、必ず本ページのリンクから登録してください。海外の電話番号や海外カードは不要です。
+
+### 特典・制限・注意事項
+
+無料クレジットではなく人民元の従量課金です。モデル一覧とグループ倍率は事業者のコンソールに基づきます。公開された /api/status はないため、疎通確認は /v1/models のみ（未認証の 401 が生存の証拠）。本番利用の前に 4 つのエンドポイントを自身で検証してください。
+
+### クライアント設定
+
+管理画面で API キーを作成し、自分のアカウントで利用可能なモデルを選んでください。Anthropic の Base URL には /v1 を付けません。OpenAI 互換 URL には通常 /v1 を付けます。プロトコルの入口があっても、すべてのモデルやクライアントに対応するとは限りません。
+
+- Anthropic Base URL: `https://api.dshapi.icu`
+- OpenAI Base URL: `https://api.dshapi.icu/v1`
+
+### 公開モデルデータ
+
+公開データに含まれるモデルのみを表示しています。データがないことはモデルがないことを意味しません。最新の料金、アカウントグループ、利用可否は管理画面で確認してください。リクエスト単価とトークン単価は別物です。
+
+公表されていません
+
+[詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/dshapi/)
 
 ## アーカイブ済みサービス
 

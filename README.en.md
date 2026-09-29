@@ -32,6 +32,7 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 | **AnyRouter** | Reachable | **$150** | $25/day · Daily check-in | [Open service / register](https://anyrouter.top/register?aff=Z24N) |
 | **CheapCodex** | Reachable | **$40** | $20/day · Daily check-in | [Open service / register](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | Reachable | **15 points** | 5 points/day · Daily check-in | [Open service / register](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| **DSH API** | Reachable | **Not publicly specified** | Not publicly specified | [Open service / register](https://api.dshapi.icu/r/T8KiaeGU) |
 
 **Indicative first-day USD credits: $699.5 across 7 services accepting new users.**
 
@@ -475,6 +476,41 @@ Only models returned by the public snapshot are listed; missing data does not me
 Not publicly specified
 
 [Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/nofx/)
+## DSH API
+
+AI API relay aggregator. One base URL serves both OpenAI-compatible and Anthropic-compatible protocols, so Claude Code and Codex CLI connect without code changes. Console lists a CN-model group at 0.08x list price and an open ai pro group at 0.22x.
+
+[Open service / register](https://api.dshapi.icu/r/T8KiaeGU) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/dshapi/)
+
+
+- **First-day credits / plan**: Not publicly specified
+- **Daily credits**: Not publicly specified
+- **Status**: Reachable
+- **Snapshot updated**: 2026-09-29 16:32 UTC
+
+
+### Registration requirements
+
+Email signup (QQ mail works). Use the full referral link because attribution happens at registration; no overseas phone number or foreign card required.
+
+### Rewards, limits and important caveats
+
+Pay-as-you-go billing in CNY rather than a free credit grant. Model list and group multipliers come from the provider console. The panel exposes no public /api/status, so only /v1/models is probed - an unauthenticated 401 there is the liveness signal. Test the four endpoints yourself before moving real workloads.
+
+### Client setup
+
+Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
+
+- Anthropic Base URL: `https://api.dshapi.icu`
+- OpenAI Base URL: `https://api.dshapi.icu/v1`
+
+### Public model snapshot
+
+Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
+
+Not publicly specified
+
+[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/dshapi/)
 
 ## Archived services
 
