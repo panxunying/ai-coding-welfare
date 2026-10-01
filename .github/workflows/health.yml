@@ -21,7 +21,13 @@ jobs:
 
       - name: 检查注册链接与站点可用性
         id: check
-        run: npm run check 2>&1 | tee check.log
+        # pipefail 不能省：不写 shell 时 Actions 用的是 `bash -e {0}`，管道的退出码取最后一个命令，
+        # 也就是 tee 的（永远是 0）。check.mjs 报「关键链接不可用」退出 1 也会被吞掉，这一步永远「成功」，
+        # 下面开 Issue、标红那两步从建仓库起就没跑过——2026-09-25 起 DoCode 注册链接次次巡检都是 ✖，
+        # 却一个 Issue 都没开，就是这么漏掉的。
+        run: |
+          set -o pipefail
+          npm run check 2>&1 | tee check.log
         continue-on-error: true
 
       - name: 链接异常时开 Issue 报警

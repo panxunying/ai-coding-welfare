@@ -11,7 +11,7 @@
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { looksFiltered, isHttpsUrl } from './lib/newapi.mjs';
+import { looksFiltered, probeUrl, PROJECT_URL } from './lib/newapi.mjs';
 import { activeSites } from './lib/archived.mjs';
 import { signupProbeUrl } from './lib/signup.mjs';
 
@@ -21,21 +21,14 @@ const { sites: allSites } = JSON.parse(await readFile(path.join(ROOT, 'data', 's
 const sites = activeSites(allSites);
 const archived = allSites.length - sites.length;
 
-async function probe(url) {
-  const t = Date.now();
-  // 和 lib/newapi.mjs 同一条口径：sites.json 里的 URL 只允许 https
-  if (!isHttpsUrl(url)) return { ok: false, status: 0, ms: 0, error: '只允许 https 出网' };
-  try {
-    const res = await fetch(url, {
-      redirect: 'follow',
-      headers: { 'user-agent': 'ai-coding-welfare/1.0 health-check' },
-      signal: AbortSignal.timeout(20_000),
-    });
-    return { ok: res.ok, status: res.status, ms: Date.now() - t };
-  } catch (err) {
-    return { ok: false, status: 0, ms: Date.now() - t, error: String(err.message || err) };
-  }
-}
+const HEALTH_UA = `ai-coding-welfare/1.0 health-check (+${PROJECT_URL})`;
+
+/**
+ * 和 refresh 共用 lib/newapi.mjs 的 probeUrl：只允许 https；连接层异常（DNS 抖动、连接被重置）
+ * 退避重试，服务器一答话就立刻返回，403 / 429 原样留给 looksFiltered 判「被拦」。
+ * 巡检失败会在仓库里公开开 Issue，不能让一次网络抖动就喊「死链」。
+ */
+const probe = async (url) => (await probeUrl(url, { ua: HEALTH_UA })) ?? { ok: false, status: 0, ms: 0, error: 'no url' };
 
 const targets = [];
 for (const s of sites) {

@@ -9,14 +9,30 @@
  * 都被 lib/vibecode.mjs、lib/merge.mjs 与渲染器复用，改动时留意调用方。
  */
 
-const UA = 'ai-coding-welfare/1.0 (+https://github.com/)';
+// UA 里带上仓库地址：站长在访问日志里看到它，能顺着找到是谁、为什么定时来探测
+export const PROJECT_URL = 'https://github.com/panxunying/ai-coding-welfare';
+const UA = `ai-coding-welfare/1.0 (+${PROJECT_URL})`;
 // 探测注册页 / 备用域名首页时用的标识，和拉接口区分开，方便站长在日志里认出来
-const LINK_UA = 'ai-coding-welfare/1.0 link-check';
+const LINK_UA = `ai-coding-welfare/1.0 link-check (+${PROJECT_URL})`;
 const TIMEOUT_MS = 20_000;
 // 公益站前面普遍挂着 Cloudflare，CI 的机房 IP 偶发拿到挑战页（表现为 invalid json / 403），重试基本能救回来
 const RETRIES = 2;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * 把 fetch 抛出的异常写成一句能看懂的话。
+ * undici 不论什么原因都只报一句「fetch failed」，真正的病因藏在 err.cause 里：
+ * 证书和域名对不上（ERR_TLS_CERT_ALTNAME_INVALID）、DNS 解析不了（ENOTFOUND）、连接被拒……
+ * 2026-09-25 起 DoCode 新注册链接的证书只签了 docode.cc，巡检日志却天天只写「fetch failed」，
+ * 光看日志根本分不清是证书问题还是站点挂了。超时两种写法（AbortController / AbortSignal.timeout）统一成 timeout。
+ */
+export function describeFetchError(err) {
+  if (err?.name === 'AbortError' || err?.name === 'TimeoutError') return 'timeout';
+  const message = String(err?.message || err);
+  const cause = err?.cause?.code ?? err?.cause?.message;
+  return cause && !message.includes(cause) ? `${message} (${cause})` : message;
+}
 
 async function fetchOnce(url) {
   const started = Date.now();
@@ -37,7 +53,7 @@ async function fetchOnce(url) {
       return { ok: false, status: res.status, ms, error: 'invalid json' };
     }
   } catch (err) {
-    return { ok: false, ms: Date.now() - started, error: err.name === 'AbortError' ? 'timeout' : String(err.message || err) };
+    return { ok: false, ms: Date.now() - started, error: describeFetchError(err) };
   } finally {
     clearTimeout(timer);
   }
@@ -98,7 +114,7 @@ export async function probeUrl(url, { ua = LINK_UA, retries = RETRIES, backoffMs
       });
       return { status: res.status, ok: res.ok, ms: Date.now() - started, attempts: i + 1 };
     } catch (err) {
-      last = { status: 0, ok: false, ms: Date.now() - started, error: String(err.message || err), attempts: i + 1 };
+      last = { status: 0, ok: false, ms: Date.now() - started, error: describeFetchError(err), attempts: i + 1 };
     }
   }
   return last;

@@ -6,7 +6,7 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { mergeSnapshot, meaningful } from './lib/merge.mjs';
-import { pickPreferred, staleHours, STALE_WARN_HOURS, blankSnapshot, looksFiltered, probeUrl, isHttpsUrl, fetchJson } from './lib/newapi.mjs';
+import { pickPreferred, staleHours, STALE_WARN_HOURS, blankSnapshot, looksFiltered, probeUrl, isHttpsUrl, fetchJson, describeFetchError } from './lib/newapi.mjs';
 import { creditPlan, usd, breakdown, perDay, auditCredits, usdTotals, othersNote } from './lib/credits.mjs';
 import { PANELS, probeSite } from './lib/panels.mjs';
 import { diffSite, diffSnapshots, majorOnly, priceLabel } from './lib/diff.mjs';
@@ -702,6 +702,15 @@ const deadProbe = await probeUrl('https://example.test/sign-up', {
   },
 });
 const emptyProbe = await probeUrl(null);
+// undici 的真实形状：外层只有一句 fetch failed，病因在 cause 里（2026-09-25 起 DoCode 新注册链接就是这样）
+const certProbe = await probeUrl('https://example.test/register', {
+  backoffMs: 0,
+  fetchImpl: async () => {
+    const cause = Object.assign(new Error("Hostname/IP does not match certificate's altnames"), { code: 'ERR_TLS_CERT_ALTNAME_INVALID' });
+    throw new TypeError('fetch failed', { cause });
+  },
+});
+const HEALTH_YML = await readFile(new URL('../.github/workflows/health.yml', import.meta.url), 'utf8');
 
 test('连接抖动会重试，第三次通了就算通', () => {
   assert.equal(flakyProbe.status, 200);
@@ -724,6 +733,18 @@ test('真连不上才报 HTTP 0，且把重试次数用完', () => {
 test('没有 URL 就不探测', () => {
   // test() 是同步的，异步断言得在外面 await 好再进来
   assert.equal(emptyProbe, null);
+});
+test('「fetch failed」要带上 err.cause 里的病因：证书对不上和站点挂了得分得清', () => {
+  assert.equal(certProbe.status, 0);
+  assert.equal(certProbe.error, 'fetch failed (ERR_TLS_CERT_ALTNAME_INVALID)');
+  assert.equal(describeFetchError(Object.assign(new Error('aborted'), { name: 'TimeoutError' })), 'timeout');
+  assert.equal(describeFetchError(Object.assign(new Error('aborted'), { name: 'AbortError' })), 'timeout');
+  assert.equal(describeFetchError(new Error('getaddrinfo ENOTFOUND a.test')), 'getaddrinfo ENOTFOUND a.test');
+});
+test('巡检的 `npm run check | tee` 必须带 pipefail，否则失败退出码被 tee 吞掉、永远不报警', () => {
+  const step = HEALTH_YML.split(/\n\s*- name: /).find((s) => s.includes('npm run check'));
+  assert.ok(step, 'health.yml 里找不到跑 npm run check 的那一步');
+  assert.match(step, /set -o pipefail[\s\S]*npm run check[^\n]*\| tee/);
 });
 
 // ──────────────────────────────────────────────────────────────────────
