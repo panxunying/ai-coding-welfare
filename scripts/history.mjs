@@ -6,7 +6,12 @@
  *
  * 增量模式为什么用 `git show HEAD:data/live.json` 取上一版：CI 是 shallow clone，
  * 但 HEAD 的文件树一定在，而 refresh 刚好把工作区的 live.json 覆盖成了新版，
- * 两者一比就是这 6 小时的变化，不需要额外存一份副本。
+ * 两者一比就是这 6 小时的变化，不需要额外存一份副本。HEAD 那份可能是本地提交的，
+ * 所以比对前先过一遍 ciBaseline（见 lib/history.mjs）。
+ *
+ * 只在 CI 里写：本机网络和 GitHub Actions 不一样，本地探测的在线状态混进可用性历史、
+ * 变动日志和 Release，就是发给订阅者的假消息（09-01 / 09-15 / 09-23 / 09-30 都翻过车）。
+ * 本地运行默认什么都不写、直接退出 0，`npm run all` 照常往下走；确需本地写入加 --local。
  */
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { appendFileSync } from 'node:fs';
@@ -14,13 +19,22 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { diffSnapshots, majorOnly } from './lib/diff.mjs';
-import { appendSample, EMPTY_HISTORY } from './lib/history.mjs';
+import { appendSample, ciBaseline, EMPTY_HISTORY } from './lib/history.mjs';
 import { groupByDay, renderChangelogMd, renderReleaseNotes, summarize } from './lib/changelog.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const p = (...s) => path.join(ROOT, ...s);
 const BACKFILL = process.argv.includes('--backfill');
 const EVENT_CAP = 1000;
+
+if (!BACKFILL && process.env.GITHUB_ACTIONS !== 'true' && !process.argv.includes('--local')) {
+  console.log(
+    '· 本地运行，不写入 data/history.json / data/changelog.json / CHANGELOG.md：\n' +
+      '  本机网络和 CI 不一样，本地探测的结果混进可用性历史与变动日志就是假数据。\n' +
+      '  推送后 CI 会重新探测并记录；确需在本地写入（比如修补历史），加 --local。',
+  );
+  process.exit(0);
+}
 
 const readJson = async (rel, fallback = null) => {
   try {
@@ -79,7 +93,8 @@ if (BACKFILL) {
     console.warn('⚠ 拿不到 HEAD 里的 data/live.json（首次提交或非 git 环境），本次不比对变动。');
   }
   const seen = new Set(events.map((e) => `${e.at}|${e.siteId}|${e.type}|${e.text}`));
-  const base = prev ?? (history.samples.length ? null : { sites: [] });
+  // HEAD 里那份可能是本地提交的：在线状态与「是不是新站」只认 CI 攒下的历史样本
+  const base = prev ? ciBaseline(prev, history) : history.samples.length ? null : { sites: [] };
   if (base) {
     fresh = diffSnapshots(base, live, sites).filter((e) => !seen.has(`${e.at}|${e.siteId}|${e.type}|${e.text}`));
     events.push(...fresh);

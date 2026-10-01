@@ -516,7 +516,7 @@ function tail(meta, sites, live) {
     `${F}bash`,
     'npm test          # 单测（不联网）',
     'npm run refresh   # 抓最新数据',
-    'npm run history   # 归档历史 + 生成变动日志',
+    'npm run history   # 归档历史 + 生成变动日志（只在 CI 里写入，本地默认跳过）',
     'npm run build     # 重新生成 README + docs/',
     'npm run check     # 校验链接是否还活着',
     F,

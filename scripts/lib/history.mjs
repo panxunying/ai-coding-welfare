@@ -50,6 +50,35 @@ export function appendSample(history, live, { limit = 1500 } = {}) {
   };
 }
 
+/**
+ * 比对用的「上一版」只认 CI 自己观测过的东西。
+ *
+ * scripts/history.mjs 拿 HEAD 里的 live.json 当上一版，可那份文件可能是本地跑出来、随手一起提交的。
+ * 本机网络和 CI 不一样（有的站国内直连不通，有的只有走代理才通），拿它当基线就会报出假的掉线 / 恢复，
+ * 新收录的站还会因为「上一版里已经有它」而漏掉收录事件。2026-09-30 加 Conduit 时，本地探测
+ * t.me 失败的快照被一起提交，Release 发成了「Conduit 恢复在线」，真正的消息「新收录 Conduit：
+ * 注册送 $500」一条都没发出去；09-23 的「Matrix 探测不到了」→ 24 分钟后「恢复在线」也是这个来历。
+ *
+ * history.json 的样本只由 CI 追加（scripts/history.mjs 在 CI 外拒绝写入），所以：
+ *   - 历史样本里从没出现过的站，从基线里拿掉 → diffSnapshots 会如实记一条「新收录」
+ *   - 在线状态改用历史里该站最后一次的观测值，不用 HEAD 快照里的 online
+ * 内容字段（额度、模型、价格、注册开关）照旧和 HEAD 快照比：本地抓失败时 merge.mjs 会沿用旧值，
+ * 抓成功了就是真数据，造不出假变动。
+ */
+export function ciBaseline(prev, history) {
+  const samples = history?.samples ?? [];
+  // 还没有任何历史（首次运行 / 手动清空过）就没有可信的基准可换，原样比
+  if (!prev || !samples.length) return prev;
+  const lastUp = new Map();
+  for (const s of [...samples].sort((a, b) => String(a.at).localeCompare(String(b.at)))) {
+    for (const [id, r] of Object.entries(s.sites ?? {})) lastUp.set(id, Boolean(r?.up));
+  }
+  return {
+    ...prev,
+    sites: (prev.sites ?? []).filter((s) => lastUp.has(s.id)).map((s) => ({ ...s, online: lastUp.get(s.id) })),
+  };
+}
+
 const dayOf = (iso) => String(iso ?? '').slice(0, 10);
 
 /** 取最近 days 天的样本（按样本自带时间戳算，不依赖当前时钟之外的东西） */

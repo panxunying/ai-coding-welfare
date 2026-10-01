@@ -10,7 +10,7 @@ import { pickPreferred, staleHours, STALE_WARN_HOURS, blankSnapshot, looksFilter
 import { creditPlan, usd, breakdown, perDay, auditCredits, usdTotals, othersNote } from './lib/credits.mjs';
 import { PANELS, probeSite } from './lib/panels.mjs';
 import { diffSite, diffSnapshots, majorOnly, priceLabel } from './lib/diff.mjs';
-import { appendSample, compact, uptime, byDay, coverage, EMPTY_HISTORY } from './lib/history.mjs';
+import { appendSample, compact, uptime, byDay, coverage, ciBaseline, EMPTY_HISTORY } from './lib/history.mjs';
 import { groupByDay, renderAtom, summarize, icon } from './lib/changelog.mjs';
 import { renderSitePage } from './lib/render-site-page.mjs';
 import { renderComparePage, renderStatusPage, renderChangelogPage, estimateTurns } from './lib/render-aux-pages.mjs';
@@ -889,6 +889,50 @@ test('没这个站的历史时不报错，返回空口径', () => {
   const u = uptime(seed(8), 'not-exists', 7);
   assert.deepEqual([u.total, u.ratio, u.percent, u.enough], [0, null, null, false]);
   assert.deepEqual(coverage(EMPTY_HISTORY), { samples: 0, from: null, to: null, days: 0 });
+});
+
+console.log('ciBaseline：变动日志只认 CI 的观测，本地提交的快照造不出假消息');
+
+// 2026-09-30 的真实经过：本地探测 t.me 失败，Conduit 以 online=false 进了 HEAD 的 live.json，
+// 而 CI 的历史样本里还没有它
+const CONDUIT = { id: 'conduit', name: 'Conduit', credits: { signup: 500, invite: null, dailyCheckin: null } };
+const BASE_SITES = [SITES_FIXTURE[0], CONDUIT];
+const CI_HISTORY = appendSample(EMPTY_HISTORY, { generatedAt: iso(6 * HOUR), sites: [snap()] }).history;
+const LOCAL_HEAD = { generatedAt: iso(6 * HOUR), sites: [snap(), snap({ id: 'conduit', online: false })] };
+const CI_NEXT = { generatedAt: iso(0), sites: [snap(), snap({ id: 'conduit' })] };
+
+test('本地提交进 HEAD 的新站：照记「新收录」并发 Release，不报「恢复在线」', () => {
+  assert.deepEqual(types(diffSnapshots(LOCAL_HEAD, CI_NEXT, BASE_SITES)), ['online'], '修复前：只有一条假的恢复在线');
+  const events = diffSnapshots(ciBaseline(LOCAL_HEAD, CI_HISTORY), CI_NEXT, BASE_SITES);
+  assert.deepEqual(types(events), ['site_added']);
+  assert.equal(events[0].text, '新收录 Conduit：注册送 $500');
+  assert.deepEqual(types(majorOnly(events)), ['site_added']);
+});
+test('本地网络探不到、CI 一直探得到的站（09-23 的 Matrix）：不报掉线也不报恢复', () => {
+  const head = { generatedAt: iso(6 * HOUR), sites: [snap({ online: false })] };
+  const next = { generatedAt: iso(0), sites: [snap()] };
+  assert.deepEqual(types(diffSnapshots(head, next, SITES_FIXTURE)), ['online'], '修复前：假的恢复在线');
+  assert.deepEqual(types(diffSnapshots(ciBaseline(head, CI_HISTORY), next, SITES_FIXTURE)), []);
+});
+test('CI 自己观测到的掉线与恢复照报：换了基线口径，真变化不能被吞', () => {
+  const head = { generatedAt: iso(6 * HOUR), sites: [snap()] };
+  const down = { generatedAt: iso(3 * HOUR), sites: [snap({ online: false })] };
+  assert.deepEqual(types(diffSnapshots(ciBaseline(head, CI_HISTORY), down, SITES_FIXTURE)), ['offline']);
+  // 上一个 CI 样本是掉线，这次探通了 → 报恢复，哪怕 HEAD 里本地快照写的是在线
+  const downHistory = appendSample(CI_HISTORY, down).history;
+  const next = { generatedAt: iso(0), sites: [snap()] };
+  assert.deepEqual(types(diffSnapshots(ciBaseline(head, downHistory), next, SITES_FIXTURE)), ['online']);
+});
+test('内容字段与「移除收录」照旧和 HEAD 快照比，不受基线影响', () => {
+  const head = { generatedAt: iso(6 * HOUR), sites: [snap()] };
+  const invite = { generatedAt: iso(0), sites: [snap({ inviteeBonusUsd: 20 })] };
+  assert.deepEqual(types(diffSnapshots(ciBaseline(head, CI_HISTORY), invite, SITES_FIXTURE)), ['invite_change']);
+  const gone = { generatedAt: iso(0), sites: [] };
+  assert.deepEqual(types(diffSnapshots(ciBaseline(head, CI_HISTORY), gone, SITES_FIXTURE)), ['site_removed']);
+});
+test('还没有任何历史样本（首次运行）时原样比，不把所有站都当成新站', () => {
+  assert.equal(ciBaseline(LOCAL_HEAD, EMPTY_HISTORY), LOCAL_HEAD);
+  assert.equal(ciBaseline(null, CI_HISTORY), null);
 });
 
 console.log('changelog / Atom：订阅出口');

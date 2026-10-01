@@ -53,16 +53,22 @@
 }
 ```
 
-2. 重新生成并自检：
+2. 本地预览并自检：
 
 ```bash
 npm test          # 单测：抓取失败时的合并逻辑（不联网）
-npm run refresh   # 抓 /api/status 与 /api/pricing，写入 data/live.json
-npm run build     # 重新生成 README.md 与 docs/index.html
+npm run refresh   # 抓 /api/status 与 /api/pricing，写入 data/live.json（只供本地预览）
+npm run build     # 重新生成 README 与 docs/
 npm run check     # 确认新链接可访问
 ```
 
-3. 提交时把 `data/sites.json`、`data/live.json`、`README.md`、`docs/` 一起带上。
+3. 提交 `data/sites.json` 与 `data/locales/*.json` 就够了，`data/live.json` 不用带（README、`docs/` 带不带都行）。
+   推送到 main 后 CI 会立刻重新探测，生成并提交 `live.json` 与全部页面，新站的「新收录」事件和 Release 也由 CI 发出。
+
+   > 本机网络和 GitHub Actions 不一样：有的站国内直连不通（`t.me`、`docode.cc`），有的只有走代理才通，
+   > 本地 refresh 测出来的在线状态不可信。所以可用性历史与变动日志只由 CI 写入，`npm run history` 在本地默认什么都不做；
+   > 比对基线也只认 CI 攒下的历史样本，就算误把本地的 `live.json` 一起提交，也不会再发出「XX 恢复在线」这类假消息
+   > （2026-09-30 加 Conduit 时就这么翻过车，详见 `scripts/lib/history.mjs` 的 `ciBaseline`）。
 
 ## 归档不可用站点
 
