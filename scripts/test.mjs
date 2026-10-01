@@ -4,7 +4,10 @@
  * 盯的是线上真实踩过的坑——CI 机房 IP 被 Cloudflare 拦时，页面不能退化成「异常 + 无数据」。
  */
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdtemp, mkdir, readdir, rm } from 'node:fs/promises';
+import { spawnSync } from 'node:child_process';
+import os from 'node:os';
+import path from 'node:path';
 import { mergeSnapshot, meaningful } from './lib/merge.mjs';
 import { pickPreferred, staleHours, STALE_WARN_HOURS, blankSnapshot, looksFiltered, probeUrl, isHttpsUrl, fetchJson, describeFetchError } from './lib/newapi.mjs';
 import { creditPlan, usd, breakdown, perDay, auditCredits, usdTotals, othersNote } from './lib/credits.mjs';
@@ -1545,6 +1548,69 @@ for (const catalog of TRANSLATIONS) {
     assert.ok(html.includes('&lt;img'));
     assert.doesNotThrow(() => JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]));
   });
+}
+
+// ──────────────────────────────────────────────────────────────────────
+// 一键配置脚本：写进用户 rc 文件的东西，错一个字就是 Claude Code 连不上
+// ──────────────────────────────────────────────────────────────────────
+
+console.log('quickstart：一键配置脚本');
+
+const QS_SH = await readFile(new URL('./quickstart.sh', import.meta.url), 'utf8');
+const QS_PS1 = await readFile(new URL('./quickstart.ps1', import.meta.url));
+// 在临时 HOME 里真跑一遍 bash 脚本：站名带空格、换站重跑、危险字符的 Key
+const HAS_BASH = !spawnSync('bash', ['--version']).error;
+const QS_HOME = await mkdtemp(path.join(os.tmpdir(), 'acw-quickstart-'));
+await mkdir(path.join(QS_HOME, 'scripts'));
+await mkdir(path.join(QS_HOME, 'data'));
+await writeFile(path.join(QS_HOME, 'scripts', 'quickstart.sh'), QS_SH);
+await writeFile(path.join(QS_HOME, 'data', 'sites.json'), JSON.stringify({ sites: [
+  { id: 'ar', name: 'AgentRouter', subtitle: 'a', endpoints: { anthropic: 'https://ar.example' }, signupUrl: 'https://ar.example/r' },
+  { id: 'kk', name: 'KKtoken AI', subtitle: '站名带空格', endpoints: { anthropic: 'https://kk.example' }, signupUrl: 'https://kk.example/sign-up' },
+] }));
+await writeFile(path.join(QS_HOME, 'data', 'live.json'), JSON.stringify({ sites: [{ id: 'kk', defaults: { claude: 'claude-opus-5' } }] }));
+await writeFile(path.join(QS_HOME, '.zshrc'), 'alias ll="ls -l"\n');
+// LC_ALL 用 UTF-8：「$RC，」那个崩溃只在 UTF-8 locale 下出现，C locale 测不出来
+const runQs = (input) => spawnSync('bash', [path.join(QS_HOME, 'scripts', 'quickstart.sh')], {
+  input, encoding: 'utf8', env: { ...process.env, HOME: QS_HOME, SHELL: '/bin/zsh', LC_ALL: 'en_US.UTF-8' },
+});
+const qsRuns = HAS_BASH
+  ? [runQs('2\nsk-test-1111aaaa\n\ny\n'), runQs('2\nsk-test-2222bbbb\n\ny\n'), runQs('9\n'), runQs('1\nsk-$(touch PWNED)\n\ny\n')]
+  : [];
+const qsRc = HAS_BASH ? await readFile(path.join(QS_HOME, '.zshrc'), 'utf8') : '';
+const qsPwned = HAS_BASH && (await readdir(QS_HOME)).includes('PWNED');
+await rm(QS_HOME, { recursive: true, force: true });
+
+test('quickstart.ps1 带 UTF-8 BOM：Windows PowerShell 5.1 读无 BOM 的脚本按 GBK 解析，中文全乱码', () => {
+  assert.deepEqual([...QS_PS1.subarray(0, 3)], [0xef, 0xbb, 0xbf]);
+});
+test('quickstart.sh 里 $变量 后面不能直接跟中文：bash 3.2 在 UTF-8 下会把半个汉字吃进变量名', () => {
+  assert.deepEqual(QS_SH.split('\n').filter((l) => /\$[A-Za-z_]\w*[^\x00-\x7f]/.test(l)), []);
+});
+if (HAS_BASH) {
+  const [first, second, badIndex, badKey] = qsRuns;
+  test('站名带空格（KKtoken AI）时 Base URL 和模型名不错位，且正常退出', () => {
+    assert.equal(first.status, 0, first.stderr);
+    assert.match(first.stdout, /ANTHROPIC_BASE_URL="https:\/\/kk\.example"/);
+    assert.match(first.stdout, /ANTHROPIC_MODEL="claude-opus-5"/);
+    assert.ok(!first.stdout.includes('sk-test-1111aaaa'), '屏幕上的 Key 要打码');
+  });
+  test('重跑只替换脚本自己写的配置块：不叠出两份，旧 Key 不留在 rc 里，用户自己的配置不动', () => {
+    assert.equal(second.status, 0, second.stderr);
+    assert.equal(qsRc.match(/^# >>> ai-coding-welfare/gm)?.length, 1);
+    assert.ok(qsRc.includes('sk-test-2222bbbb') && !qsRc.includes('sk-test-1111aaaa'));
+    assert.ok(qsRc.startsWith('alias ll="ls -l"\n\n# >>> ai-coding-welfare: KKtoken AI >>>\n'));
+  });
+  test('编号无效直接退出；Key 带 $( ) 这类字符拒绝写入 rc（写进去每开一次终端就执行一次）', () => {
+    assert.notEqual(badIndex.status, 0);
+    assert.match(badIndex.stderr, /编号无效/);
+    assert.notEqual(badKey.status, 0);
+    assert.match(badKey.stdout, /Key 里有空格、引号/);
+    assert.ok(!qsRc.includes('PWNED'), '危险 Key 不能落进 rc 文件');
+    assert.equal(qsPwned, false);
+  });
+} else {
+  console.log('  · 没有 bash，跳过 quickstart.sh 的实跑用例');
 }
 
 console.log(`\n${process.exitCode ? '✘ 有用例失败' : `✔ 全部通过（${passed} 项）`}`);

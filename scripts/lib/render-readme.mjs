@@ -342,6 +342,7 @@ export function renderReadme({ meta, sites: allSites, live, groups = [], history
   const extra = othersNote(others);
   const scope = `${usdCount} 个有明确美元额度、且还收新用户的站`;
   const pages = (meta.pagesUrl ?? '').replace(/\/?$/, '/');
+  const repoName = String(meta.repoUrl ?? '').replace(/\/+$/, '').split('/').pop();
 
   const head = [
     `<h1 align="center">${meta.title}</h1>`,
@@ -409,13 +410,16 @@ export function renderReadme({ meta, sites: allSites, live, groups = [], history
     '2. 后台「令牌 / API Keys」新建一个 Key',
     '3. 跑一键脚本，或手抄下面对应站点的环境变量',
     '',
+    // 在 GitHub 上看 README 的人手里没有这个仓库，光写 bash scripts/quickstart.sh 是跑不起来的
     `${F}bash`,
-    '# 交互式写好 Claude Code 的环境变量（macOS / Linux）',
+    '# 交互式写好 Claude Code 的环境变量（macOS / Linux，需要 Node.js）',
+    `git clone --depth 1 ${meta.repoUrl}.git && cd ${repoName}`,
     'bash scripts/quickstart.sh',
     F,
     '',
     `${F}powershell`,
-    '# Windows PowerShell',
+    '# Windows PowerShell（5.1 不认 &&，两条命令用 ; 隔开）',
+    `git clone --depth 1 ${meta.repoUrl}.git; cd ${repoName}`,
     'powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1',
     F,
     '',

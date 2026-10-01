@@ -1,6 +1,9 @@
-# 交互式为 Claude Code 配置福利站接入参数（Windows PowerShell）。
+﻿# 交互式为 Claude Code 配置福利站接入参数（Windows PowerShell）。
 # 用法： powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 #        加 -Persist 会写入用户级环境变量（新开终端也生效）。
+#
+# 本文件必须保存为「UTF-8 with BOM」：Windows 自带的 PowerShell 5.1 读到没有 BOM 的脚本，
+# 会按系统代码页（中文系统是 GBK）解析，中文提示全变乱码，严重时报「字符串缺少终止符」。
 param([switch]$Persist)
 
 $ErrorActionPreference = 'Stop'
@@ -10,8 +13,9 @@ $liveFile = Join-Path $root 'data\live.json'
 
 if (-not (Test-Path $sitesFile)) { throw "找不到 $sitesFile" }
 
-$sites = (Get-Content $sitesFile -Raw -Encoding UTF8 | ConvertFrom-Json).sites |
-  Where-Object { $_.endpoints.anthropic -and -not $_.archived }
+# @() 保证只剩一个站时也是数组，.Count 和下标才靠得住
+$sites = @((Get-Content $sitesFile -Raw -Encoding UTF8 | ConvertFrom-Json).sites |
+  Where-Object { $_.endpoints.anthropic -and -not $_.archived })
 $live = if (Test-Path $liveFile) { (Get-Content $liveFile -Raw -Encoding UTF8 | ConvertFrom-Json).sites } else { @() }
 
 Write-Host "`n可选站点（只列出提供 Anthropic 兼容 Base URL、能直连 Claude Code 的站点）：" -ForegroundColor Cyan
@@ -20,9 +24,11 @@ for ($i = 0; $i -lt $sites.Count; $i++) {
 }
 
 $idx = Read-Host "`n选择站点编号 [1]"
-if ([string]::IsNullOrWhiteSpace($idx)) { $idx = 1 }
-$site = $sites[[int]$idx - 1]
-if (-not $site) { throw '编号无效' }
+if ([string]::IsNullOrWhiteSpace($idx)) { $idx = '1' }
+# 先校验范围：PowerShell 的负下标从末尾取，输 0 会静默选中最后一个站
+$n = 0
+if (-not [int]::TryParse($idx.Trim(), [ref]$n) -or $n -lt 1 -or $n -gt $sites.Count) { throw '编号无效' }
+$site = $sites[$n - 1]
 
 $snap = $live | Where-Object { $_.id -eq $site.id }
 $model = $snap.defaults.claude
@@ -32,12 +38,14 @@ Write-Host "`n站点：$($site.name)" -ForegroundColor Green
 Write-Host "还没有账号？先注册领额度：$($site.signupUrl)" -ForegroundColor Yellow
 
 $secure = Read-Host "`n粘贴该站后台创建的 API Key" -AsSecureString
-$key = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
-  [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure))
+# BSTR 是 UTF-16，用 PtrToStringBSTR 读；用完立刻清零，明文 Key 不在内存里多留
+$bstr = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure)
+try { $key = [Runtime.InteropServices.Marshal]::PtrToStringBSTR($bstr).Trim() }
+finally { [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr) }
 if ([string]::IsNullOrWhiteSpace($key)) { throw 'Key 不能为空' }
 
 $inputModel = Read-Host "模型名 [$model]"
-if (-not [string]::IsNullOrWhiteSpace($inputModel)) { $model = $inputModel }
+if (-not [string]::IsNullOrWhiteSpace($inputModel)) { $model = $inputModel.Trim() }
 
 $base = $site.endpoints.anthropic
 $env:ANTHROPIC_BASE_URL = $base
