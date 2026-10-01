@@ -62,8 +62,12 @@ npm run build     # 重新生成 README 与 docs/
 npm run check     # 确认新链接可访问
 ```
 
-3. 提交 `data/sites.json` 与 `data/locales/*.json` 就够了，`data/live.json` 不用带（README、`docs/` 带不带都行）。
+3. 提交 `data/sites.json` 与 `data/locales/*.json` 就够了，`data/live.json` 不用带。
    推送到 main 后 CI 会立刻重新探测，生成并提交 `live.json` 与全部页面，新站的「新收录」事件和 Release 也由 CI 发出。
+
+   **从 fork 提 PR 时只放源文件**，`README*.md`、`docs/`、`data/live.json` 一律别带：CI 每 6 小时就重写一遍它们，
+   带上的 PR 几小时内必冲突（#16 就是这样）。PR 会自动跑 `npm test` 和 `npm run build`（[test.yml](.github/workflows/test.yml)），
+   漏了哪份译文、字段写错了，合并前就能看到。
 
    > 本机网络和 GitHub Actions 不一样：有的站国内直连不通（`t.me`、`docode.cc`），有的只有走代理才通，
    > 本地 refresh 测出来的在线状态不可信。所以可用性历史与变动日志只由 CI 写入，`npm run history` 在本地默认什么都不做；

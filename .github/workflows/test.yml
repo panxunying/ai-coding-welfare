@@ -1,0 +1,32 @@
+name: 单测
+
+# 投稿 PR 的把关。以前单测只在 refresh.yml 里跑，而它只认推到 main 的提交：
+# 外部 PR 改坏了 sites.json（漏了某一份译文、字段写错），要等合并后那一轮刷新标红才知道。
+# 这里只跑不联网的两步，fork 来的 PR 拿到的是只读 token、没有任何 secret，放心跑。
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22'
+
+      - name: 单测（合并逻辑、额度口径、五种译文完整性）
+        run: npm test
+
+      # build 会校验每个站点在五份译文里都有条目、并把全站真渲染一遍；不联网，读的是仓库里的快照
+      - name: 生成全站
+        run: npm run build
