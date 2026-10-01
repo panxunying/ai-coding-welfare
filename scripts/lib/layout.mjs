@@ -54,23 +54,50 @@ function navBar(base, current, locale, copy) {
 const ld = (data) =>
   JSON.stringify(data).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
 
+/**
+ * 内联 SVG favicon：不多一次请求、不多一个文件；以前每页都去请求 /favicon.ico 吃 404。
+ * 配色就是样式表里的 --accent → --accent-2。
+ */
+const FAVICON = `data:image/svg+xml,${encodeURIComponent(
+  "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>" +
+    "<stop offset='0' stop-color='#7c5cff'/><stop offset='1' stop-color='#22d3ee'/></linearGradient></defs>" +
+    "<rect width='64' height='64' rx='16' fill='url(#g)'/><path d='M37 8 16 37h13l-3 19 22-29H35z' fill='#fff'/></svg>",
+)}`;
+
+/**
+ * 分享卡片：链接主要靠转发到 Telegram / 微信 / X 传播，以前声明了 summary_large_image 却没给图，
+ * 预览只剩一行标题。图是 docs/assets/og.png（源文件 scripts/og-card.html），不含实时数字，不会过时。
+ */
+const OG_IMAGE = { path: 'assets/og.png', width: 1200, height: 630 };
+
 export function pageShell({ meta, css, title, desc, canonical, base = '', current = '', jsonLd = [], body, live, noindex = false, locale = 'zh-CN', copy = null, languagePath = null }) {
-  language(locale); // Reject invalid locale metadata instead of silently rendering the wrong language.
+  const lang = language(locale); // Reject invalid locale metadata instead of silently rendering the wrong language.
   const feed = `${meta.pagesUrl}feed.xml`;
+  const ogImage = `${(meta.pagesUrl ?? '').replace(/\/?$/, '/')}${OG_IMAGE.path}`;
   return `<!doctype html>
 <html lang="${locale}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0c11">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="${FAVICON}">
 ${noindex ? '<meta name="robots" content="noindex,follow">' : ''}
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <meta name="keywords" content="${esc(copy ? [copy.title, 'Claude Code', 'Codex', 'Cursor', 'API'].join(',') : (meta.keywords ?? []).join(','))}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(meta.title)}">
+<meta property="og:locale" content="${lang.og}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${esc(canonical)}">
+<meta property="og:image" content="${esc(ogImage)}">
+<meta property="og:image:width" content="${OG_IMAGE.width}">
+<meta property="og:image:height" content="${OG_IMAGE.height}">
+<meta property="og:image:alt" content="${esc(`${meta.title}：${meta.tagline}`)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${esc(ogImage)}">
 <link rel="canonical" href="${esc(canonical)}">
 <link rel="alternate" type="application/atom+xml" title="${esc(copy?.historyZh ?? '变动日志')}" href="${esc(feed)}">
 ${languagePath !== null ? languageAlternates(meta.pagesUrl, languagePath) : ''}
@@ -100,6 +127,39 @@ ${body}
 </html>
 `;
 }
+
+/**
+ * 「复制配置」按钮，首页卡片和站点详情页共用（按钮紧跟在 <pre> 后面）。
+ * 链接多半是转发到微信 / QQ 群里打开的，这些内置浏览器常常没有 navigator.clipboard，
+ * 以前直接调用会抛错，点了没有任何反应。退回 execCommand('copy')，再不行就把代码选中、提示长按复制。
+ */
+export const COPY_SCRIPT = `<script>
+document.querySelectorAll('.copy').forEach(function (btn) {
+  var label = btn.textContent;
+  function done(text) {
+    btn.textContent = text;
+    setTimeout(function () { btn.textContent = label; }, 1800);
+  }
+  function fallback(pre) {
+    var range = document.createRange();
+    range.selectNodeContents(pre);
+    var sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    done(ok ? '已复制 ✓' : '已选中，请长按复制');
+  }
+  btn.addEventListener('click', function () {
+    var pre = btn.previousElementSibling;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(pre.innerText).then(function () { done('已复制 ✓'); }, function () { fallback(pre); });
+    } else {
+      fallback(pre);
+    }
+  });
+});
+</script>`;
 
 /** 面包屑的结构化数据，让搜索结果里显示层级而不是一串裸 URL */
 export function breadcrumb(meta, trail) {

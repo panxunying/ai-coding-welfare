@@ -1,0 +1,98 @@
+<!doctype html>
+<!--
+  分享卡片的源文件：docs/assets/og.png（1200×630，og:image / twitter:image 用）由它截图生成。
+  卡片上故意不放实时数字（额度、在线数）——图片会被各平台缓存很久，写死的数字很快就是错的。
+  改完重新截图（macOS，需要装 Chrome）：
+
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars \
+    --force-device-scale-factor=1 --window-size=1200,630 \
+    --screenshot="$PWD/docs/assets/og.png" "file://$PWD/scripts/og-card.html"
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --bg: #0a0c11;
+    --card: #151924;
+    --line: #232838;
+    --fg: #e8ecf6;
+    --fg-dim: #98a1b8;
+    --accent: #7c5cff;
+    --accent-2: #22d3ee;
+    --ok: #34d399;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    position: relative;
+    padding: 64px 80px 56px;
+    display: flex;
+    flex-direction: column;
+    background:
+      radial-gradient(700px 420px at 8% -12%, rgba(124, 92, 255, 0.38), transparent 62%),
+      radial-gradient(640px 400px at 102% 4%, rgba(34, 211, 238, 0.26), transparent 58%),
+      radial-gradient(520px 320px at 88% 118%, rgba(124, 92, 255, 0.20), transparent 60%),
+      var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* 细网格：只在右侧淡淡铺一层，给大面积留白一点质感 */
+  body::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 44px 44px;
+    -webkit-mask-image: linear-gradient(100deg, transparent 38%, #000 82%);
+    mask-image: linear-gradient(100deg, transparent 38%, #000 82%);
+    pointer-events: none;
+  }
+  .top { display: flex; align-items: center; gap: 14px; font-size: 22px; color: var(--fg-dim); }
+  .badge {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 8px 18px; border-radius: 999px;
+    background: rgba(21, 25, 36, 0.85); border: 1px solid var(--line);
+  }
+  .live { width: 12px; height: 12px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 5px rgba(52, 211, 153, 0.18); }
+  h1 {
+    margin-top: 46px;
+    font-size: 92px; line-height: 1.08; font-weight: 800; letter-spacing: -1.5px;
+  }
+  h1 .grad {
+    background: linear-gradient(92deg, var(--accent) 0%, #a78bfa 45%, var(--accent-2) 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .sub { margin-top: 26px; font-size: 35px; line-height: 1.4; color: #c9cfe0; font-weight: 500; }
+  .en { margin-top: 12px; font-size: 25px; color: var(--fg-dim); letter-spacing: 0.2px; }
+  .chips { margin-top: auto; display: flex; gap: 14px; flex-wrap: wrap; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 11px 20px; border-radius: 14px;
+    background: rgba(21, 25, 36, 0.9); border: 1px solid var(--line);
+    font-size: 23px; color: var(--fg);
+  }
+  .chip i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+  .url { margin-top: 30px; font: 500 23px/1 ui-monospace, "SF Mono", Menlo, monospace; color: var(--fg-dim); }
+  .url b { color: var(--fg); font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="top">
+    <span class="badge"><span class="live"></span>每 6 小时自动探测 · 数据实时更新</span>
+    <span class="badge">中文 · English · 日本語 · Deutsch · Português · हिन्दी</span>
+  </div>
+  <h1>AI Coding <span class="grad">福利站</span>导航</h1>
+  <p class="sub">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集</p>
+  <p class="en">Free API credits for Claude Code, Codex &amp; Cursor — live-checked relay sites</p>
+  <div class="chips">
+    <span class="chip"><i style="background: var(--ok)"></i>在线状态 · 额度 · 模型价格</span>
+    <span class="chip"><i style="background: var(--accent)"></i>变动日志 + Release 提醒</span>
+    <span class="chip"><i style="background: var(--accent-2)"></i>一键配置 Claude Code</span>
+  </div>
+  <p class="url"><b>panxunying.github.io</b>/ai-coding-welfare</p>
+</body>
+</html>

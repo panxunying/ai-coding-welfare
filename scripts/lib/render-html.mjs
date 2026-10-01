@@ -7,7 +7,7 @@
 import { staleHours } from './newapi.mjs';
 import { creditPlan, usd, breakdown, usdTotals, othersNote } from './credits.mjs';
 import { signupRoute, acceptsNew } from './signup.mjs';
-import { esc, fmt, pageShell, faqLd } from './layout.mjs';
+import { esc, fmt, pageShell, faqLd, COPY_SCRIPT } from './layout.mjs';
 import { icon } from './changelog.mjs';
 import { coverage } from './history.mjs';
 import { activeSites, archivedSites, archivedAt, archivedReason } from './archived.mjs';
@@ -257,17 +257,7 @@ ${graveyardSection(allSites)}
     <p class="hint">踩坑集中在这四个。</p>
     ${FAQ.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('\n    ')}
   </section>
-<script>
-document.querySelectorAll('.copy').forEach(function (btn) {
-  btn.addEventListener('click', function () {
-    var pre = btn.previousElementSibling;
-    navigator.clipboard.writeText(pre.innerText).then(function () {
-      btn.textContent = '已复制 ✓';
-      setTimeout(function () { btn.textContent = '复制配置'; }, 1800);
-    });
-  });
-});
-</script>`;
+${COPY_SCRIPT}`;
 
   // ItemList 让搜索引擎和 AI 抓取时知道这页是「N 个站点的清单」，每项指向各自的详情页
   const itemList = {

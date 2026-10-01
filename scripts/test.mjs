@@ -1047,6 +1047,28 @@ test('每一页的 JSON-LD 都必须是合法 JSON，且带面包屑', () => {
   const types = jsonLd(pages[0])[0].map((x) => x['@type']);
   assert.deepEqual(types, ['BreadcrumbList', 'FAQPage']);
 });
+const OG_PNG = await readFile(new URL('../docs/assets/og.png', import.meta.url));
+test('每一页都带分享卡片与 favicon：声明了 summary_large_image 就得真给图，图得是 1200×630', () => {
+  const pages = [
+    renderSitePage({ meta: META, site: SITE, snap: FIXED_SNAP, live: LIVE, css: '', history: HIST, siblings: [] }),
+    renderComparePage({ meta: META, sites: [SITE], live: LIVE, css: '' }),
+    renderStatusPage({ meta: META, sites: [SITE], live: LIVE, css: '', history: HIST }),
+    renderChangelogPage({ meta: META, groups: GROUPS, live: LIVE, css: '' }),
+    renderHtml({ meta: META, sites: [SITE], live: LIVE, css: '', groups: GROUPS, history: HIST }),
+  ];
+  const image = `${META.pagesUrl}assets/og.png`;
+  for (const html of pages) {
+    assert.ok(html.includes(`<meta property="og:image" content="${image}">`));
+    assert.ok(html.includes(`<meta name="twitter:image" content="${image}">`));
+    assert.match(html, /<meta property="og:locale" content="zh_CN">/);
+    assert.match(html, /<link rel="icon" href="data:image\/svg\+xml,%3Csvg/);
+  }
+  // PNG 头：8 字节签名 + IHDR，宽高是第 16–23 字节的两个大端 uint32
+  assert.equal(OG_PNG.subarray(1, 4).toString('latin1'), 'PNG');
+  assert.deepEqual([OG_PNG.readUInt32BE(16), OG_PNG.readUInt32BE(20)], [1200, 630]);
+  assert.ok(OG_PNG.length < 300_000, '分享图太大，部分平台（WhatsApp 等）会不显示预览');
+  for (const l of LANGUAGES) assert.match(l.og, /^[a-z]{2}_[A-Z]{2}$/, `${l.id} 的 og:locale 格式不对`);
+});
 test('数据里的 HTML / 引号不许原样进页面（sites.json 是手工维护的，迟早会有尖括号）', () => {
   const evil = { ...SITE, name: '<img src=x onerror=alert(1)>', subtitle: '带"引号"的副标题' };
   const html = renderSitePage({ meta: META, site: evil, snap: FIXED_SNAP, live: LIVE, css: '', history: HIST, siblings: [] });
@@ -1473,6 +1495,8 @@ for (const catalog of TRANSLATIONS) {
   test(`${locale.id}：翻译完整，语言元数据和首页 canonical 独立`, () => {
     validateCatalog(catalog, ENGLISH, CATALOG);
     assert.ok(homepage.includes(`<html lang="${locale.id}">`));
+    assert.ok(homepage.includes(`<meta property="og:locale" content="${locale.og}">`));
+    assert.ok(homepage.includes(`<meta property="og:image" content="${META.pagesUrl}assets/og.png">`));
     assert.ok(homepage.includes(`rel="canonical" href="${META.pagesUrl}${locale.path}"`));
     assert.equal((homepage.match(/<link rel="alternate" hreflang=/g) ?? []).length, 7);
     assert.ok(!/\{(?:providers|count|amount|inviteCode|hours|at)\}/.test(readme + homepage));

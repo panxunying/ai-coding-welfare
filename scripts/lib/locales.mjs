@@ -1,11 +1,12 @@
 /** Locale routing only. Copy lives in data/locales/*.json; URLs and credits stay in sites.json. */
+// og is the Open Graph locale (language_TERRITORY), which uses an underscore rather than BCP 47's hyphen.
 export const LANGUAGES = [
-  { id: 'zh-CN', label: '简体中文', path: '', readme: 'README.md' },
-  { id: 'en', label: 'English', path: 'en/', readme: 'README.en.md' },
-  { id: 'hi', label: 'हिन्दी', path: 'hi/', readme: 'README.hi.md' },
-  { id: 'pt-BR', label: 'Português (Brasil)', path: 'pt-BR/', readme: 'README.pt-BR.md' },
-  { id: 'ja', label: '日本語', path: 'ja/', readme: 'README.ja.md' },
-  { id: 'de', label: 'Deutsch', path: 'de/', readme: 'README.de.md' },
+  { id: 'zh-CN', label: '简体中文', path: '', readme: 'README.md', og: 'zh_CN' },
+  { id: 'en', label: 'English', path: 'en/', readme: 'README.en.md', og: 'en_US' },
+  { id: 'hi', label: 'हिन्दी', path: 'hi/', readme: 'README.hi.md', og: 'hi_IN' },
+  { id: 'pt-BR', label: 'Português (Brasil)', path: 'pt-BR/', readme: 'README.pt-BR.md', og: 'pt_BR' },
+  { id: 'ja', label: '日本語', path: 'ja/', readme: 'README.ja.md', og: 'ja_JP' },
+  { id: 'de', label: 'Deutsch', path: 'de/', readme: 'README.de.md', og: 'de_DE' },
 ];
 export const TRANSLATED_LANGUAGES = LANGUAGES.filter((l) => l.id !== 'zh-CN');
 export function language(id) {

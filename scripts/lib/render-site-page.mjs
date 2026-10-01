@@ -8,7 +8,7 @@
 import { creditPlan, usd, breakdown } from './credits.mjs';
 import { signupRoute } from './signup.mjs';
 import { staleHours } from './newapi.mjs';
-import { esc, fmt, pageShell, breadcrumb, faqLd } from './layout.mjs';
+import { esc, fmt, pageShell, breadcrumb, faqLd, COPY_SCRIPT } from './layout.mjs';
 import { uptime } from './history.mjs';
 import { isArchived, archivedAt, archivedReason } from './archived.mjs';
 import { subscriptionPlan, renderSubscription } from './subscription.mjs';
@@ -123,17 +123,6 @@ function list(title, items, cls = 'hl') {
   return `<section><h2>${esc(title)}</h2><ul class="${cls}">${items.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></section>`;
 }
 
-const COPY_JS = `<script>
-document.querySelectorAll('.copy').forEach(function (btn) {
-  btn.addEventListener('click', function () {
-    navigator.clipboard.writeText(btn.previousElementSibling.innerText).then(function () {
-      btn.textContent = '已复制 ✓';
-      setTimeout(function () { btn.textContent = '复制配置'; }, 1800);
-    });
-  });
-});
-</script>`;
-
 export function renderSitePage({ meta, site, snap, live, css, history, siblings = [] }) {
   // 旧地址仍可访问，但不能继续展示过期的额度、注册链接和接入配置。
   if (isArchived(site)) {
@@ -227,7 +216,7 @@ export function renderSitePage({ meta, site, snap, live, css, history, siblings 
       .map((s) => `<li><a href="../${esc(s.id)}/">${esc(s.name)}</a> — ${esc(s.subtitle)}</li>`)
       .join('')}</ul>
   </section>
-${COPY_JS}`;
+${COPY_SCRIPT}`;
 
   return pageShell({
     meta,
