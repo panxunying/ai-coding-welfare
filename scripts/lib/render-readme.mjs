@@ -562,7 +562,7 @@ function tailFooter(meta, sites) {
     '发现好用的公益站 / 中转站？两种方式：',
     '',
     `- 提 [Issue](${meta.repoUrl}/issues/new?template=new-site.yml) 填个表单：投稿公开可见，本身就是一次推广；符合下方收录标准、特别优质的，我会收录进正文`,
-    '- 或者直接 PR：往 `data/sites.json` 加一条，跑 `npm run refresh && npm run build` 后提交',
+    '- 或者直接 PR：往 `data/sites.json` 加一条、五份 `data/locales/*.json` 补上译文，`npm test` 通过后提交；README、`docs/`、`data/live.json` 是生成物，别带进 PR（CI 每 6 小时重写一次，带上必冲突），合并后会自动生成',
     '',
     '收录标准：**能免费拿到额度**、注册流程不套娃、站点公开接口可探测。',
     '',
