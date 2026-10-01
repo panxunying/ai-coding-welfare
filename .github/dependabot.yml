@@ -4,6 +4,10 @@
 # 全靠 Node 18+ 自带的 fetch 和标准库），所以 npm 生态开了也扫不出东西，不配。
 # 真正需要盯的是 workflow 里钉的那几个 action 版本——它们是唯一的第三方代码，
 # 而且跑在有 contents: write 权限的 CI 里。
+#
+# 所以 uses: 一律钉到 commit SHA、后面注释版本号（`@<sha> # v7.0.1`）：tag 是可以被挪走的，
+# 2025 年 tj-actions/changed-files 就是攻击者把 tag 指向恶意提交，所有 `@v45` 的仓库一起中招。
+# Dependabot 认这种写法，升级 PR 会把 SHA 和注释一起改掉。
 version: 2
 updates:
   - package-ecosystem: github-actions
