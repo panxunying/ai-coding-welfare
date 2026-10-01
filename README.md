@@ -69,12 +69,14 @@
 3. 跑一键脚本，或手抄下面对应站点的环境变量
 
 ```bash
-# 交互式写好 Claude Code 的环境变量（macOS / Linux）
+# 交互式写好 Claude Code 的环境变量（macOS / Linux，需要 Node.js）
+git clone --depth 1 https://github.com/panxunying/ai-coding-welfare.git && cd ai-coding-welfare
 bash scripts/quickstart.sh
 ```
 
 ```powershell
-# Windows PowerShell
+# Windows PowerShell（5.1 不认 &&，两条命令用 ; 隔开）
+git clone --depth 1 https://github.com/panxunying/ai-coding-welfare.git; cd ai-coding-welfare
 powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 ```
 
@@ -212,7 +214,7 @@ curl -s https://api.artbloom.tech/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 175 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 180 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
@@ -1240,7 +1242,7 @@ CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目�
 
 最近几条：
 
-- `2026-09-30` 🟢 Conduit 恢复在线
+- `2026-09-30` 🆕 新收录 Conduit：注册送 $500
 - `2026-09-29` ➕ FlushAPI 上线模型：claude-sonnet-5
 - `2026-09-29` ➖ FlushAPI 下线模型：auto、claude-fable-5.1、claude-opus-4-7、claude-opus-4.7 等 10 个
 - `2026-09-24` 🆕 新收录 FlushAPI：每日签到开启；注册 / 邀请 / 签到额度数额站点未公示
@@ -1275,7 +1277,7 @@ CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目�
 ```bash
 npm test          # 单测（不联网）
 npm run refresh   # 抓最新数据
-npm run history   # 归档历史 + 生成变动日志
+npm run history   # 归档历史 + 生成变动日志（只在 CI 里写入，本地默认跳过）
 npm run build     # 重新生成 README + docs/
 npm run check     # 校验链接是否还活着
 ```
