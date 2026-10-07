@@ -15,7 +15,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-10-07 13:27 UTC
+**Datenstand:** 2026-10-07 23:06 UTC
 
 ## Anbieterübersicht
 
@@ -58,7 +58,7 @@ OpenAI-kompatibler API-Dienst mit 100 US-Dollar Guthaben am ersten Tag der Regis
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -93,7 +93,7 @@ Kostenloser Zugang zu GPT 6 Astra, GPT 6 Sol und GPT-5.6 Sol mit 50M Tokens pro 
 - **Guthaben am ersten Tag / Tarif**: Nicht öffentlich angegeben
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -128,7 +128,7 @@ Die Registrierung über den Conduit-Bot auf Telegram bietet 500 US-Dollar Guthab
 - **Registrierung**: $500
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -208,7 +208,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kein Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -248,7 +248,7 @@ New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabensch
 - **Tägliches Guthaben**: ≈$22/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -283,7 +283,7 @@ Multi-Agent-Arbeitsumgebung mit kostenpflichtigem Go-Tarif; eigene Konten oder A
 
 - **Guthaben am ersten Tag / Tarif**: Go · $1/Monat
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 > Schätzwerte je 5-Stunden-Zeitfenster
 > Kimi K3: ≈130 Anfragen
@@ -328,7 +328,7 @@ New-API-Gateway mit GitHub-Registrierung, öffentlichen Modellpreisen und getren
 - **Tägliches Guthaben**: Check-in aktiviert; Betrag nicht veröffentlicht
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -375,7 +375,7 @@ New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -412,7 +412,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -449,7 +449,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -485,7 +485,7 @@ KI-Gateway mit Empfehlungsprämien, täglichen Check-ins sowie OpenAI-, Anthropi
 - **Empfehlungsbonus**: $20
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -521,7 +521,7 @@ Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und E
 - **Empfehlungsbonus**: 10 Punkte
 - **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-07 13:27 UTC
+- **Datenstand**: 2026-10-07 23:06 UTC
 
 
 ### Voraussetzungen für die Registrierung
