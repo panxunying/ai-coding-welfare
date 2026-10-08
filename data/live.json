@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-08T13:33:07.716Z",
+  "generatedAt": "2026-10-08T23:22:56.193Z",
   "sites": [
     {
       "id": "artbloom",
-      "checkedAt": "2026-10-08T13:32:56.173Z",
+      "checkedAt": "2026-10-08T23:22:24.722Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 813,
+      "latencyMs": 795,
       "error": null,
       "systemName": null,
       "version": null,
@@ -30,7 +30,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 754,
+        "ms": 749,
         "attempts": 1,
         "url": "https://api.artbloom.tech/signup?ref=PCTM2VCGUI"
       },
@@ -43,10 +43,10 @@
     },
     {
       "id": "omnirush",
-      "checkedAt": "2026-10-08T13:32:56.073Z",
+      "checkedAt": "2026-10-08T23:22:27.546Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 671,
+      "latencyMs": 3569,
       "error": null,
       "systemName": null,
       "version": null,
@@ -70,7 +70,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 502,
+        "ms": 3822,
         "attempts": 1,
         "url": "https://omnirush.ai/console?ref=AXJFLFPA"
       },
@@ -83,10 +83,10 @@
     },
     {
       "id": "conduit",
-      "checkedAt": "2026-10-08T13:32:55.976Z",
+      "checkedAt": "2026-10-08T23:22:31.861Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 572,
+      "latencyMs": 7882,
       "error": null,
       "systemName": null,
       "version": null,
@@ -110,7 +110,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 568,
+        "ms": 7865,
         "attempts": 1,
         "url": "https://t.me/conduitoff_bot?start=ref_8111640723"
       },
@@ -123,9 +123,9 @@
     },
     {
       "id": "agentrouter",
-      "checkedAt": "2026-10-08T13:33:01.777Z",
+      "checkedAt": "2026-10-08T23:22:49.894Z",
       "online": true,
-      "latencyMs": 247,
+      "latencyMs": 318,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260918-cbda758f",
@@ -253,8 +253,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1361,
-        "attempts": 1,
+        "ms": 10553,
+        "attempts": 2,
         "url": "https://agentrouter.org/register?aff=szt3"
       },
       "mirrors": [
@@ -284,10 +284,10 @@
     },
     {
       "id": "docode",
-      "checkedAt": "2026-10-08T13:32:58.747Z",
+      "checkedAt": "2026-10-08T23:22:49.673Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 3327,
+      "latencyMs": 156,
       "error": null,
       "systemName": "DoCode",
       "version": "",
@@ -339,8 +339,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3228,
-        "attempts": 1,
+        "ms": 9742,
+        "attempts": 2,
         "url": "https://docode.cc/register?aff=zMRe"
       },
       "mirrors": [
@@ -357,9 +357,9 @@
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-10-08T13:32:58.870Z",
+      "checkedAt": "2026-10-08T23:22:45.027Z",
       "online": true,
-      "latencyMs": 3459,
+      "latencyMs": 9038,
       "error": null,
       "systemName": "JustDoWork",
       "version": "v1.0.0-rc.23",
@@ -385,8 +385,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3630,
-        "attempts": 1,
+        "ms": 9569,
+        "attempts": 2,
         "url": "https://api.justwoker.icu/sign-up?aff=VTrz"
       },
       "mirrors": [],
@@ -400,10 +400,10 @@
     },
     {
       "id": "mirasim",
-      "checkedAt": "2026-10-08T13:32:58.947Z",
+      "checkedAt": "2026-10-08T23:22:45.025Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 3536,
+      "latencyMs": 9038,
       "error": null,
       "systemName": null,
       "version": null,
@@ -427,8 +427,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3575,
-        "attempts": 1,
+        "ms": 9042,
+        "attempts": 2,
         "url": "https://mirasim.ai/pricing"
       },
       "mirrors": [],
@@ -440,10 +440,10 @@
     },
     {
       "id": "flushapi",
-      "checkedAt": "2026-10-08T13:32:59.540Z",
+      "checkedAt": "2026-10-08T23:22:41.943Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 4127,
+      "latencyMs": 5956,
       "error": null,
       "systemName": "FlushAPI",
       "version": "",
@@ -470,8 +470,8 @@
           "inputPerMTok": 10,
           "outputPerMTok": 50,
           "groups": [
-            "Super",
-            "default"
+            "default",
+            "Super"
           ],
           "protocols": [
             "anthropic",
@@ -518,8 +518,8 @@
           "inputPerMTok": 2,
           "outputPerMTok": 10,
           "groups": [
-            "default",
-            "Super"
+            "Super",
+            "default"
           ],
           "protocols": [
             "anthropic",
@@ -580,8 +580,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 4295,
-        "attempts": 1,
+        "ms": 6001,
+        "attempts": 2,
         "url": "https://flushapi.fun/sign-up?aff=WBF3"
       },
       "mirrors": [],
@@ -593,10 +593,10 @@
     },
     {
       "id": "kktoken",
-      "checkedAt": "2026-10-08T13:32:59.514Z",
+      "checkedAt": "2026-10-08T23:22:41.996Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 4100,
+      "latencyMs": 6011,
       "error": null,
       "systemName": "KKtoken AI",
       "version": "v1.0.0-rc.25",
@@ -623,8 +623,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3745,
-        "attempts": 1,
+        "ms": 6138,
+        "attempts": 2,
         "url": "https://kktoken.cc/sign-up?aff=MzG9"
       },
       "mirrors": [],
@@ -636,10 +636,10 @@
     },
     {
       "id": "matrix",
-      "checkedAt": "2026-10-08T13:33:00.052Z",
+      "checkedAt": "2026-10-08T23:22:41.939Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 4637,
+      "latencyMs": 5956,
       "error": null,
       "systemName": null,
       "version": null,
@@ -663,8 +663,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 4695,
-        "attempts": 1,
+        "ms": 5992,
+        "attempts": 2,
         "url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"
       },
       "mirrors": [],
@@ -676,10 +676,10 @@
     },
     {
       "id": "anyrouter",
-      "checkedAt": "2026-10-08T13:33:05.484Z",
+      "checkedAt": "2026-10-08T23:22:49.465Z",
       "apiOk": false,
       "pricingOk": false,
-      "latencyMs": 156,
+      "latencyMs": 174,
       "error": "invalid json",
       "systemName": null,
       "version": null,
@@ -703,8 +703,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 5239,
-        "attempts": 1,
+        "ms": 10303,
+        "attempts": 2,
         "url": "https://anyrouter.top/register?aff=Z24N"
       },
       "mirrors": [],
@@ -716,10 +716,10 @@
     },
     {
       "id": "cheapcodex",
-      "checkedAt": "2026-10-08T13:33:00.350Z",
+      "checkedAt": "2026-10-08T23:22:46.351Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 4934,
+      "latencyMs": 10359,
       "error": null,
       "systemName": null,
       "version": null,
@@ -743,8 +743,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 4876,
-        "attempts": 1,
+        "ms": 10368,
+        "attempts": 2,
         "url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S"
       },
       "mirrors": [],
@@ -756,10 +756,10 @@
     },
     {
       "id": "nofx",
-      "checkedAt": "2026-10-08T13:33:01.627Z",
+      "checkedAt": "2026-10-08T23:22:47.147Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 6210,
+      "latencyMs": 11154,
       "error": null,
       "systemName": null,
       "version": null,
@@ -783,8 +783,8 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 5854,
-        "attempts": 1,
+        "ms": 11184,
+        "attempts": 2,
         "url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4"
       },
       "mirrors": [],
