@@ -85,6 +85,11 @@
       "registration": "Den vollständigen Empfehlungslink verwenden und mit GitHub fortfahren. Die Registrierungsseite bewirbt sofortige 100 US-Dollar Guthaben ohne Kreditkarte. Nach der Anmeldung einen API-Schlüssel im Dashboard erstellen.",
       "notes": "Die öffentliche Modellseite führt Opus 5.5 und weitere Modelle mit ihren Preisen auf. Aktuelle Modellpreise beim Anbieter sowie den tatsächlichen Kontostand und Verbrauch im Dashboard prüfen."
     },
+    "codex-relay": {
+      "summary": "Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.",
+      "registration": "Öffne den vollständigen Empfehlungslink, behalte aff=6jAq bei und folge den Registrierungsanweisungen. Melde dich an, um dein Startguthaben von 10 US-Dollar einzusehen.",
+      "notes": "Verfügbare Modelle, Preise, API-Schlüssel, Endpunkte und Anweisungen zur Client-Einrichtung findest du in der Konsole."
+    },
     "omnirush": {
       "summary": "Kostenloser Zugang zu GPT 6 Astra, GPT 6 Sol und GPT-5.6 Sol mit 50M Tokens pro Woche; über diesen Empfehlungslink gibt es zusätzlich 5M Tokens.",
       "registration": "Öffne den vollständigen Empfehlungslink zur Konsole, behalte ref=AXJFLFPA bei und folge der Registrierung. Prüfe dein Wochenkontingent und den Empfehlungsbonus in der Konsole.",

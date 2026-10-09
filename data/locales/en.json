@@ -85,6 +85,11 @@
       "registration": "Use the full referral link and continue with GitHub. The signup page advertises an immediate $100 credit with no credit card required. Create an API key in the dashboard after signing in.",
       "notes": "The public models page lists Opus 5.5 and other models with their prices. Check the service for current model pricing and the dashboard for your actual balance and usage."
     },
+    "codex-relay": {
+      "summary": "Register with Codex Relay to receive $10 in API credits.",
+      "registration": "Open the full referral link, keep aff=6jAq and follow the registration instructions. Sign in to view your $10 signup credit balance.",
+      "notes": "Check the console for available models, prices, API keys, endpoints and client setup instructions."
+    },
     "omnirush": {
       "summary": "Free GPT 6 Astra, GPT 6 Sol and GPT-5.6 Sol with 50M tokens every week; register through this referral link for an extra 5M tokens.",
       "registration": "Open the full console referral link, keep ref=AXJFLFPA and follow the signup instructions. Check your weekly allowance and referral reward in the console.",

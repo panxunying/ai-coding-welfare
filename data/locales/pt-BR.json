@@ -85,6 +85,11 @@
       "registration": "Use o link completo de indicação e continue com o GitHub. A página de cadastro anuncia US$ 100 em créditos imediatos, sem exigir cartão de crédito. Após entrar, crie uma chave de API no painel.",
       "notes": "A página pública de modelos lista o Opus 5.5 e outros modelos com seus preços. Confira os preços atuais no serviço e o saldo real e o consumo no painel."
     },
+    "codex-relay": {
+      "summary": "Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.",
+      "registration": "Abra o link completo de indicação, mantenha aff=6jAq e siga as instruções de cadastro. Entre na conta para conferir seu saldo de US$ 10 em créditos de cadastro.",
+      "notes": "Consulte o console para ver os modelos disponíveis, preços, chaves de API, endpoints e instruções de configuração do cliente."
+    },
     "omnirush": {
       "summary": "GPT 6 Astra, GPT 6 Sol e GPT-5.6 Sol gratuitos com 50M de tokens por semana; cadastre-se por este link de indicação para receber mais 5M de tokens.",
       "registration": "Abra o link completo de indicação do console, mantenha ref=AXJFLFPA e siga as instruções de cadastro. Confira a franquia semanal e o bônus de indicação no console.",

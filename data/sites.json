@@ -83,6 +83,56 @@
       "community": []
     },
     {
+      "id": "codex-relay",
+      "name": "Codex Relay",
+      "subtitle": "注册可获得 $10 API 额度",
+      "recommended": false,
+      "panel": "relay",
+      "credits": {
+        "signup": 10,
+        "invite": null,
+        "dailyCheckin": null,
+        "approx": false,
+        "unit": "usd"
+      },
+      "signupUrl": "https://codex-relay.codes/register?aff=6jAq",
+      "homeUrl": "https://codex-relay.codes",
+      "docsUrl": null,
+      "statusApi": "https://codex-relay.codes",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": ["免费额度", "注册 $10"],
+      "highlights": [
+        "注册可获得 $10 API 额度",
+        "通过本页完整邀请链接进入，保留 aff=6jAq"
+      ],
+      "endpoints": {
+        "anthropic": null,
+        "openai": null
+      },
+      "setup": {
+        "client": "控制台内查看",
+        "note": "注册后在 Codex Relay 控制台查看 API 接入地址、可用模型和接入说明。",
+        "steps": [
+          "打开本页完整邀请链接，保留 aff=6jAq，按页面提示完成注册",
+          "登录控制台查看 $10 注册额度",
+          "按控制台说明获取 API Key、接入地址和模型 ID，并配置客户端"
+        ],
+        "dashboardUrl": "https://codex-relay.codes"
+      },
+      "modelsNote": "可用模型、价格和实际调用名称请在控制台查看。",
+      "register": {
+        "methods": ["官网注册"],
+        "requirements": [
+          "使用完整注册链接，保留 aff=6jAq，并按页面提示完成注册",
+          "注册可获得 $10 额度，登录后在控制台查看余额"
+        ]
+      },
+      "earnMore": [],
+      "caveats": [],
+      "community": []
+    },
+    {
       "id": "omnirush",
       "name": "OmniRush",
       "subtitle": "每周免费 50M tokens · 本页邀请额外 +5M · GPT 6 Astra / GPT 6 Sol / GPT-5.6 Sol",
