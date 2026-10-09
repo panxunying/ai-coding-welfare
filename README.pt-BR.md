@@ -15,14 +15,14 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-10-09 13:20 UTC
+**Dados atualizados em:** 2026-10-09 22:40 UTC
 
 ## Visão geral
 
 | Serviço | Status | Créditos no primeiro dia / plano | Créditos diários | Cadastro |
 | --- | --- | --- | --- | --- |
 | **ArtBloom** | Acessível | **$100** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) |
-| **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) |
+| **Codex Relay** | Falha na verificação | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) |
 | **OmniRush** | Acessível | **Não divulgado publicamente** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://omnirush.ai/console?ref=AXJFLFPA) |
 | **Conduit** | Acessível | **$500** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://t.me/conduitoff_bot?start=ref_8111640723) |
 | **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) |
@@ -59,7 +59,7 @@ Serviço de API compatível com OpenAI que oferece US$ 100 em créditos no prime
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -94,8 +94,8 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Créditos no primeiro dia / plano**: $10
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
-- **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Status**: Falha na verificação
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -129,7 +129,7 @@ GPT 6 Astra, GPT 6 Sol e GPT-5.6 Sol gratuitos com 50M de tokens por semana; cad
 - **Créditos no primeiro dia / plano**: Não divulgado publicamente
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -164,7 +164,7 @@ Cadastre-se pelo bot do Conduit no Telegram para receber US$ 500 em créditos, c
 - **Cadastro**: $500
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -244,7 +244,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sem check-in
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -284,7 +284,7 @@ Gateway New API com login GitHub, check-ins diários e interfaces de imagens e t
 - **Créditos diários**: ≈$22/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -319,7 +319,7 @@ Ambiente multiagente com plano Go pago; conectar suas próprias contas ou chaves
 
 - **Créditos no primeiro dia / plano**: Go · $1/mês
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 > Estimativas por janela de 5 horas
 > Kimi K3: ≈130 requisições
@@ -364,7 +364,7 @@ Gateway New API com cadastro GitHub, preços públicos e saldos default / Super 
 - **Créditos diários**: Check-in ativo; valor não divulgado
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -411,7 +411,7 @@ Gateway New API com créditos de indicação, check-ins diários e cobrança por
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -448,7 +448,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -485,7 +485,7 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -521,7 +521,7 @@ Gateway de IA com créditos de indicação, check-ins e rotas OpenAI, Anthropic 
 - **Bônus de indicação**: $20
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
@@ -557,7 +557,7 @@ Pontos de API por tarefas, login sem senha, check-in no Discord e indicações; 
 - **Bônus de indicação**: 10 pontos
 - **Créditos diários**: 5 pontos/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-09 13:20 UTC
+- **Dados atualizados em**: 2026-10-09 22:40 UTC
 
 
 ### Requisitos de cadastro
