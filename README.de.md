@@ -15,13 +15,14 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-10-09 06:12 UTC
+**Datenstand:** 2026-10-09 09:52 UTC
 
 ## Anbieterübersicht
 
 | Anbieter | Status | Guthaben am ersten Tag / Tarif | Tägliches Guthaben | Registrierung |
 | --- | --- | --- | --- | --- |
 | **ArtBloom** | Erreichbar | **$100** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) |
+| **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) |
 | **OmniRush** | Erreichbar | **Nicht öffentlich angegeben** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://omnirush.ai/console?ref=AXJFLFPA) |
 | **Conduit** | Erreichbar | **$500** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://t.me/conduitoff_bot?start=ref_8111640723) |
 | **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) |
@@ -32,10 +33,10 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) |
 | **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) |
 | **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) |
-| **CheapCodex** | Prüfung fehlgeschlagen | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
+| **CheapCodex** | Erreichbar | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
 
-**Ungefähres USD-Guthaben am ersten Tag: $1199.5 bei 8 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $1209.5 bei 9 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -58,7 +59,7 @@ OpenAI-kompatibler API-Dienst mit 100 US-Dollar Guthaben am ersten Tag der Regis
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -83,6 +84,41 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/)
+## Codex Relay
+
+Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
+
+[Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/codex-relay/)
+
+
+- **Guthaben am ersten Tag / Tarif**: $10
+- **Registrierung**: $10
+- **Tägliches Guthaben**: Nicht öffentlich angegeben
+- **Status**: Erreichbar
+- **Datenstand**: 2026-10-09 09:52 UTC
+
+
+### Voraussetzungen für die Registrierung
+
+Öffne den vollständigen Empfehlungslink, behalte aff=6jAq bei und folge den Registrierungsanweisungen. Melde dich an, um dein Startguthaben von 10 US-Dollar einzusehen.
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+Verfügbare Modelle, Preise, API-Schlüssel, Endpunkte und Anweisungen zur Client-Einrichtung findest du in der Konsole.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+- [Dashboard](https://codex-relay.codes)
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
 ## OmniRush
 
 Kostenloser Zugang zu GPT 6 Astra, GPT 6 Sol und GPT-5.6 Sol mit 50M Tokens pro Woche; über diesen Empfehlungslink gibt es zusätzlich 5M Tokens.
@@ -93,7 +129,7 @@ Kostenloser Zugang zu GPT 6 Astra, GPT 6 Sol und GPT-5.6 Sol mit 50M Tokens pro 
 - **Guthaben am ersten Tag / Tarif**: Nicht öffentlich angegeben
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -128,7 +164,7 @@ Die Registrierung über den Conduit-Bot auf Telegram bietet 500 US-Dollar Guthab
 - **Registrierung**: $500
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -208,7 +244,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kein Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -248,7 +284,7 @@ New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabensch
 - **Tägliches Guthaben**: ≈$22/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -283,7 +319,7 @@ Multi-Agent-Arbeitsumgebung mit kostenpflichtigem Go-Tarif; eigene Konten oder A
 
 - **Guthaben am ersten Tag / Tarif**: Go · $1/Monat
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 > Schätzwerte je 5-Stunden-Zeitfenster
 > Kimi K3: ≈130 Anfragen
@@ -328,7 +364,7 @@ New-API-Gateway mit GitHub-Registrierung, öffentlichen Modellpreisen und getren
 - **Tägliches Guthaben**: Check-in aktiviert; Betrag nicht veröffentlicht
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -375,7 +411,7 @@ New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -412,7 +448,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -449,7 +485,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -484,8 +520,8 @@ KI-Gateway mit Empfehlungsprämien, täglichen Check-ins sowie OpenAI-, Anthropi
 - **Guthaben am ersten Tag / Tarif**: $40
 - **Empfehlungsbonus**: $20
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
-- **Status**: Prüfung fehlgeschlagen
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Status**: Erreichbar
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -521,7 +557,7 @@ Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und E
 - **Empfehlungsbonus**: 10 Punkte
 - **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-09 06:11 UTC
+- **Datenstand**: 2026-10-09 09:52 UTC
 
 
 ### Voraussetzungen für die Registrierung

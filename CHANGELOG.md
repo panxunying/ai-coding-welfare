@@ -8,6 +8,8 @@ AI Coding 福利站导航的自动变动记录：站点上下线、额度调整�
 
 ## 2026-10-09
 
+- 🆕 新收录 Codex Relay：注册送 $10 <sub>09:52 UTC</sub>
+- 🟢 CheapCodex 恢复在线 <sub>09:52 UTC</sub>
 - 📢 DoCode 发了公告：gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。 <sub>06:12 UTC</sub>
 - 🔴 CheapCodex 探测不到了：注册页与公开接口都没响应 <sub>06:12 UTC</sub>
 
