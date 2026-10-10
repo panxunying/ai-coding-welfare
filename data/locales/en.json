@@ -68,9 +68,19 @@
     "cached": "Cached data: the latest probe did not obtain a fresh snapshot. Last successful snapshot: {at}.",
     "blocked": "The automated probe was blocked by an anti-bot service. The last successful status is retained; your browser may still work.",
     "quickstart": "Getting started",
-    "steps": ["Follow the full referral link and check the registration requirements and reward conditions.", "Create a key in the dashboard. Use the verified endpoint below, or obtain the current endpoint from the provider if none is public.", "Configure a supported client, try a small request and check actual balance consumption before relying on the service."],
+    "steps": [
+      "Follow the full referral link and check the registration requirements and reward conditions.",
+      "Create a key in the dashboard. Use the verified endpoint below, or obtain the current endpoint from the provider if none is public.",
+      "Configure a supported client, try a small request and check actual balance consumption before relying on the service."
+    ],
     "safety": "Safety and disclosure",
-    "disclaimer": ["Links may contain referral codes. Rewards and eligibility are set by each provider; signup alone does not guarantee a reward.", "This is an independent directory, not a service operator or a guarantee of uptime. Free offers, prices and policies can change or disappear.", "Do not send production secrets, private data or company code to unknown gateways. Use official APIs for important work.", "Follow provider and upstream terms. Do not mass-register accounts, abuse promotions or resell credits.", "Issue submissions are posted by community members and may be unverified. Assess them independently before registering."],
+    "disclaimer": [
+      "Links may contain referral codes. Rewards and eligibility are set by each provider; signup alone does not guarantee a reward.",
+      "This is an independent directory, not a service operator or a guarantee of uptime. Free offers, prices and policies can change or disappear.",
+      "Do not send production secrets, private data or company code to unknown gateways. Use official APIs for important work.",
+      "Follow provider and upstream terms. Do not mass-register accounts, abuse promotions or resell credits.",
+      "Issue submissions are posted by community members and may be unverified. Assess them independently before registering."
+    ],
     "archive": "Archived services",
     "archiveNote": "No longer recommended for registration, counted in totals or probed. Original reasons and historical records remain available in the Chinese edition.",
     "maintenance": "Contributing and translations",
@@ -149,6 +159,11 @@
       "summary": "Task-based API points with passwordless login, Discord check-ins and referral rewards; points are not USD.",
       "registration": "Keep the full referral URL. Sign in through an email magic link or GitHub. Join Discord and select /verify and /checkin from the command menu; those rewards cannot be claimed without Discord. Get the API key and actual base URL from the authenticated dashboard.",
       "notes": "Points expire after 30 days; real API usage resets that period. Check-ins pause above a 50-point balance. Discord verification gives 5 points once (code valid for 30 minutes), referrals give 5 points per friend, and an approved X post gives 20 points once. The landing page advertises 20 signup points while the recorded referral rule gives 10: verify the actual award. No public points-to-USD conversion exists. Robots rules only permit checking public pages; models and prices require login."
+    },
+    "novai": {
+      "summary": "Zero-fee gateway for 121 Chinese frontier models behind one OpenAI-compatible endpoint.",
+      "registration": "Sign up free for $2 credit (no card); five models are free and unlimited.",
+      "notes": "0% platform markup; live pricing at /china-ai-leaderboard.json; image models carry a visible AI watermark per China rules."
     }
   }
 }

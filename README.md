@@ -5,8 +5,8 @@
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-13%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-13%2F13-brightgreen" alt="在线">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-14%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-13%2F14-orange" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24500-success" alt="首日可得">
   <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--10--10%2014.34%20UTC-informational" alt="数据更新">
 </p>
@@ -24,7 +24,8 @@
   <a href="https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"><b>Matrix 注册</b></a> ·
   <a href="https://anyrouter.top/register?aff=Z24N"><b>AnyRouter 注册</b></a> ·
   <a href="https://api.cheapcodex.online/register?aff=U7SSQZSDB36S"><b>CheapCodex 注册</b></a> ·
-  <a href="https://nofx.one/zh-CN/sign-in?ref=J369GHY4"><b>NOFX 注册</b></a>
+  <a href="https://nofx.one/zh-CN/sign-in?ref=J369GHY4"><b>NOFX 注册</b></a> ·
+  <a href="https://aiapi-pro.com/register?utm_source=ai_coding_welfare"><b>NovAI (AI API Pro) 注册</b></a>
 </p>
 
 <p align="center"><a href="https://panxunying.github.io/ai-coding-welfare/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://panxunying.github.io/ai-coding-welfare/status/">🩺 可用性历史</a> · <a href="https://panxunying.github.io/ai-coding-welfare/changelog/">🗓 变动日志</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">🔔 Atom 订阅</a></p>
@@ -53,6 +54,7 @@
 | **AnyRouter** | 🟢 在线 | **$150** | 注册 $75 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://anyrouter.top/register?aff=Z24N) | — |
 | **CheapCodex** | 🟢 在线 | **$40** | 本页邀请 $20 + 首签 $20 | $20/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | 🟢 在线 | **15 积分** | 本页邀请 10 积分 + 首签 5 积分 | 5 积分/天 | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
+| **NovAI (AI API Pro)** | 🔴 异常 | **$2** | 注册 $2 | — | OpenAI | **121 个中国前沿模型（DeepSeek/Qwen/GLM/Kimi/Seedance/MiniMax/混元/CogVideo）** | [点此注册 →](https://aiapi-pro.com/register?utm_source=ai_coding_welfare) | — |
 
 > **Mirasim Go套餐 $1/月：用量按每 5 小时估算，不是每月总次数。** 官网估算，共享额度按模型折算，各模型次数不可相加；实际用量以站内为准。 付费套餐不计入下方免费额度合计。[官网定价](https://mirasim.ai/pricing)（2026-09-23 核对）。
 
@@ -60,7 +62,7 @@
 >
 > 「邀请码」列写了码的站（DoCode `zMRe`），注册表单里有一栏要**自己填**，漏填就只拿得到注册基础额度、事后补不上；其余站写 — 表示未登记需要手填的邀请码，邀请奖励与条件请看站点详情。
 >
-> 8 个有明确美元额度、且还收新用户的站全注册一遍，第一天手上大约有 **$1109.5** 额度可用；DoCode 另发 300 站内刀，Matrix 另发 600 积分，NOFX 另发 15 积分，都是各站自己的计价单位、与美元没有公开换算，未计入这个合计。
+> 9 个有明确美元额度、且还收新用户的站全注册一遍，第一天手上大约有 **$1111.5** 额度可用；DoCode 另发 300 站内刀，Matrix 另发 600 积分，NOFX 另发 15 积分，都是各站自己的计价单位、与美元没有公开换算，未计入这个合计。
 >
 > 🟡 有 1 个站点已超过 48 小时没抓到接口数据，其明细为上一次成功抓取的快照；在线状态按注册页实际可访问性判断。
 
@@ -231,7 +233,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 408 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 410 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
@@ -1236,6 +1238,84 @@ curl -s https://api.cheapcodex.online/v1/chat/completions \
 - 落地页的 CTA 写「注册领取 $20 积分」，而本页登记的邀请注册是 10 积分——两个口径站点没在公开页面上对齐，进后台看实际到账数
 - 「分享到 X」那 $20 要发带自己邀请码的推文并上传截图过审，本质是替站点做推广，要不要做自己判断
 - 站点公开面读不到任何机器可读的状态：robots.txt 禁掉了 /api/ 与控制台各页，本页只探 sitemap.xml 判断站点还活着，所以「实时数据」一栏只有延迟
+
+---
+
+### 🔴 NovAI (AI API Pro)
+
+> 零平台费的中国前沿模型网关，121 个模型一个 OpenAI 兼容端点
+
+<a href="https://aiapi-pro.com/register?utm_source=ai_coding_welfare"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-NovAI%20(AI%20API%20Pro)-brightgreen?style=for-the-badge" alt="注册 NovAI (AI API Pro)"></a>
+
+**为什么值得注册**
+
+- 5 个永久免费无限模型：glm-4.7-flash / glm-4.6v-flash / glm-4.1v-thinking-flash / cogview-3-flash / cogvideox-flash
+- 0% 平台加价，透传官方价（对比 OpenRouter ~5.5%）
+- 121 个中国前沿模型，OpenAI 兼容，海外无需中国手机号/支付宝
+
+**能拿多少额度**
+
+- 注册即送：**$2**
+- 首日合计：**$2**
+
+**实时数据**（自动抓取站点公开接口）
+
+_暂无实时数据_
+
+> 实时价格见 https://aiapi-pro.com/china-ai-leaderboard.json
+
+**注册要求**
+
+- 注册送 $2 无需卡；海外无需中国手机号/支付宝。
+
+**接入配置**
+
+<details><summary><b>Codex CLI</b>（OpenAI 兼容，写入 <code>~/.codex/config.toml</code>）</summary>
+
+```toml
+model = "<登录后台查看可用模型名>"
+model_provider = "novai"
+
+[model_providers.novai]
+name = "NovAI (AI API Pro)"
+base_url = "https://aiapi-pro.com/v1"
+env_key = "NOVAI_API_KEY"
+wire_api = "chat"
+```
+
+</details>
+
+<details><summary><b>OpenAI SDK / Cherry Studio / Cursor 等通用客户端</b></summary>
+
+```python
+from openai import OpenAI
+
+client = OpenAI(api_key="你的 Key", base_url="https://aiapi-pro.com/v1")
+resp = client.chat.completions.create(model="<登录后台查看可用模型名>", messages=[{"role": "user", "content": "ping"}])
+print(resp.choices[0].message.content)
+```
+
+通用客户端只需填两项：**Base URL** = `https://aiapi-pro.com/v1`，**API Key** = 站点后台创建的 Key。
+
+</details>
+
+<details><summary><b>连通性自测</b></summary>
+
+```bash
+curl -s https://aiapi-pro.com/v1/chat/completions \
+  -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" \
+  -d '{"model":"<登录后台查看可用模型名>","messages":[{"role":"user","content":"只回复 OK"}]}'
+```
+
+</details>
+
+**如何继续拿额度**
+
+- Affiliate 20% 循环佣金：https://aiapi-pro.com/affiliate.html
+
+**⚠️ 使用前必读**
+
+- 图像模型按中国标注规则带可见 AI 水印（/watermark-notice）。
 
 ---
 

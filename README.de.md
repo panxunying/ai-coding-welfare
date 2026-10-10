@@ -34,8 +34,9 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) |
 | **CheapCodex** | Erreichbar | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| **NovAI (AI API Pro)** | Unbekannt | **$2** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://aiapi-pro.com/register?utm_source=ai_coding_welfare) |
 
-**Ungefähres USD-Guthaben am ersten Tag: $1109.5 bei 8 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $1111.5 bei 9 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -544,6 +545,42 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/nofx/)
+## NovAI (AI API Pro)
+
+Gebührenfreies Gateway für 121 chinesische Frontier-Modelle hinter einem OpenAI-kompatiblen Endpunkt.
+
+[Dienst öffnen / registrieren](https://aiapi-pro.com/register?utm_source=ai_coding_welfare) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/novai/)
+
+
+- **Guthaben am ersten Tag / Tarif**: $2
+- **Registrierung**: $2
+- **Tägliches Guthaben**: Nicht öffentlich angegeben
+- **Status**: Unbekannt
+- **Datenstand**: Unbekannt
+
+
+### Voraussetzungen für die Registrierung
+
+Kostenlose Anmeldung mit $2 Guthaben (ohne Karte); fünf Modelle dauerhaft kostenlos.
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+0% Plattform-Aufschlag; Live-Preise unter /china-ai-leaderboard.json; Bildmodelle mit sichtbarem KI-Wasserzeichen.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+- OpenAI Base URL: `https://aiapi-pro.com/v1`
+- [Anbieterdokumentation (ggf. Chinesisch)](https://aiapi-pro.com/docs)
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/novai/)
 
 ## Archivierte Dienste
 
