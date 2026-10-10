@@ -34,8 +34,9 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 | **AnyRouter** | Reachable | **$150** | $25/day · Daily check-in | [Open service / register](https://anyrouter.top/register?aff=Z24N) |
 | **CheapCodex** | Reachable | **$40** | $20/day · Daily check-in | [Open service / register](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | Reachable | **15 points** | 5 points/day · Daily check-in | [Open service / register](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| **NovAI (AI API Pro)** | Unknown | **$2** | Not publicly specified | [Open service / register](https://aiapi-pro.com/register?utm_source=ai_coding_welfare) |
 
-**Indicative first-day USD credits: $1109.5 across 8 services accepting new users.**
+**Indicative first-day USD credits: $1111.5 across 9 services accepting new users.**
 
 First-day credit = signup + referral + first check-in (or one daily pool). Credits are separate service balances, not cash. Points, site units, paid plans, archived services and closed registrations are excluded from the USD total. Conditions and actual awards may vary.
 
@@ -544,6 +545,42 @@ Only models returned by the public snapshot are listed; missing data does not me
 Not publicly specified
 
 [Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/nofx/)
+## NovAI (AI API Pro)
+
+Zero-fee gateway for 121 Chinese frontier models behind one OpenAI-compatible endpoint.
+
+[Open service / register](https://aiapi-pro.com/register?utm_source=ai_coding_welfare) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/novai/)
+
+
+- **First-day credits / plan**: $2
+- **Signup**: $2
+- **Daily credits**: Not publicly specified
+- **Status**: Unknown
+- **Snapshot updated**: Unknown
+
+
+### Registration requirements
+
+Sign up free for $2 credit (no card); five models are free and unlimited.
+
+### Rewards, limits and important caveats
+
+0% platform markup; live pricing at /china-ai-leaderboard.json; image models carry a visible AI watermark per China rules.
+
+### Client setup
+
+Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
+
+- OpenAI Base URL: `https://aiapi-pro.com/v1`
+- [Provider documentation (may be Chinese)](https://aiapi-pro.com/docs)
+
+### Public model snapshot
+
+Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
+
+Not publicly specified
+
+[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/novai/)
 
 ## Archived services
 

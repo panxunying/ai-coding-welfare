@@ -34,8 +34,9 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 | **AnyRouter** | 到達可能 | **$150** | $25/日 · 毎日のチェックイン | [サービスを開く / 登録](https://anyrouter.top/register?aff=Z24N) |
 | **CheapCodex** | 到達可能 | **$40** | $20/日 · 毎日のチェックイン | [サービスを開く / 登録](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | 到達可能 | **15 ポイント** | 5 ポイント/日 · 毎日のチェックイン | [サービスを開く / 登録](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| **NovAI (AI API Pro)** | 不明 | **$2** | 公表されていません | [サービスを開く / 登録](https://aiapi-pro.com/register?utm_source=ai_coding_welfare) |
 
-**初日の米ドル建てクレジット目安：新規登録を受け付ける 8 サービスで計 $1109.5。**
+**初日の米ドル建てクレジット目安：新規登録を受け付ける 9 サービスで計 $1111.5。**
 
 初日のクレジット = 登録 + 紹介 + 初回チェックイン（または 1 日分の日次枠）。各サービスで独立した残高であり、現金ではありません。ポイント、サイト内単位、有料プラン、アーカイブ済みサービス、登録停止中のサービスは米ドル合計から除外します。条件と実際の付与額は異なる場合があります。
 
@@ -544,6 +545,42 @@ GitHub OAuth のみ。作成から 365 日以上のアカウントと Cloudflare
 公表されていません
 
 [詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/nofx/)
+## NovAI (AI API Pro)
+
+1つのOpenAI互換エンドポイントで121の中国フロンティアモデルを提供するゼロ手数料ゲートウェイ。
+
+[サービスを開く / 登録](https://aiapi-pro.com/register?utm_source=ai_coding_welfare) · [詳細](https://panxunying.github.io/ai-coding-welfare/ja/sites/novai/)
+
+
+- **初日のクレジット / プラン**: $2
+- **登録特典**: $2
+- **毎日のクレジット**: 公表されていません
+- **状態**: 不明
+- **データ更新日時**: 不明
+
+
+### 登録条件
+
+$2クレジット付きで無料登録（カード不要）；5モデルは永久無料・無制限。
+
+### 特典・制限・注意事項
+
+プラットフォーム手数料0%；ライブ価格は /china-ai-leaderboard.json；画像モデルには可視AI透かし。
+
+### クライアント設定
+
+管理画面で API キーを作成し、自分のアカウントで利用可能なモデルを選んでください。Anthropic の Base URL には /v1 を付けません。OpenAI 互換 URL には通常 /v1 を付けます。プロトコルの入口があっても、すべてのモデルやクライアントに対応するとは限りません。
+
+- OpenAI Base URL: `https://aiapi-pro.com/v1`
+- [提供元ドキュメント（中国語の場合あり）](https://aiapi-pro.com/docs)
+
+### 公開モデルデータ
+
+公開データに含まれるモデルのみを表示しています。データがないことはモデルがないことを意味しません。最新の料金、アカウントグループ、利用可否は管理画面で確認してください。リクエスト単価とトークン単価は別物です。
+
+公表されていません
+
+[詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/novai/)
 
 ## アーカイブ済みサービス
 

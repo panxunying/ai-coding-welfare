@@ -68,9 +68,19 @@
     "cached": "Zwischengespeicherte Daten: Die letzte Prüfung lieferte keine neuen Daten. Letzter erfolgreicher Datenstand: {at}.",
     "blocked": "Die automatische Prüfung wurde vom Bot-Schutz blockiert. Der letzte erfolgreiche Status bleibt erhalten; im Browser kann der Dienst dennoch funktionieren.",
     "quickstart": "Erste Schritte",
-    "steps": ["Öffne den vollständigen Empfehlungslink und prüfe Registrierungsvoraussetzungen und Prämienbedingungen.", "Erstelle im Dashboard einen Schlüssel. Verwende den unten bestätigten Endpunkt oder frage den aktuellen Endpunkt beim Anbieter ab, wenn keiner öffentlich bekannt ist.", "Konfiguriere einen unterstützten Client, sende eine kleine Testanfrage und prüfe den tatsächlichen Guthabenverbrauch."],
+    "steps": [
+      "Öffne den vollständigen Empfehlungslink und prüfe Registrierungsvoraussetzungen und Prämienbedingungen.",
+      "Erstelle im Dashboard einen Schlüssel. Verwende den unten bestätigten Endpunkt oder frage den aktuellen Endpunkt beim Anbieter ab, wenn keiner öffentlich bekannt ist.",
+      "Konfiguriere einen unterstützten Client, sende eine kleine Testanfrage und prüfe den tatsächlichen Guthabenverbrauch."
+    ],
     "safety": "Sicherheit und Transparenz",
-    "disclaimer": ["Links können Empfehlungscodes enthalten. Prämien und Teilnahmebedingungen legt der jeweilige Anbieter fest; eine Registrierung allein garantiert keine Prämie.", "Dies ist ein unabhängiges Verzeichnis, kein Dienstbetreiber und keine Verfügbarkeitsgarantie. Kostenlose Angebote, Preise und Regeln können sich ändern oder entfallen.", "Keine Produktionsschlüssel, privaten Daten oder Unternehmenscodes an unbekannte Gateways senden. Für wichtige Aufgaben offizielle APIs verwenden.", "Bedingungen der Anbieter und vorgelagerten Dienste beachten. Keine Massenregistrierungen, keinen Missbrauch von Aktionen und keinen Weiterverkauf von Guthaben.", "Issue-Beiträge stammen aus der Community und können ungeprüft sein. Vor einer Registrierung eigenständig bewerten."],
+    "disclaimer": [
+      "Links können Empfehlungscodes enthalten. Prämien und Teilnahmebedingungen legt der jeweilige Anbieter fest; eine Registrierung allein garantiert keine Prämie.",
+      "Dies ist ein unabhängiges Verzeichnis, kein Dienstbetreiber und keine Verfügbarkeitsgarantie. Kostenlose Angebote, Preise und Regeln können sich ändern oder entfallen.",
+      "Keine Produktionsschlüssel, privaten Daten oder Unternehmenscodes an unbekannte Gateways senden. Für wichtige Aufgaben offizielle APIs verwenden.",
+      "Bedingungen der Anbieter und vorgelagerten Dienste beachten. Keine Massenregistrierungen, keinen Missbrauch von Aktionen und keinen Weiterverkauf von Guthaben.",
+      "Issue-Beiträge stammen aus der Community und können ungeprüft sein. Vor einer Registrierung eigenständig bewerten."
+    ],
     "archive": "Archivierte Dienste",
     "archiveNote": "Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.",
     "maintenance": "Mitwirken und Übersetzungen",
@@ -149,6 +159,11 @@
       "summary": "Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und Empfehlungsprämien; Punkte sind keine USD.",
       "registration": "Vollständigen Empfehlungslink beibehalten. Per E-Mail-Magic-Link oder GitHub anmelden. Discord beitreten und /verify sowie /checkin aus dem Befehlsmenü wählen; diese Prämien setzen Discord voraus. API-Schlüssel und tatsächliche Basis-URL im angemeldeten Dashboard abrufen.",
       "notes": "Punkte verfallen nach 30 Tagen; echte API-Nutzung setzt die Frist zurück. Check-ins pausieren bei mehr als 50 Punkten Guthaben. Discord-Verifizierung bringt einmalig 5 Punkte (Code 30 Minuten gültig), Empfehlungen 5 Punkte je Freund und ein genehmigter X-Beitrag einmalig 20. Die Startseite wirbt mit 20 Registrierungspunkten, die erfasste Empfehlungsregel nennt 10: tatsächliche Gutschrift prüfen. Keine öffentliche Umrechnung in USD. Robots-Regeln erlauben nur öffentliche Seitenprüfungen; Modelle und Preise erfordern Anmeldung."
+    },
+    "novai": {
+      "summary": "Gebührenfreies Gateway für 121 chinesische Frontier-Modelle hinter einem OpenAI-kompatiblen Endpunkt.",
+      "registration": "Kostenlose Anmeldung mit $2 Guthaben (ohne Karte); fünf Modelle dauerhaft kostenlos.",
+      "notes": "0% Plattform-Aufschlag; Live-Preise unter /china-ai-leaderboard.json; Bildmodelle mit sichtbarem KI-Wasserzeichen."
     }
   }
 }
