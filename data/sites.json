@@ -13,8 +13,6 @@
       "每日免费额度",
       "claude-opus-5 API",
       "New API",
-      "ArtBloom",
-      "Opus 5.5 免费额度",
       "AgentRouter",
       "RawChat",
       "Matrix 统一网关",
@@ -36,7 +34,11 @@
       "id": "artbloom",
       "name": "ArtBloom",
       "subtitle": "支持 Opus 5.5 · 注册首日即送 $100，GitHub 一键注册",
-      "recommended": true,
+      "recommended": false,
+      "archived": {
+        "at": "2026-10-10",
+        "reason": "按维护者要求下架，移入历史区，不再推荐注册"
+      },
       "panel": "relay",
       "credits": {
         "signup": 100,

@@ -5,14 +5,13 @@
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-14%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-14%2F14-brightgreen" alt="在线">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-13%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-13%2F13-brightgreen" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24500-success" alt="首日可得">
   <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--10--10%2012.35%20UTC-informational" alt="数据更新">
 </p>
 
 <p align="center">
-  <a href="https://api.artbloom.tech/signup?ref=PCTM2VCGUI"><b>ArtBloom 注册</b></a> ·
   <a href="https://codex-relay.codes/register?aff=6jAq"><b>Codex Relay 注册</b></a> ·
   <a href="https://omnirush.ai/console?ref=AXJFLFPA"><b>OmniRush 注册</b></a> ·
   <a href="https://t.me/conduitoff_bot?start=ref_8111640723"><b>Conduit 注册</b></a> ·
@@ -41,7 +40,6 @@
 
 | 站点 | 状态 | 首日可得 / 套餐 | 额度构成 / 用量 | 每日 / 周期 | 兼容协议 | 模型 | 注册 | 邀请码 |
 | :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: | :--: |
-| **ArtBloom** 🔥 | 🟢 在线 | **$100** | 注册 $100 | — | OpenAI | **支持 Opus 5.5** | [点此注册 →](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) | — |
 | **Codex Relay** | 🟢 在线 | **$10** | 注册 $10 | — | 控制台内查看 | 需登录查看 | [点此注册 →](https://codex-relay.codes/register?aff=6jAq) | — |
 | **OmniRush** | 🟢 在线 | 每周免费 50M tokens（5000 万），通过本页邀请链接额外 +5M tokens（500 万）；按投稿信息登记，实际到账与适用条件以控制台为准。 | — | — | 控制台内查看 | **GPT 6 Astra / GPT 6 Sol / GPT-5.6 Sol** | [点此注册 →](https://omnirush.ai/console?ref=AXJFLFPA) | — |
 | **Conduit** | 🟢 在线 | **$500** | 注册 $500 | — | 机器人内查看 | **GPT-6 / Fable 5.1 等** | [点此注册 →](https://t.me/conduitoff_bot?start=ref_8111640723) | — |
@@ -62,7 +60,7 @@
 >
 > 「邀请码」列写了码的站（DoCode `zMRe`），注册表单里有一栏要**自己填**，漏填就只拿得到注册基础额度、事后补不上；其余站写 — 表示未登记需要手填的邀请码，邀请奖励与条件请看站点详情。
 >
-> 9 个有明确美元额度、且还收新用户的站全注册一遍，第一天手上大约有 **$1209.5** 额度可用；DoCode 另发 300 站内刀，Matrix 另发 600 积分，NOFX 另发 15 积分，都是各站自己的计价单位、与美元没有公开换算，未计入这个合计。
+> 8 个有明确美元额度、且还收新用户的站全注册一遍，第一天手上大约有 **$1109.5** 额度可用；DoCode 另发 300 站内刀，Matrix 另发 600 积分，NOFX 另发 15 积分，都是各站自己的计价单位、与美元没有公开换算，未计入这个合计。
 >
 > 🟡 有 1 个站点已超过 48 小时没抓到接口数据，其明细为上一次成功抓取的快照；在线状态按注册页实际可访问性判断。
 
@@ -86,77 +84,6 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 ## 📚 站点详情
 
-
-### 🟢 ArtBloom 🔥 首推
-
-> 支持 Opus 5.5 · 注册首日即送 $100，GitHub 一键注册
-
-<a href="https://api.artbloom.tech/signup?ref=PCTM2VCGUI"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-ArtBloom-brightgreen?style=for-the-badge" alt="注册 ArtBloom"></a>
-
-**为什么值得注册**
-
-- 注册首日即送 $100 API 额度，注册页公示即时到账，无需信用卡
-- 支持 Opus 5.5（claude-opus-5-5），公开模型页价格为输入 $2 / 百万 tokens、输出 $10 / 百万 tokens
-- 通过本页邀请链接使用 GitHub 注册；支持 OpenAI 兼容接口，可在通用客户端中接入
-
-**能拿多少额度**
-
-- 注册即送：**$100**
-- 首日合计：**$100**
-
-**实时数据**（自动抓取站点公开接口）
-
-- 接口延迟：932 ms
-
-> 2026-09-28 核对公开模型页：Opus 5.5 的模型 ID 为 claude-opus-5-5，输入 $2 / 百万 tokens、输出 $10 / 百万 tokens；另列有 claude-opus-5、DeepSeek-V4-Flash、kimi-k3。通过 OpenAI 兼容的 /v1/chat/completions 调用，完整模型与实时价格见 https://api.artbloom.tech/models。
-
-**注册要求**
-
-- 从本页完整邀请链接进入，保留 ref=PCTM2VCGUI，再点击 Continue with GitHub 注册
-- 注册页公示新账号即时获得 $100 免费额度，到账后可在后台查看余额并创建 API Key
-
-**接入配置**
-
-<details><summary><b>Codex CLI</b>（OpenAI 兼容，写入 <code>~/.codex/config.toml</code>）</summary>
-
-```toml
-model = "<登录后台查看可用模型名>"
-model_provider = "artbloom"
-
-[model_providers.artbloom]
-name = "ArtBloom"
-base_url = "https://api.artbloom.tech/v1"
-env_key = "ARTBLOOM_API_KEY"
-wire_api = "chat"
-```
-
-</details>
-
-<details><summary><b>OpenAI SDK / Cherry Studio / Cursor 等通用客户端</b></summary>
-
-```python
-from openai import OpenAI
-
-client = OpenAI(api_key="你的 Key", base_url="https://api.artbloom.tech/v1")
-resp = client.chat.completions.create(model="<登录后台查看可用模型名>", messages=[{"role": "user", "content": "ping"}])
-print(resp.choices[0].message.content)
-```
-
-通用客户端只需填两项：**Base URL** = `https://api.artbloom.tech/v1`，**API Key** = 站点后台创建的 Key。
-
-</details>
-
-<details><summary><b>连通性自测</b></summary>
-
-```bash
-curl -s https://api.artbloom.tech/v1/chat/completions \
-  -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" \
-  -d '{"model":"<登录后台查看可用模型名>","messages":[{"role":"user","content":"只回复 OK"}]}'
-```
-
-</details>
-
----
 
 ### 🟢 Codex Relay
 
@@ -304,7 +231,7 @@ curl -s https://api.artbloom.tech/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 406 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 408 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
@@ -1316,6 +1243,7 @@ curl -s https://api.cheapcodex.online/v1/chat/completions \
 
 这些站已反馈不可用，保留名称与归档原因，不再推荐注册、展示额度或进行定时探测。历史记录仍可在[变动日志](https://panxunying.github.io/ai-coding-welfare/changelog/)中查看；确认恢复可用后可人工重新收录。
 
+- **ArtBloom**（`2026-10-10` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **GoRouter**（`2026-09-21` 归档） — 用户反馈已无法使用，移入历史区，不再推荐注册
 - **TaBiAI**（`2026-09-21` 归档） — 用户反馈已无法使用，移入历史区，不再推荐注册
 - **RawChat 公益站**（`2026-09-21` 归档） — 用户反馈已无法使用，移入历史区，不再推荐注册
@@ -1420,6 +1348,6 @@ npm run check     # 校验链接是否还活着
 
 <p align="center"><b>觉得有用点个 ⭐ Star</b>，福利站有变动时这里会自动更新。</p>
 
-<sub>关键词：Claude Code 免费 · Claude Code 中转 · Codex 中转 · Codex 公益站 · AI API 中转站 · 公益站 · 免费 API 额度 · 每日免费额度 · claude-opus-5 API · New API · ArtBloom · Opus 5.5 免费额度 · AgentRouter · RawChat · Matrix 统一网关 · TaBiAI · GoRouter · KKtoken · AnyRouter · CheapCodex · NOFX 积分 · Mirasim Go · GPT-5.6 Sol 中转 · claude-opus-5 按次计费</sub>
+<sub>关键词：Claude Code 免费 · Claude Code 中转 · Codex 中转 · Codex 公益站 · AI API 中转站 · 公益站 · 免费 API 额度 · 每日免费额度 · claude-opus-5 API · New API · AgentRouter · RawChat · Matrix 统一网关 · TaBiAI · GoRouter · KKtoken · AnyRouter · CheapCodex · NOFX 积分 · Mirasim Go · GPT-5.6 Sol 中转 · claude-opus-5 按次计费</sub>
 
 <!-- 本文件由 scripts/build.mjs 自动生成，请修改 data/sites.json 或 scripts/lib/render-readme.mjs -->

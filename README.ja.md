@@ -21,7 +21,6 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 
 | サービス | 状態 | 初日のクレジット / プラン | 毎日のクレジット | 登録特典 |
 | --- | --- | --- | --- | --- |
-| **ArtBloom** | 到達可能 | **$100** | 公表されていません | [サービスを開く / 登録](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) |
 | **Codex Relay** | 到達可能 | **$10** | 公表されていません | [サービスを開く / 登録](https://codex-relay.codes/register?aff=6jAq) |
 | **OmniRush** | 到達可能 | **公表されていません** | 公表されていません | [サービスを開く / 登録](https://omnirush.ai/console?ref=AXJFLFPA) |
 | **Conduit** | 到達可能 | **$500** | 公表されていません | [サービスを開く / 登録](https://t.me/conduitoff_bot?start=ref_8111640723) |
@@ -36,7 +35,7 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 | **CheapCodex** | 到達可能 | **$40** | $20/日 · 毎日のチェックイン | [サービスを開く / 登録](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | 到達可能 | **15 ポイント** | 5 ポイント/日 · 毎日のチェックイン | [サービスを開く / 登録](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
 
-**初日の米ドル建てクレジット目安：新規登録を受け付ける 9 サービスで計 $1209.5。**
+**初日の米ドル建てクレジット目安：新規登録を受け付ける 8 サービスで計 $1109.5。**
 
 初日のクレジット = 登録 + 紹介 + 初回チェックイン（または 1 日分の日次枠）。各サービスで独立した残高であり、現金ではありません。ポイント、サイト内単位、有料プラン、アーカイブ済みサービス、登録停止中のサービスは米ドル合計から除外します。条件と実際の付与額は異なる場合があります。
 
@@ -48,42 +47,6 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 2. 管理画面でキーを作成します。以下の確認済みエンドポイントを使うか、非公開の場合は提供元から最新の URL を取得します。
 3. 対応クライアントを設定して少量のリクエストを試し、実際の残高消費を確認してから利用してください。
 
-## ArtBloom
-
-登録初日に 100 米ドル分のクレジットを提供する OpenAI 互換 API サービス。公開モデルページに Opus 5.5（claude-opus-5-5）が掲載されています。
-
-[サービスを開く / 登録](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) · [詳細](https://panxunying.github.io/ai-coding-welfare/ja/sites/artbloom/)
-
-
-- **初日のクレジット / プラン**: $100
-- **登録特典**: $100
-- **毎日のクレジット**: 公表されていません
-- **状態**: 到達可能
-- **データ更新日時**: 2026-10-10 12:34 UTC
-
-
-### 登録条件
-
-紹介リンクを省略せず使い、GitHub で登録してください。登録ページでは 100 米ドル分のクレジットを即時付与し、クレジットカードは不要と案内されています。ログイン後、管理画面で API キーを作成してください。
-
-### 特典・制限・注意事項
-
-公開モデルページには Opus 5.5 と他のモデルの料金が掲載されています。最新のモデル料金はサイトで、実際の残高と使用量は管理画面で確認してください。
-
-### クライアント設定
-
-管理画面で API キーを作成し、自分のアカウントで利用可能なモデルを選んでください。Anthropic の Base URL には /v1 を付けません。OpenAI 互換 URL には通常 /v1 を付けます。プロトコルの入口があっても、すべてのモデルやクライアントに対応するとは限りません。
-
-- OpenAI Base URL: `https://api.artbloom.tech/v1`
-- [提供元ドキュメント（中国語の場合あり）](https://api.artbloom.tech/models)
-
-### 公開モデルデータ
-
-公開データに含まれるモデルのみを表示しています。データがないことはモデルがないことを意味しません。最新の料金、アカウントグループ、利用可否は管理画面で確認してください。リクエスト単価とトークン単価は別物です。
-
-公表されていません
-
-[詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/)
 ## Codex Relay
 
 Codex Relay に登録すると $10 分の API クレジットを受け取れます。
@@ -586,6 +549,7 @@ GitHub OAuth のみ。作成から 365 日以上のアカウントと Cloudflare
 
 登録の推奨、合計への算入、自動確認を停止しています。元の理由と履歴は中国語版に残しています。
 
+- [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
 - [gorouter](https://panxunying.github.io/ai-coding-welfare/sites/gorouter/) · 2026-09-21
 - [tabitoken](https://panxunying.github.io/ai-coding-welfare/sites/tabitoken/) · 2026-09-21
 - [rawchat](https://panxunying.github.io/ai-coding-welfare/sites/rawchat/) · 2026-09-21

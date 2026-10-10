@@ -21,7 +21,6 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 
 | Serviço | Status | Créditos no primeiro dia / plano | Créditos diários | Cadastro |
 | --- | --- | --- | --- | --- |
-| **ArtBloom** | Acessível | **$100** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) |
 | **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) |
 | **OmniRush** | Acessível | **Não divulgado publicamente** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://omnirush.ai/console?ref=AXJFLFPA) |
 | **Conduit** | Acessível | **$500** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://t.me/conduitoff_bot?start=ref_8111640723) |
@@ -36,7 +35,7 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | **CheapCodex** | Acessível | **$40** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
 
-**Créditos indicativos em USD no primeiro dia: $1209.5 em 9 serviços que aceitam novos usuários.**
+**Créditos indicativos em USD no primeiro dia: $1109.5 em 8 serviços que aceitam novos usuários.**
 
 Crédito no primeiro dia = cadastro + indicação + primeiro check-in (ou uma cota diária). São saldos separados em cada serviço, não dinheiro. Pontos, unidades internas, planos pagos, serviços arquivados e cadastros fechados ficam fora do total em USD. Condições e créditos recebidos podem variar.
 
@@ -48,42 +47,6 @@ As regras de crédito são registradas manualmente a partir de comunicados; as A
 2. Crie uma chave no painel. Use o endpoint verificado abaixo ou obtenha o endereço atual com o provedor se não houver um público.
 3. Configure um cliente compatível, faça uma requisição pequena e confira o consumo real do saldo antes de depender do serviço.
 
-## ArtBloom
-
-Serviço de API compatível com OpenAI que oferece US$ 100 em créditos no primeiro dia do cadastro e lista o Opus 5.5 (claude-opus-5-5) na página pública de modelos.
-
-[Abrir serviço / cadastrar](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/artbloom/)
-
-
-- **Créditos no primeiro dia / plano**: $100
-- **Cadastro**: $100
-- **Créditos diários**: Não divulgado publicamente
-- **Status**: Acessível
-- **Dados atualizados em**: 2026-10-10 12:34 UTC
-
-
-### Requisitos de cadastro
-
-Use o link completo de indicação e continue com o GitHub. A página de cadastro anuncia US$ 100 em créditos imediatos, sem exigir cartão de crédito. Após entrar, crie uma chave de API no painel.
-
-### Recompensas, limites e cuidados importantes
-
-A página pública de modelos lista o Opus 5.5 e outros modelos com seus preços. Confira os preços atuais no serviço e o saldo real e o consumo no painel.
-
-### Configuração do cliente
-
-Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
-
-- OpenAI Base URL: `https://api.artbloom.tech/v1`
-- [Documentação do provedor (pode estar em chinês)](https://api.artbloom.tech/models)
-
-### Dados públicos dos modelos
-
-Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
-
-Não divulgado publicamente
-
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/)
 ## Codex Relay
 
 Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
@@ -586,6 +549,7 @@ Não divulgado publicamente
 
 Não são mais recomendados para cadastro, incluídos nos totais ou verificados automaticamente. Os motivos originais e o histórico permanecem na edição chinesa.
 
+- [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
 - [gorouter](https://panxunying.github.io/ai-coding-welfare/sites/gorouter/) · 2026-09-21
 - [tabitoken](https://panxunying.github.io/ai-coding-welfare/sites/tabitoken/) · 2026-09-21
 - [rawchat](https://panxunying.github.io/ai-coding-welfare/sites/rawchat/) · 2026-09-21

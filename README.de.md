@@ -21,7 +21,6 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 | Anbieter | Status | Guthaben am ersten Tag / Tarif | Tägliches Guthaben | Registrierung |
 | --- | --- | --- | --- | --- |
-| **ArtBloom** | Erreichbar | **$100** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) |
 | **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) |
 | **OmniRush** | Erreichbar | **Nicht öffentlich angegeben** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://omnirush.ai/console?ref=AXJFLFPA) |
 | **Conduit** | Erreichbar | **$500** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://t.me/conduitoff_bot?start=ref_8111640723) |
@@ -36,7 +35,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **CheapCodex** | Erreichbar | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
 | **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
 
-**Ungefähres USD-Guthaben am ersten Tag: $1209.5 bei 9 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $1109.5 bei 8 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -48,42 +47,6 @@ Guthabenregeln werden manuell aus Anbieterankündigungen erfasst; öffentliche S
 2. Erstelle im Dashboard einen Schlüssel. Verwende den unten bestätigten Endpunkt oder frage den aktuellen Endpunkt beim Anbieter ab, wenn keiner öffentlich bekannt ist.
 3. Konfiguriere einen unterstützten Client, sende eine kleine Testanfrage und prüfe den tatsächlichen Guthabenverbrauch.
 
-## ArtBloom
-
-OpenAI-kompatibler API-Dienst mit 100 US-Dollar Guthaben am ersten Tag der Registrierung. Die öffentliche Modellseite führt Opus 5.5 (claude-opus-5-5) auf.
-
-[Dienst öffnen / registrieren](https://api.artbloom.tech/signup?ref=PCTM2VCGUI) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/artbloom/)
-
-
-- **Guthaben am ersten Tag / Tarif**: $100
-- **Registrierung**: $100
-- **Tägliches Guthaben**: Nicht öffentlich angegeben
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-10 12:34 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Den vollständigen Empfehlungslink verwenden und mit GitHub fortfahren. Die Registrierungsseite bewirbt sofortige 100 US-Dollar Guthaben ohne Kreditkarte. Nach der Anmeldung einen API-Schlüssel im Dashboard erstellen.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Die öffentliche Modellseite führt Opus 5.5 und weitere Modelle mit ihren Preisen auf. Aktuelle Modellpreise beim Anbieter sowie den tatsächlichen Kontostand und Verbrauch im Dashboard prüfen.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- OpenAI Base URL: `https://api.artbloom.tech/v1`
-- [Anbieterdokumentation (ggf. Chinesisch)](https://api.artbloom.tech/models)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/)
 ## Codex Relay
 
 Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
@@ -586,6 +549,7 @@ Nicht öffentlich angegeben
 
 Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.
 
+- [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
 - [gorouter](https://panxunying.github.io/ai-coding-welfare/sites/gorouter/) · 2026-09-21
 - [tabitoken](https://panxunying.github.io/ai-coding-welfare/sites/tabitoken/) · 2026-09-21
 - [rawchat](https://panxunying.github.io/ai-coding-welfare/sites/rawchat/) · 2026-09-21
