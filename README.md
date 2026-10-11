@@ -233,7 +233,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 410 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 434 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
@@ -1308,10 +1308,6 @@ curl -s https://aiapi-pro.com/v1/chat/completions \
 ```
 
 </details>
-
-**如何继续拿额度**
-
-- Affiliate 20% 循环佣金：https://aiapi-pro.com/affiliate.html
 
 **⚠️ 使用前必读**
 

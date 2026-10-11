@@ -1290,9 +1290,7 @@
           "注册送 $2 无需卡；海外无需中国手机号/支付宝。"
         ]
       },
-      "earnMore": [
-        "Affiliate 20% 循环佣金：https://aiapi-pro.com/affiliate.html"
-      ],
+      "earnMore": [],
       "caveats": [
         "图像模型按中国标注规则带可见 AI 水印（/watermark-notice）。"
       ],
