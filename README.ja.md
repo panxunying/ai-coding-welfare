@@ -27,7 +27,6 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 | **AgentRouter** | 到達可能 | **$175** | $25/日 · 毎日のチェックイン | [サービスを開く / 登録](https://agentrouter.org/register?aff=szt3) |
 | **DoCode** | 到達可能 | **300 サイト内単位（米ドルではありません）** | チェックインなし | [サービスを開く / 登録](https://docode.cc/register?aff=zMRe) |
 | **JustDoWork** | 到達可能 | **≈$92** | ≈$22/日 · 毎日のチェックイン | [サービスを開く / 登録](https://api.justwoker.icu/sign-up?aff=VTrz) |
-| **Mirasim** | 到達可能 | **Go · $1/月** | 5 時間ごとの推定利用量 | [サービスを開く / 登録](https://mirasim.ai/r/go-kx9cd5) |
 | **FlushAPI** | 到達可能 | **$22.5** | チェックイン有効・付与額非公開 | [サービスを開く / 登録](https://flushapi.fun/sign-up?aff=WBF3) |
 | **KKtoken AI** | 到達可能 | **$120** | $20/日 · 毎日のチェックイン | [サービスを開く / 登録](https://kktoken.cc/sign-up?aff=MzG9) |
 | **Matrix** | 到達可能 | **600 ポイント** | 公表されていません | [サービスを開く / 登録](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) |
@@ -273,47 +272,6 @@ GitHub OAuth のみで、アカウント作成から 365 日以上が必要で�
 公表されていません
 
 [詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/)
-## Mirasim
-
-有料 Go プランを持つマルチエージェント作業環境。自分のアカウントやキーの接続は無料ですが、外部サービスの利用料は別です。
-
-[サービスを開く / 登録](https://mirasim.ai/r/go-kx9cd5) · [詳細](https://panxunying.github.io/ai-coding-welfare/ja/sites/mirasim/)
-
-
-- **初日のクレジット / プラン**: Go · $1/月
-- **状態**: 到達可能
-- **データ更新日時**: 2026-10-11 21:59 UTC
-
-> 5 時間ごとの推定利用量
-> Kimi K3: 約 130 回
-> GLM 5.3 Flash: 約 1,900 回
-> DS 4.1 Flash: 約 7,800 回
-> 有料プランのため無料クレジット合計には含めません。提供元による、同じ共有枠を各モデルで使った場合の推定値です。モデルごとの回数を合算したり、1 日・1 か月の保証利用量として扱ったりしないでください。
-
-[公式料金ページ](https://mirasim.ai/pricing) · 手動確認日: 2026-09-23
-
-### 登録条件
-
-完全な紹介リンクから GitHub またはメール認証コードでログインします。招待された側への登録特典を保証する公開規定はありません。公式デスクトップアプリまたは CLI ドキュメントを利用してください。汎用の中継 Base URL は公開確認できていません。
-
-### 特典・制限・注意事項
-
-Go の利用量目安は共通枠の換算値で、合算できません。招待者が Go 1 か月分を得るには、招待した 3 人全員の Go 契約が必要です。Claude/Codex の Basic・Pro・Max は Go とは別プランです。Alpha 版のため遅延や中断があり、過去のベータ補償は新規登録特典ではありません。robots 規定に従い料金ページのみ確認し、紹介経路は巡回しません。到達性は登録・支払い・推論の成功を意味しません。
-
-### クライアント設定
-
-管理画面で API キーを作成し、自分のアカウントで利用可能なモデルを選んでください。Anthropic の Base URL には /v1 を付けません。OpenAI 互換 URL には通常 /v1 を付けます。プロトコルの入口があっても、すべてのモデルやクライアントに対応するとは限りません。
-
-- [管理画面](https://mirasim.ai/account)
-- [提供元ドキュメント（中国語の場合あり）](https://mirasim.ai/docs/zh/quickstart)
-
-### 公開モデルデータ
-
-公開データに含まれるモデルのみを表示しています。データがないことはモデルがないことを意味しません。最新の料金、アカウントグループ、利用可否は管理画面で確認してください。リクエスト単価とトークン単価は別物です。
-
-公表されていません
-
-[詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/)
 ## FlushAPI
 
 GitHub 登録、公開モデル料金、独立した default / Super 残高を備える New API ゲートウェイ。
@@ -549,6 +507,7 @@ GitHub OAuth のみ。作成から 365 日以上のアカウントと Cloudflare
 
 登録の推奨、合計への算入、自動確認を停止しています。元の理由と履歴は中国語版に残しています。
 
+- [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12
 - [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
 - [gorouter](https://panxunying.github.io/ai-coding-welfare/sites/gorouter/) · 2026-09-21
 - [tabitoken](https://panxunying.github.io/ai-coding-welfare/sites/tabitoken/) · 2026-09-21

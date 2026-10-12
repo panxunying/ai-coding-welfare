@@ -5,8 +5,8 @@
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-13%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-13%2F13-brightgreen" alt="在线">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-12%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-12%2F12-brightgreen" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24500-success" alt="首日可得">
   <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--10--11%2021.59%20UTC-informational" alt="数据更新">
 </p>
@@ -18,7 +18,6 @@
   <a href="https://agentrouter.org/register?aff=szt3"><b>AgentRouter 注册</b></a> ·
   <a href="https://docode.cc/register?aff=zMRe"><b>DoCode 注册</b></a> ·
   <a href="https://api.justwoker.icu/sign-up?aff=VTrz"><b>JustDoWork 注册</b></a> ·
-  <a href="https://mirasim.ai/r/go-kx9cd5"><b>Mirasim 注册</b></a> ·
   <a href="https://flushapi.fun/sign-up?aff=WBF3"><b>FlushAPI 注册</b></a> ·
   <a href="https://kktoken.cc/sign-up?aff=MzG9"><b>KKtoken AI 注册</b></a> ·
   <a href="https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"><b>Matrix 注册</b></a> ·
@@ -38,7 +37,7 @@
 
 ## 🚀 一分钟上车
 
-| 站点 | 状态 | 首日可得 / 套餐 | 额度构成 / 用量 | 每日 / 周期 | 兼容协议 | 模型 | 注册 | 邀请码 |
+| 站点 | 状态 | 首日可得 | 额度构成 | 之后每天 | 兼容协议 | 模型 | 注册 | 邀请码 |
 | :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: | :--: |
 | **Codex Relay** | 🟢 在线 | **$10** | 注册 $10 | — | 控制台内查看 | 需登录查看 | [点此注册 →](https://codex-relay.codes/register?aff=6jAq) | — |
 | **OmniRush** | 🟢 在线 | 每周免费 50M tokens（5000 万），通过本页邀请链接额外 +5M tokens（500 万）；按投稿信息登记，实际到账与适用条件以控制台为准。 | — | — | 控制台内查看 | **GPT 6 Astra / GPT 6 Sol / GPT-5.6 Sol** | [点此注册 →](https://omnirush.ai/console?ref=AXJFLFPA) | — |
@@ -46,15 +45,12 @@
 | **AgentRouter** | 🟢 在线 | **$175** | 注册 $100 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 4 个可查 | [点此注册 →](https://agentrouter.org/register?aff=szt3) | — |
 | **DoCode** | 🟢 在线 | **300 站内刀** | 注册 50 站内刀 + 本页邀请 250 站内刀 | 无签到 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://docode.cc/register?aff=zMRe) | `zMRe` |
 | **JustDoWork** | 🟢 在线 | **≈$92** | 注册 $70 + 首签 ≈$22 | ≈$22/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
-| **Mirasim** | 🟢 在线 | **Go套餐 $1/月** | Kimi K3 **≈130 次**<br>GLM 5.3 Flash **≈1,900 次**<br>DS 4.1 Flash **≈7,800 次** | **每 5 小时**<br>共享额度 | Mirasim 客户端 / CLI | 3 种<br>官网公示 | [查看 Go →](https://mirasim.ai/r/go-kx9cd5) | — |
 | **FlushAPI** | 🟢 在线 | **$22.5** | 注册 $15 + 本页邀请 $7.5 | 支持签到 | Anthropic + OpenAI | 7 个可查 | [GitHub 注册 →](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | 🟢 在线 | **$120** | 注册 $75 + 本页邀请 $25 + 首签 $20 | $20/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://kktoken.cc/sign-up?aff=MzG9) | — |
 | **Matrix** | 🟢 在线 | **600 积分** | 本页邀请 600 积分 | — | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **AnyRouter** | 🟢 在线 | **$150** | 注册 $75 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://anyrouter.top/register?aff=Z24N) | — |
 | **CheapCodex** | 🟢 在线 | **$40** | 本页邀请 $20 + 首签 $20 | $20/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | 🟢 在线 | **15 积分** | 本页邀请 10 积分 + 首签 5 积分 | 5 积分/天 | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
-
-> **Mirasim Go套餐 $1/月：用量按每 5 小时估算，不是每月总次数。** 官网估算，共享额度按模型折算，各模型次数不可相加；实际用量以站内为准。 付费套餐不计入下方免费额度合计。[官网定价](https://mirasim.ai/pricing)（2026-09-23 核对）。
 
 > 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-10-11 21:59 UTC`。
 >
@@ -231,7 +227,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 439 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 443 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
@@ -585,79 +581,6 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 - 模型清单与价格需要登录后台才能查看，本页不做承诺
 - 中转站上游随时可能调整，请以站内实际价格与可用模型为准
-
----
-
-### 🟢 Mirasim
-
-> Go套餐 $1/月 · 每 5 小时官网估算：Kimi 约 130 次 / GLM 约 1,900 次 / DS 约 7,800 次
-
-<a href="https://mirasim.ai/r/go-kx9cd5"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-Mirasim-brightgreen?style=for-the-badge" alt="注册 Mirasim"></a>
-
-**为什么值得注册**
-
-- Go套餐 $1/月：低成本体验云端模型，不需要先买高档套餐
-- 用量优势看 5 小时窗口：官网估算 Kimi K3 约 130 次、GLM 5.3 Flash 约 1,900 次、DS 4.1 Flash 约 7,800 次；同一份额度按不同模型折算，三项不能相加
-- 邀请活动：在应用内取得自己的邀请链接，邀请 3 位好友且三人都开通 Go 后，邀请者可获赠 1 个月 Go；公开规则未承诺被邀请人注册即送
-- 不订阅也能用工作台：自带账号 / Key 的接入能力免费，第三方订阅和 API 调用费用另算
-- 桌面端提供 macOS / Windows / Linux，支持多模型、并行会话与独立 worktree，也有命令行入口
-
-**套餐价格与用量**
-
-- **Go套餐 $1/月**
-- **每 5 小时**的请求量参考，不是整月总次数：
-
-| 模型 | 官网估算请求量 |
-| :-- | --: |
-| Kimi K3 | **≈130 次** |
-| GLM 5.3 Flash | **≈1,900 次** |
-| DS 4.1 Flash | **≈7,800 次** |
-
-> 官网估算，共享额度按模型折算，各模型次数不可相加；实际用量以站内为准。 这是付费套餐，不计入免费额度合计。[来源：官网定价](https://mirasim.ai/pricing)（2026-09-23 核对）。
-
-另有免费路径：自带 Key 免费；赠额未公示，第三方 API 费用另算。
-
-**实时数据**（自动抓取站点公开接口）
-
-- 接口延迟：1658 ms
-
-> Go 的 $1/月套餐包含 Kimi K3、GLM 5.3 Flash、DS 4.1 Flash。定价页按每 5 小时给出约 130 / 1,900 / 7,800 次的请求量估算，不是整月只有这些次数。三项共用同一份套餐额度、不能相加，也不是保证次数；本页不外推为每天或每月的固定总量。Claude / Codex 对应的 Basic、Pro、Max 是另列的套餐，不属于 $1 Go 的承诺。
-
-**注册要求**
-
-- 保留本页完整邀请链接 https://mirasim.ai/r/go-kx9cd5；公开定价页未承诺被邀请人注册即得额度，具体权益以账号页为准
-- 官方命令行文档支持 GitHub 授权或邮箱验证码登录；没有公开账号年龄门槛，本页不额外作承诺
-- 使用自有账号 / Key 无需邀请码；Go 订阅与邀请赠月按站内活动规则办理
-
-**接入配置**
-
-> 这是带云端中转选项的多智能体工作台，不是公开给出通用 Base URL 的 New API 面板。本页不猜测中转地址，也不把 Go 套餐等同于 Claude / GPT 权益。
-
-1. 从本页邀请链接进入账号页，用 GitHub 或邮箱验证码登录，确认页面展示的 Go 活动规则
-2. 在官网「下载」页安装适合系统的客户端，或按官方文档使用 Mirasim CLI
-3. 免费路径：接入自有账号 / API Key 或本地模型；如需 Mirasim 云端 Go 服务，在账号页确认价格、支持模型与额度后自行开通
-4. 参加赠月活动时，在应用内获取自己的邀请链接；受邀的 3 位好友全部开通 Go 后，再到账号页核对权益
-
-控制台入口：<https://mirasim.ai/account>
-
-**如何继续拿额度**
-
-- 邀请 3 位好友且三人均开通 Go，邀请者获得 1 个月 Go（官方定价页 Invite offer）
-- 未查到公开的每日签到或注册赠送 API 额度规则，本页不登记美元额度，也不计入跨站合计
-
-**⚠️ 使用前必读**
-
-- 免费的是自带账号 / Key 的工作台接入能力，第三方模型费用另算；Go 是付费套餐，邀请赠月也有开通条件
-- $1/月与模型清单来自 2026-09-23 公开定价页 https://mirasim.ai/pricing，后续可能变动，以开通时页面为准
-- 官网仍标注 Alpha：模型可能响应缓慢、会话可能中断，版本之间规则也可能调整，不承诺稳定性
-- 8 月公告提到的早期内测 Pro 赠送 / 补偿针对特定旧用户，不能当成现在通过此链接注册的普遍权益
-- robots.txt 禁止自动抓取 /r/ 邀请路径，因此定时检查只访问允许抓取的定价页；在线仅说明官网可访问，不代表登录、支付或模型调用已经实测
-
-**官方渠道**
-
-- Discord: https://discord.gg/ECexTPJrj
-- X: https://x.com/Mirasim_ADE
-- 邮箱: support@mirasim.ai
 
 ---
 
@@ -1243,6 +1166,7 @@ curl -s https://api.cheapcodex.online/v1/chat/completions \
 
 这些站已反馈不可用，保留名称与归档原因，不再推荐注册、展示额度或进行定时探测。历史记录仍可在[变动日志](https://panxunying.github.io/ai-coding-welfare/changelog/)中查看；确认恢复可用后可人工重新收录。
 
+- **Mirasim**（`2026-10-12` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **ArtBloom**（`2026-10-10` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **GoRouter**（`2026-09-21` 归档） — 用户反馈已无法使用，移入历史区，不再推荐注册
 - **TaBiAI**（`2026-09-21` 归档） — 用户反馈已无法使用，移入历史区，不再推荐注册
@@ -1348,6 +1272,6 @@ npm run check     # 校验链接是否还活着
 
 <p align="center"><b>觉得有用点个 ⭐ Star</b>，福利站有变动时这里会自动更新。</p>
 
-<sub>关键词：Claude Code 免费 · Claude Code 中转 · Codex 中转 · Codex 公益站 · AI API 中转站 · 公益站 · 免费 API 额度 · 每日免费额度 · claude-opus-5 API · New API · AgentRouter · RawChat · Matrix 统一网关 · TaBiAI · GoRouter · KKtoken · AnyRouter · CheapCodex · NOFX 积分 · Mirasim Go · GPT-5.6 Sol 中转 · claude-opus-5 按次计费</sub>
+<sub>关键词：Claude Code 免费 · Claude Code 中转 · Codex 中转 · Codex 公益站 · AI API 中转站 · 公益站 · 免费 API 额度 · 每日免费额度 · claude-opus-5 API · New API · AgentRouter · RawChat · Matrix 统一网关 · TaBiAI · GoRouter · KKtoken · AnyRouter · CheapCodex · NOFX 积分 · GPT-5.6 Sol 中转 · claude-opus-5 按次计费</sub>
 
 <!-- 本文件由 scripts/build.mjs 自动生成，请修改 data/sites.json 或 scripts/lib/render-readme.mjs -->

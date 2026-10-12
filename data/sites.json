@@ -22,7 +22,6 @@
       "AnyRouter",
       "CheapCodex",
       "NOFX 积分",
-      "Mirasim Go",
       "GPT-5.6 Sol 中转",
       "claude-opus-5 按次计费"
     ],
@@ -423,6 +422,10 @@
       "name": "Mirasim",
       "subtitle": "Go套餐 $1/月 · 每 5 小时官网估算：Kimi 约 130 次 / GLM 约 1,900 次 / DS 约 7,800 次",
       "recommended": false,
+      "archived": {
+        "at": "2026-10-12",
+        "reason": "按维护者要求下架，移入历史区，不再推荐注册"
+      },
       "panel": "relay",
       "credits": {
         "signup": null,

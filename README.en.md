@@ -27,7 +27,6 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 | **AgentRouter** | Reachable | **$175** | $25/day · Daily check-in | [Open service / register](https://agentrouter.org/register?aff=szt3) |
 | **DoCode** | Reachable | **300 site units (not USD)** | No check-in | [Open service / register](https://docode.cc/register?aff=zMRe) |
 | **JustDoWork** | Reachable | **≈$92** | ≈$22/day · Daily check-in | [Open service / register](https://api.justwoker.icu/sign-up?aff=VTrz) |
-| **Mirasim** | Reachable | **Go · $1/month** | Estimates per 5-hour window | [Open service / register](https://mirasim.ai/r/go-kx9cd5) |
 | **FlushAPI** | Reachable | **$22.5** | Check-in enabled; amount unpublished | [Open service / register](https://flushapi.fun/sign-up?aff=WBF3) |
 | **KKtoken AI** | Reachable | **$120** | $20/day · Daily check-in | [Open service / register](https://kktoken.cc/sign-up?aff=MzG9) |
 | **Matrix** | Reachable | **600 points** | Not publicly specified | [Open service / register](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) |
@@ -273,47 +272,6 @@ Only models returned by the public snapshot are listed; missing data does not me
 Not publicly specified
 
 [Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/)
-## Mirasim
-
-Multi-agent workspace with a paid Go plan; connecting your own accounts or API keys is free, but third-party usage is not.
-
-[Open service / register](https://mirasim.ai/r/go-kx9cd5) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/mirasim/)
-
-
-- **First-day credits / plan**: Go · $1/month
-- **Status**: Reachable
-- **Snapshot updated**: 2026-10-11 21:59 UTC
-
-> Estimates per 5-hour window
-> Kimi K3: ≈130 requests
-> GLM 5.3 Flash: ≈1,900 requests
-> DS 4.1 Flash: ≈7,800 requests
-> Paid plan, excluded from free-credit totals. These are provider estimates from one shared allowance: do not add model counts or treat them as guaranteed daily/monthly totals.
-
-[Official pricing](https://mirasim.ai/pricing) · Manually checked: 2026-09-23
-
-### Registration requirements
-
-Use the full referral link and sign in with GitHub or an email code. No public rule promises a signup bonus to the invitee. Install the official desktop client or follow its CLI documentation; no general-purpose relay base URL has been publicly verified.
-
-### Rewards, limits and important caveats
-
-Go usage estimates share one allowance and cannot be added together. The inviter earns one Go month only after three invited friends all subscribe to Go. Claude/Codex Basic, Pro and Max plans are separate from Go. Alpha software may be slow or interrupted; old beta compensation is not a new-user benefit. Robots rules permit probing the pricing page, not the referral path; online status does not verify signup, payment or inference.
-
-### Client setup
-
-Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
-
-- [Dashboard](https://mirasim.ai/account)
-- [Provider documentation (may be Chinese)](https://mirasim.ai/docs/zh/quickstart)
-
-### Public model snapshot
-
-Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
-
-Not publicly specified
-
-[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/)
 ## FlushAPI
 
 New API gateway with GitHub signup, public model pricing and separate default / Super balances.
@@ -549,6 +507,7 @@ Not publicly specified
 
 No longer recommended for registration, counted in totals or probed. Original reasons and historical records remain available in the Chinese edition.
 
+- [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12
 - [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
 - [gorouter](https://panxunying.github.io/ai-coding-welfare/sites/gorouter/) · 2026-09-21
 - [tabitoken](https://panxunying.github.io/ai-coding-welfare/sites/tabitoken/) · 2026-09-21

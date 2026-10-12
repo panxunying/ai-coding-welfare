@@ -1268,10 +1268,11 @@ test('变动日志保留历史事件，但只给未归档站提供推荐详情�
   assert.ok(!html.includes('href="../sites/gorouter/"'));
 });
 const CATALOG = JSON.parse(await readFile(new URL('../data/sites.json', import.meta.url), 'utf8')).sites;
-const MIRASIM = CATALOG.find((s) => s.id === 'mirasim');
+// 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
+const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
 test('ArtBloom 下架归档，Codex Relay 排第一，其余站顺延，历史归档站保持归档', () => {
-  assert.deepEqual(activeSites(CATALOG).slice(0, 7).map((site) => site.id), ['codex-relay', 'omnirush', 'conduit', 'agentrouter', 'docode', 'justdowork', 'mirasim']);
-  for (const id of ['artbloom', 'gorouter', 'tabitoken', 'rawchat']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
+  assert.deepEqual(activeSites(CATALOG).slice(0, 7).map((site) => site.id), ['codex-relay', 'omnirush', 'conduit', 'agentrouter', 'docode', 'justdowork', 'flushapi']);
+  for (const id of ['mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
   assert.equal(new Set(CATALOG.map((s) => s.id)).size, CATALOG.length);
   assert.equal(MIRASIM.signupUrl, 'https://mirasim.ai/r/go-kx9cd5');
 });
@@ -1286,8 +1287,8 @@ test('DoCode 注册链接走证书有效的主域名 docode.cc，展示与健康
   assert.deepEqual(DOCODE.endpoints, { anthropic: 'https://docode.cc', openai: 'https://docode.cc/v1' });
 });
 const FLUSHAPI = CATALOG.find((s) => s.id === 'flushapi');
-test('FlushAPI 顺延第八位，邀请链接与公开接口齐全', () => {
-  assert.equal(activeSites(CATALOG)[7].id, 'flushapi');
+test('FlushAPI 顺延第七位，邀请链接与公开接口齐全', () => {
+  assert.equal(activeSites(CATALOG)[6].id, 'flushapi');
   assert.equal(FLUSHAPI.signupUrl, 'https://flushapi.fun/sign-up?aff=WBF3');
   assert.equal(signupProbeUrl(FLUSHAPI), FLUSHAPI.signupUrl);
   assert.equal(FLUSHAPI.statusApi, 'https://flushapi.fun/api/status');
@@ -1354,8 +1355,9 @@ test('订阅独立记录价格、5 小时窗口和三档估算，不拼成美元
   assert.equal(creditPlan(MIRASIM).firstDay, null);
   assert.equal(usdTotals([creditPlan(MIRASIM)]).count, 0);
 });
-test('README 总表直接呈现 $1 月费与三档用量，不再把卖点藏进详情', () => {
-  const md = renderReadme({ meta: META, sites: CATALOG, live: LIVE, groups: [], history: HIST });
+test('README 总表的未归档订阅样例直接呈现 $1 月费与三档用量', () => {
+  const sites = CATALOG.map((site) => site.id === 'mirasim' ? MIRASIM : site);
+  const md = renderReadme({ meta: META, sites, live: LIVE, groups: [], history: HIST });
   const table = md.split('\n').filter((l) => l.startsWith('| '));
   const row = table.find((l) => l.startsWith('| **Mirasim**'));
   assert.match(table[0], /首日可得 \/ 套餐/);
@@ -1512,7 +1514,7 @@ for (const catalog of TRANSLATIONS) {
     assert.equal(ld.itemListElement[0].name, 'Codex Relay');
     assert.equal(ld.itemListElement[1].name, 'OmniRush');
     assert.equal(ld.itemListElement[2].name, 'Conduit');
-    assert.equal(ld.itemListElement[7].name, 'FlushAPI');
+    assert.equal(ld.itemListElement[6].name, 'FlushAPI');
     assert.equal(ld.numberOfItems, activeSites(CATALOG).length);
     assert.ok(readme.includes('$1109.5') && homepage.includes('$1109.5'));
     for (const s of activeSites(CATALOG)) {

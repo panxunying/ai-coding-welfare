@@ -27,7 +27,6 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) |
 | **DoCode** | Erreichbar | **300 interne Einheiten (keine USD)** | Kein Check-in | [Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) |
 | **JustDoWork** | Erreichbar | **≈$92** | ≈$22/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) |
-| **Mirasim** | Erreichbar | **Go · $1/Monat** | Schätzwerte je 5-Stunden-Zeitfenster | [Dienst öffnen / registrieren](https://mirasim.ai/r/go-kx9cd5) |
 | **FlushAPI** | Erreichbar | **$22.5** | Check-in aktiviert; Betrag nicht veröffentlicht | [Dienst öffnen / registrieren](https://flushapi.fun/sign-up?aff=WBF3) |
 | **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) |
 | **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) |
@@ -273,47 +272,6 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/)
-## Mirasim
-
-Multi-Agent-Arbeitsumgebung mit kostenpflichtigem Go-Tarif; eigene Konten oder API-Schlüssel kostenlos verbinden, Drittanbieter-Nutzung separat bezahlen.
-
-[Dienst öffnen / registrieren](https://mirasim.ai/r/go-kx9cd5) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/mirasim/)
-
-
-- **Guthaben am ersten Tag / Tarif**: Go · $1/Monat
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-11 21:59 UTC
-
-> Schätzwerte je 5-Stunden-Zeitfenster
-> Kimi K3: ≈130 Anfragen
-> GLM 5.3 Flash: ≈1,900 Anfragen
-> DS 4.1 Flash: ≈7,800 Anfragen
-> Kostenpflichtiger Tarif, nicht im kostenlosen Gesamtguthaben enthalten. Die Anbieter-Schätzwerte beziehen sich auf ein gemeinsames Kontingent: Modellwerte weder addieren noch als garantierte Tages- oder Monatsmengen verstehen.
-
-[Offizielle Preise](https://mirasim.ai/pricing) · Manuell geprüft: 2026-09-23
-
-### Voraussetzungen für die Registrierung
-
-Vollständigen Empfehlungslink nutzen und mit GitHub oder E-Mail-Code anmelden. Keine öffentliche Zusage eines Registrierungsbonus für Eingeladene. Offiziellen Desktop-Client installieren oder CLI-Dokumentation befolgen; keine allgemein nutzbare Relay-Basis-URL wurde öffentlich bestätigt.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Go-Schätzwerte teilen sich ein Kontingent und dürfen nicht addiert werden. Der Einladende erhält einen Go-Monat erst, wenn drei eingeladene Freunde Go abonnieren. Claude-/Codex-Tarife Basic, Pro und Max sind von Go getrennt. Alpha-Software kann langsam sein oder abbrechen; frühere Beta-Entschädigungen gelten nicht allgemein für neue Nutzer. Robots-Regeln erlauben nur die Prüfung der Preisseite, nicht des Empfehlungswegs; Erreichbarkeit bestätigt weder Registrierung noch Zahlung oder Inferenz.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- [Dashboard](https://mirasim.ai/account)
-- [Anbieterdokumentation (ggf. Chinesisch)](https://mirasim.ai/docs/zh/quickstart)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/)
 ## FlushAPI
 
 New-API-Gateway mit GitHub-Registrierung, öffentlichen Modellpreisen und getrennten default-/Super-Guthaben.
@@ -549,6 +507,7 @@ Nicht öffentlich angegeben
 
 Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.
 
+- [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12
 - [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
 - [gorouter](https://panxunying.github.io/ai-coding-welfare/sites/gorouter/) · 2026-09-21
 - [tabitoken](https://panxunying.github.io/ai-coding-welfare/sites/tabitoken/) · 2026-09-21
