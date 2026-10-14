@@ -5,15 +5,14 @@
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-12%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-12%2F12-brightgreen" alt="在线">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-11%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-11%2F11-brightgreen" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24500-success" alt="首日可得">
   <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--10--13%2022.46%20UTC-informational" alt="数据更新">
 </p>
 
 <p align="center">
   <a href="https://codex-relay.codes/register?aff=6jAq"><b>Codex Relay 注册</b></a> ·
-  <a href="https://omnirush.ai/console?ref=AXJFLFPA"><b>OmniRush 注册</b></a> ·
   <a href="https://t.me/conduitoff_bot?start=ref_8111640723"><b>Conduit 注册</b></a> ·
   <a href="https://agentrouter.org/register?aff=szt3"><b>AgentRouter 注册</b></a> ·
   <a href="https://docode.cc/register?aff=zMRe"><b>DoCode 注册</b></a> ·
@@ -40,7 +39,6 @@
 | 站点 | 状态 | 首日可得 | 额度构成 | 之后每天 | 兼容协议 | 模型 | 注册 | 邀请码 |
 | :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: | :--: |
 | **Codex Relay** | 🟢 在线 | **$10** | 注册 $10 | — | 控制台内查看 | 需登录查看 | [点此注册 →](https://codex-relay.codes/register?aff=6jAq) | — |
-| **OmniRush** | 🟢 在线 | 每周免费 50M tokens（5000 万），通过本页邀请链接额外 +5M tokens（500 万）；按投稿信息登记，实际到账与适用条件以控制台为准。 | — | — | 控制台内查看 | **GPT 6 Astra / GPT 6 Sol / GPT-5.6 Sol** | [点此注册 →](https://omnirush.ai/console?ref=AXJFLFPA) | — |
 | **Conduit** | 🟢 在线 | **$500** | 注册 $500 | — | 机器人内查看 | **GPT-6 / Fable 5.1 等** | [点此注册 →](https://t.me/conduitoff_bot?start=ref_8111640723) | — |
 | **AgentRouter** | 🟢 在线 | **$175** | 注册 $100 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 4 个可查 | [点此注册 →](https://agentrouter.org/register?aff=szt3) | — |
 | **DoCode** | 🟢 在线 | **300 站内刀** | 注册 50 站内刀 + 本页邀请 250 站内刀 | 无签到 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://docode.cc/register?aff=zMRe) | `zMRe` |
@@ -120,53 +118,6 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 ---
 
-### 🟢 OmniRush
-
-> 每周免费 50M tokens · 本页邀请额外 +5M · GPT 6 Astra / GPT 6 Sol / GPT-5.6 Sol
-
-<a href="https://omnirush.ai/console?ref=AXJFLFPA"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-OmniRush-brightgreen?style=for-the-badge" alt="注册 OmniRush"></a>
-
-**为什么值得注册**
-
-- 每周免费 50M tokens（5000 万）
-- 通过本页完整邀请链接注册，额外获得 +5M tokens（500 万）
-- 支持 GPT 6 Astra、GPT 6 Sol、GPT-5.6 Sol，额度与模型信息来自投稿
-
-**能拿多少额度**
-
-- 免费范围：每周免费 50M tokens（5000 万），通过本页邀请链接额外 +5M tokens（500 万）；按投稿信息登记，实际到账与适用条件以控制台为准。
-
-**实时数据**（自动抓取站点公开接口）
-
-- 接口延迟：313 ms
-
-> 按投稿信息登记：支持 GPT 6 Astra、GPT 6 Sol、GPT-5.6 Sol。当前可用模型及实际调用名称请在控制台确认。
-
-**注册要求**
-
-- 使用完整邀请链接，保留 ref=AXJFLFPA，并按控制台提示完成注册
-- 在控制台核对每周额度、邀请奖励和使用条件
-
-**接入配置**
-
-> 登录 OmniRush 控制台后查看可用模型、使用入口和接入说明。
-
-1. 打开本页完整邀请链接，保留 ref=AXJFLFPA，按页面提示注册或登录
-2. 在控制台确认每周 50M tokens 额度与额外 +5M tokens 邀请奖励
-3. 按控制台说明选择模型并使用；如需客户端接入，以后台提供的地址和模型 ID 为准
-
-控制台入口：<https://omnirush.ai/console?ref=AXJFLFPA>
-
-**如何继续拿额度**
-
-- 通过本页邀请链接注册，按投稿信息额外获得 +5M tokens
-
-**⚠️ 使用前必读**
-
-- 赠额与模型信息来自投稿，未登录验证实际到账；每周额度的累积、重置规则及邀请奖励周期以控制台为准。
-
----
-
 ### 🟢 Conduit
 
 > 注册赠送 $500 额度 · 支持 GPT-6、Fable 5.1 等模型，Telegram 机器人注册
@@ -227,7 +178,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 488 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 491 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
@@ -1166,6 +1117,7 @@ curl -s https://api.cheapcodex.online/v1/chat/completions \
 
 这些站已反馈不可用，保留名称与归档原因，不再推荐注册、展示额度或进行定时探测。历史记录仍可在[变动日志](https://panxunying.github.io/ai-coding-welfare/changelog/)中查看；确认恢复可用后可人工重新收录。
 
+- **OmniRush**（`2026-10-14` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **Mirasim**（`2026-10-12` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **ArtBloom**（`2026-10-10` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **GoRouter**（`2026-09-21` 归档） — 用户反馈已无法使用，移入历史区，不再推荐注册

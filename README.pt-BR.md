@@ -22,7 +22,6 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | Serviço | Status | Créditos no primeiro dia / plano | Créditos diários | Cadastro |
 | --- | --- | --- | --- | --- |
 | **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) |
-| **OmniRush** | Acessível | **Não divulgado publicamente** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://omnirush.ai/console?ref=AXJFLFPA) |
 | **Conduit** | Acessível | **$500** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://t.me/conduitoff_bot?start=ref_8111640723) |
 | **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) |
 | **DoCode** | Acessível | **300 unidades internas (não USD)** | Sem check-in | [Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) |
@@ -81,40 +80,6 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 Não divulgado publicamente
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
-## OmniRush
-
-GPT 6 Astra, GPT 6 Sol e GPT-5.6 Sol gratuitos com 50M de tokens por semana; cadastre-se por este link de indicação para receber mais 5M de tokens.
-
-[Abrir serviço / cadastrar](https://omnirush.ai/console?ref=AXJFLFPA) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/omnirush/)
-
-
-- **Créditos no primeiro dia / plano**: Não divulgado publicamente
-- **Créditos diários**: Não divulgado publicamente
-- **Status**: Acessível
-- **Dados atualizados em**: 2026-10-13 22:46 UTC
-
-
-### Requisitos de cadastro
-
-Abra o link completo de indicação do console, mantenha ref=AXJFLFPA e siga as instruções de cadastro. Confira a franquia semanal e o bônus de indicação no console.
-
-### Recompensas, limites e cuidados importantes
-
-A oferta de tokens e a lista de modelos foram informadas por um colaborador; os créditos recebidos não foram verificados em uma conta autenticada. Consulte o console para elegibilidade, regras de renovação ou acúmulo, frequência do bônus e modelos disponíveis. Tokens não entram nos totais em USD.
-
-### Configuração do cliente
-
-Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
-
-- [Painel](https://omnirush.ai/console?ref=AXJFLFPA)
-
-### Dados públicos dos modelos
-
-Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
-
-Não divulgado publicamente
-
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/)
 ## Conduit
 
 Cadastre-se pelo bot do Conduit no Telegram para receber US$ 500 em créditos, com GPT-6, Fable 5.1 e outros modelos disponíveis.
@@ -507,6 +472,7 @@ Não divulgado publicamente
 
 Não são mais recomendados para cadastro, incluídos nos totais ou verificados automaticamente. Os motivos originais e o histórico permanecem na edição chinesa.
 
+- [omnirush](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/) · 2026-10-14
 - [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12
 - [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
 - [gorouter](https://panxunying.github.io/ai-coding-welfare/sites/gorouter/) · 2026-09-21

@@ -22,7 +22,6 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 | サービス | 状態 | 初日のクレジット / プラン | 毎日のクレジット | 登録特典 |
 | --- | --- | --- | --- | --- |
 | **Codex Relay** | 到達可能 | **$10** | 公表されていません | [サービスを開く / 登録](https://codex-relay.codes/register?aff=6jAq) |
-| **OmniRush** | 到達可能 | **公表されていません** | 公表されていません | [サービスを開く / 登録](https://omnirush.ai/console?ref=AXJFLFPA) |
 | **Conduit** | 到達可能 | **$500** | 公表されていません | [サービスを開く / 登録](https://t.me/conduitoff_bot?start=ref_8111640723) |
 | **AgentRouter** | 到達可能 | **$175** | $25/日 · 毎日のチェックイン | [サービスを開く / 登録](https://agentrouter.org/register?aff=szt3) |
 | **DoCode** | 到達可能 | **300 サイト内単位（米ドルではありません）** | チェックインなし | [サービスを開く / 登録](https://docode.cc/register?aff=zMRe) |
@@ -81,40 +80,6 @@ Codex Relay に登録すると $10 分の API クレジットを受け取れま�
 公表されていません
 
 [詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
-## OmniRush
-
-GPT 6 Astra、GPT 6 Sol、GPT-5.6 Sol 向けに毎週 50M tokens を無料提供。この紹介リンクから登録すると、さらに 5M tokens を獲得できます。
-
-[サービスを開く / 登録](https://omnirush.ai/console?ref=AXJFLFPA) · [詳細](https://panxunying.github.io/ai-coding-welfare/ja/sites/omnirush/)
-
-
-- **初日のクレジット / プラン**: 公表されていません
-- **毎日のクレジット**: 公表されていません
-- **状態**: 到達可能
-- **データ更新日時**: 2026-10-13 22:46 UTC
-
-
-### 登録条件
-
-コンソールの紹介リンク全体を開き、ref=AXJFLFPA を残して画面の案内に沿って登録してください。毎週の利用枠と紹介特典はコンソールで確認できます。
-
-### 特典・制限・注意事項
-
-トークン特典とモデル一覧は投稿情報に基づき、ログイン後の実際の付与は未確認です。適用条件、リセットや繰越のルール、特典の付与頻度、利用可能なモデルはコンソールで確認してください。トークンは米ドル合計に含めません。
-
-### クライアント設定
-
-管理画面で API キーを作成し、自分のアカウントで利用可能なモデルを選んでください。Anthropic の Base URL には /v1 を付けません。OpenAI 互換 URL には通常 /v1 を付けます。プロトコルの入口があっても、すべてのモデルやクライアントに対応するとは限りません。
-
-- [管理画面](https://omnirush.ai/console?ref=AXJFLFPA)
-
-### 公開モデルデータ
-
-公開データに含まれるモデルのみを表示しています。データがないことはモデルがないことを意味しません。最新の料金、アカウントグループ、利用可否は管理画面で確認してください。リクエスト単価とトークン単価は別物です。
-
-公表されていません
-
-[詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/)
 ## Conduit
 
 Conduit の Telegram ボットから登録すると $500 分のクレジットを受け取れます。GPT-6、Fable 5.1 などのモデルに対応しています。
@@ -507,6 +472,7 @@ GitHub OAuth のみ。作成から 365 日以上のアカウントと Cloudflare
 
 登録の推奨、合計への算入、自動確認を停止しています。元の理由と履歴は中国語版に残しています。
 
+- [omnirush](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/) · 2026-10-14
 - [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12
 - [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
 - [gorouter](https://panxunying.github.io/ai-coding-welfare/sites/gorouter/) · 2026-09-21

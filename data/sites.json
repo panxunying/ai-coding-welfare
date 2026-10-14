@@ -138,6 +138,10 @@
       "name": "OmniRush",
       "subtitle": "每周免费 50M tokens · 本页邀请额外 +5M · GPT 6 Astra / GPT 6 Sol / GPT-5.6 Sol",
       "recommended": false,
+      "archived": {
+        "at": "2026-10-14",
+        "reason": "按维护者要求下架，移入历史区，不再推荐注册"
+      },
       "panel": "relay",
       "credits": {
         "signup": null,
