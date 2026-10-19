@@ -77,7 +77,8 @@
     "maintenanceNote": "Gemeinsame Fakten in data/sites.json, übersetzte Texte in data/locales/*.json bearbeiten; danach npm test und npm run build ausführen. README-Dateien und HTML-Seiten werden generiert, nicht direkt bearbeiten. Übersetzungsfehler bitte per Issue melden.",
     "selection": "Warum diese Sprachen?",
     "selectionNote": "GitHub veröffentlicht keine offizielle Rangliste natürlicher Sprachen. Als Näherung für die Reichweite nutzt dieses Projekt die geografische Entwicklerverteilung aus Octoverse 2025: Englisch, Hindi, brasilianisches Portugiesisch, Japanisch und Deutsch zusätzlich zum bestehenden Chinesisch. Land und Sprache sind nicht gleichzusetzen; Indien ist mehrsprachig, Hindi repräsentiert nicht alle indischen Entwickler.",
-    "report": "GitHub Octoverse 2025"
+    "report": "GitHub Octoverse 2025",
+    "remarks": "Hinweise"
   },
   "sites": {
     "artbloom": {
@@ -108,7 +109,9 @@
     "docode": {
       "summary": "New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten vergeben, nicht in US-Dollar.",
       "registration": "Nur E-Mail und Passwort, mit E-Mail-Bestätigung und Cloudflare Turnstile. Vor dem Absenden den Empfehlungscode {inviteCode} im Formular prüfen; nachträgliches Eintragen ist nicht möglich. Die alternative Domain nutzt dasselbe Konto und Guthaben.",
-      "notes": "Kein täglicher Check-in. Prämien stammen aus Anbieterankündigungen, nicht aus öffentlichen Guthabenfeldern. Interne Einheiten nicht zur USD-Summe addieren: beobachtet wurden 50 Einheiten pro CNY 1, eine Ankündigung nennt auch 25. Gruppen- und Ausgabemultiplikatoren beeinflussen den Verbrauch zusätzlich. Modelle und Preise sind nur nach Anmeldung sichtbar. Nach Verbrauch des Aktionsguthabens ist dies ein kostenpflichtiges Gateway; Ausfälle und Preisänderungen sind möglich."
+      "notes": "Kein täglicher Check-in. Prämien stammen aus Anbieterankündigungen, nicht aus öffentlichen Guthabenfeldern. Interne Einheiten nicht zur USD-Summe addieren: beobachtet wurden 50 Einheiten pro CNY 1, eine Ankündigung nennt auch 25. Gruppen- und Ausgabemultiplikatoren beeinflussen den Verbrauch zusätzlich. Modelle und Preise sind nur nach Anmeldung sichtbar. Nach Verbrauch des Aktionsguthabens ist dies ein kostenpflichtiges Gateway; Ausfälle und Preisänderungen sind möglich.",
+      "dailyNote": "Kostenlose Verlosung + Rabattgutscheine für Aufladungen",
+      "remarks": "Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten"
     },
     "justdowork": {
       "summary": "New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabenschnittstellen.",

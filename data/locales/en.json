@@ -77,7 +77,8 @@
     "maintenanceNote": "Edit data/sites.json for shared facts and data/locales/*.json for translated copy, then run npm test and npm run build. README files and HTML pages are generated; do not edit them directly. Report translation errors through Issues.",
     "selection": "Why these languages?",
     "selectionNote": "GitHub does not publish an official ranking of human languages. This project uses the developer-population geography in Octoverse 2025 as a coverage proxy: English, Hindi, Brazilian Portuguese, Japanese and German, in addition to existing Chinese. Country is not language; India is multilingual and Hindi does not represent all Indian developers.",
-    "report": "GitHub Octoverse 2025"
+    "report": "GitHub Octoverse 2025",
+    "remarks": "Remarks"
   },
   "sites": {
     "artbloom": {
@@ -108,7 +109,9 @@
     "docode": {
       "summary": "New API gateway with Claude and GPT services; bonuses use internal site units, not US dollars.",
       "registration": "Email and password only, with email verification and Cloudflare Turnstile. Confirm referral code {inviteCode} in the signup form before submitting; a missing code cannot be added retroactively. The alternative domain uses the same account and balance.",
-      "notes": "No daily check-in. Bonuses come from provider notices, not publicly exposed quota fields. Site units must not be added to USD totals: the observed top-up ratio was CNY 1 for 50 units, with a notice also mentioning 25. Group and output multipliers further affect usage. Models and pricing require login. This is a paid gateway after promotional credits run out; upstream outages and price changes are possible."
+      "notes": "No daily check-in. Bonuses come from provider notices, not publicly exposed quota fields. Site units must not be added to USD totals: the observed top-up ratio was CNY 1 for 50 units, with a notice also mentioning 25. Group and output multipliers further affect usage. Models and pricing require login. This is a paid gateway after promotional credits run out; upstream outages and price changes are possible.",
+      "dailyNote": "Free prize draw + top-up discount coupons",
+      "remarks": "Join the QQ group to unlock many more perks"
     },
     "justdowork": {
       "summary": "New API gateway with GitHub login, daily check-ins and image/task interfaces.",

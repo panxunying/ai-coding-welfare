@@ -1270,8 +1270,8 @@ test('变动日志保留历史事件，但只给未归档站提供推荐详情�
 const CATALOG = JSON.parse(await readFile(new URL('../data/sites.json', import.meta.url), 'utf8')).sites;
 // 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
 const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
-test('OmniRush 与 ArtBloom 下架归档，Codex Relay 排第一，其余站顺延，历史归档站保持归档', () => {
-  assert.deepEqual(activeSites(CATALOG).slice(0, 7).map((site) => site.id), ['codex-relay', 'conduit', 'agentrouter', 'docode', 'justdowork', 'flushapi', 'kktoken']);
+test('OmniRush 与 ArtBloom 下架归档，DoCode 排第一，其余站顺延，历史归档站保持归档', () => {
+  assert.deepEqual(activeSites(CATALOG).slice(0, 7).map((site) => site.id), ['docode', 'codex-relay', 'conduit', 'agentrouter', 'justdowork', 'flushapi', 'kktoken']);
   for (const id of ['omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
   assert.equal(new Set(CATALOG.map((s) => s.id)).size, CATALOG.length);
   assert.equal(MIRASIM.signupUrl, 'https://mirasim.ai/r/go-kx9cd5');
@@ -1511,8 +1511,8 @@ for (const catalog of TRANSLATIONS) {
   });
   test(`${locale.id}：顺序、邀请链接和免费额度总计共用源数据`, () => {
     const ld = JSON.parse(homepage.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
-    assert.equal(ld.itemListElement[0].name, 'Codex Relay');
-    assert.equal(ld.itemListElement[1].name, 'Conduit');
+    assert.equal(ld.itemListElement[0].name, 'DoCode');
+    assert.equal(ld.itemListElement[1].name, 'Codex Relay');
     assert.equal(ld.itemListElement[5].name, 'FlushAPI');
     assert.equal(ld.numberOfItems, activeSites(CATALOG).length);
     assert.ok(readme.includes('$1109.5') && homepage.includes('$1109.5'));

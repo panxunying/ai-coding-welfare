@@ -66,6 +66,7 @@ export function creditPlan(site, snap) {
     approx,
     // 非数值权益（如自带 Key 免费）单独说明，不折成赠送额度。
     note: c.note || null,
+    dailyNote: c.dailyNote || null,
     base,
     sources,
     firstDay,
@@ -84,7 +85,7 @@ export function usd(n, approx = false, unit = DEFAULT_UNIT) {
 
 /** 「之后每天」列：签到是往账户里加，额度池是每天重置回同一个数 */
 export function perDay(plan) {
-  if (plan.daily == null) return null;
+  if (plan.daily == null) return plan.dailyNote ?? null;
   return `${usd(plan.daily, plan.approx, plan.unit)}/天${plan.resets ? '（重置）' : ''}`;
 }
 

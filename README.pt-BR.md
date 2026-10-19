@@ -19,19 +19,19 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 
 ## Visão geral
 
-| Serviço | Status | Créditos no primeiro dia / plano | Créditos diários | Cadastro |
-| --- | --- | --- | --- | --- |
-| **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) |
-| **Conduit** | Acessível | **$500** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://t.me/conduitoff_bot?start=ref_8111640723) |
-| **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) |
-| **DoCode** | Acessível | **300 unidades internas (não USD)** | Sem check-in | [Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) |
-| **JustDoWork** | Acessível | **≈$92** | ≈$22/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.justwoker.icu/sign-up?aff=VTrz) |
-| **FlushAPI** | Acessível | **$22.5** | Check-in ativo; valor não divulgado | [Abrir serviço / cadastrar](https://flushapi.fun/sign-up?aff=WBF3) |
-| **KKtoken AI** | Acessível | **$120** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://kktoken.cc/sign-up?aff=MzG9) |
-| **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) |
-| **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) |
-| **CheapCodex** | Acessível | **$40** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
-| **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| Serviço | Status | Créditos no primeiro dia / plano | Créditos diários | Cadastro | Observações |
+| --- | --- | --- | --- | --- | --- |
+| **DoCode** | Acessível | **300 unidades internas (não USD)** | Sorteio grátis + cupons de desconto para recarga | [Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) | Entre no grupo do QQ para desbloquear muito mais benefícios |
+| **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) | — |
+| **Conduit** | Acessível | **$500** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://t.me/conduitoff_bot?start=ref_8111640723) | — |
+| **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) | — |
+| **JustDoWork** | Acessível | **≈$92** | ≈$22/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
+| **FlushAPI** | Acessível | **$22.5** | Check-in ativo; valor não divulgado | [Abrir serviço / cadastrar](https://flushapi.fun/sign-up?aff=WBF3) | — |
+| **KKtoken AI** | Acessível | **$120** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://kktoken.cc/sign-up?aff=MzG9) | — |
+| **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
+| **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | — |
+| **CheapCodex** | Acessível | **$40** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
+| **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
 **Créditos indicativos em USD no primeiro dia: $1109.5 em 8 serviços que aceitam novos usuários.**
 
@@ -45,6 +45,47 @@ As regras de crédito são registradas manualmente a partir de comunicados; as A
 2. Crie uma chave no painel. Use o endpoint verificado abaixo ou obtenha o endereço atual com o provedor se não houver um público.
 3. Configure um cliente compatível, faça uma requisição pequena e confira o consumo real do saldo antes de depender do serviço.
 
+## DoCode
+
+Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólares americanos.
+
+[Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/docode/)
+
+
+- **Créditos no primeiro dia / plano**: 300 unidades internas (não USD)
+- **Cadastro**: 50 unidades internas (não USD)
+- **Bônus de indicação**: 250 unidades internas (não USD)
+- **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
+- **Status**: Acessível
+- **Dados atualizados em**: 2026-10-19 04:43 UTC
+- **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
+
+
+### Requisitos de cadastro
+
+Somente e-mail e senha, com verificação por e-mail e Cloudflare Turnstile. Confira o código zMRe no formulário antes de enviar; não é possível adicioná-lo depois. O domínio alternativo usa a mesma conta e saldo.
+
+**Código de indicação — confira este campo antes de enviar o cadastro: `zMRe`**
+
+### Recompensas, limites e cuidados importantes
+
+Sem check-in diário. Os bônus vêm de comunicados, não de campos públicos de cota. Não some unidades internas ao total em USD: a recarga observada era de 50 unidades por CNY 1, com um comunicado também mencionando 25. Multiplicadores de grupo e saída afetam o consumo. Modelos e preços exigem login. É um gateway pago após o fim dos créditos promocionais; pode haver falhas e mudanças de preço na origem.
+
+### Configuração do cliente
+
+Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
+
+- Anthropic Base URL: `https://docode.cc`
+- OpenAI Base URL: `https://docode.cc/v1`
+- [Links alternativos de cadastro: https://api.docode.cc](https://api.docode.cc/register?aff=zMRe)
+
+### Dados públicos dos modelos
+
+Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
+
+Não divulgado publicamente
+
+[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
 ## Codex Relay
 
 Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
@@ -159,46 +200,6 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 | gpt-6-astra | $4 | $20 | — | openai |
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/agentrouter/)
-## DoCode
-
-Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólares americanos.
-
-[Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/docode/)
-
-
-- **Créditos no primeiro dia / plano**: 300 unidades internas (não USD)
-- **Cadastro**: 50 unidades internas (não USD)
-- **Bônus de indicação**: 250 unidades internas (não USD)
-- **Créditos diários**: Sem check-in
-- **Status**: Acessível
-- **Dados atualizados em**: 2026-10-19 04:43 UTC
-
-
-### Requisitos de cadastro
-
-Somente e-mail e senha, com verificação por e-mail e Cloudflare Turnstile. Confira o código zMRe no formulário antes de enviar; não é possível adicioná-lo depois. O domínio alternativo usa a mesma conta e saldo.
-
-**Código de indicação — confira este campo antes de enviar o cadastro: `zMRe`**
-
-### Recompensas, limites e cuidados importantes
-
-Sem check-in diário. Os bônus vêm de comunicados, não de campos públicos de cota. Não some unidades internas ao total em USD: a recarga observada era de 50 unidades por CNY 1, com um comunicado também mencionando 25. Multiplicadores de grupo e saída afetam o consumo. Modelos e preços exigem login. É um gateway pago após o fim dos créditos promocionais; pode haver falhas e mudanças de preço na origem.
-
-### Configuração do cliente
-
-Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
-
-- Anthropic Base URL: `https://docode.cc`
-- OpenAI Base URL: `https://docode.cc/v1`
-- [Links alternativos de cadastro: https://api.docode.cc](https://api.docode.cc/register?aff=zMRe)
-
-### Dados públicos dos modelos
-
-Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
-
-Não divulgado publicamente
-
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
 ## JustDoWork
 
 Gateway New API com login GitHub, check-ins diários e interfaces de imagens e tarefas.

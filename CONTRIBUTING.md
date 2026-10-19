@@ -19,6 +19,7 @@
     "invite": 50,                        // 通过本仓库邀请链接额外到账，站点接口没有就填 null
     "dailyCheckin": 25,                  // 每日签到额度（累积），没有签到就填 null
     "dailyQuota": null,                  // 每日重置的额度池（不累积），与 dailyCheckin 二选一
+    "dailyNote": "免费抽奖+充值优惠券",    // 非数值每日福利，不参与首日额度和美元合计
     "approx": false,                     // true 时页面显示 ≈，表示站点公示的是约数
     "unit": "usd"                        // 计价单位，不填即 usd；发站内积分的站填 "point"；
                                          // 也写「刀」但充值比例离谱的站（DoCode 1 元 = 50 刀）填 "site-usd"，见下文
@@ -26,6 +27,7 @@
   "signupUrl": "https://example.com/register?aff=xxx",
   "inviteCode": "xxx",                   // 只在「注册表单里有一栏邀请码要手填」时写；
                                          // 写了才会在 README 总表末尾出「邀请码」列，没有站需要手填就不出这一列
+  "remarks": "加qq群可以解锁超多福利",     // 可选备注，有值时在总表最后新增「备注」列
   "homeUrl": "https://example.com",
   "docsUrl": "https://example.com/docs",
   "statusApi": "https://example.com/api/status",   // New API / One API 系都有
@@ -131,6 +133,7 @@ npm run check     # 确认新链接可访问
 - 选语种的依据与局限见 [多语言说明](I18N.md)，不是 GitHub 官方自然语言排行榜。
 - `data/locales/*.json` 是手工维护的翻译来源，包含界面文字和站点摘要、注册条件、重要风险。
   新增站点或修改政策时，同步更新五份文案；英文是键名和占位符的校验基准，不是静默回退语言。
+  `credits.dailyNote` 与 `remarks` 分别在站点译文中对应 `dailyNote` 与 `remarks`。
 - 金额、模型、协议入口、完整邀请 URL、位次均来自 `data/sites.json` / `data/live.json`，
   翻译不要复制这些可生成字段。像 `{inviteCode}` 的占位符不可改名或遗漏。
 - `scripts/lib/render-localized.mjs` 生成翻译版 README、首页、详情页；共享 `credits.mjs`

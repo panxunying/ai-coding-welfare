@@ -77,7 +77,8 @@
     "maintenanceNote": "Edite data/sites.json para fatos compartilhados e data/locales/*.json para traduções; depois execute npm test e npm run build. Os arquivos README e as páginas HTML são gerados: não os edite diretamente. Relate erros de tradução pelas Issues.",
     "selection": "Por que estes idiomas?",
     "selectionNote": "O GitHub não publica um ranking oficial de idiomas naturais. Este projeto usa a distribuição geográfica de desenvolvedores do Octoverse 2025 como aproximação de alcance: inglês, hindi, português brasileiro, japonês e alemão, além do chinês já existente. País não equivale a idioma; a Índia é multilíngue e o hindi não representa todos os desenvolvedores indianos.",
-    "report": "GitHub Octoverse 2025"
+    "report": "GitHub Octoverse 2025",
+    "remarks": "Observações"
   },
   "sites": {
     "artbloom": {
@@ -108,7 +109,9 @@
     "docode": {
       "summary": "Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólares americanos.",
       "registration": "Somente e-mail e senha, com verificação por e-mail e Cloudflare Turnstile. Confira o código {inviteCode} no formulário antes de enviar; não é possível adicioná-lo depois. O domínio alternativo usa a mesma conta e saldo.",
-      "notes": "Sem check-in diário. Os bônus vêm de comunicados, não de campos públicos de cota. Não some unidades internas ao total em USD: a recarga observada era de 50 unidades por CNY 1, com um comunicado também mencionando 25. Multiplicadores de grupo e saída afetam o consumo. Modelos e preços exigem login. É um gateway pago após o fim dos créditos promocionais; pode haver falhas e mudanças de preço na origem."
+      "notes": "Sem check-in diário. Os bônus vêm de comunicados, não de campos públicos de cota. Não some unidades internas ao total em USD: a recarga observada era de 50 unidades por CNY 1, com um comunicado também mencionando 25. Multiplicadores de grupo e saída afetam o consumo. Modelos e preços exigem login. É um gateway pago após o fim dos créditos promocionais; pode haver falhas e mudanças de preço na origem.",
+      "dailyNote": "Sorteio grátis + cupons de desconto para recarga",
+      "remarks": "Entre no grupo do QQ para desbloquear muito mais benefícios"
     },
     "justdowork": {
       "summary": "Gateway New API com login GitHub, check-ins diários e interfaces de imagens e tarefas.",

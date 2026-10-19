@@ -19,19 +19,19 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 ## Anbieterübersicht
 
-| Anbieter | Status | Guthaben am ersten Tag / Tarif | Tägliches Guthaben | Registrierung |
-| --- | --- | --- | --- | --- |
-| **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) |
-| **Conduit** | Erreichbar | **$500** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://t.me/conduitoff_bot?start=ref_8111640723) |
-| **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) |
-| **DoCode** | Erreichbar | **300 interne Einheiten (keine USD)** | Kein Check-in | [Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) |
-| **JustDoWork** | Erreichbar | **≈$92** | ≈$22/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) |
-| **FlushAPI** | Erreichbar | **$22.5** | Check-in aktiviert; Betrag nicht veröffentlicht | [Dienst öffnen / registrieren](https://flushapi.fun/sign-up?aff=WBF3) |
-| **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) |
-| **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) |
-| **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) |
-| **CheapCodex** | Erreichbar | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
-| **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| Anbieter | Status | Guthaben am ersten Tag / Tarif | Tägliches Guthaben | Registrierung | Hinweise |
+| --- | --- | --- | --- | --- | --- |
+| **DoCode** | Erreichbar | **300 interne Einheiten (keine USD)** | Kostenlose Verlosung + Rabattgutscheine für Aufladungen | [Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) | Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten |
+| **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
+| **Conduit** | Erreichbar | **$500** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://t.me/conduitoff_bot?start=ref_8111640723) | — |
+| **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) | — |
+| **JustDoWork** | Erreichbar | **≈$92** | ≈$22/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
+| **FlushAPI** | Erreichbar | **$22.5** | Check-in aktiviert; Betrag nicht veröffentlicht | [Dienst öffnen / registrieren](https://flushapi.fun/sign-up?aff=WBF3) | — |
+| **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) | — |
+| **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
+| **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) | — |
+| **CheapCodex** | Erreichbar | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
+| **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
 **Ungefähres USD-Guthaben am ersten Tag: $1109.5 bei 8 Diensten, die neue Nutzer aufnehmen.**
 
@@ -45,6 +45,47 @@ Guthabenregeln werden manuell aus Anbieterankündigungen erfasst; öffentliche S
 2. Erstelle im Dashboard einen Schlüssel. Verwende den unten bestätigten Endpunkt oder frage den aktuellen Endpunkt beim Anbieter ab, wenn keiner öffentlich bekannt ist.
 3. Konfiguriere einen unterstützten Client, sende eine kleine Testanfrage und prüfe den tatsächlichen Guthabenverbrauch.
 
+## DoCode
+
+New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten vergeben, nicht in US-Dollar.
+
+[Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/docode/)
+
+
+- **Guthaben am ersten Tag / Tarif**: 300 interne Einheiten (keine USD)
+- **Registrierung**: 50 interne Einheiten (keine USD)
+- **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
+- **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
+- **Status**: Erreichbar
+- **Datenstand**: 2026-10-19 04:43 UTC
+- **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
+
+
+### Voraussetzungen für die Registrierung
+
+Nur E-Mail und Passwort, mit E-Mail-Bestätigung und Cloudflare Turnstile. Vor dem Absenden den Empfehlungscode zMRe im Formular prüfen; nachträgliches Eintragen ist nicht möglich. Die alternative Domain nutzt dasselbe Konto und Guthaben.
+
+**Empfehlungscode — vor dem Absenden im Formular prüfen: `zMRe`**
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+Kein täglicher Check-in. Prämien stammen aus Anbieterankündigungen, nicht aus öffentlichen Guthabenfeldern. Interne Einheiten nicht zur USD-Summe addieren: beobachtet wurden 50 Einheiten pro CNY 1, eine Ankündigung nennt auch 25. Gruppen- und Ausgabemultiplikatoren beeinflussen den Verbrauch zusätzlich. Modelle und Preise sind nur nach Anmeldung sichtbar. Nach Verbrauch des Aktionsguthabens ist dies ein kostenpflichtiges Gateway; Ausfälle und Preisänderungen sind möglich.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+- Anthropic Base URL: `https://docode.cc`
+- OpenAI Base URL: `https://docode.cc/v1`
+- [Alternative Registrierungslinks: https://api.docode.cc](https://api.docode.cc/register?aff=zMRe)
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
 ## Codex Relay
 
 Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
@@ -159,46 +200,6 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 | gpt-6-astra | $4 | $20 | — | openai |
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/agentrouter/)
-## DoCode
-
-New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten vergeben, nicht in US-Dollar.
-
-[Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/docode/)
-
-
-- **Guthaben am ersten Tag / Tarif**: 300 interne Einheiten (keine USD)
-- **Registrierung**: 50 interne Einheiten (keine USD)
-- **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
-- **Tägliches Guthaben**: Kein Check-in
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 04:43 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Nur E-Mail und Passwort, mit E-Mail-Bestätigung und Cloudflare Turnstile. Vor dem Absenden den Empfehlungscode zMRe im Formular prüfen; nachträgliches Eintragen ist nicht möglich. Die alternative Domain nutzt dasselbe Konto und Guthaben.
-
-**Empfehlungscode — vor dem Absenden im Formular prüfen: `zMRe`**
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Kein täglicher Check-in. Prämien stammen aus Anbieterankündigungen, nicht aus öffentlichen Guthabenfeldern. Interne Einheiten nicht zur USD-Summe addieren: beobachtet wurden 50 Einheiten pro CNY 1, eine Ankündigung nennt auch 25. Gruppen- und Ausgabemultiplikatoren beeinflussen den Verbrauch zusätzlich. Modelle und Preise sind nur nach Anmeldung sichtbar. Nach Verbrauch des Aktionsguthabens ist dies ein kostenpflichtiges Gateway; Ausfälle und Preisänderungen sind möglich.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- Anthropic Base URL: `https://docode.cc`
-- OpenAI Base URL: `https://docode.cc/v1`
-- [Alternative Registrierungslinks: https://api.docode.cc](https://api.docode.cc/register?aff=zMRe)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
 ## JustDoWork
 
 New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabenschnittstellen.

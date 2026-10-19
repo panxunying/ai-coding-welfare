@@ -63,6 +63,7 @@ function siteView(site, snap, catalog) {
   const first = sub ? `${sub.name} · ${interpolate(ui.perMonth, { amount: `$${sub.monthlyUsd}` })}` : amount(plan.firstDay, plan, ui, plan.approx);
   const daily = sub ? interpolate(ui.window, { hours: sub.windowHours })
     : plan.daily != null ? `${interpolate(ui.perDay, { amount: amount(plan.daily, plan, ui, plan.approx) })} · ${plan.resets ? ui.pool : ui.checkin}`
+    : plan.dailyNote ? copy.dailyNote
     : snap?.checkinEnabled === true ? ui.checkinUnknown : snap?.checkinEnabled === false ? ui.noCheckin : ui.unpublished;
   const state = shut ? ui.closed : snap?.online === true ? ui.online : snap?.online === false ? ui.offline : ui.unknown;
   const facts = [
@@ -75,6 +76,7 @@ function siteView(site, snap, catalog) {
     [ui.state, state],
     route.state === 'oauth' ? [ui.signup, interpolate(ui.oauth, { providers: route.oauth.join(' / ') })] : null,
     [ui.updated, date(snap?.staleFrom ?? snap?.checkedAt, ui)],
+    site.remarks ? [ui.remarks, copy.remarks] : null,
   ].filter(Boolean);
   const warnings = [
     shut ? ui.closed : null,
@@ -148,9 +150,11 @@ function siteMarkdown(v, { meta, catalog }) {
 export function renderLocalizedReadme({ meta, sites, live, catalog }) {
   const ui = catalog.ui;
   const items = views(sites, live, catalog);
+  const hasRemarks = items.some((v) => v.site.remarks);
   const rows = items.map((v) => [
     `**${md(v.site.name)}**`, md(v.state), v.shut ? `~~${md(v.first)}~~` : `**${md(v.first)}**`, md(v.daily),
     `[${md(v.shut ? ui.visitClosed : ui.visit)}](${v.site.signupUrl})`,
+    ...(hasRemarks ? [md(v.site.remarks ? v.copy.remarks : '—')] : []),
   ]);
   return [
     `# ${ui.title}`, '', readmeLanguages(catalog.locale), '', ui.tagline, '',
@@ -158,7 +162,7 @@ export function renderLocalizedReadme({ meta, sites, live, catalog }) {
     '> [!TIP]', `> **📣 ${ui.submitTitle}**`, '>', `> ${ui.submitText}`, '>',
     `> [${ui.submit}](${meta.repoUrl}/issues/new/choose) · [${ui.browse}](${meta.repoUrl}/issues)`, '',
     ui.intro, '', `**${ui.updated}:** ${date(live?.generatedAt, ui)}`, '',
-    `## ${ui.overview}`, '', markdownTable([ui.site, ui.state, ui.firstDay, ui.daily, ui.signup], rows), '',
+    `## ${ui.overview}`, '', markdownTable([ui.site, ui.state, ui.firstDay, ui.daily, ui.signup, ...(hasRemarks ? [ui.remarks] : [])], rows), '',
     `**${totalsText(items, ui)}**`, '', ui.totalsNote, '', ui.dataNote, '',
     `## ${ui.quickstart}`, '', ...ui.steps.map((s, i) => `${i + 1}. ${s}`), '',
     ...items.map((v) => siteMarkdown(v, { meta, catalog })), '',

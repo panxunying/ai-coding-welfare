@@ -53,6 +53,7 @@ function siteCard(site, snap) {
       : p.note ? ['免费范围', esc(p.note)] : null,
     p.daily != null
       ? ['之后每天', p.resets ? `重置额度池 ${usd(p.daily, p.approx, p.unit)}（不累积）` : `签到 ${usd(p.daily, p.approx, p.unit)}`]
+      : p.dailyNote ? ['之后每天', esc(p.dailyNote)]
       : snap?.checkinEnabled
         ? ['每日签到', '支持']
         : snap?.checkinEnabled === false
@@ -71,6 +72,7 @@ function siteCard(site, snap) {
     snap?.probeBlocked && !staleHours(snap)
       ? ['数据快照', `${fmt(snap.staleFrom ?? snap.checkedAt)}（本次探测被站点 WAF 拦下，机房 IP 常见，不影响家宽访问）`]
       : null,
+    site.remarks ? ['备注', esc(site.remarks)] : null,
   ].filter(Boolean);
 
   return `

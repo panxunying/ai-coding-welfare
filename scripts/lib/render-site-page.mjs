@@ -26,7 +26,7 @@ function factRows(site, snap) {
     p.sources > 1 && breakdown(p) ? ['额度构成', esc(breakdown(p))] : null,
     p.daily != null
       ? ['之后每天', p.resets ? `重置额度池 ${usd(p.daily, p.approx, p.unit)}（不累积）` : `签到 ${usd(p.daily, p.approx, p.unit)}`]
-      : null,
+      : p.dailyNote ? ['之后每天', esc(p.dailyNote)] : null,
     p.inviter ? ['邀请他人可得', `$${p.inviter}`] : null,
     snap?.systemName ? ['站点名称', esc(snap.systemName)] : null,
     snap?.version ? ['面板版本', `<code>${esc(snap.version)}</code>`] : null,
@@ -37,6 +37,7 @@ function factRows(site, snap) {
     snap?.githubMinAccountAgeDays ? ['账号门槛', `GitHub 满 ${snap.githubMinAccountAgeDays} 天`] : null,
     snap?.latencyMs != null ? ['接口延迟', `${snap.latencyMs} ms`] : null,
     ['数据快照', esc(fmt(snap?.staleFrom ?? snap?.checkedAt))],
+    site.remarks ? ['备注', esc(site.remarks)] : null,
   ].filter(Boolean);
 }
 

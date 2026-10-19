@@ -14,6 +14,7 @@ const shield = (s) => encodeURIComponent(String(s).replace(/-/g, '--').replace(/
 const B = (label, msg, color) => `https://img.shields.io/badge/${shield(label)}-${shield(msg)}-${color}`;
 
 const yes = (v) => (v === true ? '✅' : v === false ? '❌' : '—');
+const tableText = (value) => esc(value).replace(/\|/g, '\\|').replace(/[\r\n]+/g, ' ');
 
 function fmtDate(iso) {
   if (!iso) return '未知';
@@ -36,6 +37,7 @@ function overviewTable(sites, liveById) {
   // 多数站的邀请额度是邀请链接自己带的，用户不用手打；只有个别站（DoCode）注册表单里
   // 有一栏「邀请码」要自己填，漏填就只拿注册额度。没有任何站需要手填时不出这一列。
   const hasCode = sites.some((s) => s.inviteCode);
+  const hasRemarks = sites.some((s) => s.remarks);
   const hasSubscription = sites.some((s) => s.subscription);
   const rows = sites.map((s) => {
     const l = liveById.get(s.id) ?? {};
@@ -54,8 +56,9 @@ function overviewTable(sites, liveById) {
           : `**${usd(plan.firstDay, plan.approx, plan.unit)}**`
         : plan.note ?? '站内公示';
     const detail = sub ? sub.estimates.map((e) => `${e.model} **${e.amount}**`).join('<br>') : breakdown(plan) ?? '—';
+    const daily = perDay(plan);
     const checkin =
-      sub ? `**${sub.window}**<br>共享额度` : perDay(plan) ??
+      sub ? `**${sub.window}**<br>共享额度` : daily != null ? tableText(daily) :
       (l.checkinEnabled
         ? '支持签到'
         : l.checkinEnabled === false
@@ -78,12 +81,13 @@ function overviewTable(sites, liveById) {
     const code = s.inviteCode ? ` \`${s.inviteCode}\` |` : ' — |';
     return (
       `| **${s.name}**${s.recommended ? ' 🔥' : ''} | ${state} | ${first} | ${detail} | ${checkin} | ${proto} | ${models} | ${cta} |` +
-      (hasCode ? code : '')
+      (hasCode ? code : '') +
+      (hasRemarks ? ` ${s.remarks ? tableText(s.remarks) : '—'} |` : '')
     );
   });
   return [
-    `| 站点 | 状态 | ${hasSubscription ? '首日可得 / 套餐' : '首日可得'} | ${hasSubscription ? '额度构成 / 用量' : '额度构成'} | ${hasSubscription ? '每日 / 周期' : '之后每天'} | 兼容协议 | 模型 | 注册 |${hasCode ? ' 邀请码 |' : ''}`,
-    `| :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: |${hasCode ? ' :--: |' : ''}`,
+    `| 站点 | 状态 | ${hasSubscription ? '首日可得 / 套餐' : '首日可得'} | ${hasSubscription ? '额度构成 / 用量' : '额度构成'} | ${hasSubscription ? '每日 / 周期' : '之后每天'} | 兼容协议 | 模型 | 注册 |${hasCode ? ' 邀请码 |' : ''}${hasRemarks ? ' 备注 |' : ''}`,
+    `| :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: |${hasCode ? ' :--: |' : ''}${hasRemarks ? ' :-- |' : ''}`,
     ...rows,
   ].join('\n');
 }

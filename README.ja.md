@@ -19,19 +19,19 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 
 ## サービス一覧
 
-| サービス | 状態 | 初日のクレジット / プラン | 毎日のクレジット | 登録特典 |
-| --- | --- | --- | --- | --- |
-| **Codex Relay** | 到達可能 | **$10** | 公表されていません | [サービスを開く / 登録](https://codex-relay.codes/register?aff=6jAq) |
-| **Conduit** | 到達可能 | **$500** | 公表されていません | [サービスを開く / 登録](https://t.me/conduitoff_bot?start=ref_8111640723) |
-| **AgentRouter** | 到達可能 | **$175** | $25/日 · 毎日のチェックイン | [サービスを開く / 登録](https://agentrouter.org/register?aff=szt3) |
-| **DoCode** | 到達可能 | **300 サイト内単位（米ドルではありません）** | チェックインなし | [サービスを開く / 登録](https://docode.cc/register?aff=zMRe) |
-| **JustDoWork** | 到達可能 | **≈$92** | ≈$22/日 · 毎日のチェックイン | [サービスを開く / 登録](https://api.justwoker.icu/sign-up?aff=VTrz) |
-| **FlushAPI** | 到達可能 | **$22.5** | チェックイン有効・付与額非公開 | [サービスを開く / 登録](https://flushapi.fun/sign-up?aff=WBF3) |
-| **KKtoken AI** | 到達可能 | **$120** | $20/日 · 毎日のチェックイン | [サービスを開く / 登録](https://kktoken.cc/sign-up?aff=MzG9) |
-| **Matrix** | 到達可能 | **600 ポイント** | 公表されていません | [サービスを開く / 登録](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) |
-| **AnyRouter** | 到達可能 | **$150** | $25/日 · 毎日のチェックイン | [サービスを開く / 登録](https://anyrouter.top/register?aff=Z24N) |
-| **CheapCodex** | 到達可能 | **$40** | $20/日 · 毎日のチェックイン | [サービスを開く / 登録](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
-| **NOFX** | 到達可能 | **15 ポイント** | 5 ポイント/日 · 毎日のチェックイン | [サービスを開く / 登録](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| サービス | 状態 | 初日のクレジット / プラン | 毎日のクレジット | 登録特典 | 備考 |
+| --- | --- | --- | --- | --- | --- |
+| **DoCode** | 到達可能 | **300 サイト内単位（米ドルではありません）** | 無料抽選＋チャージ割引クーポン | [サービスを開く / 登録](https://docode.cc/register?aff=zMRe) | QQグループに参加すると、さらに多くの特典を利用できます |
+| **Codex Relay** | 到達可能 | **$10** | 公表されていません | [サービスを開く / 登録](https://codex-relay.codes/register?aff=6jAq) | — |
+| **Conduit** | 到達可能 | **$500** | 公表されていません | [サービスを開く / 登録](https://t.me/conduitoff_bot?start=ref_8111640723) | — |
+| **AgentRouter** | 到達可能 | **$175** | $25/日 · 毎日のチェックイン | [サービスを開く / 登録](https://agentrouter.org/register?aff=szt3) | — |
+| **JustDoWork** | 到達可能 | **≈$92** | ≈$22/日 · 毎日のチェックイン | [サービスを開く / 登録](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
+| **FlushAPI** | 到達可能 | **$22.5** | チェックイン有効・付与額非公開 | [サービスを開く / 登録](https://flushapi.fun/sign-up?aff=WBF3) | — |
+| **KKtoken AI** | 到達可能 | **$120** | $20/日 · 毎日のチェックイン | [サービスを開く / 登録](https://kktoken.cc/sign-up?aff=MzG9) | — |
+| **Matrix** | 到達可能 | **600 ポイント** | 公表されていません | [サービスを開く / 登録](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
+| **AnyRouter** | 到達可能 | **$150** | $25/日 · 毎日のチェックイン | [サービスを開く / 登録](https://anyrouter.top/register?aff=Z24N) | — |
+| **CheapCodex** | 到達可能 | **$40** | $20/日 · 毎日のチェックイン | [サービスを開く / 登録](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
+| **NOFX** | 到達可能 | **15 ポイント** | 5 ポイント/日 · 毎日のチェックイン | [サービスを開く / 登録](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
 **初日の米ドル建てクレジット目安：新規登録を受け付ける 8 サービスで計 $1109.5。**
 
@@ -45,6 +45,47 @@ Claude Code、Codex などで使えるコミュニティ運営のゲートウェ
 2. 管理画面でキーを作成します。以下の確認済みエンドポイントを使うか、非公開の場合は提供元から最新の URL を取得します。
 3. 対応クライアントを設定して少量のリクエストを試し、実際の残高消費を確認してから利用してください。
 
+## DoCode
+
+Claude と GPT を扱う New API ゲートウェイ。特典は米ドルではなくサイト内単位です。
+
+[サービスを開く / 登録](https://docode.cc/register?aff=zMRe) · [詳細](https://panxunying.github.io/ai-coding-welfare/ja/sites/docode/)
+
+
+- **初日のクレジット / プラン**: 300 サイト内単位（米ドルではありません）
+- **登録特典**: 50 サイト内単位（米ドルではありません）
+- **紹介特典**: 250 サイト内単位（米ドルではありません）
+- **毎日のクレジット**: 無料抽選＋チャージ割引クーポン
+- **状態**: 到達可能
+- **データ更新日時**: 2026-10-19 04:43 UTC
+- **備考**: QQグループに参加すると、さらに多くの特典を利用できます
+
+
+### 登録条件
+
+メールとパスワードのみ。メール認証と Cloudflare Turnstile が必要です。送信前に紹介コード zMRe が入力されているか確認してください。登録後の追加はできません。代替ドメインでも同じアカウントと残高を使います。
+
+**紹介コード — 登録を送信する前に入力欄を確認: `zMRe`**
+
+### 特典・制限・注意事項
+
+毎日のチェックインはありません。特典は公開 API の残高項目ではなく告知に基づきます。サイト内単位を米ドル合計に加えないでください。確認時の交換率は 1 元で 50 単位、告知には 25 単位の記載もありました。グループ倍率や出力倍率も消費に影響します。モデルと料金はログイン後に確認してください。無料特典終了後は有料で、上流障害や価格変更もあります。
+
+### クライアント設定
+
+管理画面で API キーを作成し、自分のアカウントで利用可能なモデルを選んでください。Anthropic の Base URL には /v1 を付けません。OpenAI 互換 URL には通常 /v1 を付けます。プロトコルの入口があっても、すべてのモデルやクライアントに対応するとは限りません。
+
+- Anthropic Base URL: `https://docode.cc`
+- OpenAI Base URL: `https://docode.cc/v1`
+- [代替登録リンク: https://api.docode.cc](https://api.docode.cc/register?aff=zMRe)
+
+### 公開モデルデータ
+
+公開データに含まれるモデルのみを表示しています。データがないことはモデルがないことを意味しません。最新の料金、アカウントグループ、利用可否は管理画面で確認してください。リクエスト単価とトークン単価は別物です。
+
+公表されていません
+
+[詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
 ## Codex Relay
 
 Codex Relay に登録すると $10 分の API クレジットを受け取れます。
@@ -159,46 +200,6 @@ Telegram アカウントで紹介リンク全体を開き、Start を押して�
 | gpt-6-astra | $4 | $20 | — | openai |
 
 [詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/agentrouter/)
-## DoCode
-
-Claude と GPT を扱う New API ゲートウェイ。特典は米ドルではなくサイト内単位です。
-
-[サービスを開く / 登録](https://docode.cc/register?aff=zMRe) · [詳細](https://panxunying.github.io/ai-coding-welfare/ja/sites/docode/)
-
-
-- **初日のクレジット / プラン**: 300 サイト内単位（米ドルではありません）
-- **登録特典**: 50 サイト内単位（米ドルではありません）
-- **紹介特典**: 250 サイト内単位（米ドルではありません）
-- **毎日のクレジット**: チェックインなし
-- **状態**: 到達可能
-- **データ更新日時**: 2026-10-19 04:43 UTC
-
-
-### 登録条件
-
-メールとパスワードのみ。メール認証と Cloudflare Turnstile が必要です。送信前に紹介コード zMRe が入力されているか確認してください。登録後の追加はできません。代替ドメインでも同じアカウントと残高を使います。
-
-**紹介コード — 登録を送信する前に入力欄を確認: `zMRe`**
-
-### 特典・制限・注意事項
-
-毎日のチェックインはありません。特典は公開 API の残高項目ではなく告知に基づきます。サイト内単位を米ドル合計に加えないでください。確認時の交換率は 1 元で 50 単位、告知には 25 単位の記載もありました。グループ倍率や出力倍率も消費に影響します。モデルと料金はログイン後に確認してください。無料特典終了後は有料で、上流障害や価格変更もあります。
-
-### クライアント設定
-
-管理画面で API キーを作成し、自分のアカウントで利用可能なモデルを選んでください。Anthropic の Base URL には /v1 を付けません。OpenAI 互換 URL には通常 /v1 を付けます。プロトコルの入口があっても、すべてのモデルやクライアントに対応するとは限りません。
-
-- Anthropic Base URL: `https://docode.cc`
-- OpenAI Base URL: `https://docode.cc/v1`
-- [代替登録リンク: https://api.docode.cc](https://api.docode.cc/register?aff=zMRe)
-
-### 公開モデルデータ
-
-公開データに含まれるモデルのみを表示しています。データがないことはモデルがないことを意味しません。最新の料金、アカウントグループ、利用可否は管理画面で確認してください。リクエスト単価とトークン単価は別物です。
-
-公表されていません
-
-[詳細な原文（中国語）](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
 ## JustDoWork
 
 GitHub ログイン、毎日のチェックイン、画像・タスク API を備えた New API ゲートウェイ。

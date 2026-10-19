@@ -19,19 +19,19 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 
 ## Site overview
 
-| Site | Status | First-day credits / plan | Daily credits | Signup |
-| --- | --- | --- | --- | --- |
-| **Codex Relay** | Reachable | **$10** | Not publicly specified | [Open service / register](https://codex-relay.codes/register?aff=6jAq) |
-| **Conduit** | Reachable | **$500** | Not publicly specified | [Open service / register](https://t.me/conduitoff_bot?start=ref_8111640723) |
-| **AgentRouter** | Reachable | **$175** | $25/day · Daily check-in | [Open service / register](https://agentrouter.org/register?aff=szt3) |
-| **DoCode** | Reachable | **300 site units (not USD)** | No check-in | [Open service / register](https://docode.cc/register?aff=zMRe) |
-| **JustDoWork** | Reachable | **≈$92** | ≈$22/day · Daily check-in | [Open service / register](https://api.justwoker.icu/sign-up?aff=VTrz) |
-| **FlushAPI** | Reachable | **$22.5** | Check-in enabled; amount unpublished | [Open service / register](https://flushapi.fun/sign-up?aff=WBF3) |
-| **KKtoken AI** | Reachable | **$120** | $20/day · Daily check-in | [Open service / register](https://kktoken.cc/sign-up?aff=MzG9) |
-| **Matrix** | Reachable | **600 points** | Not publicly specified | [Open service / register](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) |
-| **AnyRouter** | Reachable | **$150** | $25/day · Daily check-in | [Open service / register](https://anyrouter.top/register?aff=Z24N) |
-| **CheapCodex** | Reachable | **$40** | $20/day · Daily check-in | [Open service / register](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) |
-| **NOFX** | Reachable | **15 points** | 5 points/day · Daily check-in | [Open service / register](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) |
+| Site | Status | First-day credits / plan | Daily credits | Signup | Remarks |
+| --- | --- | --- | --- | --- | --- |
+| **DoCode** | Reachable | **300 site units (not USD)** | Free prize draw + top-up discount coupons | [Open service / register](https://docode.cc/register?aff=zMRe) | Join the QQ group to unlock many more perks |
+| **Codex Relay** | Reachable | **$10** | Not publicly specified | [Open service / register](https://codex-relay.codes/register?aff=6jAq) | — |
+| **Conduit** | Reachable | **$500** | Not publicly specified | [Open service / register](https://t.me/conduitoff_bot?start=ref_8111640723) | — |
+| **AgentRouter** | Reachable | **$175** | $25/day · Daily check-in | [Open service / register](https://agentrouter.org/register?aff=szt3) | — |
+| **JustDoWork** | Reachable | **≈$92** | ≈$22/day · Daily check-in | [Open service / register](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
+| **FlushAPI** | Reachable | **$22.5** | Check-in enabled; amount unpublished | [Open service / register](https://flushapi.fun/sign-up?aff=WBF3) | — |
+| **KKtoken AI** | Reachable | **$120** | $20/day · Daily check-in | [Open service / register](https://kktoken.cc/sign-up?aff=MzG9) | — |
+| **Matrix** | Reachable | **600 points** | Not publicly specified | [Open service / register](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
+| **AnyRouter** | Reachable | **$150** | $25/day · Daily check-in | [Open service / register](https://anyrouter.top/register?aff=Z24N) | — |
+| **CheapCodex** | Reachable | **$40** | $20/day · Daily check-in | [Open service / register](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
+| **NOFX** | Reachable | **15 points** | 5 points/day · Daily check-in | [Open service / register](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
 **Indicative first-day USD credits: $1109.5 across 8 services accepting new users.**
 
@@ -45,6 +45,47 @@ Credit policies are manually recorded from provider notices; public endpoints do
 2. Create a key in the dashboard. Use the verified endpoint below, or obtain the current endpoint from the provider if none is public.
 3. Configure a supported client, try a small request and check actual balance consumption before relying on the service.
 
+## DoCode
+
+New API gateway with Claude and GPT services; bonuses use internal site units, not US dollars.
+
+[Open service / register](https://docode.cc/register?aff=zMRe) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/docode/)
+
+
+- **First-day credits / plan**: 300 site units (not USD)
+- **Signup**: 50 site units (not USD)
+- **Referral bonus**: 250 site units (not USD)
+- **Daily credits**: Free prize draw + top-up discount coupons
+- **Status**: Reachable
+- **Snapshot updated**: 2026-10-19 04:43 UTC
+- **Remarks**: Join the QQ group to unlock many more perks
+
+
+### Registration requirements
+
+Email and password only, with email verification and Cloudflare Turnstile. Confirm referral code zMRe in the signup form before submitting; a missing code cannot be added retroactively. The alternative domain uses the same account and balance.
+
+**Referral code — confirm this field before submitting registration: `zMRe`**
+
+### Rewards, limits and important caveats
+
+No daily check-in. Bonuses come from provider notices, not publicly exposed quota fields. Site units must not be added to USD totals: the observed top-up ratio was CNY 1 for 50 units, with a notice also mentioning 25. Group and output multipliers further affect usage. Models and pricing require login. This is a paid gateway after promotional credits run out; upstream outages and price changes are possible.
+
+### Client setup
+
+Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
+
+- Anthropic Base URL: `https://docode.cc`
+- OpenAI Base URL: `https://docode.cc/v1`
+- [Alternative registration links: https://api.docode.cc](https://api.docode.cc/register?aff=zMRe)
+
+### Public model snapshot
+
+Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
+
+Not publicly specified
+
+[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
 ## Codex Relay
 
 Register with Codex Relay to receive $10 in API credits.
@@ -159,46 +200,6 @@ Only models returned by the public snapshot are listed; missing data does not me
 | gpt-6-astra | $4 | $20 | — | openai |
 
 [Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/agentrouter/)
-## DoCode
-
-New API gateway with Claude and GPT services; bonuses use internal site units, not US dollars.
-
-[Open service / register](https://docode.cc/register?aff=zMRe) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/docode/)
-
-
-- **First-day credits / plan**: 300 site units (not USD)
-- **Signup**: 50 site units (not USD)
-- **Referral bonus**: 250 site units (not USD)
-- **Daily credits**: No check-in
-- **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 04:43 UTC
-
-
-### Registration requirements
-
-Email and password only, with email verification and Cloudflare Turnstile. Confirm referral code zMRe in the signup form before submitting; a missing code cannot be added retroactively. The alternative domain uses the same account and balance.
-
-**Referral code — confirm this field before submitting registration: `zMRe`**
-
-### Rewards, limits and important caveats
-
-No daily check-in. Bonuses come from provider notices, not publicly exposed quota fields. Site units must not be added to USD totals: the observed top-up ratio was CNY 1 for 50 units, with a notice also mentioning 25. Group and output multipliers further affect usage. Models and pricing require login. This is a paid gateway after promotional credits run out; upstream outages and price changes are possible.
-
-### Client setup
-
-Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
-
-- Anthropic Base URL: `https://docode.cc`
-- OpenAI Base URL: `https://docode.cc/v1`
-- [Alternative registration links: https://api.docode.cc](https://api.docode.cc/register?aff=zMRe)
-
-### Public model snapshot
-
-Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
-
-Not publicly specified
-
-[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
 ## JustDoWork
 
 New API gateway with GitHub login, daily check-ins and image/task interfaces.
