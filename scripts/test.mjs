@@ -1270,9 +1270,9 @@ test('变动日志保留历史事件，但只给未归档站提供推荐详情�
 const CATALOG = JSON.parse(await readFile(new URL('../data/sites.json', import.meta.url), 'utf8')).sites;
 // 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
 const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
-test('DoCode 排第一，Prime Relay 排第三，其余站顺延，历史归档站保持归档', () => {
-  assert.deepEqual(activeSites(CATALOG).slice(0, 8).map((site) => site.id), ['docode', 'codex-relay', 'primerelay', 'conduit', 'agentrouter', 'justdowork', 'flushapi', 'kktoken']);
-  for (const id of ['omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
+test('DoCode、AgentRouter、Prime Relay 排前三，Conduit 移入历史区，其余归档站保持归档', () => {
+  assert.deepEqual(activeSites(CATALOG).slice(0, 7).map((site) => site.id), ['docode', 'agentrouter', 'primerelay', 'codex-relay', 'justdowork', 'flushapi', 'kktoken']);
+  for (const id of ['conduit', 'omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
   assert.equal(new Set(CATALOG.map((s) => s.id)).size, CATALOG.length);
   assert.equal(MIRASIM.signupUrl, 'https://mirasim.ai/r/go-kx9cd5');
 });
@@ -1287,8 +1287,8 @@ test('DoCode 注册链接走证书有效的主域名 docode.cc，展示与健康
   assert.deepEqual(DOCODE.endpoints, { anthropic: 'https://docode.cc', openai: 'https://docode.cc/v1' });
 });
 const FLUSHAPI = CATALOG.find((s) => s.id === 'flushapi');
-test('FlushAPI 顺延第七位，邀请链接与公开接口齐全', () => {
-  assert.equal(activeSites(CATALOG)[6].id, 'flushapi');
+test('FlushAPI 排第六位，邀请链接与公开接口齐全', () => {
+  assert.equal(activeSites(CATALOG)[5].id, 'flushapi');
   assert.equal(FLUSHAPI.signupUrl, 'https://flushapi.fun/sign-up?aff=WBF3');
   assert.equal(signupProbeUrl(FLUSHAPI), FLUSHAPI.signupUrl);
   assert.equal(FLUSHAPI.statusApi, 'https://flushapi.fun/api/status');
@@ -1371,7 +1371,7 @@ test('README 总表的未归档订阅样例直接呈现 $1 月费与三档用量
   const intro = md.slice(0, md.indexOf('## 📚 站点详情'));
   assert.match(intro, /各模型次数不可相加/);
   assert.match(intro, /付费套餐不计入下方免费额度合计/);
-  assert.match(intro, /\*\*\$1129\.5\*\*/);
+  assert.match(intro, /\*\*\$629\.5\*\*/);
 });
 test('卡片和详情页使用同一价量区块，免费范围是补充信息', () => {
   const args = { meta: META, sites: [MIRASIM], live: LIVE, css: '', groups: [], history: HIST };
@@ -1512,11 +1512,12 @@ for (const catalog of TRANSLATIONS) {
   test(`${locale.id}：顺序、邀请链接和免费额度总计共用源数据`, () => {
     const ld = JSON.parse(homepage.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
     assert.equal(ld.itemListElement[0].name, 'DoCode');
-    assert.equal(ld.itemListElement[1].name, 'Codex Relay');
+    assert.equal(ld.itemListElement[1].name, 'AgentRouter');
     assert.equal(ld.itemListElement[2].name, 'Prime Relay');
-    assert.equal(ld.itemListElement[6].name, 'FlushAPI');
+    assert.equal(ld.itemListElement[3].name, 'Codex Relay');
+    assert.equal(ld.itemListElement[5].name, 'FlushAPI');
     assert.equal(ld.numberOfItems, activeSites(CATALOG).length);
-    assert.ok(readme.includes('$1129.5') && homepage.includes('$1129.5'));
+    assert.ok(readme.includes('$629.5') && homepage.includes('$629.5'));
     for (const s of activeSites(CATALOG)) {
       assert.ok(readme.includes(s.signupUrl));
       assert.ok(homepage.includes(`href="${s.signupUrl.replace(/&/g, '&amp;')}"`));
@@ -1528,7 +1529,7 @@ for (const catalog of TRANSLATIONS) {
     const live = structuredClone(I18N_LIVE);
     live.sites.find((s) => s.id === 'agentrouter').registerOpen = false;
     const html = renderLocalizedHome({ ...args, live });
-    assert.ok(html.includes('$954.5') && !html.includes('$1129.5'));
+    assert.ok(html.includes('$454.5') && !html.includes('$629.5'));
     assert.ok(html.includes('<b class="struck">$175</b>'));
     const md = renderLocalizedReadme({ ...args, live });
     assert.ok(md.includes('~~$175~~'));
