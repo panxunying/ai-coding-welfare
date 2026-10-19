@@ -91,6 +91,13 @@
       "registration": "Abra o link completo de indicação, mantenha aff=6jAq e siga as instruções de cadastro. Entre na conta para conferir seu saldo de US$ 10 em créditos de cadastro.",
       "notes": "Consulte o console para ver os modelos disponíveis, preços, chaves de API, endpoints e instruções de configuração do cliente."
     },
+    "primerelay": {
+      "summary": "O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite check-in diário.",
+      "registration": "Use o link completo de indicação com aff=2FXZ7SBATLN2. As configurações públicas de cadastro exigem atualmente um endereço @qq.com e verificação por e-mail. Entre para consultar o saldo e a opção de check-in.",
+      "notes": "A oferta de $20 no cadastro e o check-in diário foram informados pelo mantenedor. O valor do prêmio diário não foi especificado e não entra no total do primeiro dia. Consulte modelos e preços na lista pública de modelos. Promoções de indicação separadas podem exigir entrada no grupo do QQ; esses prêmios não foram somados aos $20. Grupo oficial do QQ: 239561070.",
+      "dailyNote": "Check-in diário disponível",
+      "remarks": "É necessário entrar no grupo do QQ 239561070"
+    },
     "omnirush": {
       "summary": "GPT 6 Astra, GPT 6 Sol e GPT-5.6 Sol gratuitos com 50M de tokens por semana; cadastre-se por este link de indicação para receber mais 5M de tokens.",
       "registration": "Abra o link completo de indicação do console, mantenha ref=AXJFLFPA e siga as instruções de cadastro. Confira a franquia semanal e o bônus de indicação no console.",

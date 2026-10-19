@@ -91,6 +91,13 @@
       "registration": "Öffne den vollständigen Empfehlungslink, behalte aff=6jAq bei und folge den Registrierungsanweisungen. Melde dich an, um dein Startguthaben von 10 US-Dollar einzusehen.",
       "notes": "Verfügbare Modelle, Preise, API-Schlüssel, Endpunkte und Anweisungen zur Client-Einrichtung findest du in der Konsole."
     },
+    "primerelay": {
+      "summary": "Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche Check-ins.",
+      "registration": "Den vollständigen Empfehlungslink mit aff=2FXZ7SBATLN2 verwenden. Die öffentlichen Registrierungseinstellungen verlangen derzeit eine @qq.com-Adresse und eine E-Mail-Bestätigung. Nach der Anmeldung Guthaben und Check-in-Bereich öffnen.",
+      "notes": "Die $20 Startguthaben und täglichen Check-ins wurden vom Projektbetreuer angegeben. Die Höhe der täglichen Prämie ist nicht bekannt und wird nicht zum Guthaben des ersten Tages addiert. Modelle und Preise stehen in der öffentlichen Modellübersicht. Separate Empfehlungsaktionen können den Beitritt zur QQ-Gruppe verlangen; diese Prämien werden nicht zusätzlich zu den $20 gezählt. Offizielle QQ-Gruppe: 239561070.",
+      "dailyNote": "Tägliche Check-ins verfügbar",
+      "remarks": "Beitritt zur QQ-Gruppe 239561070 erforderlich"
+    },
     "omnirush": {
       "summary": "Kostenloser Zugang zu GPT 6 Astra, GPT 6 Sol und GPT-5.6 Sol mit 50M Tokens pro Woche; über diesen Empfehlungslink gibt es zusätzlich 5M Tokens.",
       "registration": "Öffne den vollständigen Empfehlungslink zur Konsole, behalte ref=AXJFLFPA bei und folge der Registrierung. Prüfe dein Wochenkontingent und den Empfehlungsbonus in der Konsole.",

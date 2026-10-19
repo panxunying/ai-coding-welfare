@@ -91,6 +91,13 @@
       "registration": "Open the full referral link, keep aff=6jAq and follow the registration instructions. Sign in to view your $10 signup credit balance.",
       "notes": "Check the console for available models, prices, API keys, endpoints and client setup instructions."
     },
+    "primerelay": {
+      "summary": "Prime Relay offers $20 in credits on the first day of registration and supports daily check-ins.",
+      "registration": "Use the full referral link with aff=2FXZ7SBATLN2. The public registration settings currently require a @qq.com email address and email verification. Sign in to view your credit balance and check-in entry.",
+      "notes": "The $20 signup offer and daily check-ins were supplied by the maintainer. The daily reward amount is unspecified and is not included in the first-day total. Check the public model plaza for models and prices. Separate referral promotions may require joining the QQ group; their rewards are not added to the $20 total. Official QQ group: 239561070.",
+      "dailyNote": "Daily check-ins supported",
+      "remarks": "Must join QQ group 239561070"
+    },
     "omnirush": {
       "summary": "Free GPT 6 Astra, GPT 6 Sol and GPT-5.6 Sol with 50M tokens every week; register through this referral link for an extra 5M tokens.",
       "registration": "Open the full console referral link, keep ref=AXJFLFPA and follow the signup instructions. Check your weekly allowance and referral reward in the console.",

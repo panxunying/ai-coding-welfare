@@ -200,6 +200,58 @@
       "community": []
     },
     {
+      "id": "primerelay",
+      "name": "Prime Relay",
+      "subtitle": "注册首日可获得 $20 额度，后续支持每日签到",
+      "remarks": "需要进qq群,239561070",
+      "recommended": false,
+      "panel": "relay",
+      "credits": {
+        "signup": 20,
+        "invite": null,
+        "dailyCheckin": null,
+        "dailyNote": "支持每日签到",
+        "approx": false,
+        "unit": "usd",
+        "note": "首日 $20 与后续每日签到按维护者提供的信息登记，签到金额以站内显示为准。"
+      },
+      "signupUrl": "https://www.primerelay.online/register?aff=2FXZ7SBATLN2",
+      "homeUrl": "https://www.primerelay.online",
+      "docsUrl": null,
+      "statusApi": "https://primerelay.online/v1/models",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": ["免费额度", "注册 $20", "每日签到", "OpenAI 兼容"],
+      "highlights": [
+        "注册首日可获得 $20 额度，后续支持每日签到",
+        "通过本页完整邀请链接注册，保留 aff=2FXZ7SBATLN2",
+        "官网列出 Claude、GPT、DeepSeek、Grok、Gemini 等模型系列，具体模型与价格可在站内模型广场查看"
+      ],
+      "endpoints": {
+        "anthropic": null,
+        "openai": "https://primerelay.online/v1"
+      },
+      "modelsSummary": "Claude / GPT 等",
+      "modelsNote": "官网模型广场公开展示模型与价格；实际调用名称、分组与可用范围请在站内确认。公开配置给出的 API Base URL 为 https://primerelay.online/v1。",
+      "register": {
+        "methods": ["QQ 邮箱 + 密码"],
+        "requirements": [
+          "使用完整注册链接，保留 aff=2FXZ7SBATLN2",
+          "当前公开注册配置仅允许 @qq.com 邮箱，并要求邮箱验证码",
+          "需要加入 QQ 群：239561070",
+          "注册后在控制台查看首日 $20 额度与每日签到入口"
+        ]
+      },
+      "earnMore": [
+        "支持每日签到，签到金额和领取规则以站内显示为准"
+      ],
+      "caveats": [
+        "首日 $20 与每日签到按维护者提供的信息登记；签到金额未提供，未计入首日合计",
+        "官网另有邀请好友注册并进 QQ 群的奖励活动，条件以站内公告为准，本页未将该活动奖励额外叠加到首日 $20"
+      ],
+      "community": ["官方 QQ 群：239561070"]
+    },
+    {
       "id": "omnirush",
       "name": "OmniRush",
       "subtitle": "每周免费 50M tokens · 本页邀请额外 +5M · GPT 6 Astra / GPT 6 Sol / GPT-5.6 Sol",
