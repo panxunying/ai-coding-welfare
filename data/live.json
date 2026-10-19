@@ -1,12 +1,85 @@
 {
-  "generatedAt": "2026-10-19T04:43:40.406Z",
+  "generatedAt": "2026-10-19T07:10:41.205Z",
   "sites": [
     {
-      "id": "codex-relay",
-      "checkedAt": "2026-10-19T04:43:28.059Z",
+      "id": "docode",
+      "checkedAt": "2026-10-19T07:10:28.749Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 591,
+      "latencyMs": 3052,
+      "error": null,
+      "systemName": "DoCode",
+      "version": "",
+      "registerOpen": true,
+      "passwordRegister": true,
+      "checkinEnabled": false,
+      "loginMethods": [
+        "账号密码"
+      ],
+      "githubMinAccountAgeDays": null,
+      "quotaPerUnit": 500000,
+      "inviteeBonusUsd": null,
+      "inviterBonusUsd": null,
+      "topupEnabled": null,
+      "services": [],
+      "announcements": [
+        {
+          "id": 35,
+          "date": "2026-10-15",
+          "text": "-已修复好！ 生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好"
+        },
+        {
+          "id": 34,
+          "date": "2026-10-09",
+          "text": "gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。"
+        },
+        {
+          "id": 33,
+          "date": "2026-10-04",
+          "text": "最近上线模型：gpt-6.1-sol、claude-opus-5-5、claude-sonnet-5-5"
+        },
+        {
+          "id": 32,
+          "date": "2026-09-22",
+          "text": "中秋节活动预告：中秋节当天凡是 vip500，赠送 1500 额度；vip1000，赠送 3000 额度，；vip2000，赠送 5000 额度。中秋节三天，充值加赠 5-20%。"
+        },
+        {
+          "id": 31,
+          "date": "2026-09-21",
+          "text": "gptpro+分组即将下线，请及时切换至其他分组，推荐gpt不降智分组！！！"
+        }
+      ],
+      "models": [],
+      "modelsSource": "login-required",
+      "defaults": {
+        "claude": null,
+        "openai": null
+      },
+      "signup": {
+        "status": 200,
+        "ok": true,
+        "ms": 2840,
+        "attempts": 1,
+        "url": "https://docode.cc/register?aff=zMRe"
+      },
+      "mirrors": [
+        {
+          "homeUrl": "https://api.docode.cc",
+          "online": true
+        }
+      ],
+      "probeBlocked": false,
+      "online": true,
+      "dataStale": false,
+      "staleFrom": null,
+      "staleFields": []
+    },
+    {
+      "id": "codex-relay",
+      "checkedAt": "2026-10-19T07:10:28.836Z",
+      "apiOk": true,
+      "pricingOk": false,
+      "latencyMs": 3075,
       "error": null,
       "systemName": null,
       "version": null,
@@ -30,7 +103,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 538,
+        "ms": 3062,
         "attempts": 1,
         "url": "https://codex-relay.codes/register?aff=6jAq"
       },
@@ -43,10 +116,10 @@
     },
     {
       "id": "conduit",
-      "checkedAt": "2026-10-19T04:43:28.050Z",
+      "checkedAt": "2026-10-19T07:10:28.822Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 533,
+      "latencyMs": 3059,
       "error": null,
       "systemName": null,
       "version": null,
@@ -70,7 +143,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 530,
+        "ms": 3061,
         "attempts": 1,
         "url": "https://t.me/conduitoff_bot?start=ref_8111640723"
       },
@@ -83,9 +156,9 @@
     },
     {
       "id": "agentrouter",
-      "checkedAt": "2026-10-19T04:43:34.083Z",
+      "checkedAt": "2026-10-19T07:10:35.017Z",
       "online": true,
-      "latencyMs": 316,
+      "latencyMs": 314,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260918-cbda758f",
@@ -213,7 +286,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1382,
+        "ms": 4037,
         "attempts": 1,
         "url": "https://agentrouter.org/register?aff=szt3"
       },
@@ -243,83 +316,10 @@
       "probeBlocked": false
     },
     {
-      "id": "docode",
-      "checkedAt": "2026-10-19T04:43:28.679Z",
-      "apiOk": true,
-      "pricingOk": false,
-      "latencyMs": 1095,
-      "error": null,
-      "systemName": "DoCode",
-      "version": "",
-      "registerOpen": true,
-      "passwordRegister": true,
-      "checkinEnabled": false,
-      "loginMethods": [
-        "账号密码"
-      ],
-      "githubMinAccountAgeDays": null,
-      "quotaPerUnit": 500000,
-      "inviteeBonusUsd": null,
-      "inviterBonusUsd": null,
-      "topupEnabled": null,
-      "services": [],
-      "announcements": [
-        {
-          "id": 35,
-          "date": "2026-10-15",
-          "text": "-已修复好！ 生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好"
-        },
-        {
-          "id": 34,
-          "date": "2026-10-09",
-          "text": "gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。"
-        },
-        {
-          "id": 33,
-          "date": "2026-10-04",
-          "text": "最近上线模型：gpt-6.1-sol、claude-opus-5-5、claude-sonnet-5-5"
-        },
-        {
-          "id": 32,
-          "date": "2026-09-22",
-          "text": "中秋节活动预告：中秋节当天凡是 vip500，赠送 1500 额度；vip1000，赠送 3000 额度，；vip2000，赠送 5000 额度。中秋节三天，充值加赠 5-20%。"
-        },
-        {
-          "id": 31,
-          "date": "2026-09-21",
-          "text": "gptpro+分组即将下线，请及时切换至其他分组，推荐gpt不降智分组！！！"
-        }
-      ],
-      "models": [],
-      "modelsSource": "login-required",
-      "defaults": {
-        "claude": null,
-        "openai": null
-      },
-      "signup": {
-        "status": 200,
-        "ok": true,
-        "ms": 995,
-        "attempts": 1,
-        "url": "https://docode.cc/register?aff=zMRe"
-      },
-      "mirrors": [
-        {
-          "homeUrl": "https://api.docode.cc",
-          "online": true
-        }
-      ],
-      "probeBlocked": false,
-      "online": true,
-      "dataStale": false,
-      "staleFrom": null,
-      "staleFields": []
-    },
-    {
       "id": "justdowork",
-      "checkedAt": "2026-10-19T04:43:28.471Z",
+      "checkedAt": "2026-10-19T07:10:29.030Z",
       "online": true,
-      "latencyMs": 935,
+      "latencyMs": 3260,
       "error": null,
       "systemName": "JustDoWork",
       "version": "v1.0.0-rc.23",
@@ -345,7 +345,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1636,
+        "ms": 3934,
         "attempts": 1,
         "url": "https://api.justwoker.icu/sign-up?aff=VTrz"
       },
@@ -360,10 +360,10 @@
     },
     {
       "id": "flushapi",
-      "checkedAt": "2026-10-19T04:43:28.778Z",
+      "checkedAt": "2026-10-19T07:10:29.345Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 1234,
+      "latencyMs": 3565,
       "error": null,
       "systemName": "FlushAPI",
       "version": "",
@@ -406,8 +406,8 @@
           "inputPerMTok": 5,
           "outputPerMTok": 25,
           "groups": [
-            "Super",
-            "default"
+            "default",
+            "Super"
           ],
           "protocols": [
             "anthropic",
@@ -438,8 +438,8 @@
           "inputPerMTok": 2,
           "outputPerMTok": 10,
           "groups": [
-            "default",
-            "Super"
+            "Super",
+            "default"
           ],
           "protocols": [
             "anthropic",
@@ -469,8 +469,8 @@
           "inputPerMTok": 4,
           "outputPerMTok": 20,
           "groups": [
-            "default",
-            "Super"
+            "Super",
+            "default"
           ],
           "protocols": [
             "openai"
@@ -484,8 +484,8 @@
           "inputPerMTok": 10,
           "outputPerMTok": 50,
           "groups": [
-            "Super",
-            "default"
+            "default",
+            "Super"
           ],
           "protocols": [
             "openai"
@@ -500,7 +500,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1258,
+        "ms": 3583,
         "attempts": 1,
         "url": "https://flushapi.fun/sign-up?aff=WBF3"
       },
@@ -513,10 +513,10 @@
     },
     {
       "id": "kktoken",
-      "checkedAt": "2026-10-19T04:43:29.222Z",
+      "checkedAt": "2026-10-19T07:10:29.822Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1693,
+      "latencyMs": 4049,
       "error": null,
       "systemName": "KKtoken AI",
       "version": "v1.0.0-rc.25",
@@ -543,7 +543,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1715,
+        "ms": 4033,
         "attempts": 1,
         "url": "https://kktoken.cc/sign-up?aff=MzG9"
       },
@@ -556,10 +556,10 @@
     },
     {
       "id": "matrix",
-      "checkedAt": "2026-10-19T04:43:29.720Z",
+      "checkedAt": "2026-10-19T07:10:30.062Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2190,
+      "latencyMs": 4288,
       "error": null,
       "systemName": null,
       "version": null,
@@ -583,7 +583,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2287,
+        "ms": 4349,
         "attempts": 1,
         "url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"
       },
@@ -596,7 +596,7 @@
     },
     {
       "id": "anyrouter",
-      "checkedAt": "2026-10-19T04:43:35.688Z",
+      "checkedAt": "2026-10-19T07:10:35.932Z",
       "apiOk": false,
       "pricingOk": false,
       "latencyMs": 202,
@@ -623,7 +623,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3227,
+        "ms": 5237,
         "attempts": 1,
         "url": "https://anyrouter.top/register?aff=Z24N"
       },
@@ -636,10 +636,10 @@
     },
     {
       "id": "cheapcodex",
-      "checkedAt": "2026-10-19T04:43:30.445Z",
+      "checkedAt": "2026-10-19T07:10:30.716Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2913,
+      "latencyMs": 4941,
       "error": null,
       "systemName": null,
       "version": null,
@@ -663,7 +663,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2920,
+        "ms": 4942,
         "attempts": 1,
         "url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S"
       },
@@ -676,10 +676,10 @@
     },
     {
       "id": "nofx",
-      "checkedAt": "2026-10-19T04:43:31.009Z",
+      "checkedAt": "2026-10-19T07:10:31.298Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 3476,
+      "latencyMs": 5522,
       "error": null,
       "systemName": null,
       "version": null,
@@ -703,7 +703,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 4156,
+        "ms": 5940,
         "attempts": 1,
         "url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4"
       },
