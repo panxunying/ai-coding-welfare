@@ -15,17 +15,16 @@ Community gateways, free API credits and low-cost plans for Claude Code, Codex a
 
 A translated guide to the listed services. Amounts, model IDs, prices and referral URLs are generated from the same data as the Chinese edition. Detailed comparison, history, upstream documentation and some service interfaces remain in Chinese.
 
-**Snapshot updated:** 2026-10-19 09:33 UTC
+**Snapshot updated:** 2026-10-19 09:46 UTC
 
 ## Site overview
 
 | Site | Status | First-day credits / plan | Daily credits | Signup | Remarks |
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Reachable | **300 site units (not USD)** | Free prize draw + top-up discount coupons | [Open service / register](https://docode.cc/register?aff=zMRe) | Join the QQ group to unlock many more perks |
-| **Codex Relay** | Reachable | **$10** | Not publicly specified | [Open service / register](https://codex-relay.codes/register?aff=6jAq) | — |
-| **Prime Relay** | Reachable | **$20** | Daily check-ins supported | [Open service / register](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Must join QQ group 239561070 |
-| **Conduit** | Reachable | **$500** | Not publicly specified | [Open service / register](https://t.me/conduitoff_bot?start=ref_8111640723) | — |
 | **AgentRouter** | Reachable | **$175** | $25/day · Daily check-in | [Open service / register](https://agentrouter.org/register?aff=szt3) | — |
+| **Prime Relay** | Reachable | **$20** | Daily check-ins supported | [Open service / register](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Must join QQ group 239561070 |
+| **Codex Relay** | Reachable | **$10** | Not publicly specified | [Open service / register](https://codex-relay.codes/register?aff=6jAq) | — |
 | **JustDoWork** | Reachable | **≈$92** | ≈$22/day · Daily check-in | [Open service / register](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
 | **FlushAPI** | Reachable | **$22.5** | Check-in enabled; amount unpublished | [Open service / register](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Reachable | **$120** | $20/day · Daily check-in | [Open service / register](https://kktoken.cc/sign-up?aff=MzG9) | — |
@@ -34,7 +33,7 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 | **CheapCodex** | Reachable | **$40** | $20/day · Daily check-in | [Open service / register](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | Reachable | **15 points** | 5 points/day · Daily check-in | [Open service / register](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Indicative first-day USD credits: $1129.5 across 9 services accepting new users.**
+**Indicative first-day USD credits: $629.5 across 8 services accepting new users.**
 
 First-day credit = signup + referral + first check-in (or one daily pool). Credits are separate service balances, not cash. Points, site units, paid plans, archived services and closed registrations are excluded from the USD total. Conditions and actual awards may vary.
 
@@ -58,7 +57,7 @@ New API gateway with Claude and GPT services; bonuses use internal site units, n
 - **Referral bonus**: 250 site units (not USD)
 - **Daily credits**: Free prize draw + top-up discount coupons
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 09:32 UTC
+- **Snapshot updated**: 2026-10-19 09:46 UTC
 - **Remarks**: Join the QQ group to unlock many more perks
 
 
@@ -87,111 +86,6 @@ Only models returned by the public snapshot are listed; missing data does not me
 Not publicly specified
 
 [Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
-## Codex Relay
-
-Register with Codex Relay to receive $10 in API credits.
-
-[Open service / register](https://codex-relay.codes/register?aff=6jAq) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/codex-relay/)
-
-
-- **First-day credits / plan**: $10
-- **Signup**: $10
-- **Daily credits**: Not publicly specified
-- **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 09:32 UTC
-
-
-### Registration requirements
-
-Open the full referral link, keep aff=6jAq and follow the registration instructions. Sign in to view your $10 signup credit balance.
-
-### Rewards, limits and important caveats
-
-Check the console for available models, prices, API keys, endpoints and client setup instructions.
-
-### Client setup
-
-Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
-
-- [Dashboard](https://codex-relay.codes)
-
-### Public model snapshot
-
-Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
-
-Not publicly specified
-
-[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
-## Prime Relay
-
-Prime Relay offers $20 in credits on the first day of registration and supports daily check-ins.
-
-[Open service / register](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/primerelay/)
-
-
-- **First-day credits / plan**: $20
-- **Signup**: $20
-- **Daily credits**: Daily check-ins supported
-- **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 09:32 UTC
-- **Remarks**: Must join QQ group 239561070
-
-
-### Registration requirements
-
-Use the full referral link with aff=2FXZ7SBATLN2. The public registration settings currently require a @qq.com email address and email verification. Sign in to view your credit balance and check-in entry.
-
-### Rewards, limits and important caveats
-
-The $20 signup offer and daily check-ins were supplied by the maintainer. The daily reward amount is unspecified and is not included in the first-day total. Check the public model plaza for models and prices. Separate referral promotions may require joining the QQ group; their rewards are not added to the $20 total. Official QQ group: 239561070.
-
-### Client setup
-
-Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
-
-- OpenAI Base URL: `https://primerelay.online/v1`
-
-### Public model snapshot
-
-Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
-
-Not publicly specified
-
-[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/primerelay/)
-## Conduit
-
-Register through the Conduit Telegram bot to receive $500 in credits, with GPT-6, Fable 5.1 and other models available.
-
-[Open service / register](https://t.me/conduitoff_bot?start=ref_8111640723) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/conduit/)
-
-
-- **First-day credits / plan**: $500
-- **Signup**: $500
-- **Daily credits**: Not publicly specified
-- **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 09:32 UTC
-
-
-### Registration requirements
-
-Use a Telegram account to open the full referral link, press Start and follow the bot's registration instructions. Keep the referral parameter in the link.
-
-### Rewards, limits and important caveats
-
-The signup credit and model information were supplied by a contributor. Check the bot for your actual balance, current models, prices and client setup instructions.
-
-### Client setup
-
-Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
-
-
-### Public model snapshot
-
-Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
-
-Not publicly specified
-
-[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/conduit/)
 ## AgentRouter
 
 Community gateway with signup, referral and daily check-in credits; Anthropic and OpenAI-compatible endpoints.
@@ -237,6 +131,77 @@ Only models returned by the public snapshot are listed; missing data does not me
 | gpt-6-astra | $4 | $20 | — | openai |
 
 [Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/agentrouter/)
+## Prime Relay
+
+Prime Relay offers $20 in credits on the first day of registration and supports daily check-ins.
+
+[Open service / register](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/primerelay/)
+
+
+- **First-day credits / plan**: $20
+- **Signup**: $20
+- **Daily credits**: Daily check-ins supported
+- **Status**: Reachable
+- **Snapshot updated**: 2026-10-19 09:46 UTC
+- **Remarks**: Must join QQ group 239561070
+
+
+### Registration requirements
+
+Use the full referral link with aff=2FXZ7SBATLN2. The public registration settings currently require a @qq.com email address and email verification. Sign in to view your credit balance and check-in entry.
+
+### Rewards, limits and important caveats
+
+The $20 signup offer and daily check-ins were supplied by the maintainer. The daily reward amount is unspecified and is not included in the first-day total. Check the public model plaza for models and prices. Separate referral promotions may require joining the QQ group; their rewards are not added to the $20 total. Official QQ group: 239561070.
+
+### Client setup
+
+Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
+
+- OpenAI Base URL: `https://primerelay.online/v1`
+
+### Public model snapshot
+
+Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
+
+Not publicly specified
+
+[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/primerelay/)
+## Codex Relay
+
+Register with Codex Relay to receive $10 in API credits.
+
+[Open service / register](https://codex-relay.codes/register?aff=6jAq) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/codex-relay/)
+
+
+- **First-day credits / plan**: $10
+- **Signup**: $10
+- **Daily credits**: Not publicly specified
+- **Status**: Reachable
+- **Snapshot updated**: 2026-10-19 09:46 UTC
+
+
+### Registration requirements
+
+Open the full referral link, keep aff=6jAq and follow the registration instructions. Sign in to view your $10 signup credit balance.
+
+### Rewards, limits and important caveats
+
+Check the console for available models, prices, API keys, endpoints and client setup instructions.
+
+### Client setup
+
+Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
+
+- [Dashboard](https://codex-relay.codes)
+
+### Public model snapshot
+
+Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
+
+Not publicly specified
+
+[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
 ## JustDoWork
 
 New API gateway with GitHub login, daily check-ins and image/task interfaces.
@@ -249,7 +214,7 @@ New API gateway with GitHub login, daily check-ins and image/task interfaces.
 - **Daily credits**: ≈$22/day · Daily check-in
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-19 09:32 UTC
+- **Snapshot updated**: 2026-10-19 09:46 UTC
 
 
 ### Registration requirements
@@ -288,7 +253,7 @@ New API gateway with GitHub signup, public model pricing and separate default / 
 - **Daily credits**: Check-in enabled; amount unpublished
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-19 09:32 UTC
+- **Snapshot updated**: 2026-10-19 09:46 UTC
 
 
 ### Registration requirements
@@ -335,7 +300,7 @@ New API gateway with referral credits, daily check-ins and token-based billing.
 - **Daily credits**: $20/day · Daily check-in
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-19 09:32 UTC
+- **Snapshot updated**: 2026-10-19 09:46 UTC
 
 
 ### Registration requirements
@@ -372,7 +337,7 @@ OpenAI-compatible gateway and app store using internal points, with referral and
 - **Referral bonus**: 600 points
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 09:32 UTC
+- **Snapshot updated**: 2026-10-19 09:46 UTC
 
 
 ### Registration requirements
@@ -409,7 +374,7 @@ New API gateway with signup/referral credits, daily check-ins and Anthropic/Open
 - **Referral bonus**: $50
 - **Daily credits**: $25/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 09:32 UTC
+- **Snapshot updated**: 2026-10-19 09:46 UTC
 
 
 ### Registration requirements
@@ -445,7 +410,7 @@ AI gateway with referral credits, daily check-ins and OpenAI, Anthropic and Resp
 - **Referral bonus**: $20
 - **Daily credits**: $20/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 09:32 UTC
+- **Snapshot updated**: 2026-10-19 09:46 UTC
 
 
 ### Registration requirements
@@ -481,7 +446,7 @@ Task-based API points with passwordless login, Discord check-ins and referral re
 - **Referral bonus**: 10 points
 - **Daily credits**: 5 points/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 09:32 UTC
+- **Snapshot updated**: 2026-10-19 09:46 UTC
 
 
 ### Registration requirements
@@ -510,6 +475,7 @@ Not publicly specified
 
 No longer recommended for registration, counted in totals or probed. Original reasons and historical records remain available in the Chinese edition.
 
+- [conduit](https://panxunying.github.io/ai-coding-welfare/sites/conduit/) · 2026-10-19
 - [omnirush](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/) · 2026-10-14
 - [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12
 - [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10

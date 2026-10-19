@@ -15,17 +15,16 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-10-19 09:33 UTC
+**Datenstand:** 2026-10-19 09:46 UTC
 
 ## Anbieterübersicht
 
 | Anbieter | Status | Guthaben am ersten Tag / Tarif | Tägliches Guthaben | Registrierung | Hinweise |
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Erreichbar | **300 interne Einheiten (keine USD)** | Kostenlose Verlosung + Rabattgutscheine für Aufladungen | [Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) | Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten |
-| **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
-| **Prime Relay** | Erreichbar | **$20** | Tägliche Check-ins verfügbar | [Dienst öffnen / registrieren](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Beitritt zur QQ-Gruppe 239561070 erforderlich |
-| **Conduit** | Erreichbar | **$500** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://t.me/conduitoff_bot?start=ref_8111640723) | — |
 | **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) | — |
+| **Prime Relay** | Erreichbar | **$20** | Tägliche Check-ins verfügbar | [Dienst öffnen / registrieren](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Beitritt zur QQ-Gruppe 239561070 erforderlich |
+| **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
 | **JustDoWork** | Erreichbar | **≈$92** | ≈$22/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
 | **FlushAPI** | Erreichbar | **$22.5** | Check-in aktiviert; Betrag nicht veröffentlicht | [Dienst öffnen / registrieren](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) | — |
@@ -34,7 +33,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **CheapCodex** | Erreichbar | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Ungefähres USD-Guthaben am ersten Tag: $1129.5 bei 9 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $629.5 bei 8 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -58,7 +57,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 09:32 UTC
+- **Datenstand**: 2026-10-19 09:46 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -87,111 +86,6 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
-## Codex Relay
-
-Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
-
-[Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/codex-relay/)
-
-
-- **Guthaben am ersten Tag / Tarif**: $10
-- **Registrierung**: $10
-- **Tägliches Guthaben**: Nicht öffentlich angegeben
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 09:32 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Öffne den vollständigen Empfehlungslink, behalte aff=6jAq bei und folge den Registrierungsanweisungen. Melde dich an, um dein Startguthaben von 10 US-Dollar einzusehen.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Verfügbare Modelle, Preise, API-Schlüssel, Endpunkte und Anweisungen zur Client-Einrichtung findest du in der Konsole.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- [Dashboard](https://codex-relay.codes)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
-## Prime Relay
-
-Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche Check-ins.
-
-[Dienst öffnen / registrieren](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/primerelay/)
-
-
-- **Guthaben am ersten Tag / Tarif**: $20
-- **Registrierung**: $20
-- **Tägliches Guthaben**: Tägliche Check-ins verfügbar
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 09:32 UTC
-- **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
-
-
-### Voraussetzungen für die Registrierung
-
-Den vollständigen Empfehlungslink mit aff=2FXZ7SBATLN2 verwenden. Die öffentlichen Registrierungseinstellungen verlangen derzeit eine @qq.com-Adresse und eine E-Mail-Bestätigung. Nach der Anmeldung Guthaben und Check-in-Bereich öffnen.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Die $20 Startguthaben und täglichen Check-ins wurden vom Projektbetreuer angegeben. Die Höhe der täglichen Prämie ist nicht bekannt und wird nicht zum Guthaben des ersten Tages addiert. Modelle und Preise stehen in der öffentlichen Modellübersicht. Separate Empfehlungsaktionen können den Beitritt zur QQ-Gruppe verlangen; diese Prämien werden nicht zusätzlich zu den $20 gezählt. Offizielle QQ-Gruppe: 239561070.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- OpenAI Base URL: `https://primerelay.online/v1`
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/primerelay/)
-## Conduit
-
-Die Registrierung über den Conduit-Bot auf Telegram bietet 500 US-Dollar Guthaben sowie Zugang zu GPT-6, Fable 5.1 und weiteren Modellen.
-
-[Dienst öffnen / registrieren](https://t.me/conduitoff_bot?start=ref_8111640723) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/conduit/)
-
-
-- **Guthaben am ersten Tag / Tarif**: $500
-- **Registrierung**: $500
-- **Tägliches Guthaben**: Nicht öffentlich angegeben
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 09:32 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Öffne den vollständigen Empfehlungslink mit einem Telegram-Konto, drücke Start und folge den Registrierungsanweisungen des Bots. Behalte den Empfehlungsparameter im Link bei.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Die Angaben zum Startguthaben und zu den Modellen stammen aus einer Einsendung. Prüfe dein tatsächliches Guthaben, die aktuellen Modelle, Preise und Anweisungen zur Client-Einrichtung im Bot.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/conduit/)
 ## AgentRouter
 
 Community-Gateway mit Registrierungs-, Empfehlungs- und täglichen Check-in-Guthaben sowie Anthropic- und OpenAI-kompatiblen Endpunkten.
@@ -237,6 +131,77 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 | gpt-6-astra | $4 | $20 | — | openai |
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/agentrouter/)
+## Prime Relay
+
+Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche Check-ins.
+
+[Dienst öffnen / registrieren](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/primerelay/)
+
+
+- **Guthaben am ersten Tag / Tarif**: $20
+- **Registrierung**: $20
+- **Tägliches Guthaben**: Tägliche Check-ins verfügbar
+- **Status**: Erreichbar
+- **Datenstand**: 2026-10-19 09:46 UTC
+- **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
+
+
+### Voraussetzungen für die Registrierung
+
+Den vollständigen Empfehlungslink mit aff=2FXZ7SBATLN2 verwenden. Die öffentlichen Registrierungseinstellungen verlangen derzeit eine @qq.com-Adresse und eine E-Mail-Bestätigung. Nach der Anmeldung Guthaben und Check-in-Bereich öffnen.
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+Die $20 Startguthaben und täglichen Check-ins wurden vom Projektbetreuer angegeben. Die Höhe der täglichen Prämie ist nicht bekannt und wird nicht zum Guthaben des ersten Tages addiert. Modelle und Preise stehen in der öffentlichen Modellübersicht. Separate Empfehlungsaktionen können den Beitritt zur QQ-Gruppe verlangen; diese Prämien werden nicht zusätzlich zu den $20 gezählt. Offizielle QQ-Gruppe: 239561070.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+- OpenAI Base URL: `https://primerelay.online/v1`
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/primerelay/)
+## Codex Relay
+
+Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
+
+[Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/codex-relay/)
+
+
+- **Guthaben am ersten Tag / Tarif**: $10
+- **Registrierung**: $10
+- **Tägliches Guthaben**: Nicht öffentlich angegeben
+- **Status**: Erreichbar
+- **Datenstand**: 2026-10-19 09:46 UTC
+
+
+### Voraussetzungen für die Registrierung
+
+Öffne den vollständigen Empfehlungslink, behalte aff=6jAq bei und folge den Registrierungsanweisungen. Melde dich an, um dein Startguthaben von 10 US-Dollar einzusehen.
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+Verfügbare Modelle, Preise, API-Schlüssel, Endpunkte und Anweisungen zur Client-Einrichtung findest du in der Konsole.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+- [Dashboard](https://codex-relay.codes)
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
 ## JustDoWork
 
 New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabenschnittstellen.
@@ -249,7 +214,7 @@ New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabensch
 - **Tägliches Guthaben**: ≈$22/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-19 09:32 UTC
+- **Datenstand**: 2026-10-19 09:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -288,7 +253,7 @@ New-API-Gateway mit GitHub-Registrierung, öffentlichen Modellpreisen und getren
 - **Tägliches Guthaben**: Check-in aktiviert; Betrag nicht veröffentlicht
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-19 09:32 UTC
+- **Datenstand**: 2026-10-19 09:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -335,7 +300,7 @@ New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-19 09:32 UTC
+- **Datenstand**: 2026-10-19 09:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -372,7 +337,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 09:32 UTC
+- **Datenstand**: 2026-10-19 09:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -409,7 +374,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 09:32 UTC
+- **Datenstand**: 2026-10-19 09:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -445,7 +410,7 @@ KI-Gateway mit Empfehlungsprämien, täglichen Check-ins sowie OpenAI-, Anthropi
 - **Empfehlungsbonus**: $20
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 09:32 UTC
+- **Datenstand**: 2026-10-19 09:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -481,7 +446,7 @@ Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und E
 - **Empfehlungsbonus**: 10 Punkte
 - **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-19 09:32 UTC
+- **Datenstand**: 2026-10-19 09:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -510,6 +475,7 @@ Nicht öffentlich angegeben
 
 Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.
 
+- [conduit](https://panxunying.github.io/ai-coding-welfare/sites/conduit/) · 2026-10-19
 - [omnirush](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/) · 2026-10-14
 - [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12
 - [artbloom](https://panxunying.github.io/ai-coding-welfare/sites/artbloom/) · 2026-10-10
