@@ -4,6 +4,7 @@ import { activeSites, archivedSites, isArchived, archivedAt } from './archived.m
 import { signupRoute, acceptsNew } from './signup.mjs';
 import { esc, fmt, pageShell, breadcrumb } from './layout.mjs';
 import { language, readmeLanguages } from './locales.mjs';
+import { communityReadme, communityBanner } from './community.mjs';
 
 export const OCTOVERSE_URL = 'https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/';
 
@@ -157,7 +158,7 @@ export function renderLocalizedReadme({ meta, sites, live, catalog }) {
     ...(hasRemarks ? [md(v.site.remarks ? v.copy.remarks : '—')] : []),
   ]);
   return [
-    `# ${ui.title}`, '', readmeLanguages(catalog.locale), '', ui.tagline, '',
+    `# ${ui.title}`, '', ...communityReadme(meta, ui), readmeLanguages(catalog.locale), '', ui.tagline, '',
     `[${ui.website}](${meta.pagesUrl}${language(catalog.locale).path}) · [${ui.repository}](${meta.repoUrl})`, '',
     '> [!TIP]', `> **📣 ${ui.submitTitle}**`, '>', `> ${ui.submitText}`, '>',
     `> [${ui.submit}](${meta.repoUrl}/issues/new/choose) · [${ui.browse}](${meta.repoUrl}/issues)`, '',
@@ -200,7 +201,7 @@ export function renderLocalizedHome({ meta, sites, live, css, catalog }) {
   const items = views(sites, live, catalog);
   const prefix = language(catalog.locale).path;
   const body = `<main class="localized">
-    <header class="hero">${callout(meta, ui)}<h1>${esc(ui.title)}</h1><p class="sub">${esc(ui.tagline)}</p>
+    <header class="hero">${communityBanner(meta, ui, '../')}${callout(meta, ui)}<h1>${esc(ui.title)}</h1><p class="sub">${esc(ui.tagline)}</p>
     ${paragraph(ui.intro)}<p class="pill">${esc(ui.updated)}: ${esc(date(live?.generatedAt, ui))}</p>
     <p><strong>${esc(totalsText(items, ui))}</strong></p></header>
     <section aria-labelledby="overview"><h2 id="overview">${esc(ui.overview)}</h2>

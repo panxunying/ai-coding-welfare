@@ -12,6 +12,7 @@ import { icon } from './changelog.mjs';
 import { coverage } from './history.mjs';
 import { activeSites, archivedSites, archivedAt, archivedReason } from './archived.mjs';
 import { subscriptionPlan, renderSubscription } from './subscription.mjs';
+import { communityBanner } from './community.mjs';
 
 function claudeSnippet(site, snap) {
   const model = snap?.defaults?.claude ?? '在站内模型列表中选择';
@@ -210,6 +211,7 @@ export function renderHtml({ meta, sites: allSites, live, css, groups = [], hist
 
   // 投稿公告放在大标题上方：首屏第一眼就能看到，和 README 顶部的 [!TIP] 提示块同一个口径
   const body = `  <header class="hero">
+    ${communityBanner(meta)}
     <p class="announce">
       <span>📣 <b>欢迎投稿</b>：Issue 区就是你的免费推广位，邀请链接可以直接贴，特别优质的会收录进本站</span>
       <a href="${esc(`${meta.repoUrl}/issues/new/choose`)}" target="_blank" rel="noopener">提交 Issue →</a>

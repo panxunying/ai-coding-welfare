@@ -26,7 +26,12 @@
       "claude-opus-5 按次计费"
     ],
     "repoUrl": "https://github.com/panxunying/ai-coding-welfare",
-    "pagesUrl": "https://panxunying.github.io/ai-coding-welfare/"
+    "pagesUrl": "https://panxunying.github.io/ai-coding-welfare/",
+    "community": {
+      "qqGroup": "1121553067",
+      "joinUrl": "https://qm.qq.com/q/wPrVbwIKs2",
+      "qrPath": "assets/qq-group.svg"
+    }
   },
   "sites": [
     {

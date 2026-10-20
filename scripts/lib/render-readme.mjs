@@ -8,6 +8,7 @@ import { activeSites, archivedSites, archivedAt, archivedReason } from './archiv
 import { subscriptionPlan } from './subscription.mjs';
 import { readmeLanguages } from './locales.mjs';
 import { esc } from './layout.mjs';
+import { communityReadme } from './community.mjs';
 
 /** shields.io 转义：- → --，_ → __，其余走 URI 编码 */
 const shield = (s) => encodeURIComponent(String(s).replace(/-/g, '--').replace(/_/g, '__'));
@@ -351,6 +352,7 @@ export function renderReadme({ meta, sites: allSites, live, groups = [], history
   const head = [
     `<h1 align="center">${meta.title}</h1>`,
     '',
+    ...communityReadme(meta),
     readmeLanguages(),
     '',
     `<p align="center">${meta.tagline}</p>`,
