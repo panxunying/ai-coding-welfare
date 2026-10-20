@@ -15,7 +15,7 @@ Community gateways, free API credits and low-cost plans for Claude Code, Codex a
 
 A translated guide to the listed services. Amounts, model IDs, prices and referral URLs are generated from the same data as the Chinese edition. Detailed comparison, history, upstream documentation and some service interfaces remain in Chinese.
 
-**Snapshot updated:** 2026-10-19 22:22 UTC
+**Snapshot updated:** 2026-10-20 04:53 UTC
 
 ## Site overview
 
@@ -57,7 +57,7 @@ New API gateway with Claude and GPT services; bonuses use internal site units, n
 - **Referral bonus**: 250 site units (not USD)
 - **Daily credits**: Free prize draw + top-up discount coupons
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 - **Remarks**: Join the QQ group to unlock many more perks
 
 
@@ -142,7 +142,7 @@ Prime Relay offers $20 in credits on the first day of registration and supports 
 - **Signup**: $20
 - **Daily credits**: Daily check-ins supported
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 - **Remarks**: Must join QQ group 239561070
 
 
@@ -178,7 +178,7 @@ Register with Codex Relay to receive $10 in API credits.
 - **Signup**: $10
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 
 
 ### Registration requirements
@@ -214,7 +214,7 @@ New API gateway with GitHub login, daily check-ins and image/task interfaces.
 - **Daily credits**: ≈$22/day · Daily check-in
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 
 
 ### Registration requirements
@@ -253,7 +253,7 @@ New API gateway with GitHub signup, public model pricing and separate default / 
 - **Daily credits**: Check-in enabled; amount unpublished
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 
 
 ### Registration requirements
@@ -300,7 +300,7 @@ New API gateway with referral credits, daily check-ins and token-based billing.
 - **Daily credits**: $20/day · Daily check-in
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 
 
 ### Registration requirements
@@ -337,7 +337,7 @@ OpenAI-compatible gateway and app store using internal points, with referral and
 - **Referral bonus**: 600 points
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 
 
 ### Registration requirements
@@ -374,7 +374,7 @@ New API gateway with signup/referral credits, daily check-ins and Anthropic/Open
 - **Referral bonus**: $50
 - **Daily credits**: $25/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 
 
 ### Registration requirements
@@ -410,7 +410,7 @@ AI gateway with referral credits, daily check-ins and OpenAI, Anthropic and Resp
 - **Referral bonus**: $20
 - **Daily credits**: $20/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 
 
 ### Registration requirements
@@ -446,7 +446,7 @@ Task-based API points with passwordless login, Discord check-ins and referral re
 - **Referral bonus**: 10 points
 - **Daily credits**: 5 points/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-19 22:22 UTC
+- **Snapshot updated**: 2026-10-20 04:53 UTC
 
 
 ### Registration requirements
