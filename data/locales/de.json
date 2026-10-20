@@ -91,6 +91,12 @@
       "registration": "Öffne den vollständigen Empfehlungslink, behalte aff=6jAq bei und folge den Registrierungsanweisungen. Melde dich an, um dein Startguthaben von 10 US-Dollar einzusehen.",
       "notes": "Verfügbare Modelle, Preise, API-Schlüssel, Endpunkte und Anweisungen zur Client-Einrichtung findest du in der Konsole."
     },
+    "happycode": {
+      "summary": "Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 beitreten und den Gruppeninhaber nach dem Testpaket für Neukunden fragen.",
+      "registration": "Den vollständigen Empfehlungslink mit aff=5KUZBJEE7FYT öffnen. Mit einer unterstützten E-Mail-Adresse und Bestätigungscode oder über NodeLoc registrieren. Anschließend der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern.",
+      "notes": "Das $100-Testpaket nach der Registrierung beim Gruppeninhaber anfordern. Modelle, Preise, API-Schlüssel und Einrichtungsanleitungen stehen im Dashboard.",
+      "remarks": "Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern"
+    },
     "primerelay": {
       "summary": "Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche Check-ins.",
       "registration": "Den vollständigen Empfehlungslink mit aff=2FXZ7SBATLN2 verwenden. Die öffentlichen Registrierungseinstellungen verlangen derzeit eine @qq.com-Adresse und eine E-Mail-Bestätigung. Nach der Anmeldung Guthaben und Check-in-Bereich öffnen.",

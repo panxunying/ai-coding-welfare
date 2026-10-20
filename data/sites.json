@@ -153,6 +153,75 @@
       ]
     },
     {
+      "id": "happycode",
+      "name": "Happy Code",
+      "subtitle": "注册可获得 $100 额度，加入 QQ 群领取新人体验包",
+      "remarks": "需要加 QQ 群 367746547 找群主获取新人体验包",
+      "recommended": false,
+      "panel": "sub2api",
+      "credits": {
+        "signup": 100,
+        "invite": null,
+        "dailyCheckin": null,
+        "approx": false,
+        "unit": "usd",
+        "note": "注册可获得 $100 额度；需加入 QQ 群 367746547 找群主获取新人体验包。"
+      },
+      "signupUrl": "https://happycodeai.com/register?aff=5KUZBJEE7FYT",
+      "homeUrl": "https://happycodeai.com",
+      "docsUrl": null,
+      "statusApi": "https://happycodeai.com/api/v1/settings/public",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": [
+        "免费额度",
+        "注册 $100",
+        "新人体验包"
+      ],
+      "highlights": [
+        "注册可获得 $100 额度",
+        "需要加 QQ 群 367746547 找群主获取新人体验包",
+        "通过本页完整邀请链接注册，保留 aff=5KUZBJEE7FYT"
+      ],
+      "endpoints": {
+        "anthropic": null,
+        "openai": null
+      },
+      "setup": {
+        "client": "控制台内查看",
+        "note": "登录 Happy Code 控制台查看 API Key、接入地址与客户端配置说明。",
+        "steps": [
+          "打开本页完整邀请链接，保留 aff=5KUZBJEE7FYT，按页面提示完成注册",
+          "加入 QQ 群 367746547，找群主获取新人体验包并查看 $100 额度",
+          "在控制台查看可用模型、API Key 与接入地址，再按站内说明配置客户端"
+        ],
+        "dashboardUrl": "https://happycodeai.com"
+      },
+      "modelsNote": "可用模型、价格与接入地址请在登录后的控制台查看。",
+      "faq": [
+        [
+          "Happy Code 的 $100 额度怎么领？",
+          "通过本页邀请链接完成注册，再加入 QQ 群 367746547 找群主获取新人体验包。"
+        ]
+      ],
+      "register": {
+        "methods": [
+          "邮箱 + 密码",
+          "NodeLoc（OIDC）"
+        ],
+        "requirements": [
+          "使用完整注册链接，保留 aff=5KUZBJEE7FYT",
+          "邮箱注册需要验证码；支持 QQ、Gmail、163、iCloud 等邮箱，具体允许的邮箱以注册页为准，也可使用 NodeLoc 授权注册",
+          "需要加 QQ 群 367746547 找群主获取新人体验包"
+        ]
+      },
+      "earnMore": [],
+      "caveats": [],
+      "community": [
+        "QQ 群：367746547（找群主获取新人体验包）"
+      ]
+    },
+    {
       "id": "primerelay",
       "name": "Prime Relay",
       "subtitle": "注册首日可获得 $20 额度，后续支持每日签到",

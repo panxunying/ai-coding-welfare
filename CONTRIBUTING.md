@@ -13,7 +13,7 @@
   "name": "Example",
   "subtitle": "一句话卖点",
   "recommended": false,                  // true 会被标成「首推」
-  "panel": "newapi",                     // 面板类型，不填即 newapi，另有 vibecode / matrix，见下文
+  "panel": "newapi",                     // 面板类型，不填即 newapi，另有 vibecode / matrix / relay / sub2api，见下文
   "credits": {                           // 额度口径，页面上的「首日可得」由它算出来
     "signup": 100,                       // 注册基础额度
     "invite": 50,                        // 通过本仓库邀请链接额外到账，站点接口没有就填 null
@@ -106,6 +106,7 @@ npm run check     # 确认新链接可访问
 | `vibecode` | RawChat 系 Codex 公益站 | `/frontend-api/getConfig` + `/frontend-api/getLoginConfig` |
 | `matrix` | Matrix（统一网关 + 应用商店） | `/api/health`（公开的只有这一个，站名 / 模型 / 网关地址都要登录） |
 | `relay` | 自研网关 / 任务制积分站（CheapCodex、NOFX） | robots 放行的任意一个「还活着」URL：CheapCodex 探 `/v1/models`（不带 key 回 401 就算活着），NOFX 探 `sitemap.xml`。这两家的 robots.txt 直接禁掉 `/api`，面板接口一律不碰 |
+| `sub2api` | sub2api 面板（Happy Code） | `/api/v1/settings/public`（站名、版本、注册与登录方式；模型和额度未公开） |
 
 `statusApi` 这个字段名是历史包袱：`relay` 面板下它不必是「状态接口」，填 robots 允许抓、
 且能代表站点活着的任意一个 URL 即可，`probeRelay` 只回答「还活着吗、多久答话」。
