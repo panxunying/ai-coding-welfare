@@ -74,6 +74,28 @@ header.hero { padding: 84px 0 56px; text-align: center; }
 }
 .hero p.sub { margin: 0 auto 26px; max-width: 620px; color: var(--fg-dim); font-size: clamp(15px, 2vw, 18px); }
 
+/* Project community: a clear group number and a real QQ invitation, visible on the first screen. */
+header.hero:has(.community-banner) { padding-top: 24px; }
+.community-banner {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 24px;
+  max-width: 860px; margin: 0 auto 24px; padding: 24px;
+  border: 1px solid var(--accent-2); border-radius: var(--radius);
+  background: var(--bg-soft); text-align: left;
+}
+.community-title { margin: 0 0 8px; color: var(--fg); font-size: 20px; font-weight: 700; line-height: 1.4; }
+.community-description { margin: 0; color: var(--fg-dim); font-size: 14px; line-height: 1.6; }
+.community-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 12px 0; color: var(--fg-dim); font-size: 14px; }
+.community-group strong { color: var(--accent-2); font: 700 clamp(24px, 4vw, 32px)/1.2 ui-monospace, monospace; letter-spacing: 0.02em; user-select: all; }
+.community-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.community-actions span { color: var(--fg-dim); font-size: 12px; }
+.community-join { min-height: 44px; padding: 10px 20px; color: var(--bg); background: var(--accent-2); }
+.community-qr { display: block; padding: 4px; border-radius: 8px; background: #fff; line-height: 0; }
+.community-qr img { display: block; width: 128px; height: 128px; }
+@media (max-width: 480px) {
+  .community-banner { grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 20px; }
+  .community-qr { justify-self: center; }
+}
+
 /* 投稿公告：大标题上方的一条横幅，首屏第一眼就能看到；窄屏时文字和两个入口各自折行 */
 .announce {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 14px;
@@ -275,7 +297,7 @@ tr.shut td { color: var(--fg-dim); }
     <p><a href="https://panxunying.github.io/ai-coding-welfare/sites/tabitoken/">पूरी मूल जानकारी (चीनी)</a></p></main>
   <footer>
     <h2>सुरक्षा और प्रकटीकरण</h2><ul><li>लिंक में रेफ़रल कोड हो सकते हैं। पुरस्कार और पात्रता प्रत्येक प्रदाता तय करता है; केवल पंजीकरण से पुरस्कार की गारंटी नहीं है।</li><li>यह स्वतंत्र डायरेक्टरी है, सेवा संचालक या uptime की गारंटी नहीं। मुफ़्त ऑफ़र, कीमतें और नियम बदल या समाप्त हो सकते हैं।</li><li>अज्ञात गेटवे को प्रोडक्शन के गुप्त विवरण, निजी डेटा या कंपनी का कोड न भेजें। महत्वपूर्ण काम के लिए आधिकारिक API इस्तेमाल करें।</li><li>प्रदाता और मूल सेवा की शर्तें मानें। बड़े पैमाने पर खाते न बनाएँ, ऑफ़र का दुरुपयोग न करें और क्रेडिट न बेचें।</li><li>Issues समुदाय के सदस्य पोस्ट करते हैं और उनकी जाँच न हुई हो सकती है। पंजीकरण से पहले स्वयं मूल्यांकन करें।</li></ul>
-    <p>डेटा अपडेट: 2026-10-20 06:42 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">GitHub रिपॉज़िटरी</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Atom फ़ीड (चीनी)</a></p>
+    <p>डेटा अपडेट: 2026-10-20 09:09 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">GitHub रिपॉज़िटरी</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Atom फ़ीड (चीनी)</a></p>
   </footer>
 </div>
 </body>

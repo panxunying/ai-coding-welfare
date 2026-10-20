@@ -80,6 +80,28 @@ header.hero { padding: 84px 0 56px; text-align: center; }
 }
 .hero p.sub { margin: 0 auto 26px; max-width: 620px; color: var(--fg-dim); font-size: clamp(15px, 2vw, 18px); }
 
+/* Project community: a clear group number and a real QQ invitation, visible on the first screen. */
+header.hero:has(.community-banner) { padding-top: 24px; }
+.community-banner {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 24px;
+  max-width: 860px; margin: 0 auto 24px; padding: 24px;
+  border: 1px solid var(--accent-2); border-radius: var(--radius);
+  background: var(--bg-soft); text-align: left;
+}
+.community-title { margin: 0 0 8px; color: var(--fg); font-size: 20px; font-weight: 700; line-height: 1.4; }
+.community-description { margin: 0; color: var(--fg-dim); font-size: 14px; line-height: 1.6; }
+.community-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 12px 0; color: var(--fg-dim); font-size: 14px; }
+.community-group strong { color: var(--accent-2); font: 700 clamp(24px, 4vw, 32px)/1.2 ui-monospace, monospace; letter-spacing: 0.02em; user-select: all; }
+.community-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.community-actions span { color: var(--fg-dim); font-size: 12px; }
+.community-join { min-height: 44px; padding: 10px 20px; color: var(--bg); background: var(--accent-2); }
+.community-qr { display: block; padding: 4px; border-radius: 8px; background: #fff; line-height: 0; }
+.community-qr img { display: block; width: 128px; height: 128px; }
+@media (max-width: 480px) {
+  .community-banner { grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 20px; }
+  .community-qr { justify-self: center; }
+}
+
 /* 投稿公告：大标题上方的一条横幅，首屏第一眼就能看到；窄屏时文字和两个入口各自折行 */
 .announce {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 14px;
@@ -280,7 +302,7 @@ tr.shut td { color: var(--fg-dim); }
     <header class="hero"><p class="crumb"><a href="../../">サービス一覧</a> / Prime Relay</p>
       <h1>Prime Relay</h1><p class="sub">Prime Relay は登録初日に $20 のクレジットを提供し、その後も毎日のチェックインに対応しています。</p><a class="btn btn-ghost" href="https://www.primerelay.online/register?aff=2FXZ7SBATLN2">サービスを開く / 登録 →</a>
       </header>
-    <section><h2>初日のクレジット / プラン</h2><dl class="kv"><dt>初日のクレジット / プラン</dt><dd><b>$20</b></dd><dt>登録特典</dt><dd>$20</dd><dt>毎日のクレジット</dt><dd>毎日のチェックインに対応</dd><dt>状態</dt><dd>到達可能</dd><dt>データ更新日時</dt><dd>2026-10-20 06:42 UTC</dd><dt>備考</dt><dd>QQグループ 239561070 への参加が必要</dd></dl><p class="section-copy">クレジット条件は提供元の告知から手動で記録しています。公開 API で確認できるとは限りません。モデル・料金・到達性は許可された範囲で自動更新します。到達可能でも登録成功やモデル利用を保証するものではありません。</p></section>
+    <section><h2>初日のクレジット / プラン</h2><dl class="kv"><dt>初日のクレジット / プラン</dt><dd><b>$20</b></dd><dt>登録特典</dt><dd>$20</dd><dt>毎日のクレジット</dt><dd>毎日のチェックインに対応</dd><dt>状態</dt><dd>到達可能</dd><dt>データ更新日時</dt><dd>2026-10-20 09:09 UTC</dd><dt>備考</dt><dd>QQグループ 239561070 への参加が必要</dd></dl><p class="section-copy">クレジット条件は提供元の告知から手動で記録しています。公開 API で確認できるとは限りません。モデル・料金・到達性は許可された範囲で自動更新します。到達可能でも登録成功やモデル利用を保証するものではありません。</p></section>
     <section><h2>登録条件</h2><p class="section-copy">aff=2FXZ7SBATLN2 を含む紹介リンク全体を使用してください。公開登録設定では現在 @qq.com のメールアドレスとメール認証が必要です。ログイン後に残高とチェックイン画面を確認してください。</p>
       </section>
     <section><h2>特典・制限・注意事項</h2><p class="section-copy">登録時の $20 と毎日のチェックインはプロジェクト管理者から提供された情報です。毎日の特典額は未指定のため、初日の合計に含めていません。モデルと料金は公開モデル一覧で確認できます。別の紹介キャンペーンには QQ グループへの参加条件がある場合があり、その特典は $20 に加算していません。公式 QQ グループ：239561070。</p></section>
@@ -295,7 +317,7 @@ tr.shut td { color: var(--fg-dim); }
     <a href="https://github.com/panxunying/ai-coding-welfare/issues/new/choose">Issue を投稿</a> <a href="https://github.com/panxunying/ai-coding-welfare/issues">Issue を見る</a></aside></main>
   <footer>
     <h2>安全性と開示事項</h2><ul><li>リンクには紹介コードが含まれる場合があります。特典と対象条件は各提供元が定めており、登録だけでの特典付与は保証されません。</li><li>当サイトは独立した情報一覧であり、サービス運営者でも稼働保証者でもありません。無料特典、料金、規約は変更・終了される場合があります。</li><li>不明なゲートウェイに本番用の秘密情報、個人データ、会社のコードを送らないでください。重要な用途には公式 API を使ってください。</li><li>各サービスと上流提供元の規約を守ってください。大量登録、特典の不正利用、クレジットの転売は禁止です。</li><li>Issue は利用者による投稿で、未検証の内容もあります。登録前にご自身で判断してください。</li></ul>
-    <p>データ更新日時: 2026-10-20 06:42 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">GitHub リポジトリ</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Atom フィード（中国語）</a></p>
+    <p>データ更新日時: 2026-10-20 09:09 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">GitHub リポジトリ</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Atom フィード（中国語）</a></p>
   </footer>
 </div>
 </body>

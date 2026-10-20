@@ -80,6 +80,28 @@ header.hero { padding: 84px 0 56px; text-align: center; }
 }
 .hero p.sub { margin: 0 auto 26px; max-width: 620px; color: var(--fg-dim); font-size: clamp(15px, 2vw, 18px); }
 
+/* Project community: a clear group number and a real QQ invitation, visible on the first screen. */
+header.hero:has(.community-banner) { padding-top: 24px; }
+.community-banner {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 24px;
+  max-width: 860px; margin: 0 auto 24px; padding: 24px;
+  border: 1px solid var(--accent-2); border-radius: var(--radius);
+  background: var(--bg-soft); text-align: left;
+}
+.community-title { margin: 0 0 8px; color: var(--fg); font-size: 20px; font-weight: 700; line-height: 1.4; }
+.community-description { margin: 0; color: var(--fg-dim); font-size: 14px; line-height: 1.6; }
+.community-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 12px 0; color: var(--fg-dim); font-size: 14px; }
+.community-group strong { color: var(--accent-2); font: 700 clamp(24px, 4vw, 32px)/1.2 ui-monospace, monospace; letter-spacing: 0.02em; user-select: all; }
+.community-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.community-actions span { color: var(--fg-dim); font-size: 12px; }
+.community-join { min-height: 44px; padding: 10px 20px; color: var(--bg); background: var(--accent-2); }
+.community-qr { display: block; padding: 4px; border-radius: 8px; background: #fff; line-height: 0; }
+.community-qr img { display: block; width: 128px; height: 128px; }
+@media (max-width: 480px) {
+  .community-banner { grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 20px; }
+  .community-qr { justify-self: center; }
+}
+
 /* 投稿公告：大标题上方的一条横幅，首屏第一眼就能看到；窄屏时文字和两个入口各自折行 */
 .announce {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 14px;
@@ -280,7 +302,7 @@ tr.shut td { color: var(--fg-dim); }
     <header class="hero"><p class="crumb"><a href="../../">Visão geral</a> / AnyRouter</p>
       <h1>AnyRouter</h1><p class="sub">Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas Anthropic/OpenAI.</p><a class="btn btn-ghost" href="https://anyrouter.top/register?aff=Z24N">Abrir serviço / cadastrar →</a>
       </header>
-    <section><h2>Créditos no primeiro dia / plano</h2><dl class="kv"><dt>Créditos no primeiro dia / plano</dt><dd><b>$150</b></dd><dt>Cadastro</dt><dd>$75</dd><dt>Bônus de indicação</dt><dd>$50</dd><dt>Créditos diários</dt><dd>$25/dia · Check-in diário</dd><dt>Status</dt><dd>Acessível</dd><dt>Dados atualizados em</dt><dd>2026-10-20 06:42 UTC</dd></dl><p class="section-copy">As regras de crédito são registradas manualmente a partir de comunicados; as APIs públicas nem sempre as expõem. Modelos, preços e acessibilidade são atualizados automaticamente quando permitido. Um site acessível não comprova cadastro bem-sucedido nem acesso aos modelos.</p></section>
+    <section><h2>Créditos no primeiro dia / plano</h2><dl class="kv"><dt>Créditos no primeiro dia / plano</dt><dd><b>$150</b></dd><dt>Cadastro</dt><dd>$75</dd><dt>Bônus de indicação</dt><dd>$50</dd><dt>Créditos diários</dt><dd>$25/dia · Check-in diário</dd><dt>Status</dt><dd>Acessível</dd><dt>Dados atualizados em</dt><dd>2026-10-20 09:09 UTC</dd></dl><p class="section-copy">As regras de crédito são registradas manualmente a partir de comunicados; as APIs públicas nem sempre as expõem. Modelos, preços e acessibilidade são atualizados automaticamente quando permitido. Um site acessível não comprova cadastro bem-sucedido nem acesso aos modelos.</p></section>
     <section><h2>Requisitos de cadastro</h2><p class="section-copy">Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; LinuxDO é uma alternativa sem essa exigência de idade. Saia e entre novamente após o check-in para atualizar o saldo.</p>
       </section>
     <section><h2>Recompensas, limites e cuidados importantes</h2><p class="section-copy">Créditos e preços anunciados de entrada/saída de $5/$25 por milhão de tokens vêm de comunicados. Desafios JavaScript impedem a verificação automática da API pública; confirme modelos, preços e valores recebidos no painel. Uma página de desafio não comprova queda do serviço.</p></section>
@@ -295,7 +317,7 @@ tr.shut td { color: var(--fg-dim); }
     <a href="https://github.com/panxunying/ai-coding-welfare/issues/new/choose">Enviar uma Issue</a> <a href="https://github.com/panxunying/ai-coding-welfare/issues">Explorar Issues</a></aside></main>
   <footer>
     <h2>Segurança e transparência</h2><ul><li>Os links podem conter códigos de indicação. Cada provedor define recompensas e elegibilidade; cadastrar-se não garante uma recompensa.</li><li>Este é um diretório independente, não um operador nem uma garantia de disponibilidade. Ofertas gratuitas, preços e regras podem mudar ou desaparecer.</li><li>Não envie segredos de produção, dados privados ou código de empresas a gateways desconhecidos. Use APIs oficiais para tarefas importantes.</li><li>Respeite os termos dos provedores e dos serviços de origem. Não crie contas em massa, abuse de promoções ou revenda créditos.</li><li>As sugestões nas Issues são publicadas pela comunidade e podem não estar verificadas. Avalie-as antes de se cadastrar.</li></ul>
-    <p>Dados atualizados em: 2026-10-20 06:42 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">Repositório no GitHub</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Feed Atom (chinês)</a></p>
+    <p>Dados atualizados em: 2026-10-20 09:09 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">Repositório no GitHub</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Feed Atom (chinês)</a></p>
   </footer>
 </div>
 </body>

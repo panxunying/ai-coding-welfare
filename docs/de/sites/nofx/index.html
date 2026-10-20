@@ -80,6 +80,28 @@ header.hero { padding: 84px 0 56px; text-align: center; }
 }
 .hero p.sub { margin: 0 auto 26px; max-width: 620px; color: var(--fg-dim); font-size: clamp(15px, 2vw, 18px); }
 
+/* Project community: a clear group number and a real QQ invitation, visible on the first screen. */
+header.hero:has(.community-banner) { padding-top: 24px; }
+.community-banner {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 24px;
+  max-width: 860px; margin: 0 auto 24px; padding: 24px;
+  border: 1px solid var(--accent-2); border-radius: var(--radius);
+  background: var(--bg-soft); text-align: left;
+}
+.community-title { margin: 0 0 8px; color: var(--fg); font-size: 20px; font-weight: 700; line-height: 1.4; }
+.community-description { margin: 0; color: var(--fg-dim); font-size: 14px; line-height: 1.6; }
+.community-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 12px 0; color: var(--fg-dim); font-size: 14px; }
+.community-group strong { color: var(--accent-2); font: 700 clamp(24px, 4vw, 32px)/1.2 ui-monospace, monospace; letter-spacing: 0.02em; user-select: all; }
+.community-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.community-actions span { color: var(--fg-dim); font-size: 12px; }
+.community-join { min-height: 44px; padding: 10px 20px; color: var(--bg); background: var(--accent-2); }
+.community-qr { display: block; padding: 4px; border-radius: 8px; background: #fff; line-height: 0; }
+.community-qr img { display: block; width: 128px; height: 128px; }
+@media (max-width: 480px) {
+  .community-banner { grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 20px; }
+  .community-qr { justify-self: center; }
+}
+
 /* 投稿公告：大标题上方的一条横幅，首屏第一眼就能看到；窄屏时文字和两个入口各自折行 */
 .announce {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 14px;
@@ -280,7 +302,7 @@ tr.shut td { color: var(--fg-dim); }
     <header class="hero"><p class="crumb"><a href="../../">Anbieterübersicht</a> / NOFX</p>
       <h1>NOFX</h1><p class="sub">Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und Empfehlungsprämien; Punkte sind keine USD.</p><a class="btn btn-ghost" href="https://nofx.one/zh-CN/sign-in?ref=J369GHY4">Dienst öffnen / registrieren →</a>
       </header>
-    <section><h2>Guthaben am ersten Tag / Tarif</h2><dl class="kv"><dt>Guthaben am ersten Tag / Tarif</dt><dd><b>15 Punkte</b></dd><dt>Empfehlungsbonus</dt><dd>10 Punkte</dd><dt>Tägliches Guthaben</dt><dd>5 Punkte/Tag · Täglicher Check-in</dd><dt>Status</dt><dd>Erreichbar</dd><dt>Datenstand</dt><dd>2026-10-20 06:42 UTC</dd></dl><p class="section-copy">Guthabenregeln werden manuell aus Anbieterankündigungen erfasst; öffentliche Schnittstellen liefern sie nicht immer. Modelle, Preise und Erreichbarkeit werden, soweit erlaubt, automatisch aktualisiert. Erreichbarkeit belegt weder eine erfolgreiche Registrierung noch Modellzugriff.</p></section>
+    <section><h2>Guthaben am ersten Tag / Tarif</h2><dl class="kv"><dt>Guthaben am ersten Tag / Tarif</dt><dd><b>15 Punkte</b></dd><dt>Empfehlungsbonus</dt><dd>10 Punkte</dd><dt>Tägliches Guthaben</dt><dd>5 Punkte/Tag · Täglicher Check-in</dd><dt>Status</dt><dd>Erreichbar</dd><dt>Datenstand</dt><dd>2026-10-20 09:09 UTC</dd></dl><p class="section-copy">Guthabenregeln werden manuell aus Anbieterankündigungen erfasst; öffentliche Schnittstellen liefern sie nicht immer. Modelle, Preise und Erreichbarkeit werden, soweit erlaubt, automatisch aktualisiert. Erreichbarkeit belegt weder eine erfolgreiche Registrierung noch Modellzugriff.</p></section>
     <section><h2>Voraussetzungen für die Registrierung</h2><p class="section-copy">Vollständigen Empfehlungslink beibehalten. Per E-Mail-Magic-Link oder GitHub anmelden. Discord beitreten und /verify sowie /checkin aus dem Befehlsmenü wählen; diese Prämien setzen Discord voraus. API-Schlüssel und tatsächliche Basis-URL im angemeldeten Dashboard abrufen.</p>
       </section>
     <section><h2>Prämien, Einschränkungen und wichtige Hinweise</h2><p class="section-copy">Punkte verfallen nach 30 Tagen; echte API-Nutzung setzt die Frist zurück. Check-ins pausieren bei mehr als 50 Punkten Guthaben. Discord-Verifizierung bringt einmalig 5 Punkte (Code 30 Minuten gültig), Empfehlungen 5 Punkte je Freund und ein genehmigter X-Beitrag einmalig 20. Die Startseite wirbt mit 20 Registrierungspunkten, die erfasste Empfehlungsregel nennt 10: tatsächliche Gutschrift prüfen. Keine öffentliche Umrechnung in USD. Robots-Regeln erlauben nur öffentliche Seitenprüfungen; Modelle und Preise erfordern Anmeldung.</p></section>
@@ -295,7 +317,7 @@ tr.shut td { color: var(--fg-dim); }
     <a href="https://github.com/panxunying/ai-coding-welfare/issues/new/choose">Issue erstellen</a> <a href="https://github.com/panxunying/ai-coding-welfare/issues">Issues ansehen</a></aside></main>
   <footer>
     <h2>Sicherheit und Transparenz</h2><ul><li>Links können Empfehlungscodes enthalten. Prämien und Teilnahmebedingungen legt der jeweilige Anbieter fest; eine Registrierung allein garantiert keine Prämie.</li><li>Dies ist ein unabhängiges Verzeichnis, kein Dienstbetreiber und keine Verfügbarkeitsgarantie. Kostenlose Angebote, Preise und Regeln können sich ändern oder entfallen.</li><li>Keine Produktionsschlüssel, privaten Daten oder Unternehmenscodes an unbekannte Gateways senden. Für wichtige Aufgaben offizielle APIs verwenden.</li><li>Bedingungen der Anbieter und vorgelagerten Dienste beachten. Keine Massenregistrierungen, keinen Missbrauch von Aktionen und keinen Weiterverkauf von Guthaben.</li><li>Issue-Beiträge stammen aus der Community und können ungeprüft sein. Vor einer Registrierung eigenständig bewerten.</li></ul>
-    <p>Datenstand: 2026-10-20 06:42 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">GitHub-Repository</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Atom-Feed (Chinesisch)</a></p>
+    <p>Datenstand: 2026-10-20 09:09 UTC · <a href="https://github.com/panxunying/ai-coding-welfare">GitHub-Repository</a> · <a href="https://panxunying.github.io/ai-coding-welfare/feed.xml">Atom-Feed (Chinesisch)</a></p>
   </footer>
 </div>
 </body>
