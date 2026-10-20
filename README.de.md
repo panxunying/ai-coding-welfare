@@ -15,7 +15,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-10-20 06:32 UTC
+**Datenstand:** 2026-10-20 06:42 UTC
 
 ## Anbieterübersicht
 
@@ -26,11 +26,11 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **Happy Code** | Erreichbar | **$100** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern |
 | **Prime Relay** | Erreichbar | **$20** | Tägliche Check-ins verfügbar | [Dienst öffnen / registrieren](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Beitritt zur QQ-Gruppe 239561070 erforderlich |
 | **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
+| **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
+| **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) | — |
 | **JustDoWork** | Erreichbar | **≈$92** | ≈$22/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
 | **FlushAPI** | Erreichbar | **$22.5** | Check-in aktiviert; Betrag nicht veröffentlicht | [Dienst öffnen / registrieren](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) | — |
-| **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
-| **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) | — |
 | **CheapCodex** | Erreichbar | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
@@ -58,7 +58,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -143,7 +143,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -179,7 +179,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -215,7 +215,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -239,6 +239,79 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
+## Matrix
+
+OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämien und optionaler Identitätsprüfung.
+
+[Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/matrix/)
+
+
+- **Guthaben am ersten Tag / Tarif**: 600 Punkte
+- **Empfehlungsbonus**: 600 Punkte
+- **Tägliches Guthaben**: Nicht öffentlich angegeben
+- **Status**: Erreichbar
+- **Datenstand**: 2026-10-20 06:42 UTC
+
+
+### Voraussetzungen für die Registrierung
+
+Vollständige Einladungs-URL nutzen. Anmeldung per SSO der Hangzhou Dianzi University, Telefoncode oder E-Mail/Passwort. Empfehlungsprämien gelten für Erstregistrierungen ohne Identitätsprüfung. Im Dashboard einen mat--Schlüssel erstellen: Er wird nur einmal zusammen mit der aktuellen Gateway-Adresse angezeigt.
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+Punkte sind keine USD. Die optionale Identitätsprüfung bringt einmalig 2.000 Punkte, verlangt aber persönliche Identitätsdaten; Nutzen und Datenschutz selbst abwägen. Die Aktion läuft laut Anbieter bis 2026-12-31. Geschenkpunkte gelten nur für geeignete Dienste. Kein nativer Anthropic-Endpunkt dokumentiert, daher kein direkter Claude-Code-Zugriff. Laufende App-Container verbrauchen weiter Guthaben: nach Nutzung stoppen oder löschen. Bezahlte Abos und Aufladungen sind separat.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+- [Dashboard](https://matrix.mzsjai.com/app/apikey)
+- [Anbieterdokumentation (ggf. Chinesisch)](https://matrix.mzsjai.com/docs/matrix/intro/)
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/matrix/)
+## AnyRouter
+
+New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins und Anthropic-/OpenAI-kompatiblen Routen.
+
+[Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/anyrouter/)
+
+
+- **Guthaben am ersten Tag / Tarif**: $150
+- **Registrierung**: $75
+- **Empfehlungsbonus**: $50
+- **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
+- **Status**: Erreichbar
+- **Datenstand**: 2026-10-20 06:42 UTC
+
+
+### Voraussetzungen für die Registrierung
+
+Empfehlungslink verwenden. GitHub-Konten müssen mindestens fünf Jahre alt sein; LinuxDO ist eine Alternative ohne die genannte Altersgrenze. Nach dem Check-in ab- und wieder anmelden, um das Guthaben zu aktualisieren.
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+Guthabenbeträge und beworbene Eingabe-/Ausgabepreise von $5/$25 pro Million Tokens stammen aus Anbieterankündigungen. JavaScript-Prüfungen verhindern die automatische API-Verifizierung; Modelle, Preise und Gutschriften daher im Dashboard prüfen. Eine Prüfseite belegt keinen Ausfall.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+- Anthropic Base URL: `https://anyrouter.top`
+- OpenAI Base URL: `https://anyrouter.top/v1`
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/anyrouter/)
 ## JustDoWork
 
 New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabenschnittstellen.
@@ -251,7 +324,7 @@ New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabensch
 - **Tägliches Guthaben**: ≈$22/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -290,7 +363,7 @@ New-API-Gateway mit GitHub-Registrierung, öffentlichen Modellpreisen und getren
 - **Tägliches Guthaben**: Check-in aktiviert; Betrag nicht veröffentlicht
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -337,7 +410,7 @@ New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -363,79 +436,6 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/)
-## Matrix
-
-OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämien und optionaler Identitätsprüfung.
-
-[Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/matrix/)
-
-
-- **Guthaben am ersten Tag / Tarif**: 600 Punkte
-- **Empfehlungsbonus**: 600 Punkte
-- **Tägliches Guthaben**: Nicht öffentlich angegeben
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-20 06:31 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Vollständige Einladungs-URL nutzen. Anmeldung per SSO der Hangzhou Dianzi University, Telefoncode oder E-Mail/Passwort. Empfehlungsprämien gelten für Erstregistrierungen ohne Identitätsprüfung. Im Dashboard einen mat--Schlüssel erstellen: Er wird nur einmal zusammen mit der aktuellen Gateway-Adresse angezeigt.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Punkte sind keine USD. Die optionale Identitätsprüfung bringt einmalig 2.000 Punkte, verlangt aber persönliche Identitätsdaten; Nutzen und Datenschutz selbst abwägen. Die Aktion läuft laut Anbieter bis 2026-12-31. Geschenkpunkte gelten nur für geeignete Dienste. Kein nativer Anthropic-Endpunkt dokumentiert, daher kein direkter Claude-Code-Zugriff. Laufende App-Container verbrauchen weiter Guthaben: nach Nutzung stoppen oder löschen. Bezahlte Abos und Aufladungen sind separat.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- [Dashboard](https://matrix.mzsjai.com/app/apikey)
-- [Anbieterdokumentation (ggf. Chinesisch)](https://matrix.mzsjai.com/docs/matrix/intro/)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/matrix/)
-## AnyRouter
-
-New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins und Anthropic-/OpenAI-kompatiblen Routen.
-
-[Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/anyrouter/)
-
-
-- **Guthaben am ersten Tag / Tarif**: $150
-- **Registrierung**: $75
-- **Empfehlungsbonus**: $50
-- **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-20 06:32 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Empfehlungslink verwenden. GitHub-Konten müssen mindestens fünf Jahre alt sein; LinuxDO ist eine Alternative ohne die genannte Altersgrenze. Nach dem Check-in ab- und wieder anmelden, um das Guthaben zu aktualisieren.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Guthabenbeträge und beworbene Eingabe-/Ausgabepreise von $5/$25 pro Million Tokens stammen aus Anbieterankündigungen. JavaScript-Prüfungen verhindern die automatische API-Verifizierung; Modelle, Preise und Gutschriften daher im Dashboard prüfen. Eine Prüfseite belegt keinen Ausfall.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- Anthropic Base URL: `https://anyrouter.top`
-- OpenAI Base URL: `https://anyrouter.top/v1`
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/anyrouter/)
 ## CheapCodex
 
 KI-Gateway mit Empfehlungsprämien, täglichen Check-ins sowie OpenAI-, Anthropic- und Responses-Routen.
@@ -447,7 +447,7 @@ KI-Gateway mit Empfehlungsprämien, täglichen Check-ins sowie OpenAI-, Anthropi
 - **Empfehlungsbonus**: $20
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -483,7 +483,7 @@ Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und E
 - **Empfehlungsbonus**: 10 Punkte
 - **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-20 06:31 UTC
+- **Datenstand**: 2026-10-20 06:42 UTC
 
 
 ### Voraussetzungen für die Registrierung

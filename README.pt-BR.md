@@ -15,7 +15,7 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-10-20 06:32 UTC
+**Dados atualizados em:** 2026-10-20 06:42 UTC
 
 ## Visão geral
 
@@ -26,11 +26,11 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | **Happy Code** | Acessível | **$100** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários |
 | **Prime Relay** | Acessível | **$20** | Check-in diário disponível | [Abrir serviço / cadastrar](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | É necessário entrar no grupo do QQ 239561070 |
 | **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) | — |
+| **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
+| **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | — |
 | **JustDoWork** | Acessível | **≈$92** | ≈$22/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
 | **FlushAPI** | Acessível | **$22.5** | Check-in ativo; valor não divulgado | [Abrir serviço / cadastrar](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Acessível | **$120** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://kktoken.cc/sign-up?aff=MzG9) | — |
-| **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
-| **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | — |
 | **CheapCodex** | Acessível | **$40** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
@@ -58,7 +58,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -143,7 +143,7 @@ Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 3677
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 - **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
 
 
@@ -179,7 +179,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -215,7 +215,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 
 
 ### Requisitos de cadastro
@@ -239,6 +239,79 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 Não divulgado publicamente
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/codex-relay/)
+## Matrix
+
+Gateway compatível com OpenAI e loja de apps com pontos internos, indicações e verificação de identidade opcional.
+
+[Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/matrix/)
+
+
+- **Créditos no primeiro dia / plano**: 600 pontos
+- **Bônus de indicação**: 600 pontos
+- **Créditos diários**: Não divulgado publicamente
+- **Status**: Acessível
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
+
+
+### Requisitos de cadastro
+
+Use a URL completa. Há SSO da Hangzhou Dianzi University, código por telefone ou e-mail/senha. A recompensa por indicação vale para novos usuários sem exigir verificação de identidade. Crie uma chave mat- no painel; ela aparece uma única vez, junto ao endereço atual do gateway.
+
+### Recompensas, limites e cuidados importantes
+
+Pontos não são USD. A verificação de identidade opcional rende 2.000 pontos uma vez, mas exige dados pessoais; avalie essa troca. A campanha informa validade até 2026-12-31. Pontos recebidos só funcionam em serviços elegíveis. Não há endpoint Anthropic nativo documentado, então Claude Code não conecta diretamente. Contêineres de apps em execução continuam consumindo saldo: pare ou exclua após o uso. Assinaturas e recargas pagas são separadas.
+
+### Configuração do cliente
+
+Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
+
+- [Painel](https://matrix.mzsjai.com/app/apikey)
+- [Documentação do provedor (pode estar em chinês)](https://matrix.mzsjai.com/docs/matrix/intro/)
+
+### Dados públicos dos modelos
+
+Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
+
+Não divulgado publicamente
+
+[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/matrix/)
+## AnyRouter
+
+Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas Anthropic/OpenAI.
+
+[Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/anyrouter/)
+
+
+- **Créditos no primeiro dia / plano**: $150
+- **Cadastro**: $75
+- **Bônus de indicação**: $50
+- **Créditos diários**: $25/dia · Check-in diário
+- **Status**: Acessível
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
+
+
+### Requisitos de cadastro
+
+Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; LinuxDO é uma alternativa sem essa exigência de idade. Saia e entre novamente após o check-in para atualizar o saldo.
+
+### Recompensas, limites e cuidados importantes
+
+Créditos e preços anunciados de entrada/saída de $5/$25 por milhão de tokens vêm de comunicados. Desafios JavaScript impedem a verificação automática da API pública; confirme modelos, preços e valores recebidos no painel. Uma página de desafio não comprova queda do serviço.
+
+### Configuração do cliente
+
+Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
+
+- Anthropic Base URL: `https://anyrouter.top`
+- OpenAI Base URL: `https://anyrouter.top/v1`
+
+### Dados públicos dos modelos
+
+Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
+
+Não divulgado publicamente
+
+[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/anyrouter/)
 ## JustDoWork
 
 Gateway New API com login GitHub, check-ins diários e interfaces de imagens e tarefas.
@@ -251,7 +324,7 @@ Gateway New API com login GitHub, check-ins diários e interfaces de imagens e t
 - **Créditos diários**: ≈$22/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 
 
 ### Requisitos de cadastro
@@ -290,7 +363,7 @@ Gateway New API com cadastro GitHub, preços públicos e saldos default / Super 
 - **Créditos diários**: Check-in ativo; valor não divulgado
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 
 
 ### Requisitos de cadastro
@@ -337,7 +410,7 @@ Gateway New API com créditos de indicação, check-ins diários e cobrança por
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 
 
 ### Requisitos de cadastro
@@ -363,79 +436,6 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 Não divulgado publicamente
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/)
-## Matrix
-
-Gateway compatível com OpenAI e loja de apps com pontos internos, indicações e verificação de identidade opcional.
-
-[Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/matrix/)
-
-
-- **Créditos no primeiro dia / plano**: 600 pontos
-- **Bônus de indicação**: 600 pontos
-- **Créditos diários**: Não divulgado publicamente
-- **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
-
-
-### Requisitos de cadastro
-
-Use a URL completa. Há SSO da Hangzhou Dianzi University, código por telefone ou e-mail/senha. A recompensa por indicação vale para novos usuários sem exigir verificação de identidade. Crie uma chave mat- no painel; ela aparece uma única vez, junto ao endereço atual do gateway.
-
-### Recompensas, limites e cuidados importantes
-
-Pontos não são USD. A verificação de identidade opcional rende 2.000 pontos uma vez, mas exige dados pessoais; avalie essa troca. A campanha informa validade até 2026-12-31. Pontos recebidos só funcionam em serviços elegíveis. Não há endpoint Anthropic nativo documentado, então Claude Code não conecta diretamente. Contêineres de apps em execução continuam consumindo saldo: pare ou exclua após o uso. Assinaturas e recargas pagas são separadas.
-
-### Configuração do cliente
-
-Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
-
-- [Painel](https://matrix.mzsjai.com/app/apikey)
-- [Documentação do provedor (pode estar em chinês)](https://matrix.mzsjai.com/docs/matrix/intro/)
-
-### Dados públicos dos modelos
-
-Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
-
-Não divulgado publicamente
-
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/matrix/)
-## AnyRouter
-
-Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas Anthropic/OpenAI.
-
-[Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/anyrouter/)
-
-
-- **Créditos no primeiro dia / plano**: $150
-- **Cadastro**: $75
-- **Bônus de indicação**: $50
-- **Créditos diários**: $25/dia · Check-in diário
-- **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 06:32 UTC
-
-
-### Requisitos de cadastro
-
-Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; LinuxDO é uma alternativa sem essa exigência de idade. Saia e entre novamente após o check-in para atualizar o saldo.
-
-### Recompensas, limites e cuidados importantes
-
-Créditos e preços anunciados de entrada/saída de $5/$25 por milhão de tokens vêm de comunicados. Desafios JavaScript impedem a verificação automática da API pública; confirme modelos, preços e valores recebidos no painel. Uma página de desafio não comprova queda do serviço.
-
-### Configuração do cliente
-
-Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
-
-- Anthropic Base URL: `https://anyrouter.top`
-- OpenAI Base URL: `https://anyrouter.top/v1`
-
-### Dados públicos dos modelos
-
-Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
-
-Não divulgado publicamente
-
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/anyrouter/)
 ## CheapCodex
 
 Gateway de IA com créditos de indicação, check-ins e rotas OpenAI, Anthropic e Responses.
@@ -447,7 +447,7 @@ Gateway de IA com créditos de indicação, check-ins e rotas OpenAI, Anthropic 
 - **Bônus de indicação**: $20
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 
 
 ### Requisitos de cadastro
@@ -483,7 +483,7 @@ Pontos de API por tarefas, login sem senha, check-in no Discord e indicações; 
 - **Bônus de indicação**: 10 pontos
 - **Créditos diários**: 5 pontos/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Dados atualizados em**: 2026-10-20 06:42 UTC
 
 
 ### Requisitos de cadastro
