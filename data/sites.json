@@ -501,54 +501,6 @@
       "community": []
     },
     {
-      "id": "justdowork",
-      "name": "JustDoWork",
-      "subtitle": "New API 中转站 · GitHub 一键登录，支持签到与绘图",
-      "recommended": false,
-      "credits": {
-        "signup": 70,
-        "invite": null,
-        "dailyCheckin": 22,
-        "approx": true
-      },
-      "signupUrl": "https://api.justwoker.icu/sign-up?aff=VTrz",
-      "homeUrl": "https://api.justwoker.icu",
-      "docsUrl": "https://api.justwoker.icu/dashboard/overview",
-      "statusApi": "https://api.justwoker.icu/api/status",
-      "pricingApi": null,
-      "mirrors": [],
-      "tags": ["New API", "免费额度", "签到", "绘图", "OpenAI 兼容"],
-      "highlights": [
-        "注册即得约 $70 额度，GitHub 一键登录，不用充值",
-        "基于开源 New API 面板，控制台熟悉、日志与用量一目了然",
-        "每日签到再领约 $22，首日合计约 $92",
-        "支持对话之外的绘图 / 异步任务接口",
-        "一键把 Key 推送到 Cherry Studio、DeepChat、CC Switch 等客户端"
-      ],
-      "endpoints": {
-        "anthropic": "https://api.justwoker.icu",
-        "openai": "https://api.justwoker.icu/v1"
-      },
-      "register": {
-        "methods": ["GitHub OAuth"],
-        "requirements": [
-          "已关闭账号密码注册，只能用 GitHub 授权登录",
-          "GitHub 账号注册满 365 天才允许绑定，小号会被拒绝",
-          "注册页有 Turnstile 人机校验，需要能正常加载 Cloudflare 脚本",
-          "务必从本页邀请链接进入，注册后邀请额度才会算到位"
-        ]
-      },
-      "earnMore": [
-        "每日签到领约 $22",
-        "关注站点公告获取活动兑换码"
-      ],
-      "caveats": [
-        "模型清单与价格需要登录后台才能查看，本页不做承诺",
-        "中转站上游随时可能调整，请以站内实际价格与可用模型为准"
-      ],
-      "community": []
-    },
-    {
       "id": "mirasim",
       "name": "Mirasim",
       "subtitle": "Go套餐 $1/月 · 每 5 小时官网估算：Kimi 约 130 次 / GLM 约 1,900 次 / DS 约 7,800 次",
@@ -638,135 +590,6 @@
         "X: https://x.com/Mirasim_ADE",
         "邮箱: support@mirasim.ai"
       ]
-    },
-    {
-      "id": "flushapi",
-      "name": "FlushAPI",
-      "subtitle": "New API 网关 · 注册送 $15，本页邀请进入共 $22.5，GitHub 一键建号，16 个模型与价格全公开",
-      "recommended": false,
-      "credits": {
-        "signup": 15,
-        "invite": 7.5,
-        "dailyCheckin": null,
-        "approx": false,
-        "note": "额度数字来自站方公告（2026-09-24），公开接口不公示，以站内到账为准"
-      },
-      "signupUrl": "https://flushapi.fun/sign-up?aff=WBF3",
-      "homeUrl": "https://flushapi.fun",
-      "docsUrl": "https://flushapi.fun/docs",
-      "statusApi": "https://flushapi.fun/api/status",
-      "pricingApi": "https://flushapi.fun/api/pricing",
-      "mirrors": [],
-      "tags": [
-        "New API",
-        "签到",
-        "Claude Code",
-        "Codex",
-        "免费额度",
-        "Anthropic 兼容",
-        "OpenAI 兼容"
-      ],
-      "highlights": [
-        "注册送 $15，从本页邀请链接进入变 $22.5；此后每邀请一人再得 $7.5（站方公告口径 2026-09-24）",
-        "GitHub OAuth 一键建号：接口自报 github_oauth=true 且未开邮箱验证、未开 Turnstile，注册链路很短",
-        "三条原生路由实测在线：带无效 Key 探 /v1/messages、/v1/chat/completions、/v1/responses，都由 New API 亲自回「Invalid token」——Claude Code、Codex 与 Chat 类客户端填个 Base URL 就能直连",
-        "定价接口无需登录：16 个模型与倍率全公开，含 claude-opus-5 / 4-8、fable-5.1、gpt-6-astra、gpt-5.6-sol、glm-5.3(-flash)、DeepSeek-V4.1-Flash 等",
-        "价格最低 $0.03/1M tokens 起（DeepSeek-V4.1-Flash 输入侧）；claude 系输入 $5 / 输出 $25，按量扣不是按次",
-        "Super 余额独立：claude-opus-5 / 4.8 / 4.7、fable-5.x、gpt-6-astra / 5.6-sol 划在 Super 档，gpt-5.6-luna 不耗 Super 余额"
-      ],
-      "endpoints": {
-        "anthropic": "https://flushapi.fun",
-        "openai": "https://flushapi.fun/v1"
-      },
-      "modelsNote": "/api/pricing 无需登录即可查，16 个模型：claude 系 7 个（opus-4-7 到 opus-5、fable-5 / 5.1）、gpt 系 3 个（gpt-5.6-sol / luna、gpt-6-astra）、glm-5.3 与 5.3-flash，另有 DeepSeek-V4.1-Flash、Qwen3.8-27B、sensenova-6.8-flash-lite 与 auto。接口自报按美元计价（quota_display_type=USD），本页价格按 New API 标准倍率口径折算：输入最低 $0.03/1M tokens 起（DeepSeek-V4.1-Flash），claude 系输入 $5 / 输出 $25。所有模型同时挂在 default 与 Super 两个分组，新用户自动进 default 组；据站方公告 Super 是独立余额，旗舰模型（claude-opus / fable、gpt-6-astra 等）走 Super 档。",
-      "register": {
-        "methods": ["GitHub OAuth"],
-        "requirements": [
-          "务必从本页邀请链接进入注册（带 ?aff=WBF3）：裸注册只有 $15，走邀请链接是 $22.5，多出的 $7.5 在注册那一刻结算，事后补不上",
-          "只能走 GitHub 授权建号：接口自报邮箱密码注册关着（password_register_enabled=false），密码登录只留给已有账号",
-          "没有邮箱验证码环节（email_verification=false），也没开 Turnstile 人机校验"
-        ]
-      },
-      "earnMore": [
-        "每邀请一位好友注册，邀请人再得 $7.5（站方公告口径，人数未见上限说明）",
-        "每日签到开着（checkin_enabled=true），签到给多少公告与公开接口都没写，登录后台点签到看实际数额"
-      ],
-      "caveats": [
-        "额度数字（注册 $15 / 邀请 $7.5 / 邀请人 +$7.5）来自站方 2026-09-24 的公告截图，公开接口不公示这些字段、本页无法自动核对，进后台看实际到账再算账",
-        "站点很新：接口自报的 start_time 折 2026-09-24 前后才上线，运营稳定性还没有经过时间检验，别替它做长期承诺",
-        "Super 档是独立余额（公告口径「separate balance」）：claude-opus / fable、gpt-6-astra 等旗舰模型走 Super 档，$15 / $22.5 是 default 余额的口径，开通前看清站内的分档说明",
-        "页面是纯 SPA：robots.txt 返回的是前端壳而不是 robots 内容，本页只打 /api/status 与 /api/pricing 两个公开接口探测",
-        "充值比例 price=7.3（¥7.3 ≈ $1）说明它不是纯免费站，免费额度用完后要付费才能续"
-      ],
-      "faq": [
-        [
-          "FlushAPI 注册送额度吗？",
-          "送。站方公告：注册送 $15，走邀请链接注册共 $22.5（多 $7.5 邀请奖励），之后每邀请一位好友再得 $7.5。这是公告口径，公开接口不公示，以站内到账为准。"
-        ],
-        [
-          "能用邮箱注册吗？",
-          "不能。接口自报邮箱密码注册关着（password_register_enabled=false），新用户只能用 GitHub 授权建号；密码登录只留给已有账号。"
-        ],
-        [
-          "怎么接 Claude Code / Codex？",
-          "Anthropic 协议的 Base URL 填 https://flushapi.fun（不带 /v1），OpenAI 兼容填 https://flushapi.fun/v1，Key 在控制台令牌页创建；三条路由带无效 Key 探都由 New API 亲自回 401，说明网关活着。"
-        ],
-        [
-          "Super 档和 default 档有什么区别？",
-          "两个分组挂的是同一批模型，但 Super 是独立余额：claude-opus-5 / 4.8 / 4.7、fable-5.x、gpt-6-astra / 5.6-sol 划在 Super 档；GLM-5.3、DeepSeek-V4.1-Flash、Qwen3.8-27B、gpt-5.6-luna 等在 default 档不耗 Super 余额。注册赠送的 $15 / $22.5 按 default 余额口径理解，具体以站内说明为准。"
-        ]
-      ],
-      "community": []
-    },
-    {
-      "id": "kktoken",
-      "name": "KKtoken AI",
-      "subtitle": "New API 中转站 · 注册送 $75，本页邀请码再加 $25，按 token 计费输入输出各 $1/M",
-      "recommended": false,
-      "credits": {
-        "signup": 75,
-        "invite": 25,
-        "dailyCheckin": 20,
-        "approx": false
-      },
-      "signupUrl": "https://kktoken.cc/sign-up?aff=MzG9",
-      "homeUrl": "https://kktoken.cc",
-      "docsUrl": "https://kktoken.cc/dashboard/overview",
-      "statusApi": "https://kktoken.cc/api/status",
-      "pricingApi": null,
-      "mirrors": [],
-      "tags": ["New API", "免费额度", "签到", "按 token 计费", "Anthropic 兼容", "OpenAI 兼容"],
-      "highlights": [
-        "注册送 $75，从本页邀请链接进入再加 $25，每日签到再领 $20，首日合计 $120",
-        "按 token 计费：输入 $1 / 百万 tokens、输出 $1 / 百万 tokens，和本页那几个「每次 $0.3」的按次站不是一套口径，长对话更划算",
-        "Anthropic 与 OpenAI 两条原生路由都开着（未鉴权探测 /v1/messages 与 /v1/chat/completions 都已就位），Claude Code 填个 Base URL 就能直连——具体上了哪些模型要登录后台确认",
-        "面板开着每日签到、绘图与异步任务接口，控制台就是熟悉的 New API（站点自报 KKtoken AI v1.0.0-rc.25）"
-      ],
-      "endpoints": {
-        "anthropic": "https://kktoken.cc",
-        "openai": "https://kktoken.cc/v1"
-      },
-      "modelsNote": "该站把价格页设成了登录可见（`/api/pricing` 返回 401），本页不列模型表。站内公示的计价口径是输入 $1 / 百万 tokens、输出 $1 / 百万 tokens，按 token 而不是按次，注册后在控制台「模型价格」页确认实际清单与倍率。",
-      "register": {
-        "methods": ["GitHub OAuth"],
-        "requirements": [
-          "务必从本页邀请链接进入注册（带 ?aff=MzG9），$25 在注册那一刻结算，事后补不上",
-          "GitHub 账号注册满 1 年（365 天）才允许绑定，小号会被拒绝",
-          "已关闭账号密码注册，只能用 GitHub 授权；注册完成后可以再设密码用于登录",
-          "注册页有 Cloudflare Turnstile 人机校验，需要能正常加载 Cloudflare 脚本"
-        ]
-      },
-      "earnMore": [
-        "每日签到领 $20（登录后台点签到）",
-        "邀请他人注册也有奖励，金额站点公开接口没公示，登录后台「邀请」页确认"
-      ],
-      "caveats": [
-        "额度数字（注册 $75 / 邀请 $25 / 签到 $20）站点公开接口没有暴露——它的 /api/status 里既没有 quota_for_new_user 也没有 quota_for_invitee，本页登记的是站内公示口径，进后台核对一下再算账",
-        "模型清单与价格要登录才能看（/api/pricing 返回 401），$1/M 的输入输出价同样以站内为准，本页不做承诺",
-        "站点支持在线充值（站内公示 $1 ≈ ¥7.3，Stripe 通道 ¥8），是中转站不是纯公益站，免费额度用完要付费才能续",
-        "站点前面挂着 Cloudflare，机房 IP 容易被拦，本页的自动探测偶尔会标「被 WAF 拦下」，不代表站点对你不可用"
-      ],
-      "community": []
     },
     {
       "id": "gorouter",
@@ -1055,6 +878,183 @@
         "额度数字（注册 $75 / 邀请 $50 / 签到 $25）与 $5 / $25 的价格都是站内公示口径，公开接口无法核对，进后台自己确认一遍再算账",
         "GitHub 满 5 年这条门槛卡掉的人不少，注册前先看一眼自己账号的创建年份，不够就走 LinuxDO",
         "只有 /v1/* 的中转接口不吃挑战，网页端偶发挑战失败时换个浏览器或稍后再试"
+      ],
+      "community": []
+    },
+    {
+      "id": "justdowork",
+      "name": "JustDoWork",
+      "subtitle": "New API 中转站 · GitHub 一键登录，支持签到与绘图",
+      "recommended": false,
+      "credits": {
+        "signup": 70,
+        "invite": null,
+        "dailyCheckin": 22,
+        "approx": true
+      },
+      "signupUrl": "https://api.justwoker.icu/sign-up?aff=VTrz",
+      "homeUrl": "https://api.justwoker.icu",
+      "docsUrl": "https://api.justwoker.icu/dashboard/overview",
+      "statusApi": "https://api.justwoker.icu/api/status",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": ["New API", "免费额度", "签到", "绘图", "OpenAI 兼容"],
+      "highlights": [
+        "注册即得约 $70 额度，GitHub 一键登录，不用充值",
+        "基于开源 New API 面板，控制台熟悉、日志与用量一目了然",
+        "每日签到再领约 $22，首日合计约 $92",
+        "支持对话之外的绘图 / 异步任务接口",
+        "一键把 Key 推送到 Cherry Studio、DeepChat、CC Switch 等客户端"
+      ],
+      "endpoints": {
+        "anthropic": "https://api.justwoker.icu",
+        "openai": "https://api.justwoker.icu/v1"
+      },
+      "register": {
+        "methods": ["GitHub OAuth"],
+        "requirements": [
+          "已关闭账号密码注册，只能用 GitHub 授权登录",
+          "GitHub 账号注册满 365 天才允许绑定，小号会被拒绝",
+          "注册页有 Turnstile 人机校验，需要能正常加载 Cloudflare 脚本",
+          "务必从本页邀请链接进入，注册后邀请额度才会算到位"
+        ]
+      },
+      "earnMore": [
+        "每日签到领约 $22",
+        "关注站点公告获取活动兑换码"
+      ],
+      "caveats": [
+        "模型清单与价格需要登录后台才能查看，本页不做承诺",
+        "中转站上游随时可能调整，请以站内实际价格与可用模型为准"
+      ],
+      "community": []
+    },
+    {
+      "id": "flushapi",
+      "name": "FlushAPI",
+      "subtitle": "New API 网关 · 注册送 $15，本页邀请进入共 $22.5，GitHub 一键建号，16 个模型与价格全公开",
+      "recommended": false,
+      "credits": {
+        "signup": 15,
+        "invite": 7.5,
+        "dailyCheckin": null,
+        "approx": false,
+        "note": "额度数字来自站方公告（2026-09-24），公开接口不公示，以站内到账为准"
+      },
+      "signupUrl": "https://flushapi.fun/sign-up?aff=WBF3",
+      "homeUrl": "https://flushapi.fun",
+      "docsUrl": "https://flushapi.fun/docs",
+      "statusApi": "https://flushapi.fun/api/status",
+      "pricingApi": "https://flushapi.fun/api/pricing",
+      "mirrors": [],
+      "tags": [
+        "New API",
+        "签到",
+        "Claude Code",
+        "Codex",
+        "免费额度",
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "注册送 $15，从本页邀请链接进入变 $22.5；此后每邀请一人再得 $7.5（站方公告口径 2026-09-24）",
+        "GitHub OAuth 一键建号：接口自报 github_oauth=true 且未开邮箱验证、未开 Turnstile，注册链路很短",
+        "三条原生路由实测在线：带无效 Key 探 /v1/messages、/v1/chat/completions、/v1/responses，都由 New API 亲自回「Invalid token」——Claude Code、Codex 与 Chat 类客户端填个 Base URL 就能直连",
+        "定价接口无需登录：16 个模型与倍率全公开，含 claude-opus-5 / 4-8、fable-5.1、gpt-6-astra、gpt-5.6-sol、glm-5.3(-flash)、DeepSeek-V4.1-Flash 等",
+        "价格最低 $0.03/1M tokens 起（DeepSeek-V4.1-Flash 输入侧）；claude 系输入 $5 / 输出 $25，按量扣不是按次",
+        "Super 余额独立：claude-opus-5 / 4.8 / 4.7、fable-5.x、gpt-6-astra / 5.6-sol 划在 Super 档，gpt-5.6-luna 不耗 Super 余额"
+      ],
+      "endpoints": {
+        "anthropic": "https://flushapi.fun",
+        "openai": "https://flushapi.fun/v1"
+      },
+      "modelsNote": "/api/pricing 无需登录即可查，16 个模型：claude 系 7 个（opus-4-7 到 opus-5、fable-5 / 5.1）、gpt 系 3 个（gpt-5.6-sol / luna、gpt-6-astra）、glm-5.3 与 5.3-flash，另有 DeepSeek-V4.1-Flash、Qwen3.8-27B、sensenova-6.8-flash-lite 与 auto。接口自报按美元计价（quota_display_type=USD），本页价格按 New API 标准倍率口径折算：输入最低 $0.03/1M tokens 起（DeepSeek-V4.1-Flash），claude 系输入 $5 / 输出 $25。所有模型同时挂在 default 与 Super 两个分组，新用户自动进 default 组；据站方公告 Super 是独立余额，旗舰模型（claude-opus / fable、gpt-6-astra 等）走 Super 档。",
+      "register": {
+        "methods": ["GitHub OAuth"],
+        "requirements": [
+          "务必从本页邀请链接进入注册（带 ?aff=WBF3）：裸注册只有 $15，走邀请链接是 $22.5，多出的 $7.5 在注册那一刻结算，事后补不上",
+          "只能走 GitHub 授权建号：接口自报邮箱密码注册关着（password_register_enabled=false），密码登录只留给已有账号",
+          "没有邮箱验证码环节（email_verification=false），也没开 Turnstile 人机校验"
+        ]
+      },
+      "earnMore": [
+        "每邀请一位好友注册，邀请人再得 $7.5（站方公告口径，人数未见上限说明）",
+        "每日签到开着（checkin_enabled=true），签到给多少公告与公开接口都没写，登录后台点签到看实际数额"
+      ],
+      "caveats": [
+        "额度数字（注册 $15 / 邀请 $7.5 / 邀请人 +$7.5）来自站方 2026-09-24 的公告截图，公开接口不公示这些字段、本页无法自动核对，进后台看实际到账再算账",
+        "站点很新：接口自报的 start_time 折 2026-09-24 前后才上线，运营稳定性还没有经过时间检验，别替它做长期承诺",
+        "Super 档是独立余额（公告口径「separate balance」）：claude-opus / fable、gpt-6-astra 等旗舰模型走 Super 档，$15 / $22.5 是 default 余额的口径，开通前看清站内的分档说明",
+        "页面是纯 SPA：robots.txt 返回的是前端壳而不是 robots 内容，本页只打 /api/status 与 /api/pricing 两个公开接口探测",
+        "充值比例 price=7.3（¥7.3 ≈ $1）说明它不是纯免费站，免费额度用完后要付费才能续"
+      ],
+      "faq": [
+        [
+          "FlushAPI 注册送额度吗？",
+          "送。站方公告：注册送 $15，走邀请链接注册共 $22.5（多 $7.5 邀请奖励），之后每邀请一位好友再得 $7.5。这是公告口径，公开接口不公示，以站内到账为准。"
+        ],
+        [
+          "能用邮箱注册吗？",
+          "不能。接口自报邮箱密码注册关着（password_register_enabled=false），新用户只能用 GitHub 授权建号；密码登录只留给已有账号。"
+        ],
+        [
+          "怎么接 Claude Code / Codex？",
+          "Anthropic 协议的 Base URL 填 https://flushapi.fun（不带 /v1），OpenAI 兼容填 https://flushapi.fun/v1，Key 在控制台令牌页创建；三条路由带无效 Key 探都由 New API 亲自回 401，说明网关活着。"
+        ],
+        [
+          "Super 档和 default 档有什么区别？",
+          "两个分组挂的是同一批模型，但 Super 是独立余额：claude-opus-5 / 4.8 / 4.7、fable-5.x、gpt-6-astra / 5.6-sol 划在 Super 档；GLM-5.3、DeepSeek-V4.1-Flash、Qwen3.8-27B、gpt-5.6-luna 等在 default 档不耗 Super 余额。注册赠送的 $15 / $22.5 按 default 余额口径理解，具体以站内说明为准。"
+        ]
+      ],
+      "community": []
+    },
+    {
+      "id": "kktoken",
+      "name": "KKtoken AI",
+      "subtitle": "New API 中转站 · 注册送 $75，本页邀请码再加 $25，按 token 计费输入输出各 $1/M",
+      "recommended": false,
+      "credits": {
+        "signup": 75,
+        "invite": 25,
+        "dailyCheckin": 20,
+        "approx": false
+      },
+      "signupUrl": "https://kktoken.cc/sign-up?aff=MzG9",
+      "homeUrl": "https://kktoken.cc",
+      "docsUrl": "https://kktoken.cc/dashboard/overview",
+      "statusApi": "https://kktoken.cc/api/status",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": ["New API", "免费额度", "签到", "按 token 计费", "Anthropic 兼容", "OpenAI 兼容"],
+      "highlights": [
+        "注册送 $75，从本页邀请链接进入再加 $25，每日签到再领 $20，首日合计 $120",
+        "按 token 计费：输入 $1 / 百万 tokens、输出 $1 / 百万 tokens，和本页那几个「每次 $0.3」的按次站不是一套口径，长对话更划算",
+        "Anthropic 与 OpenAI 两条原生路由都开着（未鉴权探测 /v1/messages 与 /v1/chat/completions 都已就位），Claude Code 填个 Base URL 就能直连——具体上了哪些模型要登录后台确认",
+        "面板开着每日签到、绘图与异步任务接口，控制台就是熟悉的 New API（站点自报 KKtoken AI v1.0.0-rc.25）"
+      ],
+      "endpoints": {
+        "anthropic": "https://kktoken.cc",
+        "openai": "https://kktoken.cc/v1"
+      },
+      "modelsNote": "该站把价格页设成了登录可见（`/api/pricing` 返回 401），本页不列模型表。站内公示的计价口径是输入 $1 / 百万 tokens、输出 $1 / 百万 tokens，按 token 而不是按次，注册后在控制台「模型价格」页确认实际清单与倍率。",
+      "register": {
+        "methods": ["GitHub OAuth"],
+        "requirements": [
+          "务必从本页邀请链接进入注册（带 ?aff=MzG9），$25 在注册那一刻结算，事后补不上",
+          "GitHub 账号注册满 1 年（365 天）才允许绑定，小号会被拒绝",
+          "已关闭账号密码注册，只能用 GitHub 授权；注册完成后可以再设密码用于登录",
+          "注册页有 Cloudflare Turnstile 人机校验，需要能正常加载 Cloudflare 脚本"
+        ]
+      },
+      "earnMore": [
+        "每日签到领 $20（登录后台点签到）",
+        "邀请他人注册也有奖励，金额站点公开接口没公示，登录后台「邀请」页确认"
+      ],
+      "caveats": [
+        "额度数字（注册 $75 / 邀请 $25 / 签到 $20）站点公开接口没有暴露——它的 /api/status 里既没有 quota_for_new_user 也没有 quota_for_invitee，本页登记的是站内公示口径，进后台核对一下再算账",
+        "模型清单与价格要登录才能看（/api/pricing 返回 401），$1/M 的输入输出价同样以站内为准，本页不做承诺",
+        "站点支持在线充值（站内公示 $1 ≈ ¥7.3，Stripe 通道 ¥8），是中转站不是纯公益站，免费额度用完要付费才能续",
+        "站点前面挂着 Cloudflare，机房 IP 容易被拦，本页的自动探测偶尔会标「被 WAF 拦下」，不代表站点对你不可用"
       ],
       "community": []
     },
