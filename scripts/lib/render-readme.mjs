@@ -352,7 +352,6 @@ export function renderReadme({ meta, sites: allSites, live, groups = [], history
   const head = [
     `<h1 align="center">${meta.title}</h1>`,
     '',
-    ...communityReadme(meta),
     readmeLanguages(),
     '',
     `<p align="center">${meta.tagline}</p>`,
@@ -373,6 +372,7 @@ export function renderReadme({ meta, sites: allSites, live, groups = [], history
     '',
     `<p align="center"><a href="${pages}compare/">📊 按次 vs 按量折算横评</a> · <a href="${pages}status/">🩺 可用性历史</a> · <a href="${pages}changelog/">🗓 变动日志</a> · <a href="${pages}feed.xml">🔔 Atom 订阅</a></p>`,
     '',
+    ...communityReadme(meta),
     ...submitCallout(meta.repoUrl),
     '',
     '---',

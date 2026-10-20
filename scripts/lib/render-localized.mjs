@@ -158,8 +158,9 @@ export function renderLocalizedReadme({ meta, sites, live, catalog }) {
     ...(hasRemarks ? [md(v.site.remarks ? v.copy.remarks : '—')] : []),
   ]);
   return [
-    `# ${ui.title}`, '', ...communityReadme(meta, ui), readmeLanguages(catalog.locale), '', ui.tagline, '',
+    `# ${ui.title}`, '', readmeLanguages(catalog.locale), '', ui.tagline, '',
     `[${ui.website}](${meta.pagesUrl}${language(catalog.locale).path}) · [${ui.repository}](${meta.repoUrl})`, '',
+    ...communityReadme(meta, ui),
     '> [!TIP]', `> **📣 ${ui.submitTitle}**`, '>', `> ${ui.submitText}`, '>',
     `> [${ui.submit}](${meta.repoUrl}/issues/new/choose) · [${ui.browse}](${meta.repoUrl}/issues)`, '',
     ui.intro, '', `**${ui.updated}:** ${date(live?.generatedAt, ui)}`, '',
