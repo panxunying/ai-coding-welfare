@@ -15,7 +15,7 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-10-20 04:53 UTC
+**Dados atualizados em:** 2026-10-20 06:32 UTC
 
 ## Visão geral
 
@@ -23,6 +23,7 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Acessível | **300 unidades internas (não USD)** | Sorteio grátis + cupons de desconto para recarga | [Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) | Entre no grupo do QQ para desbloquear muito mais benefícios |
 | **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) | — |
+| **Happy Code** | Acessível | **$100** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários |
 | **Prime Relay** | Acessível | **$20** | Check-in diário disponível | [Abrir serviço / cadastrar](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | É necessário entrar no grupo do QQ 239561070 |
 | **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) | — |
 | **JustDoWork** | Acessível | **≈$92** | ≈$22/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
@@ -33,7 +34,7 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | **CheapCodex** | Acessível | **$40** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Créditos indicativos em USD no primeiro dia: $629.5 em 8 serviços que aceitam novos usuários.**
+**Créditos indicativos em USD no primeiro dia: $729.5 em 9 serviços que aceitam novos usuários.**
 
 Crédito no primeiro dia = cadastro + indicação + primeiro check-in (ou uma cota diária). São saldos separados em cada serviço, não dinheiro. Pontos, unidades internas, planos pagos, serviços arquivados e cadastros fechados ficam fora do total em USD. Condições e créditos recebidos podem variar.
 
@@ -57,7 +58,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -131,6 +132,42 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 | gpt-6-astra | $4 | $20 | — | openai |
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/agentrouter/)
+## Happy Code
+
+Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários.
+
+[Abrir serviço / cadastrar](https://happycodeai.com/register?aff=5KUZBJEE7FYT) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/happycode/)
+
+
+- **Créditos no primeiro dia / plano**: $100
+- **Cadastro**: $100
+- **Créditos diários**: Não divulgado publicamente
+- **Status**: Acessível
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
+- **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
+
+
+### Requisitos de cadastro
+
+Abra o link de indicação completo e mantenha aff=5KUZBJEE7FYT. Cadastre-se com um e-mail aceito e código de verificação, ou use o NodeLoc. Depois, entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários.
+
+### Recompensas, limites e cuidados importantes
+
+Após o cadastro, solicite ao dono do grupo o pacote de teste de $100 para novos usuários. Consulte o painel para ver modelos, preços, chaves de API e instruções de configuração.
+
+### Configuração do cliente
+
+Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
+
+- [Painel](https://happycodeai.com)
+
+### Dados públicos dos modelos
+
+Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
+
+Não divulgado publicamente
+
+[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/happycode/)
 ## Prime Relay
 
 O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite check-in diário.
@@ -142,7 +179,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -178,7 +215,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 
 
 ### Requisitos de cadastro
@@ -214,7 +251,7 @@ Gateway New API com login GitHub, check-ins diários e interfaces de imagens e t
 - **Créditos diários**: ≈$22/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 
 
 ### Requisitos de cadastro
@@ -253,7 +290,7 @@ Gateway New API com cadastro GitHub, preços públicos e saldos default / Super 
 - **Créditos diários**: Check-in ativo; valor não divulgado
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 
 
 ### Requisitos de cadastro
@@ -300,7 +337,7 @@ Gateway New API com créditos de indicação, check-ins diários e cobrança por
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 
 
 ### Requisitos de cadastro
@@ -337,7 +374,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 
 
 ### Requisitos de cadastro
@@ -374,7 +411,7 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:32 UTC
 
 
 ### Requisitos de cadastro
@@ -410,7 +447,7 @@ Gateway de IA com créditos de indicação, check-ins e rotas OpenAI, Anthropic 
 - **Bônus de indicação**: $20
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 
 
 ### Requisitos de cadastro
@@ -446,7 +483,7 @@ Pontos de API por tarefas, login sem senha, check-in no Discord e indicações; 
 - **Bônus de indicação**: 10 pontos
 - **Créditos diários**: 5 pontos/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-20 04:53 UTC
+- **Dados atualizados em**: 2026-10-20 06:31 UTC
 
 
 ### Requisitos de cadastro
