@@ -22,7 +22,7 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-10-21 04:52 UTC
+**Dados atualizados em:** 2026-10-21 11:52 UTC
 
 ## Visão geral
 
@@ -36,7 +36,7 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | — |
 | **JustDoWork** | Acessível | **≈$92** | ≈$22/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
-| **FlushAPI** | Falha na verificação | **$22.5** | Check-in ativo; valor não divulgado | [Abrir serviço / cadastrar](https://flushapi.fun/sign-up?aff=WBF3) | — |
+| **FlushAPI** | Acessível | **$22.5** | Check-in ativo; valor não divulgado | [Abrir serviço / cadastrar](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Acessível | **$120** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://kktoken.cc/sign-up?aff=MzG9) | — |
 | **CheapCodex** | Acessível | **$40** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
@@ -65,7 +65,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -150,7 +150,7 @@ Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 3677
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 - **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
 
 
@@ -186,7 +186,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -222,7 +222,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 
 
 ### Requisitos de cadastro
@@ -257,7 +257,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 
 
 ### Requisitos de cadastro
@@ -294,7 +294,7 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 
 
 ### Requisitos de cadastro
@@ -331,7 +331,7 @@ Gateway New API com login GitHub, check-ins diários e interfaces de imagens e t
 - **Créditos diários**: ≈$22/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 
 
 ### Requisitos de cadastro
@@ -363,15 +363,14 @@ Gateway New API com cadastro GitHub, preços públicos e saldos default / Super 
 
 [Abrir serviço / cadastrar](https://flushapi.fun/sign-up?aff=WBF3) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/flushapi/)
 
-> Dados em cache: a última verificação não obteve dados novos. Último registro bem-sucedido: 2026-10-20 21:38 UTC.
 
 - **Créditos no primeiro dia / plano**: $22.5
 - **Cadastro**: $15
 - **Bônus de indicação**: $7.5
 - **Créditos diários**: Check-in ativo; valor não divulgado
-- **Status**: Falha na verificação
+- **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-20 21:38 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 
 
 ### Requisitos de cadastro
@@ -418,7 +417,7 @@ Gateway New API com créditos de indicação, check-ins diários e cobrança por
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 
 
 ### Requisitos de cadastro
@@ -455,7 +454,7 @@ Gateway de IA com créditos de indicação, check-ins e rotas OpenAI, Anthropic 
 - **Bônus de indicação**: $20
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 
 
 ### Requisitos de cadastro
@@ -491,7 +490,7 @@ Pontos de API por tarefas, login sem senha, check-in no Discord e indicações; 
 - **Bônus de indicação**: 10 pontos
 - **Créditos diários**: 5 pontos/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-21 04:51 UTC
+- **Dados atualizados em**: 2026-10-21 11:52 UTC
 
 
 ### Requisitos de cadastro
