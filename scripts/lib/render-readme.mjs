@@ -56,7 +56,10 @@ function overviewTable(sites, liveById) {
           ? `~~${usd(plan.firstDay, plan.approx, plan.unit)}~~`
           : `**${usd(plan.firstDay, plan.approx, plan.unit)}**`
         : plan.note ?? '站内公示';
-    const detail = sub ? sub.estimates.map((e) => `${e.model} **${e.amount}**`).join('<br>') : breakdown(plan) ?? '—';
+    const detail = sub ? sub.estimates.map((e) => `${e.model} **${e.amount}**`).join('<br>') : [
+      breakdown(plan) ?? '—',
+      s.credits?.signupNote ? tableText(s.credits.signupNote) : null,
+    ].filter(Boolean).join('<br>');
     const daily = perDay(plan);
     const checkin =
       sub ? `**${sub.window}**<br>共享额度` : daily != null ? tableText(daily) :
@@ -148,7 +151,7 @@ function creditFacts(site, snap) {
   if (p.firstDay == null) return p.note ? `- 免费范围：${p.note}` : null;
   const detail = breakdown(p);
   return [
-    p.signup != null ? `- 注册即送：**${usd(p.signup, false, p.unit)}**` : null,
+    p.signup != null ? `- 注册即送：**${usd(p.signup, false, p.unit)}**${site.credits?.signupNote ? `（${tableText(site.credits.signupNote)}）` : ''}` : null,
     p.invite != null
       ? `- 从本页邀请链接注册额外：**${usd(p.invite, false, p.unit)}**${p.apiInvite === p.invite ? '（站点接口实测一致）' : ''}`
       : null,
