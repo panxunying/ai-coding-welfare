@@ -1352,8 +1352,8 @@ test('变动日志保留历史事件，但只给未归档站提供推荐详情�
 const CATALOG = JSON.parse(await readFile(new URL('../data/sites.json', import.meta.url), 'utf8')).sites;
 // 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
 const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
-test('前三位保持不变，JustDoWork、FlushAPI、KKtoken AI 依次排在 AnyRouter 后面', () => {
-  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'agentrouter', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'anyrouter', 'justdowork', 'flushapi', 'kktoken', 'cheapcodex', 'nofx']);
+test('万家灯火排第三位，JustDoWork、FlushAPI、KKtoken AI 依次排在 AnyRouter 后面', () => {
+  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'agentrouter', 'wanjiadenghuo', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'anyrouter', 'justdowork', 'flushapi', 'kktoken', 'cheapcodex', 'nofx']);
   for (const id of ['conduit', 'omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
   assert.equal(new Set(CATALOG.map((s) => s.id)).size, CATALOG.length);
   assert.equal(MIRASIM.signupUrl, 'https://mirasim.ai/r/go-kx9cd5');
@@ -1369,8 +1369,8 @@ test('DoCode 注册链接走证书有效的主域名 docode.cc，展示与健康
   assert.deepEqual(DOCODE.endpoints, { anthropic: 'https://docode.cc', openai: 'https://docode.cc/v1' });
 });
 const FLUSHAPI = CATALOG.find((s) => s.id === 'flushapi');
-test('FlushAPI 排第九位，邀请链接与公开接口齐全', () => {
-  assert.equal(activeSites(CATALOG)[8].id, 'flushapi');
+test('FlushAPI 排第十位，邀请链接与公开接口齐全', () => {
+  assert.equal(activeSites(CATALOG)[9].id, 'flushapi');
   assert.equal(FLUSHAPI.signupUrl, 'https://flushapi.fun/sign-up?aff=WBF3');
   assert.equal(signupProbeUrl(FLUSHAPI), FLUSHAPI.signupUrl);
   assert.equal(FLUSHAPI.statusApi, 'https://flushapi.fun/api/status');
@@ -1593,15 +1593,7 @@ for (const catalog of TRANSLATIONS) {
   });
   test(`${locale.id}：顺序、邀请链接和免费额度总计共用源数据`, () => {
     const ld = JSON.parse(homepage.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
-    assert.equal(ld.itemListElement[0].name, 'DoCode');
-    assert.equal(ld.itemListElement[1].name, 'AgentRouter');
-    assert.equal(ld.itemListElement[2].name, 'Happy Code');
-    assert.equal(ld.itemListElement[3].name, 'Prime Relay');
-    assert.equal(ld.itemListElement[4].name, 'Codex Relay');
-    assert.equal(ld.itemListElement[6].name, 'AnyRouter');
-    assert.equal(ld.itemListElement[7].name, 'JustDoWork');
-    assert.equal(ld.itemListElement[8].name, 'FlushAPI');
-    assert.equal(ld.itemListElement[9].name, 'KKtoken AI');
+    assert.deepEqual(ld.itemListElement.map((item) => item.name), activeSites(CATALOG).map((site) => site.name));
     assert.equal(ld.numberOfItems, activeSites(CATALOG).length);
     assert.ok(readme.includes('$729.5') && homepage.includes('$729.5'));
     for (const s of activeSites(CATALOG)) {

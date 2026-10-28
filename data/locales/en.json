@@ -171,6 +171,13 @@
       "summary": "Task-based API points with passwordless login, Discord check-ins and referral rewards; points are not USD.",
       "registration": "Keep the full referral URL. Sign in through an email magic link or GitHub. Join Discord and select /verify and /checkin from the command menu; those rewards cannot be claimed without Discord. Get the API key and actual base URL from the authenticated dashboard.",
       "notes": "Points expire after 30 days; real API usage resets that period. Check-ins pause above a 50-point balance. Discord verification gives 5 points once (code valid for 30 minutes), referrals give 5 points per friend, and an approved X post gives 20 points once. The landing page advertises 20 signup points while the recorded referral rule gives 10: verify the actual award. No public points-to-USD conversion exists. Robots rules only permit checking public pages; models and prices require login."
+    },
+    "wanjiadenghuo": {
+      "summary": "Signup grants 50 internal units of GPT subscription usage for one month, limited to the designated GPT group. QQ check-ins award CNY 0.1–1 daily; eligible referrals award CNY 5 to each participant.",
+      "registration": "Use the full referral link and keep aff=H6QJLZT5GQHW. Email verification is required; QQ, 126, 163 and Gmail addresses are currently accepted. For rewards, join QQ group 1064350952 and link your site account. Referral rewards require the invitee to register, join the group, link their account and check in; both participants must link their accounts.",
+      "notes": "Benefits and model claims come from the operator’s Issue #46. Public settings and health were checked; actual awards and inference were not tested. The 50-unit subscription has no daily cap, expires after one month and only covers the designated GPT group. It is separate from the general balance. CNY 1 buys 1 internal unit; the advertised $50 is not USD cash and is excluded from USD totals. Conditional check-in and referral rewards are not added to first-day credits. GPT pricing starts at 0.06x for a specific group; verify current models, groups and rates in the console.",
+      "dailyNote": "Random CNY 0.1–1 daily after joining QQ and linking your account",
+      "remarks": "Subscription limited to the designated GPT group; rewards require QQ group 1064350952 and account linking"
     }
   }
 }

@@ -158,6 +158,90 @@
       ]
     },
     {
+      "id": "wanjiadenghuo",
+      "name": "万家灯火",
+      "subtitle": "注册赠 50 站内刀 GPT 订阅（1 个月）· 进群签到 ¥0.1～1/天 · 完成邀请任务双方各得 ¥5",
+      "remarks": "订阅仅限 GPT「不降智」分组；签到与邀请需加入 QQ 群 1064350952 并绑定账号",
+      "recommended": false,
+      "panel": "sub2api",
+      "credits": {
+        "signup": 50,
+        "invite": null,
+        "dailyCheckin": null,
+        "dailyNote": "进群绑定账号后，每日签到随机领 ¥0.1～1 通用余额",
+        "approx": false,
+        "unit": "site-usd",
+        "note": "注册赠送的 $50 是指定 GPT 分组的站内订阅用量额度，有效期一个月，与通用余额分开计算；签到与邀请奖励未计入首日合计。"
+      },
+      "signupUrl": "https://wjapi.vip/register?aff=H6QJLZT5GQHW",
+      "homeUrl": "https://wjapi.vip",
+      "docsUrl": null,
+      "statusApi": "https://wjapi.vip/api/v1/settings/public",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": [
+        "免费额度",
+        "GPT 订阅",
+        "每日签到",
+        "Claude Code",
+        "Codex",
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "注册赠送 50 站内刀 GPT「不降智」分组订阅额度，有效期一个月，无每日额度上限，在有效期内按实际用量扣减，用完即止",
+        "加入 QQ 群 1064350952，按机器人提示绑定站内账号，每天发送「签到」随机领取 ¥0.1～1 通用余额，可用于所有模型分组",
+        "通过本页完整邀请链接注册，被邀请人进群、绑定账号并签到，且双方均绑定站内账号，满足活动条件后双方各得 ¥5 通用余额",
+        "运营方公示 GPT Plus 特惠分组 0.06x 起；不同分组倍率不同，赠送订阅对应 GPT「不降智」分组，具体价格以站内最新公示为准"
+      ],
+      "endpoints": {
+        "anthropic": "https://wjapi.vip",
+        "openai": "https://wjapi.vip/v1"
+      },
+      "modelsSummary": "GPT / Claude / Gemini / Grok / 国产模型",
+      "modelsNote": "运营方在 Issue #46 中列出 GPT、Claude、Gemini、Grok，以及 GLM、DeepSeek、Kimi、MiniMax 等国产模型，并声明支持 Anthropic 与 OpenAI 兼容协议。具体模型 ID、可用分组、倍率和缓存价格请在站内模型广场或控制台核对；公开设置接口不提供模型清单或价格。",
+      "faq": [
+        [
+          "注册赠送的 $50 是什么？",
+          "是 50 站内刀的 GPT「不降智」分组订阅用量额度，有效期一个月，无每日额度上限；它与通用余额分开计算，不是 50 美元现金。"
+        ],
+        [
+          "每日签到和邀请奖励怎么领？",
+          "加入 QQ 群 1064350952 并绑定站内账号，每日发送「签到」可随机领取 ¥0.1～1。邀请奖励还要求被邀请人通过邀请链接注册、进群、绑定并签到，双方均需绑定账号；满足活动条件后双方各得 ¥5 通用余额。"
+        ],
+        [
+          "可以用 Claude Code、Codex 和 Cursor 吗？",
+          "运营方声明提供 Anthropic 与 OpenAI 兼容协议。公开配置给出的 API Base URL 为 https://wjapi.vip/；取得 API Key 后，按所选模型、分组和站内说明配置客户端。免费 GPT 订阅不覆盖所有模型分组。"
+        ]
+      ],
+      "register": {
+        "methods": [
+          "邮箱 + 密码"
+        ],
+        "requirements": [
+          "使用本页完整邀请链接，保留 aff=H6QJLZT5GQHW，邀请关系以站内记录为准",
+          "邮箱注册需要验证码，当前公开配置允许 QQ、126、163、Gmail 邮箱",
+          "注册后在订阅页面查看赠送的 GPT「不降智」分组额度及到期时间",
+          "签到和邀请奖励需要加入 QQ 群 1064350952 并绑定站内账号；邀请奖励还要求被邀请人完成签到，双方均需绑定账号"
+        ]
+      },
+      "earnMore": [
+        "进群绑定站内账号后，每日签到随机领取 ¥0.1～1 通用余额，可用于所有模型分组",
+        "邀请好友通过自己的邀请链接注册，按活动要求完成进群、绑定及签到后，双方各得 ¥5 通用余额"
+      ],
+      "caveats": [
+        "福利、模型和倍率按运营方提交的 Issue #46 登记：https://github.com/panxunying/ai-coding-welfare/issues/46；公开设置与健康接口已核对，赠额到账和实际模型调用未经实测",
+        "人民币 ¥1 = 站内 $1 余额；这里的 $ / 刀是站内计费单位，赠送的 $50 订阅不代表 50 美元现金，也不计入本站跨站美元合计",
+        "50 站内刀订阅仅用于指定 GPT 分组，有效期一个月；签到和邀请奖励进入通用余额，两种额度分开，未将有条件的奖励叠加到首日额度",
+        "邀请奖励要求完成注册、进群、账号绑定和签到；仅点击邀请链接不会到账",
+        "GPT 0.06x 仅为特定分组的起始倍率，不代表所有模型或赠送订阅适用同一倍率；分组名称、模型供应和活动规则以站内最新公示为准"
+      ],
+      "community": [
+        "QQ 群：1064350952（绑定账号后参与签到与邀请活动）",
+        "Telegram：https://t.me/wanjiaai"
+      ]
+    },
+    {
       "id": "happycode",
       "name": "Happy Code",
       "subtitle": "注册可获得 $100 额度，加入 QQ 群领取新人体验包",
