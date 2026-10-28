@@ -22,7 +22,7 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-10-28 12:58 UTC
+**Dados atualizados em:** 2026-10-28 22:37 UTC
 
 ## Visão geral
 
@@ -65,7 +65,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -150,7 +150,7 @@ O cadastro concede 50 unidades internas de uso de uma assinatura GPT por um mês
 - **Cadastro**: 50 unidades internas (não USD)
 - **Créditos diários**: CNY 0,1–1 aleatórios por dia após entrar no QQ e vincular a conta
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 - **Observações**: Assinatura restrita ao grupo GPT indicado; recompensas exigem o grupo QQ 1064350952 e a vinculação da conta
 
 
@@ -187,7 +187,7 @@ Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 3677
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 - **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
 
 
@@ -223,7 +223,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -259,7 +259,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 
 
 ### Requisitos de cadastro
@@ -294,7 +294,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 
 
 ### Requisitos de cadastro
@@ -331,7 +331,7 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 
 
 ### Requisitos de cadastro
@@ -368,7 +368,7 @@ Gateway New API com login GitHub, check-ins diários e interfaces de imagens e t
 - **Créditos diários**: ≈$22/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 
 
 ### Requisitos de cadastro
@@ -407,7 +407,7 @@ Gateway New API com cadastro GitHub, preços públicos e saldos default / Super 
 - **Créditos diários**: Check-in ativo; valor não divulgado
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 
 
 ### Requisitos de cadastro
@@ -454,7 +454,7 @@ Gateway New API com créditos de indicação, check-ins diários e cobrança por
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 
 
 ### Requisitos de cadastro
@@ -491,7 +491,7 @@ Pontos de API por tarefas, login sem senha, check-in no Discord e indicações; 
 - **Bônus de indicação**: 10 pontos
 - **Créditos diários**: 5 pontos/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-28 12:58 UTC
+- **Dados atualizados em**: 2026-10-28 22:37 UTC
 
 
 ### Requisitos de cadastro
