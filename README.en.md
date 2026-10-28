@@ -22,7 +22,7 @@ Community gateways, free API credits and low-cost plans for Claude Code, Codex a
 
 A translated guide to the listed services. Amounts, model IDs, prices and referral URLs are generated from the same data as the Chinese edition. Detailed comparison, history, upstream documentation and some service interfaces remain in Chinese.
 
-**Snapshot updated:** 2026-10-28 05:45 UTC
+**Snapshot updated:** 2026-10-28 06:06 UTC
 
 ## Site overview
 
@@ -39,10 +39,9 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 | **JustDoWork** | Reachable | **≈$92** | ≈$22/day · Daily check-in | [Open service / register](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
 | **FlushAPI** | Reachable | **$22.5** | Check-in enabled; amount unpublished | [Open service / register](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Reachable | **$120** | $20/day · Daily check-in | [Open service / register](https://kktoken.cc/sign-up?aff=MzG9) | — |
-| **CheapCodex** | Reachable | **$40** | $20/day · Daily check-in | [Open service / register](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | Reachable | **15 points** | 5 points/day · Daily check-in | [Open service / register](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Indicative first-day USD credits: $729.5 across 9 services accepting new users.**
+**Indicative first-day USD credits: $689.5 across 8 services accepting new users.**
 
 First-day credit = signup + referral + first check-in (or one daily pool). Credits are separate service balances, not cash. Points, site units, paid plans, archived services and closed registrations are excluded from the USD total. Conditions and actual awards may vary.
 
@@ -66,7 +65,7 @@ New API gateway with Claude and GPT services; bonuses use internal site units, n
 - **Referral bonus**: 250 site units (not USD)
 - **Daily credits**: Free prize draw + top-up discount coupons
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 - **Remarks**: Join the QQ group to unlock many more perks
 
 
@@ -151,7 +150,7 @@ Signup grants 50 internal units of GPT subscription usage for one month, limited
 - **Signup**: 50 site units (not USD)
 - **Daily credits**: Random CNY 0.1–1 daily after joining QQ and linking your account
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 - **Remarks**: Subscription limited to the designated GPT group; rewards require QQ group 1064350952 and account linking
 
 
@@ -188,7 +187,7 @@ Register with Happy Code to receive $100 in credits. Join QQ group 367746547 and
 - **Signup**: $100
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 - **Remarks**: Join QQ group 367746547 and ask the group owner for the newcomer trial pack
 
 
@@ -224,7 +223,7 @@ Prime Relay offers $20 in credits on the first day of registration and supports 
 - **Signup**: $20
 - **Daily credits**: Daily check-ins supported
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 - **Remarks**: Must join QQ group 239561070
 
 
@@ -260,7 +259,7 @@ Register with Codex Relay to receive $10 in API credits.
 - **Signup**: $10
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 
 
 ### Registration requirements
@@ -295,7 +294,7 @@ OpenAI-compatible gateway and app store using internal points, with referral and
 - **Referral bonus**: 600 points
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 
 
 ### Registration requirements
@@ -332,7 +331,7 @@ New API gateway with signup/referral credits, daily check-ins and Anthropic/Open
 - **Referral bonus**: $50
 - **Daily credits**: $25/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 
 
 ### Registration requirements
@@ -369,7 +368,7 @@ New API gateway with GitHub login, daily check-ins and image/task interfaces.
 - **Daily credits**: ≈$22/day · Daily check-in
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 
 
 ### Registration requirements
@@ -408,7 +407,7 @@ New API gateway with GitHub signup, public model pricing and separate default / 
 - **Daily credits**: Check-in enabled; amount unpublished
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 
 
 ### Registration requirements
@@ -455,7 +454,7 @@ New API gateway with referral credits, daily check-ins and token-based billing.
 - **Daily credits**: $20/day · Daily check-in
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 
 
 ### Registration requirements
@@ -481,42 +480,6 @@ Only models returned by the public snapshot are listed; missing data does not me
 Not publicly specified
 
 [Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/)
-## CheapCodex
-
-AI gateway with referral credits, daily check-ins and OpenAI, Anthropic and Responses routes.
-
-[Open service / register](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/cheapcodex/)
-
-
-- **First-day credits / plan**: $40
-- **Referral bonus**: $20
-- **Daily credits**: $20/day · Daily check-in
-- **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
-
-
-### Registration requirements
-
-Email signup only; use the full referral URL because attribution occurs at registration. Third-party OAuth was disabled, and Turnstile was not enabled in the checked configuration.
-
-### Rewards, limits and important caveats
-
-Credits and model claims come from provider notices. Robots rules forbid probing the panel API; only /v1/models is checked for reachability, not successful inference. Confirm models and prices after login. Paid subscriptions are separate and checkout may use an external domain. Referral rewards on alternate domains have not been verified.
-
-### Client setup
-
-Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
-
-- Anthropic Base URL: `https://api.cheapcodex.online`
-- OpenAI Base URL: `https://api.cheapcodex.online/v1`
-
-### Public model snapshot
-
-Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
-
-Not publicly specified
-
-[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/)
 ## NOFX
 
 Task-based API points with passwordless login, Discord check-ins and referral rewards; points are not USD.
@@ -528,7 +491,7 @@ Task-based API points with passwordless login, Discord check-ins and referral re
 - **Referral bonus**: 10 points
 - **Daily credits**: 5 points/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-28 05:45 UTC
+- **Snapshot updated**: 2026-10-28 06:05 UTC
 
 
 ### Registration requirements
@@ -557,6 +520,7 @@ Not publicly specified
 
 No longer recommended for registration, counted in totals or probed. Original reasons and historical records remain available in the Chinese edition.
 
+- [cheapcodex](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/) · 2026-10-28
 - [conduit](https://panxunying.github.io/ai-coding-welfare/sites/conduit/) · 2026-10-19
 - [omnirush](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/) · 2026-10-14
 - [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12

@@ -22,7 +22,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-10-28 05:45 UTC
+**Datenstand:** 2026-10-28 06:06 UTC
 
 ## Anbieterübersicht
 
@@ -39,10 +39,9 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **JustDoWork** | Erreichbar | **≈$92** | ≈$22/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
 | **FlushAPI** | Erreichbar | **$22.5** | Check-in aktiviert; Betrag nicht veröffentlicht | [Dienst öffnen / registrieren](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) | — |
-| **CheapCodex** | Erreichbar | **$40** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) | — |
 | **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Ungefähres USD-Guthaben am ersten Tag: $729.5 bei 9 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $689.5 bei 8 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -66,7 +65,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -151,7 +150,7 @@ Die Registrierung gewährt 50 interne Einheiten eines GPT-Abonnements für einen
 - **Registrierung**: 50 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Täglich zufällig CNY 0,1–1 nach QQ-Beitritt und Kontoverknüpfung
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 - **Hinweise**: Abonnement nur für die vorgesehene GPT-Gruppe; Prämien erfordern QQ-Gruppe 1064350952 und Kontoverknüpfung
 
 
@@ -188,7 +187,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -224,7 +223,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -260,7 +259,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -295,7 +294,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -332,7 +331,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -369,7 +368,7 @@ New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabensch
 - **Tägliches Guthaben**: ≈$22/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -408,7 +407,7 @@ New-API-Gateway mit GitHub-Registrierung, öffentlichen Modellpreisen und getren
 - **Tägliches Guthaben**: Check-in aktiviert; Betrag nicht veröffentlicht
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -455,7 +454,7 @@ New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -481,42 +480,6 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/)
-## CheapCodex
-
-KI-Gateway mit Empfehlungsprämien, täglichen Check-ins sowie OpenAI-, Anthropic- und Responses-Routen.
-
-[Dienst öffnen / registrieren](https://api.cheapcodex.online/register?aff=U7SSQZSDB36S) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/cheapcodex/)
-
-
-- **Guthaben am ersten Tag / Tarif**: $40
-- **Empfehlungsbonus**: $20
-- **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
-- **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Nur E-Mail-Registrierung; vollständigen Empfehlungslink nutzen, da die Zuordnung bei Registrierung erfolgt. Drittanbieter-OAuth war deaktiviert; Turnstile war in der geprüften Konfiguration nicht aktiv.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Guthaben- und Modellangaben stammen aus Anbieterankündigungen. Robots-Regeln verbieten Prüfungen der Panel-API; nur die Erreichbarkeit von /v1/models wird geprüft, keine erfolgreiche Inferenz. Modelle und Preise nach Anmeldung bestätigen. Bezahlte Abos sind separat, Zahlungen können über eine externe Domain laufen. Empfehlungsprämien auf alternativen Domains sind nicht verifiziert.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- Anthropic Base URL: `https://api.cheapcodex.online`
-- OpenAI Base URL: `https://api.cheapcodex.online/v1`
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/)
 ## NOFX
 
 Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und Empfehlungsprämien; Punkte sind keine USD.
@@ -528,7 +491,7 @@ Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und E
 - **Empfehlungsbonus**: 10 Punkte
 - **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-28 05:45 UTC
+- **Datenstand**: 2026-10-28 06:05 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -557,6 +520,7 @@ Nicht öffentlich angegeben
 
 Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.
 
+- [cheapcodex](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/) · 2026-10-28
 - [conduit](https://panxunying.github.io/ai-coding-welfare/sites/conduit/) · 2026-10-19
 - [omnirush](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/) · 2026-10-14
 - [mirasim](https://panxunying.github.io/ai-coding-welfare/sites/mirasim/) · 2026-10-12
