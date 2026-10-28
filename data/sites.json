@@ -20,7 +20,6 @@
       "GoRouter",
       "KKtoken",
       "AnyRouter",
-      "CheapCodex",
       "NOFX 积分",
       "GPT-5.6 Sol 中转",
       "claude-opus-5 按次计费"
@@ -1153,6 +1152,10 @@
       "name": "CheapCodex",
       "subtitle": "自研 AI 网关 · 本页邀请码送 $20，每日签到再 $20，OpenAI / Anthropic / Codex 三条协议一把 Key",
       "recommended": false,
+      "archived": {
+        "at": "2026-10-28",
+        "reason": "按维护者要求下架，移入历史区，不再推荐注册"
+      },
       "panel": "relay",
       "credits": {
         "signup": null,
