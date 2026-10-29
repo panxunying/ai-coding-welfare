@@ -22,7 +22,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-10-29 13:06 UTC
+**Datenstand:** 2026-10-29 22:47 UTC
 
 ## Anbieterübersicht
 
@@ -30,7 +30,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Erreichbar | **300 interne Einheiten (keine USD)** | Kostenlose Verlosung + Rabattgutscheine für Aufladungen | [Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) | Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten |
 | **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) | — |
-| **万家灯火** | Erreichbar | **50 interne Einheiten (keine USD)** | Täglich zufällig CNY 0,1–1 nach QQ-Beitritt und Kontoverknüpfung | [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Abonnement nur für die vorgesehene GPT-Gruppe; Prämien erfordern QQ-Gruppe 1064350952 und Kontoverknüpfung |
+| **万家灯火** | Prüfung fehlgeschlagen | **50 interne Einheiten (keine USD)** | Täglich zufällig CNY 0,1–1 nach QQ-Beitritt und Kontoverknüpfung | [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Abonnement nur für die vorgesehene GPT-Gruppe; Prämien erfordern QQ-Gruppe 1064350952 und Kontoverknüpfung |
 | **Happy Code** | Erreichbar | **$100** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern |
 | **Prime Relay** | Erreichbar | **$20** | Tägliche Check-ins verfügbar | [Dienst öffnen / registrieren](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Beitritt zur QQ-Gruppe 239561070 erforderlich |
 | **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
@@ -65,7 +65,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -145,11 +145,12 @@ Die Registrierung gewährt 50 interne Einheiten eines GPT-Abonnements für einen
 
 [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/wanjiadenghuo/)
 
+> Zwischengespeicherte Daten: Die letzte Prüfung lieferte keine neuen Daten. Letzter erfolgreicher Datenstand: 2026-10-29 13:05 UTC.
 
 - **Guthaben am ersten Tag / Tarif**: 50 interne Einheiten (keine USD)
 - **Registrierung**: 50 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Täglich zufällig CNY 0,1–1 nach QQ-Beitritt und Kontoverknüpfung
-- **Status**: Erreichbar
+- **Status**: Prüfung fehlgeschlagen
 - **Datenstand**: 2026-10-29 13:05 UTC
 - **Hinweise**: Abonnement nur für die vorgesehene GPT-Gruppe; Prämien erfordern QQ-Gruppe 1064350952 und Kontoverknüpfung
 
@@ -187,7 +188,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -223,7 +224,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -259,7 +260,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -294,7 +295,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -331,7 +332,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -368,7 +369,7 @@ New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabensch
 - **Tägliches Guthaben**: ≈$22/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -455,7 +456,7 @@ New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -492,7 +493,7 @@ Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und E
 - **Empfehlungsbonus**: 10 Punkte
 - **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Datenstand**: 2026-10-29 22:46 UTC
 
 
 ### Voraussetzungen für die Registrierung

@@ -22,7 +22,7 @@ Community gateways, free API credits and low-cost plans for Claude Code, Codex a
 
 A translated guide to the listed services. Amounts, model IDs, prices and referral URLs are generated from the same data as the Chinese edition. Detailed comparison, history, upstream documentation and some service interfaces remain in Chinese.
 
-**Snapshot updated:** 2026-10-29 13:06 UTC
+**Snapshot updated:** 2026-10-29 22:47 UTC
 
 ## Site overview
 
@@ -30,7 +30,7 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Reachable | **300 site units (not USD)** | Free prize draw + top-up discount coupons | [Open service / register](https://docode.cc/register?aff=zMRe) | Join the QQ group to unlock many more perks |
 | **AgentRouter** | Reachable | **$175** | $25/day · Daily check-in | [Open service / register](https://agentrouter.org/register?aff=szt3) | — |
-| **万家灯火** | Reachable | **50 site units (not USD)** | Random CNY 0.1–1 daily after joining QQ and linking your account | [Open service / register](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Subscription limited to the designated GPT group; rewards require QQ group 1064350952 and account linking |
+| **万家灯火** | Probe failed | **50 site units (not USD)** | Random CNY 0.1–1 daily after joining QQ and linking your account | [Open service / register](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Subscription limited to the designated GPT group; rewards require QQ group 1064350952 and account linking |
 | **Happy Code** | Reachable | **$100** | Not publicly specified | [Open service / register](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Join QQ group 367746547 and ask the group owner for the newcomer trial pack |
 | **Prime Relay** | Reachable | **$20** | Daily check-ins supported | [Open service / register](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Must join QQ group 239561070 |
 | **Codex Relay** | Reachable | **$10** | Not publicly specified | [Open service / register](https://codex-relay.codes/register?aff=6jAq) | — |
@@ -65,7 +65,7 @@ New API gateway with Claude and GPT services; bonuses use internal site units, n
 - **Referral bonus**: 250 site units (not USD)
 - **Daily credits**: Free prize draw + top-up discount coupons
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 - **Remarks**: Join the QQ group to unlock many more perks
 
 
@@ -145,11 +145,12 @@ Signup grants 50 internal units of GPT subscription usage for one month, limited
 
 [Open service / register](https://wjapi.vip/register?aff=H6QJLZT5GQHW) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/wanjiadenghuo/)
 
+> Cached data: the latest probe did not obtain a fresh snapshot. Last successful snapshot: 2026-10-29 13:05 UTC.
 
 - **First-day credits / plan**: 50 site units (not USD)
 - **Signup**: 50 site units (not USD)
 - **Daily credits**: Random CNY 0.1–1 daily after joining QQ and linking your account
-- **Status**: Reachable
+- **Status**: Probe failed
 - **Snapshot updated**: 2026-10-29 13:05 UTC
 - **Remarks**: Subscription limited to the designated GPT group; rewards require QQ group 1064350952 and account linking
 
@@ -187,7 +188,7 @@ Register with Happy Code to receive $100 in credits. Join QQ group 367746547 and
 - **Signup**: $100
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 - **Remarks**: Join QQ group 367746547 and ask the group owner for the newcomer trial pack
 
 
@@ -223,7 +224,7 @@ Prime Relay offers $20 in credits on the first day of registration and supports 
 - **Signup**: $20
 - **Daily credits**: Daily check-ins supported
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 - **Remarks**: Must join QQ group 239561070
 
 
@@ -259,7 +260,7 @@ Register with Codex Relay to receive $10 in API credits.
 - **Signup**: $10
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 
 
 ### Registration requirements
@@ -294,7 +295,7 @@ OpenAI-compatible gateway and app store using internal points, with referral and
 - **Referral bonus**: 600 points
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 
 
 ### Registration requirements
@@ -331,7 +332,7 @@ New API gateway with signup/referral credits, daily check-ins and Anthropic/Open
 - **Referral bonus**: $50
 - **Daily credits**: $25/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 
 
 ### Registration requirements
@@ -368,7 +369,7 @@ New API gateway with GitHub login, daily check-ins and image/task interfaces.
 - **Daily credits**: ≈$22/day · Daily check-in
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 
 
 ### Registration requirements
@@ -455,7 +456,7 @@ New API gateway with referral credits, daily check-ins and token-based billing.
 - **Daily credits**: $20/day · Daily check-in
 - **Status**: Reachable
 - **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 
 
 ### Registration requirements
@@ -492,7 +493,7 @@ Task-based API points with passwordless login, Discord check-ins and referral re
 - **Referral bonus**: 10 points
 - **Daily credits**: 5 points/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-10-29 13:05 UTC
+- **Snapshot updated**: 2026-10-29 22:46 UTC
 
 
 ### Registration requirements
