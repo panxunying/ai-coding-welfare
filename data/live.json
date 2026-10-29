@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-29T05:52:07.324Z",
+  "generatedAt": "2026-10-29T13:06:08.996Z",
   "sites": [
     {
       "id": "docode",
-      "checkedAt": "2026-10-29T05:51:04.415Z",
+      "checkedAt": "2026-10-29T13:05:05.734Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 923,
+      "latencyMs": 710,
       "error": null,
       "systemName": "DoCode",
       "version": "",
@@ -58,7 +58,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 769,
+        "ms": 472,
         "attempts": 1,
         "url": "https://docode.cc/register?aff=zMRe"
       },
@@ -76,9 +76,9 @@
     },
     {
       "id": "agentrouter",
-      "checkedAt": "2026-10-29T05:51:10.499Z",
+      "checkedAt": "2026-10-29T13:05:12.636Z",
       "online": true,
-      "latencyMs": 305,
+      "latencyMs": 989,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260918-cbda758f",
@@ -206,7 +206,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1968,
+        "ms": 1735,
         "attempts": 1,
         "url": "https://agentrouter.org/register?aff=szt3"
       },
@@ -237,10 +237,10 @@
     },
     {
       "id": "wanjiadenghuo",
-      "checkedAt": "2026-10-29T05:51:04.949Z",
+      "checkedAt": "2026-10-29T13:05:06.211Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1312,
+      "latencyMs": 988,
       "error": null,
       "systemName": "万家灯火",
       "version": "2.17.7",
@@ -266,7 +266,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1336,
+        "ms": 989,
         "attempts": 1,
         "url": "https://wjapi.vip/register?aff=H6QJLZT5GQHW"
       },
@@ -279,10 +279,10 @@
     },
     {
       "id": "happycode",
-      "checkedAt": "2026-10-29T05:51:05.082Z",
+      "checkedAt": "2026-10-29T13:05:06.344Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1402,
+      "latencyMs": 1061,
       "error": null,
       "systemName": "Happy Code",
       "version": "0.0.115",
@@ -309,7 +309,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1378,
+        "ms": 1232,
         "attempts": 1,
         "url": "https://happycodeai.com/register?aff=5KUZBJEE7FYT"
       },
@@ -322,10 +322,10 @@
     },
     {
       "id": "primerelay",
-      "checkedAt": "2026-10-29T05:51:04.907Z",
+      "checkedAt": "2026-10-29T13:05:06.208Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1415,
+      "latencyMs": 1089,
       "error": null,
       "systemName": null,
       "version": null,
@@ -349,7 +349,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1371,
+        "ms": 1047,
         "attempts": 1,
         "url": "https://www.primerelay.online/register?aff=2FXZ7SBATLN2"
       },
@@ -362,10 +362,10 @@
     },
     {
       "id": "codex-relay",
-      "checkedAt": "2026-10-29T05:51:05.050Z",
+      "checkedAt": "2026-10-29T13:05:06.615Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1555,
+      "latencyMs": 1496,
       "error": null,
       "systemName": null,
       "version": null,
@@ -389,7 +389,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1537,
+        "ms": 1465,
         "attempts": 1,
         "url": "https://codex-relay.codes/register?aff=6jAq"
       },
@@ -402,10 +402,10 @@
     },
     {
       "id": "matrix",
-      "checkedAt": "2026-10-29T05:51:05.766Z",
+      "checkedAt": "2026-10-29T13:05:07.316Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2270,
+      "latencyMs": 2195,
       "error": null,
       "systemName": null,
       "version": null,
@@ -429,7 +429,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2359,
+        "ms": 2278,
         "attempts": 1,
         "url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"
       },
@@ -442,10 +442,10 @@
     },
     {
       "id": "anyrouter",
-      "checkedAt": "2026-10-29T05:51:11.839Z",
+      "checkedAt": "2026-10-29T13:05:13.166Z",
       "apiOk": false,
       "pricingOk": false,
-      "latencyMs": 206,
+      "latencyMs": 177,
       "error": "invalid json",
       "systemName": null,
       "version": null,
@@ -469,7 +469,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3413,
+        "ms": 3175,
         "attempts": 1,
         "url": "https://anyrouter.top/register?aff=Z24N"
       },
@@ -482,9 +482,9 @@
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-10-29T05:51:06.370Z",
+      "checkedAt": "2026-10-29T13:05:08.815Z",
       "online": true,
-      "latencyMs": 2865,
+      "latencyMs": 3693,
       "error": null,
       "systemName": "JustDoWork",
       "version": "v1.0.0-rc.23",
@@ -510,7 +510,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3536,
+        "ms": 3650,
         "attempts": 1,
         "url": "https://api.justwoker.icu/sign-up?aff=VTrz"
       },
@@ -525,10 +525,10 @@
     },
     {
       "id": "flushapi",
-      "checkedAt": "2026-10-29T05:52:07.315Z",
+      "checkedAt": "2026-10-29T13:06:08.991Z",
       "apiOk": false,
       "pricingOk": false,
-      "latencyMs": 19530,
+      "latencyMs": 19526,
       "error": "HTTP 522",
       "systemName": "FlushAPI",
       "version": null,
@@ -665,7 +665,7 @@
       "signup": {
         "status": 522,
         "ok": false,
-        "ms": 19632,
+        "ms": 19325,
         "attempts": 2,
         "url": "https://flushapi.fun/sign-up?aff=WBF3"
       },
@@ -687,10 +687,10 @@
     },
     {
       "id": "kktoken",
-      "checkedAt": "2026-10-29T05:51:07.137Z",
+      "checkedAt": "2026-10-29T13:05:09.035Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 3634,
+      "latencyMs": 3910,
       "error": null,
       "systemName": "KKtoken AI",
       "version": "v1.0.0-rc.25",
@@ -717,7 +717,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3642,
+        "ms": 3758,
         "attempts": 1,
         "url": "https://kktoken.cc/sign-up?aff=MzG9"
       },
@@ -730,10 +730,10 @@
     },
     {
       "id": "nofx",
-      "checkedAt": "2026-10-29T05:51:07.477Z",
+      "checkedAt": "2026-10-29T13:05:09.431Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 3974,
+      "latencyMs": 4305,
       "error": null,
       "systemName": null,
       "version": null,
@@ -757,7 +757,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3988,
+        "ms": 4155,
         "attempts": 1,
         "url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4"
       },
