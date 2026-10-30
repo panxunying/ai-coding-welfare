@@ -1352,9 +1352,9 @@ test('变动日志保留历史事件，但只给未归档站提供推荐详情�
 const CATALOG = JSON.parse(await readFile(new URL('../data/sites.json', import.meta.url), 'utf8')).sites;
 // 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
 const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
-test('万家灯火排第三位，JustDoWork、FlushAPI、KKtoken AI 依次排在 AnyRouter 后面', () => {
-  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'agentrouter', 'wanjiadenghuo', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'anyrouter', 'justdowork', 'flushapi', 'kktoken', 'nofx']);
-  for (const id of ['conduit', 'omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat', 'cheapcodex']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
+test('万家灯火排第三位，JustDoWork、KKtoken AI 依次排在 AnyRouter 后面', () => {
+  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'agentrouter', 'wanjiadenghuo', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'anyrouter', 'justdowork', 'kktoken', 'nofx']);
+  for (const id of ['conduit', 'omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat', 'cheapcodex', 'flushapi']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
   assert.equal(new Set(CATALOG.map((s) => s.id)).size, CATALOG.length);
   assert.equal(MIRASIM.signupUrl, 'https://mirasim.ai/r/go-kx9cd5');
 });
@@ -1368,15 +1368,19 @@ test('DoCode 注册链接走证书有效的主域名 docode.cc，展示与健康
   assert.equal(DOCODE.inviteCode, 'zMRe');
   assert.deepEqual(DOCODE.endpoints, { anthropic: 'https://docode.cc', openai: 'https://docode.cc/v1' });
 });
-const FLUSHAPI = CATALOG.find((s) => s.id === 'flushapi');
-test('FlushAPI 排第十位，邀请链接与公开接口齐全', () => {
-  assert.equal(activeSites(CATALOG)[9].id, 'flushapi');
-  assert.equal(FLUSHAPI.signupUrl, 'https://flushapi.fun/sign-up?aff=WBF3');
-  assert.equal(signupProbeUrl(FLUSHAPI), FLUSHAPI.signupUrl);
-  assert.equal(FLUSHAPI.statusApi, 'https://flushapi.fun/api/status');
-  assert.equal(FLUSHAPI.pricingApi, 'https://flushapi.fun/api/pricing');
+const FLUSHAPI_ARCHIVED = CATALOG.find((s) => s.id === 'flushapi');
+// OAuth、额度与模型渲染仍使用未归档样例，真实目录的归档状态在下方单独校验。
+const FLUSHAPI = { ...FLUSHAPI_ARCHIVED, archived: undefined };
+test('FlushAPI 因 HTTP 522 归档，历史邀请链接与公开接口保留', () => {
+  assert.equal(isArchived(FLUSHAPI_ARCHIVED), true);
+  assert.equal(archivedAt(FLUSHAPI_ARCHIVED), '2026-10-30');
+  assert.match(archivedReason(FLUSHAPI_ARCHIVED), /HTTP 522/);
+  assert.equal(FLUSHAPI_ARCHIVED.signupUrl, 'https://flushapi.fun/sign-up?aff=WBF3');
+  assert.equal(signupProbeUrl(FLUSHAPI_ARCHIVED), FLUSHAPI_ARCHIVED.signupUrl);
+  assert.equal(FLUSHAPI_ARCHIVED.statusApi, 'https://flushapi.fun/api/status');
+  assert.equal(FLUSHAPI_ARCHIVED.pricingApi, 'https://flushapi.fun/api/pricing');
 });
-test('FlushAPI 首日 $22.5 = 注册 $15 + 邀请 $7.5，公告口径计入跨站合计', () => {
+test('FlushAPI 未归档样例保留历史额度：首日 $22.5 = 注册 $15 + 邀请 $7.5', () => {
   const plan = creditPlan(FLUSHAPI);
   assert.equal(plan.signup, 15);
   assert.equal(plan.invite, 7.5);
@@ -1453,7 +1457,7 @@ test('README 总表的未归档订阅样例直接呈现 $1 月费与三档用量
   const intro = md.slice(0, md.indexOf('## 📚 站点详情'));
   assert.match(intro, /各模型次数不可相加/);
   assert.match(intro, /付费套餐不计入下方免费额度合计/);
-  assert.match(intro, /\*\*\$689\.5\*\*/);
+  assert.match(intro, /\*\*\$667\*\*/);
 });
 test('卡片和详情页使用同一价量区块，免费范围是补充信息', () => {
   const args = { meta: META, sites: [MIRASIM], live: LIVE, css: '', groups: [], history: HIST };
@@ -1595,7 +1599,7 @@ for (const catalog of TRANSLATIONS) {
     const ld = JSON.parse(homepage.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
     assert.deepEqual(ld.itemListElement.map((item) => item.name), activeSites(CATALOG).map((site) => site.name));
     assert.equal(ld.numberOfItems, activeSites(CATALOG).length);
-    assert.ok(readme.includes('$689.5') && homepage.includes('$689.5'));
+    assert.ok(readme.includes('$667') && homepage.includes('$667'));
     for (const s of activeSites(CATALOG)) {
       assert.ok(readme.includes(s.signupUrl));
       assert.ok(homepage.includes(`href="${s.signupUrl.replace(/&/g, '&amp;')}"`));
@@ -1607,7 +1611,7 @@ for (const catalog of TRANSLATIONS) {
     const live = structuredClone(I18N_LIVE);
     live.sites.find((s) => s.id === 'agentrouter').registerOpen = false;
     const html = renderLocalizedHome({ ...args, live });
-    assert.ok(html.includes('$514.5') && !html.includes('$689.5'));
+    assert.ok(html.includes('$492') && !html.includes('$667'));
     assert.ok(html.includes('<b class="struck">$175</b>'));
     const md = renderLocalizedReadme({ ...args, live });
     assert.ok(md.includes('~~$175~~'));
@@ -1652,7 +1656,7 @@ for (const catalog of TRANSLATIONS) {
   });
   test(`${locale.id}：翻译与模型内容不能注入 HTML 或提前闭合 JSON-LD`, () => {
     const hostile = structuredClone(catalog);
-    hostile.sites.flushapi.summary = '<img src=x onerror=alert(1)> </script>';
+    hostile.sites.justdowork.summary = '<img src=x onerror=alert(1)> </script>';
     const html = renderLocalizedHome({ ...args, catalog: hostile });
     assert.ok(!html.includes('<img src=x'));
     assert.ok(html.includes('&lt;img'));

@@ -1023,6 +1023,10 @@
       "name": "FlushAPI",
       "subtitle": "New API 网关 · 注册送 $15，本页邀请进入共 $22.5，GitHub 一键建号，16 个模型与价格全公开",
       "recommended": false,
+      "archived": {
+        "at": "2026-10-30",
+        "reason": "2026-10-29 起 CI 连续三轮探测离线；2026-10-30 复查首页、注册、状态接口与文档均返回 HTTP 522（源站连接超时），暂移历史区，确认恢复后可重新收录"
+      },
       "credits": {
         "signup": 15,
         "invite": 7.5,
