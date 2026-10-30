@@ -22,7 +22,7 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-10-29 22:47 UTC
+**Dados atualizados em:** 2026-10-30 01:58 UTC
 
 ## Visão geral
 
@@ -30,18 +30,17 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Acessível | **300 unidades internas (não USD)** | Sorteio grátis + cupons de desconto para recarga | [Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) | Entre no grupo do QQ para desbloquear muito mais benefícios |
 | **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) | — |
-| **万家灯火** | Falha na verificação | **50 unidades internas (não USD)** | CNY 0,1–1 aleatórios por dia após entrar no QQ e vincular a conta | [Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Assinatura restrita ao grupo GPT indicado; recompensas exigem o grupo QQ 1064350952 e a vinculação da conta |
+| **万家灯火** | Acessível | **50 unidades internas (não USD)** | CNY 0,1–1 aleatórios por dia após entrar no QQ e vincular a conta | [Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Assinatura restrita ao grupo GPT indicado; recompensas exigem o grupo QQ 1064350952 e a vinculação da conta |
 | **Happy Code** | Acessível | **$100** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários |
 | **Prime Relay** | Acessível | **$20** | Check-in diário disponível | [Abrir serviço / cadastrar](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | É necessário entrar no grupo do QQ 239561070 |
 | **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) | — |
 | **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | — |
 | **JustDoWork** | Acessível | **≈$92** | ≈$22/dia · Check-in diário | [Abrir serviço / cadastrar](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
-| **FlushAPI** | Falha na verificação | **$22.5** | Check-in ativo; valor não divulgado | [Abrir serviço / cadastrar](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Acessível | **$120** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://kktoken.cc/sign-up?aff=MzG9) | — |
 | **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Créditos indicativos em USD no primeiro dia: $689.5 em 8 serviços que aceitam novos usuários.**
+**Créditos indicativos em USD no primeiro dia: $667 em 7 serviços que aceitam novos usuários.**
 
 Crédito no primeiro dia = cadastro + indicação + primeiro check-in (ou uma cota diária). São saldos separados em cada serviço, não dinheiro. Pontos, unidades internas, planos pagos, serviços arquivados e cadastros fechados ficam fora do total em USD. Condições e créditos recebidos podem variar.
 
@@ -65,7 +64,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -145,13 +144,12 @@ O cadastro concede 50 unidades internas de uso de uma assinatura GPT por um mês
 
 [Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/wanjiadenghuo/)
 
-> Dados em cache: a última verificação não obteve dados novos. Último registro bem-sucedido: 2026-10-29 13:05 UTC.
 
 - **Créditos no primeiro dia / plano**: 50 unidades internas (não USD)
 - **Cadastro**: 50 unidades internas (não USD)
 - **Créditos diários**: CNY 0,1–1 aleatórios por dia após entrar no QQ e vincular a conta
-- **Status**: Falha na verificação
-- **Dados atualizados em**: 2026-10-29 13:05 UTC
+- **Status**: Acessível
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 - **Observações**: Assinatura restrita ao grupo GPT indicado; recompensas exigem o grupo QQ 1064350952 e a vinculação da conta
 
 
@@ -188,7 +186,7 @@ Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 3677
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 - **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
 
 
@@ -224,7 +222,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -260,7 +258,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 
 
 ### Requisitos de cadastro
@@ -295,7 +293,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 
 
 ### Requisitos de cadastro
@@ -332,7 +330,7 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 
 
 ### Requisitos de cadastro
@@ -369,7 +367,7 @@ Gateway New API com login GitHub, check-ins diários e interfaces de imagens e t
 - **Créditos diários**: ≈$22/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 
 
 ### Requisitos de cadastro
@@ -395,54 +393,6 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 Não divulgado publicamente
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/)
-## FlushAPI
-
-Gateway New API com cadastro GitHub, preços públicos e saldos default / Super separados.
-
-[Abrir serviço / cadastrar](https://flushapi.fun/sign-up?aff=WBF3) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/flushapi/)
-
-> Dados em cache: a última verificação não obteve dados novos. Último registro bem-sucedido: 2026-10-28 22:37 UTC.
-
-- **Créditos no primeiro dia / plano**: $22.5
-- **Cadastro**: $15
-- **Bônus de indicação**: $7.5
-- **Créditos diários**: Check-in ativo; valor não divulgado
-- **Status**: Falha na verificação
-- **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-28 22:37 UTC
-
-
-### Requisitos de cadastro
-
-Somente GitHub OAuth; cadastro por e-mail/senha desativado. A configuração verificada não exigia validação de e-mail nem Turnstile. Use a URL de indicação completa para receber o bônus adicional.
-
-### Recompensas, limites e cuidados importantes
-
-Valores de cadastro e indicação vêm do comunicado de 2026-09-24, não de campos públicos de cota. Segundo o aviso, quem indica também recebe $7.5 por amigo. O check-in está ativo, mas o valor não foi divulgado. O bônus de cadastro é saldo default; modelos avançados Claude/Opus, Fable e GPT podem exigir saldo Super separado. Confira a categoria antes de usar. Serviço muito novo, sem histórico de confiabilidade de longo prazo; oferece recargas pagas.
-
-### Configuração do cliente
-
-Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
-
-- Anthropic Base URL: `https://flushapi.fun`
-- OpenAI Base URL: `https://flushapi.fun/v1`
-- [Documentação do provedor (pode estar em chinês)](https://flushapi.fun/docs)
-
-### Dados públicos dos modelos
-
-Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
-
-| Modelo | Entrada / 1 milhão de tokens | Saída / 1 milhão de tokens | Por requisição | Protocolo |
-| --- | --- | --- | --- | --- |
-| claude-fable-5 | $10 | $50 | — | anthropic / openai |
-| claude-opus-4-8 | $5 | $25 | — | anthropic / openai |
-| claude-opus-5 | $5 | $25 | — | anthropic / openai |
-| claude-sonnet-5 | $2 | $10 | — | anthropic / openai |
-| gpt-5.6-luna | $0.2 | $1.2 | — | openai |
-| gpt-5.6-sol | $4 | $20 | — | openai |
-| gpt-6-astra | $10 | $50 | — | openai |
-
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/flushapi/)
 ## KKtoken AI
 
 Gateway New API com créditos de indicação, check-ins diários e cobrança por token.
@@ -456,7 +406,7 @@ Gateway New API com créditos de indicação, check-ins diários e cobrança por
 - **Créditos diários**: $20/dia · Check-in diário
 - **Status**: Acessível
 - **Cadastro**: Cadastro apenas por OAuth: GitHub
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 
 
 ### Requisitos de cadastro
@@ -493,7 +443,7 @@ Pontos de API por tarefas, login sem senha, check-in no Discord e indicações; 
 - **Bônus de indicação**: 10 pontos
 - **Créditos diários**: 5 pontos/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-10-29 22:46 UTC
+- **Dados atualizados em**: 2026-10-30 01:58 UTC
 
 
 ### Requisitos de cadastro
@@ -522,6 +472,7 @@ Não divulgado publicamente
 
 Não são mais recomendados para cadastro, incluídos nos totais ou verificados automaticamente. Os motivos originais e o histórico permanecem na edição chinesa.
 
+- [flushapi](https://panxunying.github.io/ai-coding-welfare/sites/flushapi/) · 2026-10-30
 - [cheapcodex](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/) · 2026-10-28
 - [conduit](https://panxunying.github.io/ai-coding-welfare/sites/conduit/) · 2026-10-19
 - [omnirush](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/) · 2026-10-14

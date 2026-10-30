@@ -22,7 +22,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-10-29 22:47 UTC
+**Datenstand:** 2026-10-30 01:58 UTC
 
 ## Anbieterübersicht
 
@@ -30,18 +30,17 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Erreichbar | **300 interne Einheiten (keine USD)** | Kostenlose Verlosung + Rabattgutscheine für Aufladungen | [Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) | Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten |
 | **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) | — |
-| **万家灯火** | Prüfung fehlgeschlagen | **50 interne Einheiten (keine USD)** | Täglich zufällig CNY 0,1–1 nach QQ-Beitritt und Kontoverknüpfung | [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Abonnement nur für die vorgesehene GPT-Gruppe; Prämien erfordern QQ-Gruppe 1064350952 und Kontoverknüpfung |
+| **万家灯火** | Erreichbar | **50 interne Einheiten (keine USD)** | Täglich zufällig CNY 0,1–1 nach QQ-Beitritt und Kontoverknüpfung | [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Abonnement nur für die vorgesehene GPT-Gruppe; Prämien erfordern QQ-Gruppe 1064350952 und Kontoverknüpfung |
 | **Happy Code** | Erreichbar | **$100** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern |
 | **Prime Relay** | Erreichbar | **$20** | Tägliche Check-ins verfügbar | [Dienst öffnen / registrieren](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Beitritt zur QQ-Gruppe 239561070 erforderlich |
 | **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
 | **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) | — |
 | **JustDoWork** | Erreichbar | **≈$92** | ≈$22/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
-| **FlushAPI** | Prüfung fehlgeschlagen | **$22.5** | Check-in aktiviert; Betrag nicht veröffentlicht | [Dienst öffnen / registrieren](https://flushapi.fun/sign-up?aff=WBF3) | — |
 | **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) | — |
 | **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Ungefähres USD-Guthaben am ersten Tag: $689.5 bei 8 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $667 bei 7 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -65,7 +64,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -145,13 +144,12 @@ Die Registrierung gewährt 50 interne Einheiten eines GPT-Abonnements für einen
 
 [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/wanjiadenghuo/)
 
-> Zwischengespeicherte Daten: Die letzte Prüfung lieferte keine neuen Daten. Letzter erfolgreicher Datenstand: 2026-10-29 13:05 UTC.
 
 - **Guthaben am ersten Tag / Tarif**: 50 interne Einheiten (keine USD)
 - **Registrierung**: 50 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Täglich zufällig CNY 0,1–1 nach QQ-Beitritt und Kontoverknüpfung
-- **Status**: Prüfung fehlgeschlagen
-- **Datenstand**: 2026-10-29 13:05 UTC
+- **Status**: Erreichbar
+- **Datenstand**: 2026-10-30 01:58 UTC
 - **Hinweise**: Abonnement nur für die vorgesehene GPT-Gruppe; Prämien erfordern QQ-Gruppe 1064350952 und Kontoverknüpfung
 
 
@@ -188,7 +186,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -224,7 +222,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -260,7 +258,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -295,7 +293,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -332,7 +330,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -369,7 +367,7 @@ New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabensch
 - **Tägliches Guthaben**: ≈$22/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -395,54 +393,6 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/)
-## FlushAPI
-
-New-API-Gateway mit GitHub-Registrierung, öffentlichen Modellpreisen und getrennten default-/Super-Guthaben.
-
-[Dienst öffnen / registrieren](https://flushapi.fun/sign-up?aff=WBF3) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/flushapi/)
-
-> Zwischengespeicherte Daten: Die letzte Prüfung lieferte keine neuen Daten. Letzter erfolgreicher Datenstand: 2026-10-28 22:37 UTC.
-
-- **Guthaben am ersten Tag / Tarif**: $22.5
-- **Registrierung**: $15
-- **Empfehlungsbonus**: $7.5
-- **Tägliches Guthaben**: Check-in aktiviert; Betrag nicht veröffentlicht
-- **Status**: Prüfung fehlgeschlagen
-- **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-28 22:37 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Nur GitHub OAuth; E-Mail-/Passwortregistrierung ist deaktiviert. In der geprüften Konfiguration waren weder E-Mail-Bestätigung noch Turnstile aktiviert. Für den Zusatzbonus den vollständigen Empfehlungslink verwenden.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Registrierungs- und Empfehlungsbeträge stammen aus der Anbieterankündigung vom 2026-09-24, nicht aus öffentlichen Guthabenfeldern. Laut derselben Ankündigung erhält der Einladende $7.5 pro Freund. Check-in ist aktiviert, der Betrag aber unveröffentlicht. Registrierungsprämien gelten für default; Spitzenmodelle von Claude/Opus, Fable und GPT können das separate Super-Guthaben benötigen. Tarifzuordnung vor Nutzung prüfen. Sehr neuer Dienst ohne langfristigen Zuverlässigkeitsnachweis; kostenpflichtige Aufladungen möglich.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- Anthropic Base URL: `https://flushapi.fun`
-- OpenAI Base URL: `https://flushapi.fun/v1`
-- [Anbieterdokumentation (ggf. Chinesisch)](https://flushapi.fun/docs)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-| Modell | Eingabe / 1 Mio. Tokens | Ausgabe / 1 Mio. Tokens | Pro Anfrage | Protokoll |
-| --- | --- | --- | --- | --- |
-| claude-fable-5 | $10 | $50 | — | anthropic / openai |
-| claude-opus-4-8 | $5 | $25 | — | anthropic / openai |
-| claude-opus-5 | $5 | $25 | — | anthropic / openai |
-| claude-sonnet-5 | $2 | $10 | — | anthropic / openai |
-| gpt-5.6-luna | $0.2 | $1.2 | — | openai |
-| gpt-5.6-sol | $4 | $20 | — | openai |
-| gpt-6-astra | $10 | $50 | — | openai |
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/flushapi/)
 ## KKtoken AI
 
 New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter Abrechnung.
@@ -456,7 +406,7 @@ New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -493,7 +443,7 @@ Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und E
 - **Empfehlungsbonus**: 10 Punkte
 - **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-10-29 22:46 UTC
+- **Datenstand**: 2026-10-30 01:58 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -522,6 +472,7 @@ Nicht öffentlich angegeben
 
 Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.
 
+- [flushapi](https://panxunying.github.io/ai-coding-welfare/sites/flushapi/) · 2026-10-30
 - [cheapcodex](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/) · 2026-10-28
 - [conduit](https://panxunying.github.io/ai-coding-welfare/sites/conduit/) · 2026-10-19
 - [omnirush](https://panxunying.github.io/ai-coding-welfare/sites/omnirush/) · 2026-10-14

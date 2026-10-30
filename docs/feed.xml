@@ -5,8 +5,16 @@
   <link rel="self" href="https://panxunying.github.io/ai-coding-welfare/feed.xml"/>
   <link href="https://panxunying.github.io/ai-coding-welfare/"/>
   <id>https://panxunying.github.io/ai-coding-welfare/</id>
-  <updated>2026-10-29T22:47:43.731Z</updated>
+  <updated>2026-10-30T01:58:58.177Z</updated>
   <author><name>AI Coding 福利站导航</name></author>
+  <entry>
+    <title>2026-10-30 · 2 项变动</title>
+    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-10-30"/>
+    <id>tag:panxunying.github.io,2026-10-30:changelog</id>
+    <updated>2026-10-30T01:58:58.177Z</updated>
+    <summary>万家灯火 恢复在线（另有 1 项变动）</summary>
+    <content type="html">&lt;ul&gt;&lt;li&gt;🟢 万家灯火 恢复在线&lt;/li&gt;&lt;li&gt;🗑️ 移入历史区 FlushAPI：2026-10-29 起 CI 连续三轮探测离线；2026-10-30 复查首页、注册、状态接口与文档均返回 HTTP 522（源站连接超时），暂移历史区，确认恢复后可重新收录&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>2026-10-29 · 2 项变动</title>
     <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-10-29"/>
