@@ -22,7 +22,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-11-02 15:59 UTC
+**Datenstand:** 2026-11-02 16:42 UTC
 
 ## Anbieterübersicht
 
@@ -36,11 +36,10 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
 | **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) | — |
-| **JustDoWork** | Erreichbar | **≈$92** | ≈$22/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) | — |
 | **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) | — |
 | **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Ungefähres USD-Guthaben am ersten Tag: $667 bei 7 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $575 bei 6 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -64,7 +63,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -149,7 +148,7 @@ Die Registrierung gewährt 50 interne Einheiten eines GPT-Abonnements für einen
 - **Registrierung**: 50 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Täglich zufällig CNY 0,1–1 nach QQ-Beitritt und Kontoverknüpfung
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 - **Hinweise**: Abonnement nur für die vorgesehene GPT-Gruppe; Prämien erfordern QQ-Gruppe 1064350952 und Kontoverknüpfung
 
 
@@ -186,7 +185,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -222,7 +221,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -258,7 +257,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -293,7 +292,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -330,7 +329,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -355,44 +354,6 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/anyrouter/)
-## JustDoWork
-
-New-API-Gateway mit GitHub-Anmeldung, täglichen Check-ins und Bild-/Aufgabenschnittstellen.
-
-[Dienst öffnen / registrieren](https://api.justwoker.icu/sign-up?aff=VTrz) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/justdowork/)
-
-
-- **Guthaben am ersten Tag / Tarif**: ≈$92
-- **Registrierung**: $70
-- **Tägliches Guthaben**: ≈$22/Tag · Täglicher Check-in
-- **Status**: Erreichbar
-- **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-11-02 15:59 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Nur GitHub OAuth; das GitHub-Konto muss mindestens 365 Tage alt sein. Cloudflare Turnstile muss laden. Den vollständigen Empfehlungslink verwenden.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Tägliche Prämien sind Näherungswerte; tatsächliche Gutschrift im Dashboard prüfen. Modelle und Preise erfordern eine Anmeldung. Ankündigungen können Aktionscodes enthalten. Modelle, Preise und Verfügbarkeit können sich ändern.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- Anthropic Base URL: `https://api.justwoker.icu`
-- OpenAI Base URL: `https://api.justwoker.icu/v1`
-- [Anbieterdokumentation (ggf. Chinesisch)](https://api.justwoker.icu/dashboard/overview)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/)
 ## KKtoken AI
 
 New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter Abrechnung.
@@ -406,7 +367,7 @@ New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter
 - **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
 - **Status**: Erreichbar
 - **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -443,7 +404,7 @@ Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und E
 - **Empfehlungsbonus**: 10 Punkte
 - **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-02 15:58 UTC
+- **Datenstand**: 2026-11-02 16:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -472,6 +433,7 @@ Nicht öffentlich angegeben
 
 Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.
 
+- [justdowork](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/) · 2026-11-03
 - [flushapi](https://panxunying.github.io/ai-coding-welfare/sites/flushapi/) · 2026-10-30
 - [cheapcodex](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/) · 2026-10-28
 - [conduit](https://panxunying.github.io/ai-coding-welfare/sites/conduit/) · 2026-10-19
