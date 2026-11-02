@@ -975,6 +975,10 @@
       "name": "JustDoWork",
       "subtitle": "New API 中转站 · GitHub 一键登录，支持签到与绘图",
       "recommended": false,
+      "archived": {
+        "at": "2026-11-03",
+        "reason": "2026-11-02 巡检发现首页与注册链接 HTTP 522；2026-11-03 复查首页、注册和控制台仍返回 HTTP 522（源站连接超时），公开状态接口可达但网页不可用，暂移历史区，确认恢复后可重新收录"
+      },
       "credits": {
         "signup": 70,
         "invite": null,
