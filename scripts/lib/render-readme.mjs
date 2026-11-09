@@ -1,6 +1,6 @@
 /** 生成 README.md：全部内容由 data/sites.json + data/live.json 渲染，请勿手改 README。 */
 import { staleHours } from './newapi.mjs';
-import { creditPlan, usd, breakdown, perDay, usdTotals, othersNote } from './credits.mjs';
+import { creditPlan, usd, firstDayLabel, breakdown, perDay, usdTotals, othersNote } from './credits.mjs';
 import { signupRoute, acceptsNew } from './signup.mjs';
 import { icon } from './changelog.mjs';
 import { coverage } from './history.mjs';
@@ -53,11 +53,11 @@ function overviewTable(sites, liveById) {
         ? `${route.state === 'closed' ? `~~${sub.label}~~` : `**${sub.label}**`}${sub.listPrice ? `<br>标价 ${sub.listPrice}` : ''}`
         : plan.firstDay != null
         ? route.state === 'closed'
-          ? `~~${usd(plan.firstDay, plan.approx, plan.unit)}~~`
-          : `**${usd(plan.firstDay, plan.approx, plan.unit)}**`
+          ? `~~${tableText(firstDayLabel(plan))}~~`
+          : `**${tableText(firstDayLabel(plan))}**`
         : plan.note ?? '站内公示';
     const detail = sub ? sub.estimates.map((e) => `${e.model} **${e.amount}**`).join('<br>') : [
-      breakdown(plan) ?? '—',
+      breakdown(plan) ? tableText(breakdown(plan)) : '—',
       s.credits?.signupNote ? tableText(s.credits.signupNote) : null,
     ].filter(Boolean).join('<br>');
     const daily = perDay(plan);
@@ -151,7 +151,8 @@ function creditFacts(site, snap) {
   if (p.firstDay == null) return p.note ? `- 免费范围：${p.note}` : null;
   const detail = breakdown(p);
   return [
-    p.signup != null ? `- 注册即送：**${usd(p.signup, false, p.unit)}**${site.credits?.signupNote ? `（${tableText(site.credits.signupNote)}）` : ''}` : null,
+    p.signup != null ? `- ${site.credits?.signupLabel ? tableText(p.signupLabel) : '注册即送'}：**${tableText(usd(p.signup, false, p.unit))}**${site.credits?.signupNote ? `（${tableText(site.credits.signupNote)}）` : ''}` : null,
+    p.signupExtra ? `- ${tableText(p.signupExtra.label)}：**${tableText(usd(p.signupExtra.amount, false, p.signupExtra.unit))}**（${tableText(p.signupLabel)}）` : null,
     p.invite != null
       ? `- 从本页邀请链接注册额外：**${usd(p.invite, false, p.unit)}**${p.apiInvite === p.invite ? '（站点接口实测一致）' : ''}`
       : null,
@@ -160,7 +161,7 @@ function creditFacts(site, snap) {
       : p.resets
         ? `- 每日额度池：**${usd(p.daily, p.approx, p.unit)}/天**（每天重置，当天用不完不累积，也不用签到）`
         : `- 每日签到：**${usd(p.daily, p.approx, p.unit)}/天**（长期续命的关键）`,
-    `- 首日合计：**${usd(p.firstDay, p.approx, p.unit)}**${p.sources > 1 && detail ? `　（${detail}）` : ''}`,
+    `- ${p.signupExtra ? '首日可得' : '首日合计'}：**${tableText(firstDayLabel(p))}**${(p.sources > 1 || site.credits?.signupLabel) && detail ? `　（${tableText(detail)}）` : ''}`,
   ]
     .filter(Boolean)
     .join('\n');

@@ -16,6 +16,9 @@
   "panel": "newapi",                     // 面板类型，不填即 newapi，另有 vibecode / matrix / relay / sub2api，见下文
   "credits": {                           // 额度口径，页面上的「首日可得」由它算出来
     "signup": 100,                       // 注册基础额度
+    "signupLabel": "进群绑定 QQ 后领取",  // 可选：需额外操作时替代「注册即送」
+    "signupExtra": { "amount": 2, "unit": "cny", "label": "通用体验额度" },
+                                         // 可选：不同单位的新人额度，单独显示，不加进主额度或美元合计
     "invite": 50,                        // 通过本仓库邀请链接额外到账，站点接口没有就填 null
     "dailyCheckin": 25,                  // 每日签到额度（累积），没有签到就填 null
     "dailyQuota": null,                  // 每日重置的额度池（不累积），与 dailyCheckin 二选一

@@ -5,7 +5,7 @@
  * 外壳（head / 导航 / 页脚 / JSON-LD）统一走 lib/layout.mjs，别在这儿再写一套。
  */
 import { staleHours } from './newapi.mjs';
-import { creditPlan, usd, breakdown, usdTotals, othersNote } from './credits.mjs';
+import { creditPlan, usd, firstDayLabel, breakdown, usdTotals, othersNote } from './credits.mjs';
 import { signupRoute, acceptsNew } from './signup.mjs';
 import { esc, fmt, pageShell, faqLd, COPY_SCRIPT } from './layout.mjs';
 import { icon } from './changelog.mjs';
@@ -47,8 +47,8 @@ function siteCard(site, snap) {
     p.firstDay != null
       ? [
           '首日可得',
-          `<b${shut ? ' class="struck"' : ''}>${usd(p.firstDay, p.approx, p.unit)}</b>${
-            shut ? '<small> 站点停注中，新号拿不到</small>' : p.sources > 1 && breakdown(p) ? `<small> ${esc(breakdown(p))}</small>` : ''
+          `<b${shut ? ' class="struck"' : ''}>${esc(firstDayLabel(p))}</b>${
+            shut ? '<small> 站点停注中，新号拿不到</small>' : (p.sources > 1 || site.credits?.signupLabel) && breakdown(p) ? `<small> ${esc(breakdown(p))}</small>` : ''
           }`,
         ]
       : p.note ? ['免费范围', esc(p.note)] : null,

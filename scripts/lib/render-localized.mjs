@@ -48,6 +48,7 @@ function amount(value, plan, ui, approx = false) {
   if (value == null) return ui.unpublished;
   const prefix = approx ? '≈' : '';
   if (plan.unit === 'usd') return `${prefix}$${value}`;
+  if (plan.unit === 'cny') return `${prefix}¥${value}`;
   const unit = plan.unit === 'point' ? ui.points : plan.unit === 'site-usd' ? ui.siteUnits : plan.unit;
   return `${prefix}${value} ${unit}`;
 }
@@ -61,7 +62,8 @@ function siteView(site, snap, catalog) {
   const route = signupRoute(snap);
   const shut = route.state === 'closed';
   const sub = site.subscription;
-  const first = sub ? `${sub.name} · ${interpolate(ui.perMonth, { amount: `$${sub.monthlyUsd}` })}` : amount(plan.firstDay, plan, ui, plan.approx);
+  const extra = plan.signupExtra ? `${amount(plan.signupExtra.amount, { unit: plan.signupExtra.unit }, ui)} ${copy.signupExtraLabel}` : null;
+  const first = sub ? `${sub.name} · ${interpolate(ui.perMonth, { amount: `$${sub.monthlyUsd}` })}` : `${amount(plan.firstDay, plan, ui, plan.approx)}${extra ? ` + ${extra}` : ''}`;
   const daily = sub ? interpolate(ui.window, { hours: sub.windowHours })
     : plan.daily != null ? `${interpolate(ui.perDay, { amount: amount(plan.daily, plan, ui, plan.approx) })} · ${plan.resets ? ui.pool : ui.checkin}`
     : plan.dailyNote ? copy.dailyNote
@@ -70,7 +72,7 @@ function siteView(site, snap, catalog) {
   const facts = [
     [ui.firstDay, first],
     ...(!sub ? [
-      plan.signup != null ? [ui.signup, amount(plan.signup, plan, ui)] : null,
+      plan.signup != null ? [site.credits?.signupLabel ? copy.signupLabel : ui.signup, `${amount(plan.signup, plan, ui)}${extra ? ` + ${extra}` : ''}`] : null,
       plan.invite != null ? [ui.invite, amount(plan.invite, plan, ui)] : null,
       [ui.daily, daily],
     ].filter(Boolean) : []),

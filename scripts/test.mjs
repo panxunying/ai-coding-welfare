@@ -10,7 +10,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { mergeSnapshot, meaningful } from './lib/merge.mjs';
 import { pickPreferred, staleHours, STALE_WARN_HOURS, blankSnapshot, looksFiltered, probeUrl, isHttpsUrl, fetchJson, describeFetchError } from './lib/newapi.mjs';
-import { creditPlan, usd, breakdown, perDay, auditCredits, usdTotals, othersNote } from './lib/credits.mjs';
+import { creditPlan, usd, firstDayLabel, breakdown, perDay, auditCredits, usdTotals, othersNote } from './lib/credits.mjs';
 import { PANELS, probeSite } from './lib/panels.mjs';
 import { diffSite, diffSnapshots, majorOnly, priceLabel } from './lib/diff.mjs';
 import { appendSample, compact, uptime, byDay, coverage, ciBaseline, EMPTY_HISTORY } from './lib/history.mjs';
@@ -1350,6 +1350,45 @@ test('变动日志保留历史事件，但只给未归档站提供推荐详情�
   assert.ok(!html.includes('href="../sites/gorouter/"'));
 });
 const CATALOG = JSON.parse(await readFile(new URL('../data/sites.json', import.meta.url), 'utf8')).sites;
+const WANJIA = CATALOG.find((s) => s.id === 'wanjiadenghuo');
+test('万家灯火的站内订阅与人民币体验额度分开展示，付费签到不计入免费额度', () => {
+  const plan = creditPlan(WANJIA);
+  assert.equal(plan.firstDay, 50);
+  assert.equal(plan.daily, null);
+  assert.equal(firstDayLabel(plan), '50 站内刀 + ¥2 通用体验额度');
+  assert.match(perDay(plan), /充值 ¥10.*¥0.1～1/);
+  const totals = usdTotals([creditPlan(AR), plan]);
+  assert.equal(totals.total, 175);
+  assert.equal(totals.count, 1);
+  assert.match(othersNote(totals.others), /50 站内刀 \+ ¥2 通用体验额度.*进群绑定 QQ/);
+});
+test('万家灯火总表、首页、详情和横评均显示进群绑定福利及充值签到门槛', () => {
+  const args = { meta: META, sites: [WANJIA], live: { sites: [] }, css: '', groups: [] };
+  const readme = renderReadme(args);
+  const row = readme.split('\n').find((line) => line.startsWith('| **万家灯火**'));
+  assert.match(row, /进群绑定 QQ 后领取 50 站内刀 \+ ¥2 通用体验额度/);
+  assert.match(row, /充值 ¥10 后可签到/);
+  assert.match(row, /1064350952.*GPT「不降智」/);
+  assert.ok(!readme.includes('注册即送'));
+  for (const html of [renderHtml(args), renderSitePage({ ...args, site: WANJIA })]) {
+    assert.match(html, /50 站内刀 \+ ¥2 通用体验额度/);
+    assert.match(html, /进群绑定 QQ 后领取/);
+    assert.match(html, /充值 ¥10 后可签到/);
+  }
+  assert.match(renderComparePage(args), /50 站内刀 \+ ¥2 通用体验额度/);
+});
+for (const locale of TRANSLATED_LANGUAGES) {
+  const catalog = JSON.parse(await readFile(new URL(`../data/locales/${locale.id}.json`, import.meta.url), 'utf8'));
+  test(`${locale.id}：万家灯火体验额度、领取条件和签到门槛在总表与详情保持一致`, () => {
+    const args = { meta: META, sites: [WANJIA], site: WANJIA, live: { sites: [] }, css: '', catalog };
+    const copy = catalog.sites.wanjiadenghuo;
+    for (const output of [renderLocalizedReadme(args), renderLocalizedHome(args), renderLocalizedSite(args)]) {
+      assert.ok(output.includes(`¥2 ${copy.signupExtraLabel}`));
+      assert.ok(output.includes(copy.signupLabel));
+      assert.ok(output.includes(copy.dailyNote));
+    }
+  });
+}
 // 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
 const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
 test('万家灯火排第三位，KKtoken AI 排在 AnyRouter 后面；故障站移入历史区', () => {

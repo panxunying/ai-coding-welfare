@@ -22,6 +22,7 @@ const num = (v) => (Number.isFinite(Number(v)) && Number(v) > 0 ? Number(v) : nu
 /** 已知计价单位的显示方式；未登记的单位原样后缀显示，绝不擅自加 $ */
 const UNITS = {
   usd: { prefix: '$', suffix: '' },
+  cny: { prefix: '¥', suffix: '' },
   point: { prefix: '', suffix: ' 积分' },
   tokens: { prefix: '', suffix: ' tokens' },
   // 也有站点用「刀」计价，但那个刀不是美元：New API 面板的 price 字段是充值比例，
@@ -40,6 +41,11 @@ export const KNOWN_UNITS = Object.keys(UNITS);
 export function creditPlan(site, snap) {
   const c = site?.credits ?? {};
   const signup = num(c.signup);
+  const signupLabel = c.signupLabel || '注册';
+  // 不同单位的新人体验额度单独展示，不折算或加进主额度与跨站合计。
+  const signupExtra = signup != null && num(c.signupExtra?.amount) != null
+    ? { amount: num(c.signupExtra.amount), unit: c.signupExtra.unit ?? DEFAULT_UNIT, label: c.signupExtra.label || '' }
+    : null;
   const invite = num(c.invite);
   const checkin = num(c.dailyCheckin);
   const pool = num(c.dailyQuota);
@@ -60,6 +66,8 @@ export function creditPlan(site, snap) {
     name: site?.name ?? null,
     unit,
     signup,
+    signupLabel,
+    signupExtra,
     invite,
     daily,
     resets,
@@ -83,6 +91,13 @@ export function usd(n, approx = false, unit = DEFAULT_UNIT) {
   return `${approx ? '≈' : ''}${prefix}${n}${suffix}`;
 }
 
+/** 首日主额度与不同单位的体验额度并列显示，数值不相加。 */
+export function firstDayLabel(plan) {
+  const primary = usd(plan.firstDay, plan.approx, plan.unit);
+  if (primary == null) return null;
+  return `${primary}${plan.signupExtra ? ` + ${usd(plan.signupExtra.amount, false, plan.signupExtra.unit)}${plan.signupExtra.label ? ` ${plan.signupExtra.label}` : ''}` : ''}`;
+}
+
 /** 「之后每天」列：签到是往账户里加，额度池是每天重置回同一个数 */
 export function perDay(plan) {
   if (plan.daily == null) return plan.dailyNote ?? null;
@@ -92,7 +107,7 @@ export function perDay(plan) {
 /** 「注册 $100 + 本页邀请 $50 + 首签 $25」／「每日额度池 $50（每天重置，不累积）」 */
 export function breakdown(plan) {
   const items = [
-    plan.signup != null ? `注册 ${usd(plan.signup, false, plan.unit)}` : null,
+    plan.signup != null ? `${plan.signupLabel ?? '注册'} ${usd(plan.signup, false, plan.unit)}${plan.signupExtra ? ` + ${usd(plan.signupExtra.amount, false, plan.signupExtra.unit)}${plan.signupExtra.label ? ` ${plan.signupExtra.label}` : ''}` : ''}` : null,
     plan.invite != null ? `本页邀请 ${usd(plan.invite, false, plan.unit)}` : null,
     plan.daily != null ? `${plan.resets ? '每日额度池' : '首签'} ${usd(plan.daily, plan.approx, plan.unit)}` : null,
   ].filter(Boolean);
@@ -122,7 +137,7 @@ export function usdTotals(plans) {
 /** 「Matrix 另发 600 积分」——合计里装不下的单位，如实单独说一句 */
 export function othersNote(others) {
   if (!others?.length) return null;
-  return others.map((p) => `${p.name ?? '该站'} 另发 ${usd(p.firstDay, p.approx, p.unit)}`).join('，');
+  return others.map((p) => `${p.name ?? '该站'} 另发 ${firstDayLabel(p)}${p.signupLabel && p.signupLabel !== '注册' ? `（${p.signupLabel}）` : ''}`).join('，');
 }
 
 /** 登记值与接口实测值不一致时提醒维护者更新，别让页面上的数字烂掉 */
