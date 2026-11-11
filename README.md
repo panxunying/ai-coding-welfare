@@ -14,12 +14,12 @@
 <p align="center">
   <a href="https://docode.cc/register?aff=zMRe"><b>DoCode 注册</b></a> ·
   <a href="https://agentrouter.org/register?aff=szt3"><b>AgentRouter 注册</b></a> ·
-  <a href="https://wjapi.vip/register?aff=H6QJLZT5GQHW"><b>万家灯火 注册</b></a> ·
+  <a href="https://anyrouter.top/register?aff=Z24N"><b>AnyRouter 注册</b></a> ·
   <a href="https://happycodeai.com/register?aff=5KUZBJEE7FYT"><b>Happy Code 注册</b></a> ·
   <a href="https://www.primerelay.online/register?aff=2FXZ7SBATLN2"><b>Prime Relay 注册</b></a> ·
   <a href="https://codex-relay.codes/register?aff=6jAq"><b>Codex Relay 注册</b></a> ·
   <a href="https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"><b>Matrix 注册</b></a> ·
-  <a href="https://anyrouter.top/register?aff=Z24N"><b>AnyRouter 注册</b></a> ·
+  <a href="https://wjapi.vip/register?aff=H6QJLZT5GQHW"><b>万家灯火 注册</b></a> ·
   <a href="https://kktoken.cc/sign-up?aff=MzG9"><b>KKtoken AI 注册</b></a> ·
   <a href="https://nofx.one/zh-CN/sign-in?ref=J369GHY4"><b>NOFX 注册</b></a>
 </p>
@@ -45,21 +45,21 @@
 | 站点 | 状态 | 首日可得 | 额度构成 | 之后每天 | 兼容协议 | 模型 | 注册 | 邀请码 | 备注 |
 | :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: | :--: | :-- |
 | **DoCode** | 🟢 在线 | **300 站内刀** | 注册 50 站内刀 + 本页邀请 250 站内刀 | 免费抽奖+充值优惠券 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://docode.cc/register?aff=zMRe) | `zMRe` | 加qq群可以解锁超多福利 |
-| **AgentRouter** | 🟢 在线 | **$175** | 注册 $100 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 4 个可查 | [点此注册 →](https://agentrouter.org/register?aff=szt3) | — | — |
-| **万家灯火** | 🟢 在线 | **50 站内刀 + ¥2 通用体验额度** | 进群绑定 QQ 后领取 50 站内刀 + ¥2 通用体验额度<br>GPT 订阅可在「我的订阅」中查看 | 充值 ¥10 后可签到，每日随机领 ¥0.1～1 通用余额 | Anthropic + OpenAI | **GPT / Claude / Gemini / Grok / 国产模型** | [点此注册 →](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | — | QQ 群 1064350952；50 站内刀仅限 GPT「不降智」分组（1 个月）；体验与签到额度为通用余额 |
-| **Happy Code** | 🟢 在线 | **$100** | 注册 $100 | — | 控制台内查看 | 需登录查看 | [点此注册 →](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | — | 需要加 QQ 群 367746547 找群主获取新人体验包 |
-| **Prime Relay** | 🟢 在线 | **$20** | 注册 $20 | 支持每日签到 | OpenAI | **Claude / GPT 等** | [点此注册 →](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | — | 需要进qq群,239561070 |
-| **Codex Relay** | 🟢 在线 | **$10** | 注册 $10 | — | 控制台内查看 | 需登录查看 | [点此注册 →](https://codex-relay.codes/register?aff=6jAq) | — | — |
-| **Matrix** | 🟢 在线 | **600 积分** | 本页邀请 600 积分 | — | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — | — |
-| **AnyRouter** | 🟢 在线 | **$150** | 注册 $75 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://anyrouter.top/register?aff=Z24N) | — | — |
-| **KKtoken AI** | 🟢 在线 | **$120** | 注册 $75 + 本页邀请 $25 + 首签 $20 | $20/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://kktoken.cc/sign-up?aff=MzG9) | — | — |
-| **NOFX** | 🟢 在线 | **15 积分** | 本页邀请 10 积分 + 首签 5 积分 | 5 积分/天 | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — | — |
+| **AgentRouter** | 🟢 在线 | **$175** | 注册 $100 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 4 个可查 | [点此注册 →](https://agentrouter.org/register?aff=szt3) | 注册链接中已自带 | — |
+| **AnyRouter** | 🟢 在线 | **$150** | 注册 $75 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://anyrouter.top/register?aff=Z24N) | 注册链接中已自带 | — |
+| **Happy Code** | 🟢 在线 | **$100** | 注册 $100 | — | 控制台内查看 | 需登录查看 | [点此注册 →](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | 注册链接中已自带 | 需要加 QQ 群 367746547 找群主获取新人体验包 |
+| **Prime Relay** | 🟢 在线 | **$20** | 注册 $20 | 支持每日签到 | OpenAI | **Claude / GPT 等** | [点此注册 →](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | 注册链接中已自带 | 需要进qq群,239561070 |
+| **Codex Relay** | 🟢 在线 | **$10** | 注册 $10 | — | 控制台内查看 | 需登录查看 | [点此注册 →](https://codex-relay.codes/register?aff=6jAq) | 注册链接中已自带 | — |
+| **Matrix** | 🟢 在线 | **600 积分** | 本页邀请 600 积分 | — | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | 注册链接中已自带 | — |
+| **万家灯火** | 🟢 在线 | **50 站内刀 + ¥2 通用体验额度** | 进群绑定 QQ 后领取 50 站内刀 + ¥2 通用体验额度<br>GPT 订阅可在「我的订阅」中查看 | 充值 ¥10 后可签到，每日随机领 ¥0.1～1 通用余额 | Anthropic + OpenAI | **GPT / Claude / Gemini / Grok / 国产模型** | [点此注册 →](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | 注册链接中已自带 | QQ 群 1064350952；50 站内刀仅限 GPT「不降智」分组（1 个月）；体验与签到额度为通用余额 |
+| **KKtoken AI** | 🟢 在线 | **$120** | 注册 $75 + 本页邀请 $25 + 首签 $20 | $20/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://kktoken.cc/sign-up?aff=MzG9) | 注册链接中已自带 | — |
+| **NOFX** | 🟢 在线 | **15 积分** | 本页邀请 10 积分 + 首签 5 积分 | 5 积分/天 | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | 注册链接中已自带 | — |
 
 > 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-11-10 19:45 UTC`。
 >
-> 「邀请码」列写了码的站（DoCode `zMRe`），注册表单里有一栏要**自己填**，漏填就只拿得到注册基础额度、事后补不上；其余站写 — 表示未登记需要手填的邀请码，邀请奖励与条件请看站点详情。
+> 「邀请码」列写了码的站（DoCode `zMRe`），注册表单里有一栏要**自己填**，漏填就只拿得到注册基础额度、事后补不上；其余站写「注册链接中已自带」，请使用本页完整注册链接，邀请奖励与条件请看站点详情。
 >
-> 6 个有明确美元额度、且还收新用户的站全注册一遍，第一天手上大约有 **$575** 额度可用；DoCode 另发 300 站内刀，万家灯火 另发 50 站内刀 + ¥2 通用体验额度（进群绑定 QQ 后领取），Matrix 另发 600 积分，NOFX 另发 15 积分，都是各站自己的计价单位、与美元没有公开换算，未计入这个合计。
+> 6 个有明确美元额度、且还收新用户的站全注册一遍，第一天手上大约有 **$575** 额度可用；DoCode 另发 300 站内刀，Matrix 另发 600 积分，万家灯火 另发 50 站内刀 + ¥2 通用体验额度（进群绑定 QQ 后领取），NOFX 另发 15 积分，都是各站自己的计价单位、与美元没有公开换算，未计入这个合计。
 >
 > 🟡 有 1 个站点已超过 48 小时没抓到接口数据，其明细为上一次成功抓取的快照；在线状态按注册页实际可访问性判断。
 
@@ -235,7 +235,7 @@ curl -s https://docode.cc/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 1157 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 1167 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
@@ -351,41 +351,38 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 ---
 
-### 🟢 万家灯火
+### 🟢 AnyRouter
 
-> 进群绑定 QQ 赠 50 站内刀 GPT 订阅（1 个月）+ ¥2 通用体验额度 · 充值 ¥10 后可每日签到
+> New API 中转站 · 注册送 $75，本页邀请码再加 $50，Anthropic 与 OpenAI 两条原生路由都开着
 
-<a href="https://wjapi.vip/register?aff=H6QJLZT5GQHW"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-%E4%B8%87%E5%AE%B6%E7%81%AF%E7%81%AB-brightgreen?style=for-the-badge" alt="注册 万家灯火"></a>
+<a href="https://anyrouter.top/register?aff=Z24N"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-AnyRouter-brightgreen?style=for-the-badge" alt="注册 AnyRouter"></a>
 
 **为什么值得注册**
 
-- 加入 QQ 群 1064350952 并绑定 QQ 与站内账号，领取 50 站内刀 GPT「不降智」分组订阅额度和 ¥2 通用体验额度；订阅可在「我的订阅」查看，有效期一个月，无每日额度上限，用完即止
-- 进群绑定 QQ 后，充值 ¥10 可参与每日签到；每天发送「签到」随机领取 ¥0.1～1 通用余额，可用于所有模型分组
-- 通过本页完整邀请链接注册，被邀请人进群、绑定 QQ 并在充值 ¥10 后完成签到，且双方均绑定站内账号，满足活动条件后双方各得 ¥5 通用余额
-- 运营方公示 GPT Plus 特惠分组 0.06x 起；不同分组倍率不同，赠送订阅对应 GPT「不降智」分组，具体价格以站内最新公示为准
+- 注册送 $75，从本页邀请链接进入再加 $50，每日签到再领 $25，首日合计 $150
+- Anthropic 与 OpenAI 两条原生路由都开着：未鉴权 POST /v1/messages 与 /v1/chat/completions 都由 New API 亲自回「无效的令牌」，Claude Code 与 Codex 填个 Base URL 就能直连
+- 站内公示按 token 计价：输入 $5 / 百万 tokens、输出 $25 / 百万 tokens，按量扣不是按次，短问答很省
+- 站内公示支持 GPT-5.6 Sol；GitHub 账号不满 5 年的可以改用 LinuxDO 登录，绕开年龄门槛
 
 **能拿多少额度**
 
-- 进群绑定 QQ 后领取：**50 站内刀**（GPT 订阅可在「我的订阅」中查看）
-- 通用体验额度：**¥2**（进群绑定 QQ 后领取）
-- 首日可得：**50 站内刀 + ¥2 通用体验额度**　（进群绑定 QQ 后领取 50 站内刀 + ¥2 通用体验额度）
+- 注册即送：**$75**
+- 从本页邀请链接注册额外：**$50**
+- 每日签到：**$25/天**（长期续命的关键）
+- 首日合计：**$150**　（注册 $75 + 本页邀请 $50 + 首签 $25）
 
 **实时数据**（自动抓取站点公开接口）
 
-- 站点名称：**万家灯火**
-- 面板版本：`2.20.1`
-- 开放注册：✅
-- 登录方式：账号密码
-- 接口延迟：1403 ms
+- 接口延迟：190 ms
 
-> 运营方在 Issue #46 中列出 GPT、Claude、Gemini、Grok，以及 GLM、DeepSeek、Kimi、MiniMax 等国产模型，并声明支持 Anthropic 与 OpenAI 兼容协议。具体模型 ID、可用分组、倍率和缓存价格请在站内模型广场或控制台核对；公开设置接口不提供模型清单或价格。
+> 整站（含 `/api/status`、`/api/pricing`、robots.txt 与注册页）都挂在 JS 人机挑战后面，返回的是 `var arg1=...` 的挑战页而不是 JSON，公开接口读不到模型清单，本页不列模型表。站内公示的计价口径是输入 $5 / 百万 tokens、输出 $25 / 百万 tokens，并公示支持 GPT-5.6 Sol，注册后在控制台「模型价格」页确认实际清单与倍率。
 
 **注册要求**
 
-- 使用本页完整邀请链接，保留 aff=H6QJLZT5GQHW，邀请关系以站内记录为准
-- 邮箱注册需要验证码，当前公开配置允许 QQ、126、163、Gmail 邮箱
-- 加入 QQ 群 1064350952 并绑定 QQ 与站内账号后，领取 50 站内刀 GPT「不降智」分组订阅额度和 ¥2 通用体验额度；订阅及到期时间在「我的订阅」查看
-- 每日签到需充值 ¥10；邀请奖励还要求被邀请人完成签到，双方均需绑定站内账号
+- 务必从本页邀请链接进入注册（带 ?aff=Z24N），$50 在注册那一刻结算，事后补不上
+- GitHub 账号注册满 5 年才允许绑定——门槛比本页其它站高得多，小号一律被拒
+- GitHub 不满 5 年就改走 LinuxDO 登录，这条路没有账号年龄要求
+- 签到领的 $25 要退出再重新登录一次才会刷新到额度上
 
 **接入配置**
 
@@ -393,7 +390,7 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 ```bash
 # macOS / Linux
-export ANTHROPIC_BASE_URL=https://wjapi.vip
+export ANTHROPIC_BASE_URL=https://anyrouter.top
 export ANTHROPIC_AUTH_TOKEN=你在站点后台创建的 Key
 export ANTHROPIC_MODEL=<登录后台查看可用模型名>
 npm install -g @anthropic-ai/claude-code@latest && claude
@@ -401,7 +398,7 @@ npm install -g @anthropic-ai/claude-code@latest && claude
 
 ```powershell
 # Windows PowerShell
-$env:ANTHROPIC_BASE_URL = "https://wjapi.vip"
+$env:ANTHROPIC_BASE_URL = "https://anyrouter.top"
 $env:ANTHROPIC_AUTH_TOKEN = "你在站点后台创建的 Key"
 $env:ANTHROPIC_MODEL = "<登录后台查看可用模型名>"
 claude
@@ -413,12 +410,12 @@ claude
 
 ```toml
 model = "<登录后台查看可用模型名>"
-model_provider = "wanjiadenghuo"
+model_provider = "anyrouter"
 
-[model_providers.wanjiadenghuo]
-name = "万家灯火"
-base_url = "https://wjapi.vip/v1"
-env_key = "WANJIADENGHUO_API_KEY"
+[model_providers.anyrouter]
+name = "AnyRouter"
+base_url = "https://anyrouter.top/v1"
+env_key = "ANYROUTER_API_KEY"
 wire_api = "chat"
 ```
 
@@ -429,19 +426,19 @@ wire_api = "chat"
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="你的 Key", base_url="https://wjapi.vip/v1")
+client = OpenAI(api_key="你的 Key", base_url="https://anyrouter.top/v1")
 resp = client.chat.completions.create(model="<登录后台查看可用模型名>", messages=[{"role": "user", "content": "ping"}])
 print(resp.choices[0].message.content)
 ```
 
-通用客户端只需填两项：**Base URL** = `https://wjapi.vip/v1`，**API Key** = 站点后台创建的 Key。
+通用客户端只需填两项：**Base URL** = `https://anyrouter.top/v1`，**API Key** = 站点后台创建的 Key。
 
 </details>
 
 <details><summary><b>连通性自测</b></summary>
 
 ```bash
-curl -s https://wjapi.vip/v1/chat/completions \
+curl -s https://anyrouter.top/v1/chat/completions \
   -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" \
   -d '{"model":"<登录后台查看可用模型名>","messages":[{"role":"user","content":"只回复 OK"}]}'
 ```
@@ -450,21 +447,15 @@ curl -s https://wjapi.vip/v1/chat/completions \
 
 **如何继续拿额度**
 
-- 进群绑定 QQ 并充值 ¥10 后，每日签到随机领取 ¥0.1～1 通用余额，可用于所有模型分组
-- 邀请好友通过自己的邀请链接注册，按活动要求完成进群、绑定及签到后，双方各得 ¥5 通用余额
+- 每日签到领 $25（登录后台点签到，之后退出重新登录一次刷新额度）
+- 邀请他人注册也有奖励，金额站点公开接口读不到，登录后台「邀请」页确认
 
 **⚠️ 使用前必读**
 
-- 新人福利和签到门槛按 2026-11-09 的规则更新；模型和倍率来源于运营方提交的 Issue #46：https://github.com/panxunying/ai-coding-welfare/issues/46；公开设置与健康接口已核对，赠额到账和实际模型调用未经实测
-- 人民币 ¥1 = 站内 $1 余额；这里的 $ / 刀是站内计费单位，赠送的 $50 订阅不代表 50 美元现金，也不计入本站跨站美元合计
-- 50 站内刀订阅仅用于指定 GPT 分组，有效期一个月；¥2 体验额度、签到和邀请奖励进入通用余额。两种额度分别展示，人民币体验额度未折算为站内刀或美元合计；需充值 ¥10 的签到奖励未计入首日额度
-- 邀请奖励要求完成注册、进群、QQ 绑定和签到；签到需充值 ¥10，满足全部活动条件后才可领取邀请奖励
-- GPT 0.06x 仅为特定分组的起始倍率，不代表所有模型或赠送订阅适用同一倍率；分组名称、模型供应和活动规则以站内最新公示为准
-
-**官方渠道**
-
-- QQ 群：1064350952（绑定 QQ 领取新人福利；充值 ¥10 后可签到）
-- Telegram：https://t.me/wanjiaai
+- 整站挂着 JS 人机挑战，连 robots.txt 与注册页都返回挑战页，本页的自动探测读不到它的 /api/status——所以上面「实时数据」一栏除了接口延迟基本是空的，站名、面板版本、模型数都拿不到。那是我们读不到，不代表你打不开
+- 额度数字（注册 $75 / 邀请 $50 / 签到 $25）与 $5 / $25 的价格都是站内公示口径，公开接口无法核对，进后台自己确认一遍再算账
+- GitHub 满 5 年这条门槛卡掉的人不少，注册前先看一眼自己账号的创建年份，不够就走 LinuxDO
+- 只有 /v1/* 的中转接口不吃挑战，网页端偶发挑战失败时换个浏览器或稍后再试
 
 ---
 
@@ -706,38 +697,41 @@ curl -s https://primerelay.online/v1/chat/completions \
 
 ---
 
-### 🟢 AnyRouter
+### 🟢 万家灯火
 
-> New API 中转站 · 注册送 $75，本页邀请码再加 $50，Anthropic 与 OpenAI 两条原生路由都开着
+> 进群绑定 QQ 赠 50 站内刀 GPT 订阅（1 个月）+ ¥2 通用体验额度 · 充值 ¥10 后可每日签到
 
-<a href="https://anyrouter.top/register?aff=Z24N"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-AnyRouter-brightgreen?style=for-the-badge" alt="注册 AnyRouter"></a>
+<a href="https://wjapi.vip/register?aff=H6QJLZT5GQHW"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-%E4%B8%87%E5%AE%B6%E7%81%AF%E7%81%AB-brightgreen?style=for-the-badge" alt="注册 万家灯火"></a>
 
 **为什么值得注册**
 
-- 注册送 $75，从本页邀请链接进入再加 $50，每日签到再领 $25，首日合计 $150
-- Anthropic 与 OpenAI 两条原生路由都开着：未鉴权 POST /v1/messages 与 /v1/chat/completions 都由 New API 亲自回「无效的令牌」，Claude Code 与 Codex 填个 Base URL 就能直连
-- 站内公示按 token 计价：输入 $5 / 百万 tokens、输出 $25 / 百万 tokens，按量扣不是按次，短问答很省
-- 站内公示支持 GPT-5.6 Sol；GitHub 账号不满 5 年的可以改用 LinuxDO 登录，绕开年龄门槛
+- 加入 QQ 群 1064350952 并绑定 QQ 与站内账号，领取 50 站内刀 GPT「不降智」分组订阅额度和 ¥2 通用体验额度；订阅可在「我的订阅」查看，有效期一个月，无每日额度上限，用完即止
+- 进群绑定 QQ 后，充值 ¥10 可参与每日签到；每天发送「签到」随机领取 ¥0.1～1 通用余额，可用于所有模型分组
+- 通过本页完整邀请链接注册，被邀请人进群、绑定 QQ 并在充值 ¥10 后完成签到，且双方均绑定站内账号，满足活动条件后双方各得 ¥5 通用余额
+- 运营方公示 GPT Plus 特惠分组 0.06x 起；不同分组倍率不同，赠送订阅对应 GPT「不降智」分组，具体价格以站内最新公示为准
 
 **能拿多少额度**
 
-- 注册即送：**$75**
-- 从本页邀请链接注册额外：**$50**
-- 每日签到：**$25/天**（长期续命的关键）
-- 首日合计：**$150**　（注册 $75 + 本页邀请 $50 + 首签 $25）
+- 进群绑定 QQ 后领取：**50 站内刀**（GPT 订阅可在「我的订阅」中查看）
+- 通用体验额度：**¥2**（进群绑定 QQ 后领取）
+- 首日可得：**50 站内刀 + ¥2 通用体验额度**　（进群绑定 QQ 后领取 50 站内刀 + ¥2 通用体验额度）
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：190 ms
+- 站点名称：**万家灯火**
+- 面板版本：`2.20.1`
+- 开放注册：✅
+- 登录方式：账号密码
+- 接口延迟：1403 ms
 
-> 整站（含 `/api/status`、`/api/pricing`、robots.txt 与注册页）都挂在 JS 人机挑战后面，返回的是 `var arg1=...` 的挑战页而不是 JSON，公开接口读不到模型清单，本页不列模型表。站内公示的计价口径是输入 $5 / 百万 tokens、输出 $25 / 百万 tokens，并公示支持 GPT-5.6 Sol，注册后在控制台「模型价格」页确认实际清单与倍率。
+> 运营方在 Issue #46 中列出 GPT、Claude、Gemini、Grok，以及 GLM、DeepSeek、Kimi、MiniMax 等国产模型，并声明支持 Anthropic 与 OpenAI 兼容协议。具体模型 ID、可用分组、倍率和缓存价格请在站内模型广场或控制台核对；公开设置接口不提供模型清单或价格。
 
 **注册要求**
 
-- 务必从本页邀请链接进入注册（带 ?aff=Z24N），$50 在注册那一刻结算，事后补不上
-- GitHub 账号注册满 5 年才允许绑定——门槛比本页其它站高得多，小号一律被拒
-- GitHub 不满 5 年就改走 LinuxDO 登录，这条路没有账号年龄要求
-- 签到领的 $25 要退出再重新登录一次才会刷新到额度上
+- 使用本页完整邀请链接，保留 aff=H6QJLZT5GQHW，邀请关系以站内记录为准
+- 邮箱注册需要验证码，当前公开配置允许 QQ、126、163、Gmail 邮箱
+- 加入 QQ 群 1064350952 并绑定 QQ 与站内账号后，领取 50 站内刀 GPT「不降智」分组订阅额度和 ¥2 通用体验额度；订阅及到期时间在「我的订阅」查看
+- 每日签到需充值 ¥10；邀请奖励还要求被邀请人完成签到，双方均需绑定站内账号
 
 **接入配置**
 
@@ -745,7 +739,7 @@ curl -s https://primerelay.online/v1/chat/completions \
 
 ```bash
 # macOS / Linux
-export ANTHROPIC_BASE_URL=https://anyrouter.top
+export ANTHROPIC_BASE_URL=https://wjapi.vip
 export ANTHROPIC_AUTH_TOKEN=你在站点后台创建的 Key
 export ANTHROPIC_MODEL=<登录后台查看可用模型名>
 npm install -g @anthropic-ai/claude-code@latest && claude
@@ -753,7 +747,7 @@ npm install -g @anthropic-ai/claude-code@latest && claude
 
 ```powershell
 # Windows PowerShell
-$env:ANTHROPIC_BASE_URL = "https://anyrouter.top"
+$env:ANTHROPIC_BASE_URL = "https://wjapi.vip"
 $env:ANTHROPIC_AUTH_TOKEN = "你在站点后台创建的 Key"
 $env:ANTHROPIC_MODEL = "<登录后台查看可用模型名>"
 claude
@@ -765,12 +759,12 @@ claude
 
 ```toml
 model = "<登录后台查看可用模型名>"
-model_provider = "anyrouter"
+model_provider = "wanjiadenghuo"
 
-[model_providers.anyrouter]
-name = "AnyRouter"
-base_url = "https://anyrouter.top/v1"
-env_key = "ANYROUTER_API_KEY"
+[model_providers.wanjiadenghuo]
+name = "万家灯火"
+base_url = "https://wjapi.vip/v1"
+env_key = "WANJIADENGHUO_API_KEY"
 wire_api = "chat"
 ```
 
@@ -781,19 +775,19 @@ wire_api = "chat"
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="你的 Key", base_url="https://anyrouter.top/v1")
+client = OpenAI(api_key="你的 Key", base_url="https://wjapi.vip/v1")
 resp = client.chat.completions.create(model="<登录后台查看可用模型名>", messages=[{"role": "user", "content": "ping"}])
 print(resp.choices[0].message.content)
 ```
 
-通用客户端只需填两项：**Base URL** = `https://anyrouter.top/v1`，**API Key** = 站点后台创建的 Key。
+通用客户端只需填两项：**Base URL** = `https://wjapi.vip/v1`，**API Key** = 站点后台创建的 Key。
 
 </details>
 
 <details><summary><b>连通性自测</b></summary>
 
 ```bash
-curl -s https://anyrouter.top/v1/chat/completions \
+curl -s https://wjapi.vip/v1/chat/completions \
   -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" \
   -d '{"model":"<登录后台查看可用模型名>","messages":[{"role":"user","content":"只回复 OK"}]}'
 ```
@@ -802,15 +796,21 @@ curl -s https://anyrouter.top/v1/chat/completions \
 
 **如何继续拿额度**
 
-- 每日签到领 $25（登录后台点签到，之后退出重新登录一次刷新额度）
-- 邀请他人注册也有奖励，金额站点公开接口读不到，登录后台「邀请」页确认
+- 进群绑定 QQ 并充值 ¥10 后，每日签到随机领取 ¥0.1～1 通用余额，可用于所有模型分组
+- 邀请好友通过自己的邀请链接注册，按活动要求完成进群、绑定及签到后，双方各得 ¥5 通用余额
 
 **⚠️ 使用前必读**
 
-- 整站挂着 JS 人机挑战，连 robots.txt 与注册页都返回挑战页，本页的自动探测读不到它的 /api/status——所以上面「实时数据」一栏除了接口延迟基本是空的，站名、面板版本、模型数都拿不到。那是我们读不到，不代表你打不开
-- 额度数字（注册 $75 / 邀请 $50 / 签到 $25）与 $5 / $25 的价格都是站内公示口径，公开接口无法核对，进后台自己确认一遍再算账
-- GitHub 满 5 年这条门槛卡掉的人不少，注册前先看一眼自己账号的创建年份，不够就走 LinuxDO
-- 只有 /v1/* 的中转接口不吃挑战，网页端偶发挑战失败时换个浏览器或稍后再试
+- 新人福利和签到门槛按 2026-11-09 的规则更新；模型和倍率来源于运营方提交的 Issue #46：https://github.com/panxunying/ai-coding-welfare/issues/46；公开设置与健康接口已核对，赠额到账和实际模型调用未经实测
+- 人民币 ¥1 = 站内 $1 余额；这里的 $ / 刀是站内计费单位，赠送的 $50 订阅不代表 50 美元现金，也不计入本站跨站美元合计
+- 50 站内刀订阅仅用于指定 GPT 分组，有效期一个月；¥2 体验额度、签到和邀请奖励进入通用余额。两种额度分别展示，人民币体验额度未折算为站内刀或美元合计；需充值 ¥10 的签到奖励未计入首日额度
+- 邀请奖励要求完成注册、进群、QQ 绑定和签到；签到需充值 ¥10，满足全部活动条件后才可领取邀请奖励
+- GPT 0.06x 仅为特定分组的起始倍率，不代表所有模型或赠送订阅适用同一倍率；分组名称、模型供应和活动规则以站内最新公示为准
+
+**官方渠道**
+
+- QQ 群：1064350952（绑定 QQ 领取新人福利；充值 ¥10 后可签到）
+- Telegram：https://t.me/wanjiaai
 
 ---
 

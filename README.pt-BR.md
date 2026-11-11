@@ -30,12 +30,12 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Acessível | **300 unidades internas (não USD)** | Sorteio grátis + cupons de desconto para recarga | [Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) | Entre no grupo do QQ para desbloquear muito mais benefícios |
 | **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) | — |
-| **万家灯火** | Acessível | **50 unidades internas (não USD) + ¥2 crédito geral de teste** | Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário | [Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral |
+| **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | — |
 | **Happy Code** | Acessível | **$100** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários |
 | **Prime Relay** | Acessível | **$20** | Check-in diário disponível | [Abrir serviço / cadastrar](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | É necessário entrar no grupo do QQ 239561070 |
 | **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) | — |
 | **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
-| **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | — |
+| **万家灯火** | Acessível | **50 unidades internas (não USD) + ¥2 crédito geral de teste** | Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário | [Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral |
 | **KKtoken AI** | Acessível | **$120** | $20/dia · Check-in diário | [Abrir serviço / cadastrar](https://kktoken.cc/sign-up?aff=MzG9) | — |
 | **NOFX** | Acessível | **15 pontos** | 5 pontos/dia · Check-in diário | [Abrir serviço / cadastrar](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
@@ -137,35 +137,35 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 | gpt-6-astra | $4 | $20 | — | openai |
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/agentrouter/)
-## 万家灯火
+## AnyRouter
 
-Entre no grupo QQ 1064350952 e vincule suas contas QQ e do site para receber 50 unidades internas de uma assinatura GPT por um mês, mais CNY 2 em crédito geral de teste. Após uma recarga de CNY 10, check-ins diários dão CNY 0,1–1; indicações elegíveis dão CNY 5 a cada participante.
+Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas Anthropic/OpenAI.
 
-[Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/wanjiadenghuo/)
+[Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/anyrouter/)
 
 
-- **Créditos no primeiro dia / plano**: 50 unidades internas (não USD) + ¥2 crédito geral de teste
-- **Receba após entrar no QQ e vincular a conta**: 50 unidades internas (não USD) + ¥2 crédito geral de teste
-- **Créditos diários**: Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário
+- **Créditos no primeiro dia / plano**: $150
+- **Cadastro**: $75
+- **Bônus de indicação**: $50
+- **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
 - **Dados atualizados em**: 2026-11-10 19:45 UTC
-- **Observações**: Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral
 
 
 ### Requisitos de cadastro
 
-Use o link completo de indicação e mantenha aff=H6QJLZT5GQHW. É necessária verificação de e-mail; QQ, 126, 163 e Gmail são aceitos atualmente. Entre no grupo QQ 1064350952 e vincule suas contas QQ e do site para receber os dois créditos de boas-vindas. A assinatura de 50 unidades aparece em “我的订阅” (Minhas assinaturas). Os check-ins exigem uma recarga de CNY 10. A indicação exige que o convidado se cadastre, entre no grupo, vincule a conta e conclua um check-in; ambos devem vincular suas contas.
+Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; LinuxDO é uma alternativa sem essa exigência de idade. Saia e entre novamente após o check-in para atualizar o saldo.
 
 ### Recompensas, limites e cuidados importantes
 
-A oferta de boas-vindas e a exigência para check-ins foram atualizadas em 2026-11-09. Os modelos foram informados pelo operador na Issue #46. As configurações públicas e a saúde do serviço foram verificadas; o recebimento dos créditos e a inferência não foram testados. A assinatura de 50 unidades não tem limite diário, expira após um mês e cobre apenas o grupo GPT indicado. O crédito de teste de CNY 2 e as recompensas de check-in/indicação são saldo geral utilizável em todos os grupos de modelos. CNY 1 compra 1 unidade interna, mas os saldos são apresentados separadamente; os $50 anunciados não são dólares em dinheiro e nenhum dos créditos entra no total em USD. Check-ins exigem uma recarga de CNY 10, e as recompensas de check-in/indicação não entram nos créditos do primeiro dia. O multiplicador GPT a partir de 0.06x vale para um grupo específico; confira modelos, grupos e preços atuais no painel.
+Créditos e preços anunciados de entrada/saída de $5/$25 por milhão de tokens vêm de comunicados. Desafios JavaScript impedem a verificação automática da API pública; confirme modelos, preços e valores recebidos no painel. Uma página de desafio não comprova queda do serviço.
 
 ### Configuração do cliente
 
 Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
 
-- Anthropic Base URL: `https://wjapi.vip`
-- OpenAI Base URL: `https://wjapi.vip/v1`
+- Anthropic Base URL: `https://anyrouter.top`
+- OpenAI Base URL: `https://anyrouter.top/v1`
 
 ### Dados públicos dos modelos
 
@@ -173,7 +173,7 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 
 Não divulgado publicamente
 
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/wanjiadenghuo/)
+[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/anyrouter/)
 ## Happy Code
 
 Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários.
@@ -317,35 +317,35 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 Não divulgado publicamente
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/matrix/)
-## AnyRouter
+## 万家灯火
 
-Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas Anthropic/OpenAI.
+Entre no grupo QQ 1064350952 e vincule suas contas QQ e do site para receber 50 unidades internas de uma assinatura GPT por um mês, mais CNY 2 em crédito geral de teste. Após uma recarga de CNY 10, check-ins diários dão CNY 0,1–1; indicações elegíveis dão CNY 5 a cada participante.
 
-[Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/anyrouter/)
+[Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/wanjiadenghuo/)
 
 
-- **Créditos no primeiro dia / plano**: $150
-- **Cadastro**: $75
-- **Bônus de indicação**: $50
-- **Créditos diários**: $25/dia · Check-in diário
+- **Créditos no primeiro dia / plano**: 50 unidades internas (não USD) + ¥2 crédito geral de teste
+- **Receba após entrar no QQ e vincular a conta**: 50 unidades internas (não USD) + ¥2 crédito geral de teste
+- **Créditos diários**: Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário
 - **Status**: Acessível
 - **Dados atualizados em**: 2026-11-10 19:45 UTC
+- **Observações**: Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral
 
 
 ### Requisitos de cadastro
 
-Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; LinuxDO é uma alternativa sem essa exigência de idade. Saia e entre novamente após o check-in para atualizar o saldo.
+Use o link completo de indicação e mantenha aff=H6QJLZT5GQHW. É necessária verificação de e-mail; QQ, 126, 163 e Gmail são aceitos atualmente. Entre no grupo QQ 1064350952 e vincule suas contas QQ e do site para receber os dois créditos de boas-vindas. A assinatura de 50 unidades aparece em “我的订阅” (Minhas assinaturas). Os check-ins exigem uma recarga de CNY 10. A indicação exige que o convidado se cadastre, entre no grupo, vincule a conta e conclua um check-in; ambos devem vincular suas contas.
 
 ### Recompensas, limites e cuidados importantes
 
-Créditos e preços anunciados de entrada/saída de $5/$25 por milhão de tokens vêm de comunicados. Desafios JavaScript impedem a verificação automática da API pública; confirme modelos, preços e valores recebidos no painel. Uma página de desafio não comprova queda do serviço.
+A oferta de boas-vindas e a exigência para check-ins foram atualizadas em 2026-11-09. Os modelos foram informados pelo operador na Issue #46. As configurações públicas e a saúde do serviço foram verificadas; o recebimento dos créditos e a inferência não foram testados. A assinatura de 50 unidades não tem limite diário, expira após um mês e cobre apenas o grupo GPT indicado. O crédito de teste de CNY 2 e as recompensas de check-in/indicação são saldo geral utilizável em todos os grupos de modelos. CNY 1 compra 1 unidade interna, mas os saldos são apresentados separadamente; os $50 anunciados não são dólares em dinheiro e nenhum dos créditos entra no total em USD. Check-ins exigem uma recarga de CNY 10, e as recompensas de check-in/indicação não entram nos créditos do primeiro dia. O multiplicador GPT a partir de 0.06x vale para um grupo específico; confira modelos, grupos e preços atuais no painel.
 
 ### Configuração do cliente
 
 Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
 
-- Anthropic Base URL: `https://anyrouter.top`
-- OpenAI Base URL: `https://anyrouter.top/v1`
+- Anthropic Base URL: `https://wjapi.vip`
+- OpenAI Base URL: `https://wjapi.vip/v1`
 
 ### Dados públicos dos modelos
 
@@ -353,7 +353,7 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 
 Não divulgado publicamente
 
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/anyrouter/)
+[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/wanjiadenghuo/)
 ## KKtoken AI
 
 Gateway New API com créditos de indicação, check-ins diários e cobrança por token.

@@ -82,7 +82,7 @@ function overviewTable(sites, liveById) {
         : sub ? `[查看 ${sub.name} →](${s.signupUrl})` : route.state === 'oauth'
           ? `[${route.oauth[0]} 注册 →](${s.signupUrl})`
           : `[点此注册 →](${s.signupUrl})`;
-    const code = s.inviteCode ? ` \`${s.inviteCode}\` |` : ' — |';
+    const code = s.inviteCode ? ` \`${s.inviteCode}\` |` : ' 注册链接中已自带 |';
     return (
       `| **${s.name}**${s.recommended ? ' 🔥' : ''} | ${state} | ${first} | ${detail} | ${checkin} | ${proto} | ${models} | ${cta} |` +
       (hasCode ? code : '') +
@@ -395,7 +395,7 @@ export function renderReadme({ meta, sites: allSites, live, groups = [], history
     codeSites.length
       ? `> 「邀请码」列写了码的站（${codeSites
           .map((s) => `${s.name} \`${s.inviteCode}\``)
-          .join('、')}），注册表单里有一栏要**自己填**，漏填就只拿得到注册基础额度、事后补不上；其余站写 — 表示未登记需要手填的邀请码，邀请奖励与条件请看站点详情。`
+          .join('、')}），注册表单里有一栏要**自己填**，漏填就只拿得到注册基础额度、事后补不上；其余站写「注册链接中已自带」，请使用本页完整注册链接，邀请奖励与条件请看站点详情。`
       : null,
     total > 0 ? '>' : null,
     total > 0

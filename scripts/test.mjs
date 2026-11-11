@@ -1230,7 +1230,7 @@ test('停注的站不参与「最耐用」排序，README 里额度划掉、状�
   assert.match(md, /已停注 · 仍可打开/);
   assert.doesNotMatch(md, /全注册一遍/, '没有还收人的站时不该给合计');
 });
-test('邀请码要手填的站才出「邀请码」列，且写清 — 不等于没有邀请额度', () => {
+test('有需要手填邀请码的站才出「邀请码」列，并保留手填提示', () => {
   const live = { generatedAt: iso(0), sites: [{ id: 'demo', online: true, registerOpen: true }] };
   const plain = renderReadme({ meta: META, sites: [SITE], live, groups: [], history: HIST });
   assert.doesNotMatch(plain, /\| 邀请码 \|/, '没有站需要手填时不该多出一个空列');
@@ -1391,8 +1391,8 @@ for (const locale of TRANSLATED_LANGUAGES) {
 }
 // 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
 const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
-test('万家灯火排第三位，KKtoken AI 排在 AnyRouter 后面；故障站移入历史区', () => {
-  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'agentrouter', 'wanjiadenghuo', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'anyrouter', 'kktoken', 'nofx']);
+test('AnyRouter 与万家灯火交换位次，分别排第三和第八；故障站移入历史区', () => {
+  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'agentrouter', 'anyrouter', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'wanjiadenghuo', 'kktoken', 'nofx']);
   for (const id of ['conduit', 'omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat', 'cheapcodex', 'flushapi', 'justdowork']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
   assert.equal(new Set(CATALOG.map((s) => s.id)).size, CATALOG.length);
   assert.equal(MIRASIM.signupUrl, 'https://mirasim.ai/r/go-kx9cd5');
