@@ -5,8 +5,16 @@
   <link rel="self" href="https://panxunying.github.io/ai-coding-welfare/feed.xml"/>
   <link href="https://panxunying.github.io/ai-coding-welfare/"/>
   <id>https://panxunying.github.io/ai-coding-welfare/</id>
-  <updated>2026-11-11T19:38:02.620Z</updated>
+  <updated>2026-11-12T07:13:58.863Z</updated>
   <author><name>AI Coding 福利站导航</name></author>
+  <entry>
+    <title>2026-11-12 · 1 项变动</title>
+    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-12"/>
+    <id>tag:panxunying.github.io,2026-11-12:changelog</id>
+    <updated>2026-11-12T07:13:58.863Z</updated>
+    <summary>NOFX 探测不到了：注册页与公开接口都没响应</summary>
+    <content type="html">&lt;ul&gt;&lt;li&gt;🔴 NOFX 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>2026-11-11 · 1 项变动</title>
     <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-11"/>
@@ -318,13 +326,5 @@
     <updated>2026-08-23T18:49:23.123Z</updated>
     <summary>RawChat 公益站 探测不到了：注册页与公开接口都没响应</summary>
     <content type="html">&lt;ul&gt;&lt;li&gt;🔴 RawChat 公益站 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>2026-08-21 · 12 项变动</title>
-    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-08-21"/>
-    <id>tag:panxunying.github.io,2026-08-21:changelog</id>
-    <updated>2026-08-21T14:59:07.543Z</updated>
-    <summary>RawChat 公益站 恢复在线（另有 11 项变动）</summary>
-    <content type="html">&lt;ul&gt;&lt;li&gt;🟢 RawChat 公益站 恢复在线&lt;/li&gt;&lt;li&gt;🔴 RawChat 公益站 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;li&gt;🆕 新收录 RawChat 公益站：每日额度池 $50&lt;/li&gt;&lt;li&gt;🟢 AgentRouter 恢复在线&lt;/li&gt;&lt;li&gt;📢 AgentRouter 发了公告：📢 备用域名正式上线 为进一步提升服务可用性，本站现已推出备用域名：🔗 https://ps.air-outer.com 访问不了原域名的中国大陆用户可使用此域名，备用域名支持 API 接口调用 与 官网访问，与原域名功能完全一致。 原域名 https://agentrout&lt;/li&gt;&lt;li&gt;📢 AgentRouter 发了公告：🎁 官方社区平台汇总 欢迎加入或关注以下官方渠道，获取最新动态与支持： 📱 QQ 群 · 1群：1054950616 · 2群：1091388133 · 3群：700583832 💬 Discord https://discord.gg/SXEhNMXsn 🐦 X（Twi&lt;/li&gt;&lt;li&gt;📢 AgentRouter 发了公告：📢 不当使用行为封禁说明 为维护服务公平，平台禁止以下不当行为： · 批量注册/获取额度 · 自动化刷量套利 · 转售、共享账号及额度 · 虚假邀请欺诈 · 恶意绕过限制、干扰服务 违规账号将封禁，名单见 Discord 🚫blocked-history 频道。 申诉请联系：&lt;/li&gt;&lt;li&gt;📢 AgentRouter 发了公告：因受到恶意举报影响，近期服务稳定性遇到巨大挑战，导致Claude系列模型大规模停用。 为保障后续提升服务质量、及时同步信息，我们已启用新的官方 Discord，并在新的官方X更新动态。 为避免走失，请大家有序移步： 新的 Discord： 👉 https://discord.g&lt;/li&gt;&lt;li&gt;📢 AgentRouter 发了公告：English Announcement see in &amp;lt;b style=&amp;quot;color: blue;text-decoration: underline;&amp;quot;&amp;gt;[Discord](https://discord.gg/V6kaP6Rg44)&amp;lt;b&amp;gt;&lt;/li&gt;&lt;li&gt;🔴 AgentRouter 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;li&gt;🆕 新收录 AgentRouter：注册送 $100，邀请再加 $50，每日签到 $25&lt;/li&gt;&lt;li&gt;🆕 新收录 JustDoWork：注册送 $70，每日签到 $22&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
 </feed>

@@ -6,9 +6,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-10%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-10%2F10-brightgreen" alt="在线">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-9%2F10-orange" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24175-success" alt="首日可得">
-  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--11--11%2019.38%20UTC-informational" alt="数据更新">
+  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--11--12%2007.13%20UTC-informational" alt="数据更新">
 </p>
 
 <p align="center">
@@ -53,9 +53,9 @@
 | **Matrix** | 🟢 在线 | **600 积分** | 本页邀请 600 积分 | — | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | 注册链接中已自带 | — |
 | **万家灯火** | 🟢 在线 | **50 站内刀 + ¥2 通用体验额度** | 进群绑定 QQ 后领取 50 站内刀 + ¥2 通用体验额度<br>GPT 订阅可在「我的订阅」中查看 | 充值 ¥10 后可签到，每日随机领 ¥0.1～1 通用余额 | Anthropic + OpenAI | **GPT / Claude / Gemini / Grok / 国产模型** | [点此注册 →](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | 注册链接中已自带 | QQ 群 1064350952；50 站内刀仅限 GPT「不降智」分组（1 个月）；体验与签到额度为通用余额 |
 | **KKtoken AI** | 🟢 在线 | **$120** | 注册 $75 + 本页邀请 $25 + 首签 $20 | $20/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://kktoken.cc/sign-up?aff=MzG9) | 注册链接中已自带 | — |
-| **NOFX** | 🟢 在线 | **15 积分** | 本页邀请 10 积分 + 首签 5 积分 | 5 积分/天 | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | 注册链接中已自带 | — |
+| **NOFX** | 🔴 异常 | **15 积分** | 本页邀请 10 积分 + 首签 5 积分 | 5 积分/天 | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | 注册链接中已自带 | — |
 
-> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-11-11 19:38 UTC`。
+> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-11-12 07:13 UTC`。
 >
 > 「邀请码」列写了码的站（DoCode `zMRe`），注册表单里有一栏要**自己填**，漏填就只拿得到注册基础额度、事后补不上；其余站写「注册链接中已自带」，请使用本页完整注册链接，邀请奖励与条件请看站点详情。
 >
@@ -111,7 +111,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 - 每日签到：❌
 - 开放注册：✅
 - 登录方式：账号密码
-- 接口延迟：916 ms
+- 接口延迟：1578 ms
 
 **镜像 / 备用入口**
 
@@ -235,12 +235,12 @@ curl -s https://docode.cc/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 1181 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 1192 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
 - 登录方式：GitHub / LinuxDO
-- 接口延迟：304 ms
+- 接口延迟：326 ms
 
 **镜像 / 备用入口**
 
@@ -373,7 +373,7 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：164 ms
+- 接口延迟：200 ms
 
 > 整站（含 `/api/status`、`/api/pricing`、robots.txt 与注册页）都挂在 JS 人机挑战后面，返回的是 `var arg1=...` 的挑战页而不是 JSON，公开接口读不到模型清单，本页不列模型表。站内公示的计价口径是输入 $5 / 百万 tokens、输出 $25 / 百万 tokens，并公示支持 GPT-5.6 Sol，注册后在控制台「模型价格」页确认实际清单与倍率。
 
@@ -479,10 +479,10 @@ curl -s https://anyrouter.top/v1/chat/completions \
 **实时数据**（自动抓取站点公开接口）
 
 - 站点名称：**Happy Code**
-- 面板版本：`0.0.127`
+- 面板版本：`0.0.128`
 - 开放注册：✅
 - 登录方式：OIDC（NodeLoc） / 账号密码
-- 接口延迟：1827 ms
+- 接口延迟：2539 ms
 
 > 可用模型、价格与接入地址请在登录后的控制台查看。
 
@@ -527,7 +527,7 @@ curl -s https://anyrouter.top/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：2060 ms
+- 接口延迟：2477 ms
 
 > 官网模型广场公开展示模型与价格；实际调用名称、分组与可用范围请在站内确认。公开配置给出的 API Base URL 为 https://primerelay.online/v1。
 
@@ -612,7 +612,7 @@ curl -s https://primerelay.online/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：2118 ms
+- 接口延迟：2679 ms
 
 > 可用模型、价格和实际调用名称请在控制台查看。
 
@@ -653,7 +653,7 @@ curl -s https://primerelay.online/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：2642 ms
+- 接口延迟：3500 ms
 
 > 模型清单与价格需登录后在控制台「模型列表」查看（按每百万 Tokens 计价，可按厂商 / 上下文窗口筛选），站点没有公开的模型与定价接口，本页不做承诺。
 
@@ -722,7 +722,7 @@ curl -s https://primerelay.online/v1/chat/completions \
 - 面板版本：`2.20.1`
 - 开放注册：✅
 - 登录方式：账号密码
-- 接口延迟：2346 ms
+- 接口延迟：2777 ms
 
 > 运营方在 Issue #46 中列出 GPT、Claude、Gemini、Grok，以及 GLM、DeepSeek、Kimi、MiniMax 等国产模型，并声明支持 Anthropic 与 OpenAI 兼容协议。具体模型 ID、可用分组、倍率和缓存价格请在站内模型广场或控制台核对；公开设置接口不提供模型清单或价格。
 
@@ -841,7 +841,7 @@ curl -s https://wjapi.vip/v1/chat/completions \
 - 每日签到：✅
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
-- 接口延迟：2882 ms
+- 接口延迟：3452 ms
 
 > 该站把价格页设成了登录可见（`/api/pricing` 返回 401），本页不列模型表。站内公示的计价口径是输入 $1 / 百万 tokens、输出 $1 / 百万 tokens，按 token 而不是按次，注册后在控制台「模型价格」页确认实际清单与倍率。
 
@@ -927,7 +927,7 @@ curl -s https://kktoken.cc/v1/chat/completions \
 
 ---
 
-### 🟢 NOFX
+### 🔴 NOFX
 
 > 任务制积分站 · 做任务领 API 积分，签到 / Discord / 邀请 / 发推都给分，免密码登录、无需绑卡
 
@@ -949,7 +949,7 @@ curl -s https://kktoken.cc/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：2576 ms
+- 接口延迟：14 ms
 
 > 站点公开面只有落地页和法律条款两类页面（sitemap 里就这几条），模型清单、单价与中转地址都在登录后的「接入文档」里，所以本页既不列模型表也不猜 Base URL。计费单位是站内积分，站点界面把它写成「$5 积分」；据反馈约 5 积分换 7M tokens 左右，并公示可以用 gpt-5.6-sol —— 都以站内实际为准。
 
@@ -1007,7 +1007,7 @@ curl -s https://kktoken.cc/v1/chat/completions \
 
 ## 🔔 额度变了，这里会通知你
 
-CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 336 个样本、覆盖约 82.5 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
+CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 337 个样本、覆盖约 82.9 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
 
 - 点仓库右上角 **Watch → Custom → Releases**：有重要变动时 GitHub 直接发邮件
 - 订阅 [Atom feed](https://panxunying.github.io/ai-coding-welfare/feed.xml)：RSS 阅读器 / Feedly / Telegram 机器人都能读
@@ -1015,12 +1015,12 @@ CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目�
 
 最近几条：
 
+- `2026-11-12` 🔴 NOFX 探测不到了：注册页与公开接口都没响应
 - `2026-11-11` 📢 DoCode 发了公告：双 11，11 点有活动
 - `2026-11-08` 📢 DoCode 发了公告：Claude特殊渠道受不可抗拒原因，倍率上调
 - `2026-11-02` 🗑️ 移入历史区 JustDoWork：2026-11-02 巡检发现首页与注册链接 HTTP 522；2026-11-03 复查首页、注册和控制台仍返回 HTTP 522（源站连接超时），公开状态接口可达但网页不可用，暂移历史区，确认恢复后可重新收录
 - `2026-10-30` 🟢 万家灯火 恢复在线
 - `2026-10-30` 🗑️ 移入历史区 FlushAPI：2026-10-29 起 CI 连续三轮探测离线；2026-10-30 复查首页、注册、状态接口与文档均返回 HTTP 522（源站连接超时），暂移历史区，确认恢复后可重新收录
-- `2026-10-29` 🔴 万家灯火 探测不到了：注册页与公开接口都没响应
 
 完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
