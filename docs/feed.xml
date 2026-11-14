@@ -5,8 +5,16 @@
   <link rel="self" href="https://panxunying.github.io/ai-coding-welfare/feed.xml"/>
   <link href="https://panxunying.github.io/ai-coding-welfare/"/>
   <id>https://panxunying.github.io/ai-coding-welfare/</id>
-  <updated>2026-11-14T18:05:31.350Z</updated>
+  <updated>2026-11-14T22:26:56.348Z</updated>
   <author><name>AI Coding 福利站导航</name></author>
+  <entry>
+    <title>2026-11-14 · 1 项变动</title>
+    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-14"/>
+    <id>tag:panxunying.github.io,2026-11-14:changelog</id>
+    <updated>2026-11-14T22:26:56.348Z</updated>
+    <summary>DoCode 发了公告：gemini 3 系 4 系，不管是按量还是按次，都大部分时间无法使用，以后能正常使用会通知。</summary>
+    <content type="html">&lt;ul&gt;&lt;li&gt;📢 DoCode 发了公告：gemini 3 系 4 系，不管是按量还是按次，都大部分时间无法使用，以后能正常使用会通知。&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>2026-11-12 · 2 项变动</title>
     <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-12"/>
@@ -318,13 +326,5 @@
     <updated>2026-08-26T11:42:02.481Z</updated>
     <summary>AgentRouter 邀请他人的奖励 $150 → $50（另有 6 项变动）</summary>
     <content type="html">&lt;ul&gt;&lt;li&gt;💰 AgentRouter 邀请他人的奖励 $150 → $50&lt;/li&gt;&lt;li&gt;➕ AgentRouter 上线模型：deepseek-v4-flash、glm-5.3&lt;/li&gt;&lt;li&gt;🏷️ AgentRouter claude-opus-4-8 价格 $3 入 / $15 出（每 1M） → $8 入 / $40 出（每 1M）&lt;/li&gt;&lt;li&gt;🏷️ AgentRouter claude-opus-5 价格 $2 入 / $10 出（每 1M） → $8 入 / $40 出（每 1M）&lt;/li&gt;&lt;li&gt;🏷️ AgentRouter gpt-5.6-sol 价格 $4 入 / $20 出（每 1M） → $3 入 / $15 出（每 1M）&lt;/li&gt;&lt;li&gt;🟢 RawChat 公益站 恢复在线&lt;/li&gt;&lt;li&gt;🆕 新收录 Matrix：邀请再加 600 积分&lt;/li&gt;&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>2026-08-23 · 1 项变动</title>
-    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-08-23"/>
-    <id>tag:panxunying.github.io,2026-08-23:changelog</id>
-    <updated>2026-08-23T18:49:23.123Z</updated>
-    <summary>RawChat 公益站 探测不到了：注册页与公开接口都没响应</summary>
-    <content type="html">&lt;ul&gt;&lt;li&gt;🔴 RawChat 公益站 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
 </feed>
