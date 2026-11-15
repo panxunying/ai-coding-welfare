@@ -87,6 +87,13 @@
     "remarks": "Observações"
   },
   "sites": {
+    "xingchi": {
+      "summary": "Cadastro por indicação no Telegram com créditos generosos, multiplicador de 0.25 e acesso ao GPT6a.",
+      "registration": "Abra o link completo de indicação no Telegram, mantenha start=inv_8111640723 e inicie @xingchi66bot tocando em Start. Siga as instruções do bot para concluir o cadastro e conferir o saldo recebido.",
+      "notes": "As informações sobre o bônus de cadastro, o multiplicador e o modelo foram fornecidas pelo mantenedor. Confira no bot o saldo efetivo, os preços atuais, a chave de API, o endpoint e o identificador exato do modelo.",
+      "signupLabel": "Cadastre-se por este link de indicação",
+      "remarks": "Multiplicador de 0.25, GPT6a e créditos generosos; use este link de indicação para receber o bônus de cadastro"
+    },
     "artbloom": {
       "summary": "Serviço de API compatível com OpenAI que oferece US$ 100 em créditos no primeiro dia do cadastro e lista o Opus 5.5 (claude-opus-5-5) na página pública de modelos.",
       "registration": "Use o link completo de indicação e continue com o GitHub. A página de cadastro anuncia US$ 100 em créditos imediatos, sem exigir cartão de crédito. Após entrar, crie uma chave de API no painel.",

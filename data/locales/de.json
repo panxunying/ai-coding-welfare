@@ -87,6 +87,13 @@
     "remarks": "Hinweise"
   },
   "sites": {
+    "xingchi": {
+      "summary": "Registrierung über einen Telegram-Einladungslink mit großzügigem Guthaben, einem Multiplikator von 0.25 und Zugang zu GPT6a.",
+      "registration": "Öffne den vollständigen Einladungslink in Telegram, behalte start=inv_8111640723 bei und starte @xingchi66bot mit Start. Folge den Registrierungsanweisungen des Bots und prüfe das gutgeschriebene Guthaben.",
+      "notes": "Die Angaben zum Registrierungsbonus, Multiplikator und Modell stammen vom Maintainer. Prüfe im Bot dein tatsächliches Guthaben, aktuelle Preise, den API-Schlüssel, den Endpunkt und die genaue Modell-ID.",
+      "signupLabel": "Über diesen Einladungslink registrieren",
+      "remarks": "Multiplikator 0.25, GPT6a und großzügiges Guthaben; verwende diesen Einladungslink für den Registrierungsbonus"
+    },
     "artbloom": {
       "summary": "OpenAI-kompatibler API-Dienst mit 100 US-Dollar Guthaben am ersten Tag der Registrierung. Die öffentliche Modellseite führt Opus 5.5 (claude-opus-5-5) auf.",
       "registration": "Den vollständigen Empfehlungslink verwenden und mit GitHub fortfahren. Die Registrierungsseite bewirbt sofortige 100 US-Dollar Guthaben ohne Kreditkarte. Nach der Anmeldung einen API-Schlüssel im Dashboard erstellen.",

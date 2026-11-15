@@ -100,6 +100,65 @@
       "remarks": "加qq群可以解锁超多福利"
     },
     {
+      "id": "xingchi",
+      "name": "星驰管家",
+      "subtitle": "通过邀请链接注册可获得 $1000 额度 · 倍率 0.25，可用 GPT6a，额度充足",
+      "remarks": "倍率 0.25，可用 GPT6a，额度充足；通过本页邀请链接注册领取",
+      "recommended": false,
+      "panel": "relay",
+      "credits": {
+        "signup": 1000,
+        "signupLabel": "通过本页邀请链接注册",
+        "invite": null,
+        "dailyCheckin": null,
+        "approx": false,
+        "unit": "usd",
+        "note": "通过本页邀请链接注册可获得 $1000 额度；赠额、倍率与模型信息按维护者提供的信息登记。"
+      },
+      "signupUrl": "https://t.me/xingchi66bot?start=inv_8111640723",
+      "homeUrl": "https://t.me/xingchi66bot",
+      "docsUrl": null,
+      "statusApi": "https://t.me/xingchi66bot",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": ["免费额度", "邀请注册 $1000", "倍率 0.25", "GPT6a", "Telegram"],
+      "highlights": [
+        "通过本页完整邀请链接注册可获得 $1000 额度",
+        "倍率 0.25，可用 GPT6a，额度充足",
+        "在 Telegram 中打开星驰管家（@xingchi66bot），点击 Start / 开始后按提示完成注册"
+      ],
+      "endpoints": {
+        "anthropic": null,
+        "openai": null
+      },
+      "setup": {
+        "client": "机器人内查看",
+        "note": "通过 Telegram 机器人注册后，在机器人内查看接入地址、API Key、可用模型名与客户端配置说明。",
+        "steps": [
+          "打开本页完整邀请链接，在 Telegram 中启动星驰管家，保留 start=inv_8111640723",
+          "按机器人提示完成注册，查看 $1000 赠送额度",
+          "在机器人内查看 GPT6a 的实际调用名称、0.25 倍率及接入说明"
+        ]
+      },
+      "modelsSummary": "GPT6a",
+      "modelsNote": "按维护者提供的信息，支持 GPT6a，倍率 0.25。完整模型清单、实际调用名称与当前价格请在机器人内查看。",
+      "faq": [
+        ["星驰管家邀请注册可以获得多少额度？", "通过本页完整邀请链接注册可获得 $1000 额度，实际到账以机器人内显示为准。"],
+        ["如何通过邀请链接注册星驰管家？", "打开 https://t.me/xingchi66bot?start=inv_8111640723，在 Telegram 中点击 Start / 开始，按机器人提示完成注册。"],
+        ["星驰管家支持什么模型，倍率是多少？", "按维护者提供的信息，可用 GPT6a，倍率 0.25，额度充足；实际模型名称与当前计费规则请在机器人内查看。"]
+      ],
+      "register": {
+        "methods": ["Telegram 机器人"],
+        "requirements": [
+          "需要 Telegram 账号，使用本页完整邀请链接进入 @xingchi66bot，保留 start=inv_8111640723",
+          "点击 Start / 开始，按机器人提示完成注册并查看赠送额度"
+        ]
+      },
+      "earnMore": [],
+      "caveats": [],
+      "community": []
+    },
+    {
       "id": "agentrouter",
       "name": "AgentRouter",
       "subtitle": "AI Coding 公益站 · 注册即送额度，签到每日续命",

@@ -87,6 +87,13 @@
     "remarks": "Remarks"
   },
   "sites": {
+    "xingchi": {
+      "summary": "Telegram referral signup with generous credits, a 0.25 multiplier and GPT6a access.",
+      "registration": "Open the full referral link in Telegram, keep start=inv_8111640723 and launch @xingchi66bot with Start. Follow the bot's registration instructions and check your credited balance.",
+      "notes": "The signup reward, multiplier and model information were supplied by the maintainer. Check the bot for your actual balance, current pricing, API key, endpoint and exact model ID.",
+      "signupLabel": "Register through this referral link",
+      "remarks": "0.25 multiplier, GPT6a and generous credits; use this referral link to claim the signup reward"
+    },
     "artbloom": {
       "summary": "OpenAI-compatible API service offering $100 in credits on the first day of signup, with Opus 5.5 (claude-opus-5-5) listed on its public models page.",
       "registration": "Use the full referral link and continue with GitHub. The signup page advertises an immediate $100 credit with no credit card required. Create an API key in the dashboard after signing in.",
