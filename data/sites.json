@@ -18,9 +18,7 @@
       "Matrix 统一网关",
       "TaBiAI",
       "GoRouter",
-      "KKtoken",
       "AnyRouter",
-      "NOFX 积分",
       "GPT-5.6 Sol 中转",
       "claude-opus-5 按次计费"
     ],
@@ -1175,6 +1173,10 @@
       "name": "KKtoken AI",
       "subtitle": "New API 中转站 · 注册送 $75，本页邀请码再加 $25，按 token 计费输入输出各 $1/M",
       "recommended": false,
+      "archived": {
+        "at": "2026-11-15",
+        "reason": "按维护者要求下架，移入历史区，不再推荐注册"
+      },
       "credits": {
         "signup": 75,
         "invite": 25,
@@ -1280,6 +1282,10 @@
       "name": "NOFX",
       "subtitle": "任务制积分站 · 做任务领 API 积分，签到 / Discord / 邀请 / 发推都给分，免密码登录、无需绑卡",
       "recommended": false,
+      "archived": {
+        "at": "2026-11-15",
+        "reason": "按维护者要求下架，移入历史区，不再推荐注册"
+      },
       "panel": "relay",
       "credits": {
         "signup": null,
