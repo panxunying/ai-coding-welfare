@@ -22,7 +22,7 @@ Community gateways, free API credits and low-cost plans for Claude Code, Codex a
 
 A translated guide to the listed services. Amounts, model IDs, prices and referral URLs are generated from the same data as the Chinese edition. Detailed comparison, history, upstream documentation and some service interfaces remain in Chinese.
 
-**Snapshot updated:** 2026-11-15 06:36 UTC
+**Snapshot updated:** 2026-11-15 09:42 UTC
 
 ## Site overview
 
@@ -37,10 +37,8 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 | **Codex Relay** | Reachable | **$10** | Not publicly specified | [Open service / register](https://codex-relay.codes/register?aff=6jAq) | — |
 | **Matrix** | Reachable | **600 points** | Not publicly specified | [Open service / register](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **万家灯火** | Reachable | **50 site units (not USD) + ¥2 general trial credit** | After a CNY 10 top-up: random CNY 0.1–1 in general balance per daily check-in | [Open service / register](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Join QQ group 1064350952 and link QQ to claim; 50 units cover only the designated GPT group for one month, while trial/check-in credits are general balance |
-| **KKtoken AI** | Reachable | **$120** | $20/day · Daily check-in | [Open service / register](https://kktoken.cc/sign-up?aff=MzG9) | — |
-| **NOFX** | Reachable | **15 points** | 5 points/day · Daily check-in | [Open service / register](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Indicative first-day USD credits: $1575 across 7 services accepting new users.**
+**Indicative first-day USD credits: $1455 across 6 services accepting new users.**
 
 First-day credit = signup + referral + first check-in (or one daily pool). Credits are separate service balances, not cash. Points, site units, paid plans, archived services and closed registrations are excluded from the USD total. Conditions and actual awards may vary.
 
@@ -64,7 +62,7 @@ New API gateway with Claude and GPT services; bonuses use internal site units, n
 - **Referral bonus**: 250 site units (not USD)
 - **Daily credits**: Free prize draw + top-up discount coupons
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
+- **Snapshot updated**: 2026-11-15 09:42 UTC
 - **Remarks**: Join the QQ group to unlock many more perks
 
 
@@ -104,7 +102,7 @@ Telegram referral signup with generous credits, a 0.25 multiplier and GPT6a acce
 - **Register through this referral link**: $1000
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
+- **Snapshot updated**: 2026-11-15 09:42 UTC
 - **Remarks**: 0.25 multiplier, GPT6a and generous credits; use this referral link to claim the signup reward
 
 
@@ -185,7 +183,7 @@ New API gateway with signup/referral credits, daily check-ins and Anthropic/Open
 - **Referral bonus**: $50
 - **Daily credits**: $25/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
+- **Snapshot updated**: 2026-11-15 09:42 UTC
 
 
 ### Registration requirements
@@ -221,7 +219,7 @@ Register with Happy Code to receive $100 in credits. Join QQ group 367746547 and
 - **Signup**: $100
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
+- **Snapshot updated**: 2026-11-15 09:42 UTC
 - **Remarks**: Join QQ group 367746547 and ask the group owner for the newcomer trial pack
 
 
@@ -257,7 +255,7 @@ Prime Relay offers $20 in credits on the first day of registration and supports 
 - **Signup**: $20
 - **Daily credits**: Daily check-ins supported
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
+- **Snapshot updated**: 2026-11-15 09:42 UTC
 - **Remarks**: Must join QQ group 239561070
 
 
@@ -293,7 +291,7 @@ Register with Codex Relay to receive $10 in API credits.
 - **Signup**: $10
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
+- **Snapshot updated**: 2026-11-15 09:42 UTC
 
 
 ### Registration requirements
@@ -328,7 +326,7 @@ OpenAI-compatible gateway and app store using internal points, with referral and
 - **Referral bonus**: 600 points
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
+- **Snapshot updated**: 2026-11-15 09:42 UTC
 
 
 ### Registration requirements
@@ -364,7 +362,7 @@ Join QQ group 1064350952 and link your QQ and site accounts to receive 50 intern
 - **Claim after joining QQ and linking your account**: 50 site units (not USD) + ¥2 general trial credit
 - **Daily credits**: After a CNY 10 top-up: random CNY 0.1–1 in general balance per daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
+- **Snapshot updated**: 2026-11-15 09:42 UTC
 - **Remarks**: Join QQ group 1064350952 and link QQ to claim; 50 units cover only the designated GPT group for one month, while trial/check-in credits are general balance
 
 
@@ -390,85 +388,13 @@ Only models returned by the public snapshot are listed; missing data does not me
 Not publicly specified
 
 [Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/wanjiadenghuo/)
-## KKtoken AI
-
-New API gateway with referral credits, daily check-ins and token-based billing.
-
-[Open service / register](https://kktoken.cc/sign-up?aff=MzG9) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/kktoken/)
-
-
-- **First-day credits / plan**: $120
-- **Signup**: $75
-- **Referral bonus**: $25
-- **Daily credits**: $20/day · Daily check-in
-- **Status**: Reachable
-- **Signup**: OAuth registration only: GitHub
-- **Snapshot updated**: 2026-11-15 06:36 UTC
-
-
-### Registration requirements
-
-GitHub OAuth only, with an account at least 365 days old and Cloudflare Turnstile. Use the referral link at signup; the bonus cannot be added later.
-
-### Rewards, limits and important caveats
-
-Credit amounts and the advertised $1 per million input/output tokens are provider notices, not independently verified public pricing. Models and actual prices require login. Check in through the dashboard. This is a paid relay after free credits; anti-bot blocking of automated probes does not necessarily mean the site is down.
-
-### Client setup
-
-Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
-
-- Anthropic Base URL: `https://kktoken.cc`
-- OpenAI Base URL: `https://kktoken.cc/v1`
-- [Provider documentation (may be Chinese)](https://kktoken.cc/dashboard/overview)
-
-### Public model snapshot
-
-Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
-
-Not publicly specified
-
-[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/)
-## NOFX
-
-Task-based API points with passwordless login, Discord check-ins and referral rewards; points are not USD.
-
-[Open service / register](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) · [Details](https://panxunying.github.io/ai-coding-welfare/en/sites/nofx/)
-
-
-- **First-day credits / plan**: 15 points
-- **Referral bonus**: 10 points
-- **Daily credits**: 5 points/day · Daily check-in
-- **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 06:36 UTC
-
-
-### Registration requirements
-
-Keep the full referral URL. Sign in through an email magic link or GitHub. Join Discord and select /verify and /checkin from the command menu; those rewards cannot be claimed without Discord. Get the API key and actual base URL from the authenticated dashboard.
-
-### Rewards, limits and important caveats
-
-Points expire after 30 days; real API usage resets that period. Check-ins pause above a 50-point balance. Discord verification gives 5 points once (code valid for 30 minutes), referrals give 5 points per friend, and an approved X post gives 20 points once. The landing page advertises 20 signup points while the recorded referral rule gives 10: verify the actual award. No public points-to-USD conversion exists. Robots rules only permit checking public pages; models and prices require login.
-
-### Client setup
-
-Create an API key in the service dashboard and use only a model listed for your account. Anthropic base URLs do not include /v1; OpenAI-compatible URLs usually do. A protocol endpoint does not guarantee access to every model or client.
-
-- [Dashboard](https://nofx.one/zh-CN/tasks)
-
-### Public model snapshot
-
-Only models returned by the public snapshot are listed; missing data does not mean there are no models. Confirm current prices, account groups and availability in the dashboard. Per-request prices are not token prices.
-
-Not publicly specified
-
-[Full source notes (Chinese)](https://panxunying.github.io/ai-coding-welfare/sites/nofx/)
 
 ## Archived services
 
 No longer recommended for registration, counted in totals or probed. Original reasons and historical records remain available in the Chinese edition.
 
+- [kktoken](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/) · 2026-11-15
+- [nofx](https://panxunying.github.io/ai-coding-welfare/sites/nofx/) · 2026-11-15
 - [justdowork](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/) · 2026-11-03
 - [flushapi](https://panxunying.github.io/ai-coding-welfare/sites/flushapi/) · 2026-10-30
 - [cheapcodex](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/) · 2026-10-28

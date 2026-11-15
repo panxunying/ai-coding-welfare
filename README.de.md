@@ -22,7 +22,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-11-15 06:36 UTC
+**Datenstand:** 2026-11-15 09:42 UTC
 
 ## Anbieterübersicht
 
@@ -37,10 +37,8 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
 | **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **万家灯火** | Erreichbar | **50 interne Einheiten (keine USD) + ¥2 allgemeines Testguthaben** | Nach einer Aufladung von CNY 10: zufällig CNY 0,1–1 allgemeines Guthaben pro täglichem Check-in | [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Zum Erhalt der QQ-Gruppe 1064350952 beitreten und QQ verknüpfen; 50 Einheiten gelten nur für die vorgesehene GPT-Gruppe für einen Monat, Test-/Check-in-Guthaben ist allgemeines Guthaben |
-| **KKtoken AI** | Erreichbar | **$120** | $20/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) | — |
-| **NOFX** | Erreichbar | **15 Punkte** | 5 Punkte/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) | — |
 
-**Ungefähres USD-Guthaben am ersten Tag: $1575 bei 7 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $1455 bei 6 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -64,7 +62,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
+- **Datenstand**: 2026-11-15 09:42 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -104,7 +102,7 @@ Registrierung über einen Telegram-Einladungslink mit großzügigem Guthaben, ei
 - **Über diesen Einladungslink registrieren**: $1000
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
+- **Datenstand**: 2026-11-15 09:42 UTC
 - **Hinweise**: Multiplikator 0.25, GPT6a und großzügiges Guthaben; verwende diesen Einladungslink für den Registrierungsbonus
 
 
@@ -185,7 +183,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
+- **Datenstand**: 2026-11-15 09:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -221,7 +219,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
+- **Datenstand**: 2026-11-15 09:42 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -257,7 +255,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
+- **Datenstand**: 2026-11-15 09:42 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -293,7 +291,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
+- **Datenstand**: 2026-11-15 09:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -328,7 +326,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
+- **Datenstand**: 2026-11-15 09:42 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -364,7 +362,7 @@ Der QQ-Gruppe 1064350952 beitreten und das QQ- mit dem Website-Konto verknüpfen
 - **Nach QQ-Beitritt und Kontoverknüpfung erhalten**: 50 interne Einheiten (keine USD) + ¥2 allgemeines Testguthaben
 - **Tägliches Guthaben**: Nach einer Aufladung von CNY 10: zufällig CNY 0,1–1 allgemeines Guthaben pro täglichem Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
+- **Datenstand**: 2026-11-15 09:42 UTC
 - **Hinweise**: Zum Erhalt der QQ-Gruppe 1064350952 beitreten und QQ verknüpfen; 50 Einheiten gelten nur für die vorgesehene GPT-Gruppe für einen Monat, Test-/Check-in-Guthaben ist allgemeines Guthaben
 
 
@@ -390,85 +388,13 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/wanjiadenghuo/)
-## KKtoken AI
-
-New-API-Gateway mit Empfehlungsprämien, täglichen Check-ins und tokenbasierter Abrechnung.
-
-[Dienst öffnen / registrieren](https://kktoken.cc/sign-up?aff=MzG9) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/kktoken/)
-
-
-- **Guthaben am ersten Tag / Tarif**: $120
-- **Registrierung**: $75
-- **Empfehlungsbonus**: $25
-- **Tägliches Guthaben**: $20/Tag · Täglicher Check-in
-- **Status**: Erreichbar
-- **Registrierung**: Registrierung nur per OAuth: GitHub
-- **Datenstand**: 2026-11-15 06:36 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Nur GitHub OAuth, mindestens 365 Tage altes Konto und Cloudflare Turnstile. Empfehlungslink bei Registrierung verwenden; der Bonus ist nachträglich nicht ergänzbar.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Guthabenbeträge und beworbene $1 pro Million Eingabe-/Ausgabe-Tokens stammen aus Anbieterankündigungen, nicht aus unabhängig geprüften öffentlichen Preisen. Modelle und aktuelle Preise erfordern Anmeldung. Check-in im Dashboard. Nach dem Gratisguthaben kostenpflichtig; blockierte automatische Prüfungen bedeuten nicht zwingend einen Ausfall.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- Anthropic Base URL: `https://kktoken.cc`
-- OpenAI Base URL: `https://kktoken.cc/v1`
-- [Anbieterdokumentation (ggf. Chinesisch)](https://kktoken.cc/dashboard/overview)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/)
-## NOFX
-
-Aufgabenbasierte API-Punkte mit passwortloser Anmeldung, Discord-Check-ins und Empfehlungsprämien; Punkte sind keine USD.
-
-[Dienst öffnen / registrieren](https://nofx.one/zh-CN/sign-in?ref=J369GHY4) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/nofx/)
-
-
-- **Guthaben am ersten Tag / Tarif**: 15 Punkte
-- **Empfehlungsbonus**: 10 Punkte
-- **Tägliches Guthaben**: 5 Punkte/Tag · Täglicher Check-in
-- **Status**: Erreichbar
-- **Datenstand**: 2026-11-15 06:36 UTC
-
-
-### Voraussetzungen für die Registrierung
-
-Vollständigen Empfehlungslink beibehalten. Per E-Mail-Magic-Link oder GitHub anmelden. Discord beitreten und /verify sowie /checkin aus dem Befehlsmenü wählen; diese Prämien setzen Discord voraus. API-Schlüssel und tatsächliche Basis-URL im angemeldeten Dashboard abrufen.
-
-### Prämien, Einschränkungen und wichtige Hinweise
-
-Punkte verfallen nach 30 Tagen; echte API-Nutzung setzt die Frist zurück. Check-ins pausieren bei mehr als 50 Punkten Guthaben. Discord-Verifizierung bringt einmalig 5 Punkte (Code 30 Minuten gültig), Empfehlungen 5 Punkte je Freund und ein genehmigter X-Beitrag einmalig 20. Die Startseite wirbt mit 20 Registrierungspunkten, die erfasste Empfehlungsregel nennt 10: tatsächliche Gutschrift prüfen. Keine öffentliche Umrechnung in USD. Robots-Regeln erlauben nur öffentliche Seitenprüfungen; Modelle und Preise erfordern Anmeldung.
-
-### Client-Einrichtung
-
-Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
-
-- [Dashboard](https://nofx.one/zh-CN/tasks)
-
-### Öffentlicher Modell-Datenstand
-
-Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
-
-Nicht öffentlich angegeben
-
-[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/nofx/)
 
 ## Archivierte Dienste
 
 Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.
 
+- [kktoken](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/) · 2026-11-15
+- [nofx](https://panxunying.github.io/ai-coding-welfare/sites/nofx/) · 2026-11-15
 - [justdowork](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/) · 2026-11-03
 - [flushapi](https://panxunying.github.io/ai-coding-welfare/sites/flushapi/) · 2026-10-30
 - [cheapcodex](https://panxunying.github.io/ai-coding-welfare/sites/cheapcodex/) · 2026-10-28
