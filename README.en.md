@@ -22,7 +22,7 @@ Community gateways, free API credits and low-cost plans for Claude Code, Codex a
 
 A translated guide to the listed services. Amounts, model IDs, prices and referral URLs are generated from the same data as the Chinese edition. Detailed comparison, history, upstream documentation and some service interfaces remain in Chinese.
 
-**Snapshot updated:** 2026-11-15 18:53 UTC
+**Snapshot updated:** 2026-11-16 01:35 UTC
 
 ## Site overview
 
@@ -30,8 +30,8 @@ A translated guide to the listed services. Amounts, model IDs, prices and referr
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Reachable | **300 site units (not USD)** | Free prize draw + top-up discount coupons | [Open service / register](https://docode.cc/register?aff=zMRe) | Join the QQ group to unlock many more perks |
 | **星驰管家** | Reachable | **$1000** | Not publicly specified | [Open service / register](https://t.me/xingchi66bot?start=inv_8111640723) | 0.25 multiplier, GPT6a and generous credits; use this referral link to claim the signup reward |
-| **AgentRouter** | Reachable | **$175** | $25/day · Daily check-in | [Open service / register](https://agentrouter.org/register?aff=szt3) | — |
-| **AnyRouter** | Reachable | **$150** | $25/day · Daily check-in | [Open service / register](https://anyrouter.top/register?aff=Z24N) | — |
+| **AgentRouter** | Reachable | **$175** | $25/day · Daily check-in | [Open service / register](https://agentrouter.org/register?aff=szt3) | Registration requires a GitHub account at least 1 year old |
+| **AnyRouter** | Reachable | **$150** | $25/day · Daily check-in | [Open service / register](https://anyrouter.top/register?aff=Z24N) | Registration requires a level 2 LinuxDO account |
 | **Happy Code** | Reachable | **$100** | Not publicly specified | [Open service / register](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Join QQ group 367746547 and ask the group owner for the newcomer trial pack |
 | **Prime Relay** | Reachable | **$20** | Daily check-ins supported | [Open service / register](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Must join QQ group 239561070 |
 | **Codex Relay** | Reachable | **$10** | Not publicly specified | [Open service / register](https://codex-relay.codes/register?aff=6jAq) | — |
@@ -62,7 +62,7 @@ New API gateway with Claude and GPT services; bonuses use internal site units, n
 - **Referral bonus**: 250 site units (not USD)
 - **Daily credits**: Free prize draw + top-up discount coupons
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 18:52 UTC
+- **Snapshot updated**: 2026-11-16 01:35 UTC
 - **Remarks**: Join the QQ group to unlock many more perks
 
 
@@ -102,7 +102,7 @@ Telegram referral signup with generous credits, a 0.25 multiplier and GPT6a acce
 - **Register through this referral link**: $1000
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 18:52 UTC
+- **Snapshot updated**: 2026-11-16 01:35 UTC
 - **Remarks**: 0.25 multiplier, GPT6a and generous credits; use this referral link to claim the signup reward
 
 
@@ -140,11 +140,12 @@ Community gateway with signup, referral and daily check-in credits; Anthropic an
 - **Daily credits**: $25/day · Daily check-in
 - **Status**: Reachable
 - **Snapshot updated**: 2026-09-23 14:55 UTC
+- **Remarks**: Registration requires a GitHub account at least 1 year old
 
 
 ### Registration requirements
 
-Use the referral link with GitHub or LinuxDO. Sign out and sign in again if awarded credits do not appear.
+Use the referral link with GitHub or LinuxDO. GitHub accounts must be at least 1 year old. Sign out and sign in again if awarded credits do not appear.
 
 ### Rewards, limits and important caveats
 
@@ -183,12 +184,13 @@ New API gateway with signup/referral credits, daily check-ins and Anthropic/Open
 - **Referral bonus**: $50
 - **Daily credits**: $25/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 18:53 UTC
+- **Snapshot updated**: 2026-11-16 01:35 UTC
+- **Remarks**: Registration requires a level 2 LinuxDO account
 
 
 ### Registration requirements
 
-Use the referral URL. GitHub accounts must be at least five years old; LinuxDO is an alternative without that stated age requirement. Sign out and back in after check-in to refresh the balance.
+Use the referral URL. GitHub accounts must be at least five years old; alternatively, use a level 2 LinuxDO account. Sign out and back in after check-in to refresh the balance.
 
 ### Rewards, limits and important caveats
 
@@ -219,7 +221,7 @@ Register with Happy Code to receive $100 in credits. Join QQ group 367746547 and
 - **Signup**: $100
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 18:52 UTC
+- **Snapshot updated**: 2026-11-16 01:35 UTC
 - **Remarks**: Join QQ group 367746547 and ask the group owner for the newcomer trial pack
 
 
@@ -255,7 +257,7 @@ Prime Relay offers $20 in credits on the first day of registration and supports 
 - **Signup**: $20
 - **Daily credits**: Daily check-ins supported
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 18:52 UTC
+- **Snapshot updated**: 2026-11-16 01:35 UTC
 - **Remarks**: Must join QQ group 239561070
 
 
@@ -291,7 +293,7 @@ Register with Codex Relay to receive $10 in API credits.
 - **Signup**: $10
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 18:52 UTC
+- **Snapshot updated**: 2026-11-16 01:35 UTC
 
 
 ### Registration requirements
@@ -326,7 +328,7 @@ OpenAI-compatible gateway and app store using internal points, with referral and
 - **Referral bonus**: 600 points
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 18:52 UTC
+- **Snapshot updated**: 2026-11-16 01:35 UTC
 
 
 ### Registration requirements
@@ -362,7 +364,7 @@ Join QQ group 1064350952 and link your QQ and site accounts to receive 50 intern
 - **Claim after joining QQ and linking your account**: 50 site units (not USD) + ¥2 general trial credit
 - **Daily credits**: After a CNY 10 top-up: random CNY 0.1–1 in general balance per daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-15 18:52 UTC
+- **Snapshot updated**: 2026-11-16 01:35 UTC
 - **Remarks**: Join QQ group 1064350952 and link QQ to claim; 50 units cover only the designated GPT group for one month, while trial/check-in credits are general balance
 
 

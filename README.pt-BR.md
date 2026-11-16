@@ -22,7 +22,7 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-11-15 18:53 UTC
+**Dados atualizados em:** 2026-11-16 01:35 UTC
 
 ## Visão geral
 
@@ -30,8 +30,8 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Acessível | **300 unidades internas (não USD)** | Sorteio grátis + cupons de desconto para recarga | [Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) | Entre no grupo do QQ para desbloquear muito mais benefícios |
 | **星驰管家** | Acessível | **$1000** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://t.me/xingchi66bot?start=inv_8111640723) | Multiplicador de 0.25, GPT6a e créditos generosos; use este link de indicação para receber o bônus de cadastro |
-| **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) | — |
-| **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | — |
+| **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) | O cadastro exige uma conta GitHub com pelo menos 1 ano |
+| **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | O cadastro exige uma conta LinuxDO de nível 2 |
 | **Happy Code** | Acessível | **$100** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários |
 | **Prime Relay** | Acessível | **$20** | Check-in diário disponível | [Abrir serviço / cadastrar](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | É necessário entrar no grupo do QQ 239561070 |
 | **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) | — |
@@ -62,7 +62,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-15 18:52 UTC
+- **Dados atualizados em**: 2026-11-16 01:35 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -102,7 +102,7 @@ Cadastro por indicação no Telegram com créditos generosos, multiplicador de 0
 - **Cadastre-se por este link de indicação**: $1000
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-15 18:52 UTC
+- **Dados atualizados em**: 2026-11-16 01:35 UTC
 - **Observações**: Multiplicador de 0.25, GPT6a e créditos generosos; use este link de indicação para receber o bônus de cadastro
 
 
@@ -140,11 +140,12 @@ Gateway comunitário com créditos de cadastro, indicação e check-in diário; 
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
 - **Dados atualizados em**: 2026-09-23 14:55 UTC
+- **Observações**: O cadastro exige uma conta GitHub com pelo menos 1 ano
 
 
 ### Requisitos de cadastro
 
-Use o link de indicação com GitHub ou LinuxDO. Saia e entre novamente se os créditos não aparecerem.
+Use o link de indicação com GitHub ou LinuxDO. Contas GitHub devem ter pelo menos 1 ano. Saia e entre novamente se os créditos não aparecerem.
 
 ### Recompensas, limites e cuidados importantes
 
@@ -183,12 +184,13 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-15 18:53 UTC
+- **Dados atualizados em**: 2026-11-16 01:35 UTC
+- **Observações**: O cadastro exige uma conta LinuxDO de nível 2
 
 
 ### Requisitos de cadastro
 
-Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; LinuxDO é uma alternativa sem essa exigência de idade. Saia e entre novamente após o check-in para atualizar o saldo.
+Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; como alternativa, use uma conta LinuxDO de nível 2. Saia e entre novamente após o check-in para atualizar o saldo.
 
 ### Recompensas, limites e cuidados importantes
 
@@ -219,7 +221,7 @@ Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 3677
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-15 18:52 UTC
+- **Dados atualizados em**: 2026-11-16 01:35 UTC
 - **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
 
 
@@ -255,7 +257,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-15 18:52 UTC
+- **Dados atualizados em**: 2026-11-16 01:35 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -291,7 +293,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-15 18:52 UTC
+- **Dados atualizados em**: 2026-11-16 01:35 UTC
 
 
 ### Requisitos de cadastro
@@ -326,7 +328,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-15 18:52 UTC
+- **Dados atualizados em**: 2026-11-16 01:35 UTC
 
 
 ### Requisitos de cadastro
@@ -362,7 +364,7 @@ Entre no grupo QQ 1064350952 e vincule suas contas QQ e do site para receber 50 
 - **Receba após entrar no QQ e vincular a conta**: 50 unidades internas (não USD) + ¥2 crédito geral de teste
 - **Créditos diários**: Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-15 18:52 UTC
+- **Dados atualizados em**: 2026-11-16 01:35 UTC
 - **Observações**: Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral
 
 
