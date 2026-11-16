@@ -129,7 +129,8 @@
     },
     "agentrouter": {
       "summary": "Community-Gateway mit Registrierungs-, Empfehlungs- und täglichen Check-in-Guthaben sowie Anthropic- und OpenAI-kompatiblen Endpunkten.",
-      "registration": "Über den Empfehlungslink mit GitHub oder LinuxDO registrieren. Falls Guthaben fehlt, abmelden und erneut anmelden.",
+      "remarks": "Zur Registrierung ist ein mindestens 1 Jahr altes GitHub-Konto erforderlich",
+      "registration": "Über den Empfehlungslink mit GitHub oder LinuxDO registrieren. GitHub-Konten müssen mindestens 1 Jahr alt sein. Falls Guthaben fehlt, abmelden und erneut anmelden.",
       "notes": "Check-in im Dashboard; Aktionen und Empfehlungen können weiteres Guthaben bringen. Keine SLA oder Aufladungen zugesagt. Anfrageinhalte sind auf Chinesisch, Englisch, Französisch, Deutsch und Russisch beschränkt: Hindi, Portugiesisch oder Japanisch können HTTP 400 auslösen. Die Übersetzung dieses Verzeichnisses ändert das nicht. Massenkonten, Missbrauch und fingierte Empfehlungen können zur Sperrung führen."
     },
     "docode": {
@@ -166,7 +167,8 @@
     },
     "anyrouter": {
       "summary": "New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins und Anthropic-/OpenAI-kompatiblen Routen.",
-      "registration": "Empfehlungslink verwenden. GitHub-Konten müssen mindestens fünf Jahre alt sein; LinuxDO ist eine Alternative ohne die genannte Altersgrenze. Nach dem Check-in ab- und wieder anmelden, um das Guthaben zu aktualisieren.",
+      "remarks": "Zur Registrierung ist ein LinuxDO-Konto der Stufe 2 erforderlich",
+      "registration": "Empfehlungslink verwenden. GitHub-Konten müssen mindestens fünf Jahre alt sein; alternativ kann ein LinuxDO-Konto der Stufe 2 verwendet werden. Nach dem Check-in ab- und wieder anmelden, um das Guthaben zu aktualisieren.",
       "notes": "Guthabenbeträge und beworbene Eingabe-/Ausgabepreise von $5/$25 pro Million Tokens stammen aus Anbieterankündigungen. JavaScript-Prüfungen verhindern die automatische API-Verifizierung; Modelle, Preise und Gutschriften daher im Dashboard prüfen. Eine Prüfseite belegt keinen Ausfall."
     },
     "cheapcodex": {

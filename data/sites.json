@@ -159,6 +159,7 @@
     {
       "id": "agentrouter",
       "name": "AgentRouter",
+      "remarks": "注册需要满 1 年的 GitHub 账号",
       "subtitle": "AI Coding 公益站 · 注册即送额度，签到每日续命",
       "recommended": false,
       "credits": {
@@ -194,6 +195,7 @@
         "methods": ["GitHub OAuth", "LinuxDO OAuth"],
         "requirements": [
           "务必从本页的邀请链接进入注册，否则拿不到邀请额度",
+          "使用 GitHub 注册时，账号需注册满 1 年",
           "注册成功后退出再重新登录一次，额度才会显示到账"
         ]
       },
@@ -216,6 +218,7 @@
     {
       "id": "anyrouter",
       "name": "AnyRouter",
+      "remarks": "注册需要 2 级 LinuxDO 账号",
       "subtitle": "New API 中转站 · 注册送 $75，本页邀请码再加 $50，Anthropic 与 OpenAI 两条原生路由都开着",
       "recommended": false,
       "credits": {
@@ -235,7 +238,7 @@
         "注册送 $75，从本页邀请链接进入再加 $50，每日签到再领 $25，首日合计 $150",
         "Anthropic 与 OpenAI 两条原生路由都开着：未鉴权 POST /v1/messages 与 /v1/chat/completions 都由 New API 亲自回「无效的令牌」，Claude Code 与 Codex 填个 Base URL 就能直连",
         "站内公示按 token 计价：输入 $5 / 百万 tokens、输出 $25 / 百万 tokens，按量扣不是按次，短问答很省",
-        "站内公示支持 GPT-5.6 Sol；GitHub 账号不满 5 年的可以改用 LinuxDO 登录，绕开年龄门槛"
+        "站内公示支持 GPT-5.6 Sol；GitHub 账号不满 5 年的可以改用 2 级 LinuxDO 账号登录"
       ],
       "endpoints": {
         "anthropic": "https://anyrouter.top",
@@ -247,7 +250,7 @@
         "requirements": [
           "务必从本页邀请链接进入注册（带 ?aff=Z24N），$50 在注册那一刻结算，事后补不上",
           "GitHub 账号注册满 5 年才允许绑定——门槛比本页其它站高得多，小号一律被拒",
-          "GitHub 不满 5 年就改走 LinuxDO 登录，这条路没有账号年龄要求",
+          "GitHub 不满 5 年可改走 LinuxDO 登录，LinuxDO 账号需达到 2 级",
           "签到领的 $25 要退出再重新登录一次才会刷新到额度上"
         ]
       },
@@ -258,7 +261,7 @@
       "caveats": [
         "整站挂着 JS 人机挑战，连 robots.txt 与注册页都返回挑战页，本页的自动探测读不到它的 /api/status——所以上面「实时数据」一栏除了接口延迟基本是空的，站名、面板版本、模型数都拿不到。那是我们读不到，不代表你打不开",
         "额度数字（注册 $75 / 邀请 $50 / 签到 $25）与 $5 / $25 的价格都是站内公示口径，公开接口无法核对，进后台自己确认一遍再算账",
-        "GitHub 满 5 年这条门槛卡掉的人不少，注册前先看一眼自己账号的创建年份，不够就走 LinuxDO",
+        "GitHub 满 5 年这条门槛卡掉的人不少，注册前先看一眼自己账号的创建年份，不够可用 2 级 LinuxDO 账号登录",
         "只有 /v1/* 的中转接口不吃挑战，网页端偶发挑战失败时换个浏览器或稍后再试"
       ],
       "community": []

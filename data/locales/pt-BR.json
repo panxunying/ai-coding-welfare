@@ -129,7 +129,8 @@
     },
     "agentrouter": {
       "summary": "Gateway comunitário com créditos de cadastro, indicação e check-in diário; endpoints Anthropic e compatíveis com OpenAI.",
-      "registration": "Use o link de indicação com GitHub ou LinuxDO. Saia e entre novamente se os créditos não aparecerem.",
+      "remarks": "O cadastro exige uma conta GitHub com pelo menos 1 ano",
+      "registration": "Use o link de indicação com GitHub ou LinuxDO. Contas GitHub devem ter pelo menos 1 ano. Saia e entre novamente se os créditos não aparecerem.",
       "notes": "Faça check-in no painel; eventos e indicações podem render mais créditos. Sem promessa de SLA ou recargas. O conteúdo das requisições é restrito a chinês, inglês, francês, alemão e russo: prompts em português, hindi ou japonês podem retornar HTTP 400. Esta tradução do diretório não altera essa restrição. Contas em massa, abuso e indicações falsas podem causar banimento."
     },
     "docode": {
@@ -166,7 +167,8 @@
     },
     "anyrouter": {
       "summary": "Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas Anthropic/OpenAI.",
-      "registration": "Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; LinuxDO é uma alternativa sem essa exigência de idade. Saia e entre novamente após o check-in para atualizar o saldo.",
+      "remarks": "O cadastro exige uma conta LinuxDO de nível 2",
+      "registration": "Use a URL de indicação. Contas GitHub devem ter pelo menos cinco anos; como alternativa, use uma conta LinuxDO de nível 2. Saia e entre novamente após o check-in para atualizar o saldo.",
       "notes": "Créditos e preços anunciados de entrada/saída de $5/$25 por milhão de tokens vêm de comunicados. Desafios JavaScript impedem a verificação automática da API pública; confirme modelos, preços e valores recebidos no painel. Uma página de desafio não comprova queda do serviço."
     },
     "cheapcodex": {

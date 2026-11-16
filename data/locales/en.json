@@ -129,7 +129,8 @@
     },
     "agentrouter": {
       "summary": "Community gateway with signup, referral and daily check-in credits; Anthropic and OpenAI-compatible endpoints.",
-      "registration": "Use the referral link with GitHub or LinuxDO. Sign out and sign in again if awarded credits do not appear.",
+      "remarks": "Registration requires a GitHub account at least 1 year old",
+      "registration": "Use the referral link with GitHub or LinuxDO. GitHub accounts must be at least 1 year old. Sign out and sign in again if awarded credits do not appear.",
       "notes": "Check in through the dashboard; provider events and referrals may offer more credits. No SLA or top-ups are promised. Request content is restricted to Chinese, English, French, German and Russian: Hindi, Portuguese or Japanese prompts may return HTTP 400. This translated directory does not change that restriction. Bulk accounts, abuse and fake referrals can lead to a ban."
     },
     "docode": {
@@ -166,7 +167,8 @@
     },
     "anyrouter": {
       "summary": "New API gateway with signup/referral credits, daily check-ins and Anthropic/OpenAI-compatible routes.",
-      "registration": "Use the referral URL. GitHub accounts must be at least five years old; LinuxDO is an alternative without that stated age requirement. Sign out and back in after check-in to refresh the balance.",
+      "remarks": "Registration requires a level 2 LinuxDO account",
+      "registration": "Use the referral URL. GitHub accounts must be at least five years old; alternatively, use a level 2 LinuxDO account. Sign out and back in after check-in to refresh the balance.",
       "notes": "Credit amounts and advertised input/output prices of $5/$25 per million tokens come from provider notices. JavaScript challenges prevent automatic public API verification, so confirm models, prices and actual awards in the dashboard. A challenge page is not evidence of an outage."
     },
     "cheapcodex": {
