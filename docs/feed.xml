@@ -5,8 +5,16 @@
   <link rel="self" href="https://panxunying.github.io/ai-coding-welfare/feed.xml"/>
   <link href="https://panxunying.github.io/ai-coding-welfare/"/>
   <id>https://panxunying.github.io/ai-coding-welfare/</id>
-  <updated>2026-11-16T01:35:14.607Z</updated>
+  <updated>2026-11-16T06:30:20.321Z</updated>
   <author><name>AI Coding 福利站导航</name></author>
+  <entry>
+    <title>2026-11-16 · 1 项变动</title>
+    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-16"/>
+    <id>tag:panxunying.github.io,2026-11-16:changelog</id>
+    <updated>2026-11-16T06:30:20.321Z</updated>
+    <summary>移入历史区 星驰管家：按维护者要求下架，移入历史区，不再推荐注册</summary>
+    <content type="html">&lt;ul&gt;&lt;li&gt;🗑️ 移入历史区 星驰管家：按维护者要求下架，移入历史区，不再推荐注册&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>2026-11-15 · 3 项变动</title>
     <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-15"/>
@@ -318,13 +326,5 @@
     <updated>2026-08-30T10:21:22.646Z</updated>
     <summary>新收录 GoRouter：注册送 $50，邀请再加 $20（另有 2 项变动）</summary>
     <content type="html">&lt;ul&gt;&lt;li&gt;🆕 新收录 GoRouter：注册送 $50，邀请再加 $20&lt;/li&gt;&lt;li&gt;🟢 RawChat 公益站 恢复在线&lt;/li&gt;&lt;li&gt;🆕 新收录 TaBiAI：注册送 $100，邀请再加 $20&lt;/li&gt;&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>2026-08-28 · 1 项变动</title>
-    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-08-28"/>
-    <id>tag:panxunying.github.io,2026-08-28:changelog</id>
-    <updated>2026-08-28T22:22:28.116Z</updated>
-    <summary>RawChat 公益站 探测不到了：注册页与公开接口都没响应</summary>
-    <content type="html">&lt;ul&gt;&lt;li&gt;🔴 RawChat 公益站 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
 </feed>

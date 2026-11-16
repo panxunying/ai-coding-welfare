@@ -22,14 +22,13 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-11-16 01:35 UTC
+**Dados atualizados em:** 2026-11-16 06:30 UTC
 
 ## Visão geral
 
 | Serviço | Status | Créditos no primeiro dia / plano | Créditos diários | Cadastro | Observações |
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Acessível | **300 unidades internas (não USD)** | Sorteio grátis + cupons de desconto para recarga | [Abrir serviço / cadastrar](https://docode.cc/register?aff=zMRe) | Entre no grupo do QQ para desbloquear muito mais benefícios |
-| **星驰管家** | Acessível | **$1000** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://t.me/xingchi66bot?start=inv_8111640723) | Multiplicador de 0.25, GPT6a e créditos generosos; use este link de indicação para receber o bônus de cadastro |
 | **AgentRouter** | Acessível | **$175** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://agentrouter.org/register?aff=szt3) | O cadastro exige uma conta GitHub com pelo menos 1 ano |
 | **AnyRouter** | Acessível | **$150** | $25/dia · Check-in diário | [Abrir serviço / cadastrar](https://anyrouter.top/register?aff=Z24N) | O cadastro exige uma conta LinuxDO de nível 2 |
 | **Happy Code** | Acessível | **$100** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários |
@@ -38,7 +37,7 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **万家灯火** | Acessível | **50 unidades internas (não USD) + ¥2 crédito geral de teste** | Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário | [Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral |
 
-**Créditos indicativos em USD no primeiro dia: $1455 em 6 serviços que aceitam novos usuários.**
+**Créditos indicativos em USD no primeiro dia: $455 em 5 serviços que aceitam novos usuários.**
 
 Crédito no primeiro dia = cadastro + indicação + primeiro check-in (ou uma cota diária). São saldos separados em cada serviço, não dinheiro. Pontos, unidades internas, planos pagos, serviços arquivados e cadastros fechados ficam fora do total em USD. Condições e créditos recebidos podem variar.
 
@@ -62,7 +61,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-16 01:35 UTC
+- **Dados atualizados em**: 2026-11-16 06:30 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -91,41 +90,6 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 Não divulgado publicamente
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
-## 星驰管家
-
-Cadastro por indicação no Telegram com créditos generosos, multiplicador de 0.25 e acesso ao GPT6a.
-
-[Abrir serviço / cadastrar](https://t.me/xingchi66bot?start=inv_8111640723) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/xingchi/)
-
-
-- **Créditos no primeiro dia / plano**: $1000
-- **Cadastre-se por este link de indicação**: $1000
-- **Créditos diários**: Não divulgado publicamente
-- **Status**: Acessível
-- **Dados atualizados em**: 2026-11-16 01:35 UTC
-- **Observações**: Multiplicador de 0.25, GPT6a e créditos generosos; use este link de indicação para receber o bônus de cadastro
-
-
-### Requisitos de cadastro
-
-Abra o link completo de indicação no Telegram, mantenha start=inv_8111640723 e inicie @xingchi66bot tocando em Start. Siga as instruções do bot para concluir o cadastro e conferir o saldo recebido.
-
-### Recompensas, limites e cuidados importantes
-
-As informações sobre o bônus de cadastro, o multiplicador e o modelo foram fornecidas pelo mantenedor. Confira no bot o saldo efetivo, os preços atuais, a chave de API, o endpoint e o identificador exato do modelo.
-
-### Configuração do cliente
-
-Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
-
-
-### Dados públicos dos modelos
-
-Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
-
-Não divulgado publicamente
-
-[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/xingchi/)
 ## AgentRouter
 
 Gateway comunitário com créditos de cadastro, indicação e check-in diário; endpoints Anthropic e compatíveis com OpenAI.
@@ -184,7 +148,7 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-16 01:35 UTC
+- **Dados atualizados em**: 2026-11-16 06:30 UTC
 - **Observações**: O cadastro exige uma conta LinuxDO de nível 2
 
 
@@ -221,7 +185,7 @@ Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 3677
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-16 01:35 UTC
+- **Dados atualizados em**: 2026-11-16 06:30 UTC
 - **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
 
 
@@ -257,7 +221,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-16 01:35 UTC
+- **Dados atualizados em**: 2026-11-16 06:30 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -293,7 +257,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-16 01:35 UTC
+- **Dados atualizados em**: 2026-11-16 06:30 UTC
 
 
 ### Requisitos de cadastro
@@ -328,7 +292,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-16 01:35 UTC
+- **Dados atualizados em**: 2026-11-16 06:30 UTC
 
 
 ### Requisitos de cadastro
@@ -364,7 +328,7 @@ Entre no grupo QQ 1064350952 e vincule suas contas QQ e do site para receber 50 
 - **Receba após entrar no QQ e vincular a conta**: 50 unidades internas (não USD) + ¥2 crédito geral de teste
 - **Créditos diários**: Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-16 01:35 UTC
+- **Dados atualizados em**: 2026-11-16 06:30 UTC
 - **Observações**: Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral
 
 
@@ -395,6 +359,7 @@ Não divulgado publicamente
 
 Não são mais recomendados para cadastro, incluídos nos totais ou verificados automaticamente. Os motivos originais e o histórico permanecem na edição chinesa.
 
+- [xingchi](https://panxunying.github.io/ai-coding-welfare/sites/xingchi/) · 2026-11-16
 - [kktoken](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/) · 2026-11-15
 - [nofx](https://panxunying.github.io/ai-coding-welfare/sites/nofx/) · 2026-11-15
 - [justdowork](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/) · 2026-11-03
