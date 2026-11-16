@@ -5,14 +5,15 @@
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-8%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-8%2F8-brightgreen" alt="在线">
-  <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24175-success" alt="首日可得">
-  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--11--16%2006.33%20UTC-informational" alt="数据更新">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-9%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-9%2F9-brightgreen" alt="在线">
+  <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%241000-success" alt="首日可得">
+  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--11--16%2010.01%20UTC-informational" alt="数据更新">
 </p>
 
 <p align="center">
   <a href="https://docode.cc/register?aff=zMRe"><b>DoCode 注册</b></a> ·
+  <a href="https://t.me/xingchi66bot?start=inv_8111640723"><b>星驰管家 注册</b></a> ·
   <a href="https://agentrouter.org/register?aff=szt3"><b>AgentRouter 注册</b></a> ·
   <a href="https://anyrouter.top/register?aff=Z24N"><b>AnyRouter 注册</b></a> ·
   <a href="https://happycodeai.com/register?aff=5KUZBJEE7FYT"><b>Happy Code 注册</b></a> ·
@@ -43,6 +44,7 @@
 | 站点 | 状态 | 首日可得 | 额度构成 | 之后每天 | 兼容协议 | 模型 | 注册 | 邀请码 | 备注 |
 | :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: | :--: | :-- |
 | **DoCode** | 🟢 在线 | **300 站内刀** | 注册 50 站内刀 + 本页邀请 250 站内刀 | 免费抽奖+充值优惠券 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://docode.cc/register?aff=zMRe) | `zMRe` | 加qq群可以解锁超多福利 |
+| **星驰管家** | 🟢 在线 | **$1000** | 通过本页邀请链接注册 $1000 | — | 机器人内查看 | **GPT6a** | [点此注册 →](https://t.me/xingchi66bot?start=inv_8111640723) | 注册链接中已自带 | 倍率 0.25，可用 GPT6a，额度充足；通过本页邀请链接注册领取 |
 | **AgentRouter** | 🟢 在线 | **$175** | 注册 $100 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 4 个可查 | [点此注册 →](https://agentrouter.org/register?aff=szt3) | 注册链接中已自带 | 注册需要满 1 年的 GitHub 账号 |
 | **AnyRouter** | 🟢 在线 | **$150** | 注册 $75 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://anyrouter.top/register?aff=Z24N) | 注册链接中已自带 | 注册需要 2 级 LinuxDO 账号 |
 | **Happy Code** | 🟢 在线 | **$100** | 注册 $100 | — | 控制台内查看 | 需登录查看 | [点此注册 →](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | 注册链接中已自带 | 需要加 QQ 群 367746547 找群主获取新人体验包 |
@@ -51,11 +53,11 @@
 | **Matrix** | 🟢 在线 | **600 积分** | 本页邀请 600 积分 | — | OpenAI 兼容 | 需登录查看 | [点此注册 →](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | 注册链接中已自带 | — |
 | **万家灯火** | 🟢 在线 | **50 站内刀 + ¥2 通用体验额度** | 进群绑定 QQ 后领取 50 站内刀 + ¥2 通用体验额度<br>GPT 订阅可在「我的订阅」中查看 | 充值 ¥10 后可签到，每日随机领 ¥0.1～1 通用余额 | Anthropic + OpenAI | **GPT / Claude / Gemini / Grok / 国产模型** | [点此注册 →](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | 注册链接中已自带 | QQ 群 1064350952；50 站内刀仅限 GPT「不降智」分组（1 个月）；体验与签到额度为通用余额 |
 
-> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-11-16 06:33 UTC`。
+> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-11-16 10:01 UTC`。
 >
 > 「邀请码」列写了码的站（DoCode `zMRe`），注册表单里有一栏要**自己填**，漏填就只拿得到注册基础额度、事后补不上；其余站写「注册链接中已自带」，请使用本页完整注册链接，邀请奖励与条件请看站点详情。
 >
-> 5 个有明确美元额度、且还收新用户的站全注册一遍，第一天手上大约有 **$455** 额度可用；DoCode 另发 300 站内刀，Matrix 另发 600 积分，万家灯火 另发 50 站内刀 + ¥2 通用体验额度（进群绑定 QQ 后领取），都是各站自己的计价单位、与美元没有公开换算，未计入这个合计。
+> 6 个有明确美元额度、且还收新用户的站全注册一遍，第一天手上大约有 **$1455** 额度可用；DoCode 另发 300 站内刀，Matrix 另发 600 积分，万家灯火 另发 50 站内刀 + ¥2 通用体验额度（进群绑定 QQ 后领取），都是各站自己的计价单位、与美元没有公开换算，未计入这个合计。
 >
 > 🟡 有 1 个站点已超过 48 小时没抓到接口数据，其明细为上一次成功抓取的快照；在线状态按注册页实际可访问性判断。
 
@@ -107,7 +109,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 - 每日签到：❌
 - 开放注册：✅
 - 登录方式：账号密码
-- 接口延迟：1481 ms
+- 接口延迟：1614 ms
 
 **镜像 / 备用入口**
 
@@ -209,6 +211,44 @@ curl -s https://docode.cc/v1/chat/completions \
 
 ---
 
+### 🟢 星驰管家
+
+> 通过邀请链接注册可获得 $1000 额度 · 倍率 0.25，可用 GPT6a，额度充足
+
+<a href="https://t.me/xingchi66bot?start=inv_8111640723"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-%E6%98%9F%E9%A9%B0%E7%AE%A1%E5%AE%B6-brightgreen?style=for-the-badge" alt="注册 星驰管家"></a>
+
+**为什么值得注册**
+
+- 通过本页完整邀请链接注册可获得 $1000 额度
+- 倍率 0.25，可用 GPT6a，额度充足
+- 在 Telegram 中打开星驰管家（@xingchi66bot），点击 Start / 开始后按提示完成注册
+
+**能拿多少额度**
+
+- 通过本页邀请链接注册：**$1000**
+- 首日合计：**$1000**　（通过本页邀请链接注册 $1000）
+
+**实时数据**（自动抓取站点公开接口）
+
+- 接口延迟：802 ms
+
+> 按维护者提供的信息，支持 GPT6a，倍率 0.25。完整模型清单、实际调用名称与当前价格请在机器人内查看。
+
+**注册要求**
+
+- 需要 Telegram 账号，使用本页完整邀请链接进入 @xingchi66bot，保留 start=inv_8111640723
+- 点击 Start / 开始，按机器人提示完成注册并查看赠送额度
+
+**接入配置**
+
+> 通过 Telegram 机器人注册后，在机器人内查看接入地址、API Key、可用模型名与客户端配置说明。
+
+1. 打开本页完整邀请链接，在 Telegram 中启动星驰管家，保留 start=inv_8111640723
+2. 按机器人提示完成注册，查看 $1000 赠送额度
+3. 在机器人内查看 GPT6a 的实际调用名称、0.25 倍率及接入说明
+
+---
+
 ### 🟢 AgentRouter
 
 > AI Coding 公益站 · 注册即送额度，签到每日续命
@@ -231,12 +271,12 @@ curl -s https://docode.cc/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 1288 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
+- ⚠ 接口已连续 1291 小时没抓到新数据，下列信息为 `2026-09-23 14:55 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260918-cbda758f`
 - 邀请他人可得：**$50**
 - 登录方式：GitHub / LinuxDO
-- 接口延迟：260 ms
+- 接口延迟：263 ms
 
 **镜像 / 备用入口**
 
@@ -370,7 +410,7 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：164 ms
+- 接口延迟：176 ms
 
 > 整站（含 `/api/status`、`/api/pricing`、robots.txt 与注册页）都挂在 JS 人机挑战后面，返回的是 `var arg1=...` 的挑战页而不是 JSON，公开接口读不到模型清单，本页不列模型表。站内公示的计价口径是输入 $5 / 百万 tokens、输出 $25 / 百万 tokens，并公示支持 GPT-5.6 Sol，注册后在控制台「模型价格」页确认实际清单与倍率。
 
@@ -479,7 +519,7 @@ curl -s https://anyrouter.top/v1/chat/completions \
 - 面板版本：`0.0.130`
 - 开放注册：✅
 - 登录方式：OIDC（NodeLoc） / 账号密码
-- 接口延迟：1197 ms
+- 接口延迟：1366 ms
 
 > 可用模型、价格与接入地址请在登录后的控制台查看。
 
@@ -524,7 +564,7 @@ curl -s https://anyrouter.top/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：1751 ms
+- 接口延迟：1838 ms
 
 > 官网模型广场公开展示模型与价格；实际调用名称、分组与可用范围请在站内确认。公开配置给出的 API Base URL 为 https://primerelay.online/v1。
 
@@ -609,7 +649,7 @@ curl -s https://primerelay.online/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：1765 ms
+- 接口延迟：1886 ms
 
 > 可用模型、价格和实际调用名称请在控制台查看。
 
@@ -650,7 +690,7 @@ curl -s https://primerelay.online/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：2072 ms
+- 接口延迟：2419 ms
 
 > 模型清单与价格需登录后在控制台「模型列表」查看（按每百万 Tokens 计价，可按厂商 / 上下文窗口筛选），站点没有公开的模型与定价接口，本页不做承诺。
 
@@ -719,7 +759,7 @@ curl -s https://primerelay.online/v1/chat/completions \
 - 面板版本：`2.21.4`
 - 开放注册：✅
 - 登录方式：账号密码
-- 接口延迟：1530 ms
+- 接口延迟：1818 ms
 
 > 运营方在 Issue #46 中列出 GPT、Claude、Gemini、Grok，以及 GLM、DeepSeek、Kimi、MiniMax 等国产模型，并声明支持 Anthropic 与 OpenAI 兼容协议。具体模型 ID、可用分组、倍率和缓存价格请在站内模型广场或控制台核对；公开设置接口不提供模型清单或价格。
 
@@ -815,7 +855,6 @@ curl -s https://wjapi.vip/v1/chat/completions \
 
 这些站已反馈不可用，保留名称与归档原因，不再推荐注册、展示额度或进行定时探测。历史记录仍可在[变动日志](https://panxunying.github.io/ai-coding-welfare/changelog/)中查看；确认恢复可用后可人工重新收录。
 
-- **星驰管家**（`2026-11-16` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **KKtoken AI**（`2026-11-15` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **NOFX**（`2026-11-15` 归档） — 按维护者要求下架，移入历史区，不再推荐注册
 - **JustDoWork**（`2026-11-03` 归档） — 2026-11-02 巡检发现首页与注册链接 HTTP 522；2026-11-03 复查首页、注册和控制台仍返回 HTTP 522（源站连接超时），公开状态接口可达但网页不可用，暂移历史区，确认恢复后可重新收录
@@ -833,7 +872,7 @@ curl -s https://wjapi.vip/v1/chat/completions \
 
 ## 🔔 额度变了，这里会通知你
 
-CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 350 个样本、覆盖约 86.9 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
+CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 351 个样本、覆盖约 87.1 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
 
 - 点仓库右上角 **Watch → Custom → Releases**：有重要变动时 GitHub 直接发邮件
 - 订阅 [Atom feed](https://panxunying.github.io/ai-coding-welfare/feed.xml)：RSS 阅读器 / Feedly / Telegram 机器人都能读
@@ -841,12 +880,12 @@ CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目�
 
 最近几条：
 
+- `2026-11-16` 🆕 新收录 星驰管家：注册送 $1000
 - `2026-11-16` 🗑️ 移入历史区 星驰管家：按维护者要求下架，移入历史区，不再推荐注册
 - `2026-11-15` 🗑️ 移入历史区 KKtoken AI：按维护者要求下架，移入历史区，不再推荐注册
 - `2026-11-15` 🗑️ 移入历史区 NOFX：按维护者要求下架，移入历史区，不再推荐注册
 - `2026-11-15` 🆕 新收录 星驰管家：注册送 $1000
 - `2026-11-14` 📢 DoCode 发了公告：gemini 3 系 4 系，不管是按量还是按次，都大部分时间无法使用，以后能正常使用会通知。
-- `2026-11-12` 🟢 NOFX 恢复在线
 
 完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 

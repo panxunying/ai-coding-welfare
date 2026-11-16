@@ -22,13 +22,14 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-11-16 06:33 UTC
+**Datenstand:** 2026-11-16 10:01 UTC
 
 ## Anbieterübersicht
 
 | Anbieter | Status | Guthaben am ersten Tag / Tarif | Tägliches Guthaben | Registrierung | Hinweise |
 | --- | --- | --- | --- | --- | --- |
 | **DoCode** | Erreichbar | **300 interne Einheiten (keine USD)** | Kostenlose Verlosung + Rabattgutscheine für Aufladungen | [Dienst öffnen / registrieren](https://docode.cc/register?aff=zMRe) | Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten |
+| **星驰管家** | Erreichbar | **$1000** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://t.me/xingchi66bot?start=inv_8111640723) | Multiplikator 0.25, GPT6a und großzügiges Guthaben; verwende diesen Einladungslink für den Registrierungsbonus |
 | **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) | Zur Registrierung ist ein mindestens 1 Jahr altes GitHub-Konto erforderlich |
 | **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) | Zur Registrierung ist ein LinuxDO-Konto der Stufe 2 erforderlich |
 | **Happy Code** | Erreichbar | **$100** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern |
@@ -37,7 +38,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **Matrix** | Erreichbar | **600 Punkte** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **万家灯火** | Erreichbar | **50 interne Einheiten (keine USD) + ¥2 allgemeines Testguthaben** | Nach einer Aufladung von CNY 10: zufällig CNY 0,1–1 allgemeines Guthaben pro täglichem Check-in | [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Zum Erhalt der QQ-Gruppe 1064350952 beitreten und QQ verknüpfen; 50 Einheiten gelten nur für die vorgesehene GPT-Gruppe für einen Monat, Test-/Check-in-Guthaben ist allgemeines Guthaben |
 
-**Ungefähres USD-Guthaben am ersten Tag: $455 bei 5 Diensten, die neue Nutzer aufnehmen.**
+**Ungefähres USD-Guthaben am ersten Tag: $1455 bei 6 Diensten, die neue Nutzer aufnehmen.**
 
 Guthaben am ersten Tag = Registrierung + Empfehlung + erster Check-in (oder ein Tageskontingent). Es handelt sich um getrennte Dienstguthaben, nicht um Bargeld. Punkte, interne Einheiten, kostenpflichtige Tarife, archivierte Dienste und geschlossene Registrierungen zählen nicht zur USD-Summe. Bedingungen und tatsächliche Gutschriften können abweichen.
 
@@ -61,7 +62,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-16 06:33 UTC
+- **Datenstand**: 2026-11-16 10:01 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -90,6 +91,41 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/docode/)
+## 星驰管家
+
+Registrierung über einen Telegram-Einladungslink mit großzügigem Guthaben, einem Multiplikator von 0.25 und Zugang zu GPT6a.
+
+[Dienst öffnen / registrieren](https://t.me/xingchi66bot?start=inv_8111640723) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/xingchi/)
+
+
+- **Guthaben am ersten Tag / Tarif**: $1000
+- **Über diesen Einladungslink registrieren**: $1000
+- **Tägliches Guthaben**: Nicht öffentlich angegeben
+- **Status**: Erreichbar
+- **Datenstand**: 2026-11-16 10:01 UTC
+- **Hinweise**: Multiplikator 0.25, GPT6a und großzügiges Guthaben; verwende diesen Einladungslink für den Registrierungsbonus
+
+
+### Voraussetzungen für die Registrierung
+
+Öffne den vollständigen Einladungslink in Telegram, behalte start=inv_8111640723 bei und starte @xingchi66bot mit Start. Folge den Registrierungsanweisungen des Bots und prüfe das gutgeschriebene Guthaben.
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+Die Angaben zum Registrierungsbonus, Multiplikator und Modell stammen vom Maintainer. Prüfe im Bot dein tatsächliches Guthaben, aktuelle Preise, den API-Schlüssel, den Endpunkt und die genaue Modell-ID.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/xingchi/)
 ## AgentRouter
 
 Community-Gateway mit Registrierungs-, Empfehlungs- und täglichen Check-in-Guthaben sowie Anthropic- und OpenAI-kompatiblen Endpunkten.
@@ -148,7 +184,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-16 06:33 UTC
+- **Datenstand**: 2026-11-16 10:01 UTC
 - **Hinweise**: Zur Registrierung ist ein LinuxDO-Konto der Stufe 2 erforderlich
 
 
@@ -185,7 +221,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-16 06:33 UTC
+- **Datenstand**: 2026-11-16 10:01 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -221,7 +257,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-16 06:33 UTC
+- **Datenstand**: 2026-11-16 10:01 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -257,7 +293,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-16 06:33 UTC
+- **Datenstand**: 2026-11-16 10:01 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -292,7 +328,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-16 06:33 UTC
+- **Datenstand**: 2026-11-16 10:01 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -328,7 +364,7 @@ Der QQ-Gruppe 1064350952 beitreten und das QQ- mit dem Website-Konto verknüpfen
 - **Nach QQ-Beitritt und Kontoverknüpfung erhalten**: 50 interne Einheiten (keine USD) + ¥2 allgemeines Testguthaben
 - **Tägliches Guthaben**: Nach einer Aufladung von CNY 10: zufällig CNY 0,1–1 allgemeines Guthaben pro täglichem Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-16 06:33 UTC
+- **Datenstand**: 2026-11-16 10:01 UTC
 - **Hinweise**: Zum Erhalt der QQ-Gruppe 1064350952 beitreten und QQ verknüpfen; 50 Einheiten gelten nur für die vorgesehene GPT-Gruppe für einen Monat, Test-/Check-in-Guthaben ist allgemeines Guthaben
 
 
@@ -359,7 +395,6 @@ Nicht öffentlich angegeben
 
 Keine Registrierungsempfehlung, keine Einbeziehung in Summen und keine weiteren automatischen Prüfungen. Ursprüngliche Gründe und Verlauf stehen in der chinesischen Ausgabe.
 
-- [xingchi](https://panxunying.github.io/ai-coding-welfare/sites/xingchi/) · 2026-11-16
 - [kktoken](https://panxunying.github.io/ai-coding-welfare/sites/kktoken/) · 2026-11-15
 - [nofx](https://panxunying.github.io/ai-coding-welfare/sites/nofx/) · 2026-11-15
 - [justdowork](https://panxunying.github.io/ai-coding-welfare/sites/justdowork/) · 2026-11-03
