@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-18T09:24:37.835Z",
+  "generatedAt": "2026-11-18T20:33:55.599Z",
   "sites": [
     {
       "id": "docode",
-      "checkedAt": "2026-11-18T09:24:26.509Z",
+      "checkedAt": "2026-11-18T20:33:44.475Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1597,
+      "latencyMs": 1581,
       "error": null,
       "systemName": "DoCode",
       "version": "",
@@ -58,7 +58,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 931,
+        "ms": 972,
         "attempts": 1,
         "url": "https://docode.cc/register?aff=zMRe"
       },
@@ -76,10 +76,10 @@
     },
     {
       "id": "xingchi",
-      "checkedAt": "2026-11-18T09:24:25.464Z",
+      "checkedAt": "2026-11-18T20:33:43.422Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 731,
+      "latencyMs": 703,
       "error": null,
       "systemName": null,
       "version": null,
@@ -103,7 +103,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 728,
+        "ms": 700,
         "attempts": 1,
         "url": "https://t.me/xingchi66bot?start=inv_8111640723"
       },
@@ -116,9 +116,9 @@
     },
     {
       "id": "agentrouter",
-      "checkedAt": "2026-11-18T09:24:31.319Z",
+      "checkedAt": "2026-11-18T20:33:49.420Z",
       "online": true,
-      "latencyMs": 311,
+      "latencyMs": 303,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260918-cbda758f",
@@ -246,7 +246,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1336,
+        "ms": 1598,
         "attempts": 1,
         "url": "https://agentrouter.org/register?aff=szt3"
       },
@@ -277,10 +277,10 @@
     },
     {
       "id": "anyrouter",
-      "checkedAt": "2026-11-18T09:24:31.476Z",
+      "checkedAt": "2026-11-18T20:33:49.876Z",
       "apiOk": false,
       "pricingOk": false,
-      "latencyMs": 178,
+      "latencyMs": 203,
       "error": "invalid json",
       "systemName": null,
       "version": null,
@@ -304,7 +304,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1862,
+        "ms": 2231,
         "attempts": 1,
         "url": "https://anyrouter.top/register?aff=Z24N"
       },
@@ -317,13 +317,13 @@
     },
     {
       "id": "happycode",
-      "checkedAt": "2026-11-18T09:24:26.526Z",
+      "checkedAt": "2026-11-18T20:33:44.975Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1631,
+      "latencyMs": 2037,
       "error": null,
       "systemName": "Happy Code",
-      "version": "0.0.132",
+      "version": "0.0.133",
       "registerOpen": true,
       "passwordRegister": true,
       "checkinEnabled": null,
@@ -347,7 +347,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1649,
+        "ms": 2235,
         "attempts": 1,
         "url": "https://happycodeai.com/register?aff=5KUZBJEE7FYT"
       },
@@ -360,10 +360,10 @@
     },
     {
       "id": "primerelay",
-      "checkedAt": "2026-11-18T09:24:26.602Z",
+      "checkedAt": "2026-11-18T20:33:44.860Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1861,
+      "latencyMs": 2132,
       "error": null,
       "systemName": null,
       "version": null,
@@ -387,7 +387,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1873,
+        "ms": 2173,
         "attempts": 1,
         "url": "https://www.primerelay.online/register?aff=2FXZ7SBATLN2"
       },
@@ -400,10 +400,10 @@
     },
     {
       "id": "codex-relay",
-      "checkedAt": "2026-11-18T09:24:26.643Z",
+      "checkedAt": "2026-11-18T20:33:44.844Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1901,
+      "latencyMs": 2115,
       "error": null,
       "systemName": null,
       "version": null,
@@ -427,7 +427,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1936,
+        "ms": 2122,
         "attempts": 1,
         "url": "https://codex-relay.codes/register?aff=6jAq"
       },
@@ -440,10 +440,10 @@
     },
     {
       "id": "matrix",
-      "checkedAt": "2026-11-18T09:24:27.179Z",
+      "checkedAt": "2026-11-18T20:33:45.499Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2436,
+      "latencyMs": 2768,
       "error": null,
       "systemName": null,
       "version": null,
@@ -467,7 +467,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2501,
+        "ms": 2828,
         "attempts": 1,
         "url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"
       },
@@ -480,10 +480,10 @@
     },
     {
       "id": "wanjiadenghuo",
-      "checkedAt": "2026-11-18T09:24:27.013Z",
+      "checkedAt": "2026-11-18T20:33:45.032Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2085,
+      "latencyMs": 2216,
       "error": null,
       "systemName": "万家灯火",
       "version": "2.21.4",
@@ -509,7 +509,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2057,
+        "ms": 2178,
         "attempts": 1,
         "url": "https://wjapi.vip/register?aff=H6QJLZT5GQHW"
       },
@@ -522,10 +522,10 @@
     },
     {
       "id": "claudeagent",
-      "checkedAt": "2026-11-18T09:24:26.892Z",
+      "checkedAt": "2026-11-18T20:33:45.230Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2147,
+      "latencyMs": 2496,
       "error": null,
       "systemName": "Claude Agent",
       "version": "v1.0.0-rc.21-rentals-v80-20261117",
@@ -542,6 +542,11 @@
       "topupEnabled": null,
       "services": [],
       "announcements": [
+        {
+          "id": 901118,
+          "date": "2026-11-18",
+          "text": "## 🛠️ 今晚 23:00 系统维护通知（约 15 分钟） 本站将于 **今晚 23:00 – 23:15（北京时间）** 进行约 **15 分钟**例行升级维护。 - **影响说明**：维护期间网站控制台与 API 连接将暂时中断，请提前保存当前会话进度 - **自动恢复**：维护完成后将立即恢复连接，您的账号额度与密钥无需任何改动"
+        },
         {
           "id": 16,
           "date": "2026-11-17",
@@ -561,11 +566,6 @@
           "id": 13,
           "date": "2026-10-02",
           "text": "## Token 计费异常修复及退款完成 部分 Kiro Pro 等通道请求在中断且未收到输出和用量信息时发生误扣，现已修复。 近 7 天核实的 **30 笔误扣**已退回 **13 个受影响账户**，对应 API Key 额度和用量统计已同步更正。无需申请，请查看余额及退款日志。 给您带来不便，敬请谅解。"
-        },
-        {
-          "id": 12,
-          "date": "2026-09-30",
-          "text": "## GPT-6.1 Sol / Claude Opus 5.5 已上线 现已开放以下模型： - **GPT-6.1 Sol**：`gpt-6.1-sol` - **Claude Opus 5.5**：`claude-opus-5-5` 两款模型均可在 **default** 分组调用。客户端未显示时，请刷新模型列表或手动填写完整模型名。 [查看模型与接入说明](https://claudeagent.com.cn/guides/mod"
         }
       ],
       "models": [],
@@ -577,7 +577,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2142,
+        "ms": 2490,
         "attempts": 1,
         "url": "https://claudeagent.com.cn/sign-up?aff=MW5x"
       },
