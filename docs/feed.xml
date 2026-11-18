@@ -5,8 +5,16 @@
   <link rel="self" href="https://panxunying.github.io/ai-coding-welfare/feed.xml"/>
   <link href="https://panxunying.github.io/ai-coding-welfare/"/>
   <id>https://panxunying.github.io/ai-coding-welfare/</id>
-  <updated>2026-11-18T07:31:15.881Z</updated>
+  <updated>2026-11-18T09:24:37.835Z</updated>
   <author><name>AI Coding 福利站导航</name></author>
+  <entry>
+    <title>2026-11-18 · 1 项变动</title>
+    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-18"/>
+    <id>tag:panxunying.github.io,2026-11-18:changelog</id>
+    <updated>2026-11-18T09:24:37.835Z</updated>
+    <summary>新收录 Claude Agent：限时福利组开放指定 Flash 模型，活动期限和可用额度以站内公告为准。</summary>
+    <content type="html">&lt;ul&gt;&lt;li&gt;🆕 新收录 Claude Agent：限时福利组开放指定 Flash 模型，活动期限和可用额度以站内公告为准。&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>2026-11-16 · 2 项变动</title>
     <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-16"/>
@@ -318,13 +326,5 @@
     <updated>2026-09-01T16:41:56.046Z</updated>
     <summary>TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking（另有 5 项变动）</summary>
     <content type="html">&lt;ul&gt;&lt;li&gt;➖ TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking&lt;/li&gt;&lt;li&gt;🆕 新收录 CheapCodex：邀请再加 $20，每日签到 $20&lt;/li&gt;&lt;li&gt;🆕 新收录 NOFX：邀请再加 10 积分，每日签到 $5&lt;/li&gt;&lt;li&gt;🆕 新收录 AnyRouter：注册送 $75，邀请再加 $50，每日签到 $25&lt;/li&gt;&lt;li&gt;➖ GoRouter 下线模型：claude-opus-4-8、claude-opus-4-8-thinking&lt;/li&gt;&lt;li&gt;🆕 新收录 KKtoken AI：注册送 $75，邀请再加 $25，每日签到 $20&lt;/li&gt;&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>2026-08-30 · 3 项变动</title>
-    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-08-30"/>
-    <id>tag:panxunying.github.io,2026-08-30:changelog</id>
-    <updated>2026-08-30T10:21:22.646Z</updated>
-    <summary>新收录 GoRouter：注册送 $50，邀请再加 $20（另有 2 项变动）</summary>
-    <content type="html">&lt;ul&gt;&lt;li&gt;🆕 新收录 GoRouter：注册送 $50，邀请再加 $20&lt;/li&gt;&lt;li&gt;🟢 RawChat 公益站 恢复在线&lt;/li&gt;&lt;li&gt;🆕 新收录 TaBiAI：注册送 $100，邀请再加 $20&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
 </feed>

@@ -22,7 +22,7 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-11-18 07:31 UTC
+**Dados atualizados em:** 2026-11-18 09:24 UTC
 
 ## Visão geral
 
@@ -37,6 +37,7 @@ Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links 
 | **Codex Relay** | Acessível | **$10** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://codex-relay.codes/register?aff=6jAq) | — |
 | **Matrix** | Acessível | **600 pontos** | Não divulgado publicamente | [Abrir serviço / cadastrar](https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_) | — |
 | **万家灯火** | Acessível | **50 unidades internas (não USD) + ¥2 crédito geral de teste** | Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário | [Abrir serviço / cadastrar](https://wjapi.vip/register?aff=H6QJLZT5GQHW) | Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral |
+| **Claude Agent** | Acessível | **Não divulgado publicamente** | Sem check-in | [Abrir serviço / cadastrar](https://claudeagent.com.cn/sign-up?aff=MW5x) | Um usuário relatou que as respostas do Claude são de boa qualidade no serviço com cobrança por uso. |
 
 **Créditos indicativos em USD no primeiro dia: $1455 em 6 serviços que aceitam novos usuários.**
 
@@ -62,7 +63,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-18 07:31 UTC
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -102,7 +103,7 @@ Cadastro por indicação no Telegram com créditos generosos, multiplicador de 0
 - **Cadastre-se por este link de indicação**: $1000
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-18 07:31 UTC
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
 - **Observações**: Multiplicador de 0.25, GPT6a e créditos generosos; use este link de indicação para receber o bônus de cadastro
 
 
@@ -184,7 +185,7 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-18 07:31 UTC
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
 - **Observações**: O cadastro exige uma conta LinuxDO de nível 2
 
 
@@ -221,7 +222,7 @@ Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 3677
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-18 07:31 UTC
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
 - **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
 
 
@@ -257,7 +258,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-18 07:31 UTC
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -293,7 +294,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-18 07:31 UTC
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
 
 
 ### Requisitos de cadastro
@@ -328,7 +329,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-18 07:31 UTC
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
 
 
 ### Requisitos de cadastro
@@ -364,7 +365,7 @@ Entre no grupo QQ 1064350952 e vincule suas contas QQ e do site para receber 50 
 - **Receba após entrar no QQ e vincular a conta**: 50 unidades internas (não USD) + ¥2 crédito geral de teste
 - **Créditos diários**: Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-18 07:31 UTC
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
 - **Observações**: Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral
 
 
@@ -390,6 +391,43 @@ Somente modelos retornados pelos dados públicos são listados; a ausência de d
 Não divulgado publicamente
 
 [Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/wanjiadenghuo/)
+## Claude Agent
+
+O grupo promocional oferece, por tempo limitado, modelos Flash da DeepSeek, GLM e MiniMax. O acesso ao Claude usa um serviço separado, com cobrança por uso.
+
+[Abrir serviço / cadastrar](https://claudeagent.com.cn/sign-up?aff=MW5x) · [Detalhes](https://panxunying.github.io/ai-coding-welfare/pt-BR/sites/claudeagent/)
+
+
+- **Créditos no primeiro dia / plano**: Não divulgado publicamente
+- **Créditos diários**: Sem check-in
+- **Status**: Acessível
+- **Dados atualizados em**: 2026-11-18 09:24 UTC
+- **Observações**: Um usuário relatou que as respostas do Claude são de boa qualidade no serviço com cobrança por uso.
+
+
+### Requisitos de cadastro
+
+O link de convite preenche o código automaticamente. Escolha um nome de usuário e uma senha e informe o código de verificação recebido por e-mail.
+
+### Recompensas, limites e cuidados importantes
+
+Na lista de modelos, procure o grupo 福利组. Consulte o site para ver a cota e o período da promoção. Para usar o Claude, selecione claude官转 ao criar a chave de API. O valor do uso é descontado do saldo.
+
+### Configuração do cliente
+
+Crie uma chave de API no painel e use apenas um modelo disponível para sua conta. URLs base Anthropic não incluem /v1; as compatíveis com OpenAI geralmente incluem. Um endpoint de protocolo não garante suporte a todos os modelos ou clientes.
+
+- Anthropic Base URL: `https://claudeagent.com.cn`
+- OpenAI Base URL: `https://claudeagent.com.cn/v1`
+- [Documentação do provedor (pode estar em chinês)](https://claudeagent.com.cn/guides/models/)
+
+### Dados públicos dos modelos
+
+Somente modelos retornados pelos dados públicos são listados; a ausência de dados não significa ausência de modelos. Confirme preços atuais, grupos da conta e disponibilidade no painel. Preços por requisição não são preços por token.
+
+Não divulgado publicamente
+
+[Notas completas da fonte (chinês)](https://panxunying.github.io/ai-coding-welfare/sites/claudeagent/)
 
 ## Serviços arquivados
 
