@@ -1391,8 +1391,8 @@ for (const locale of TRANSLATED_LANGUAGES) {
 }
 // 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
 const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
-test('星驰管家恢复排第二，其余在架站点保持顺序；下架站移入历史区', () => {
-  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'xingchi', 'agentrouter', 'anyrouter', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'wanjiadenghuo']);
+test('在架站点按目录排序，Claude Agent 排末位，归档站点进入历史区', () => {
+  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'xingchi', 'agentrouter', 'anyrouter', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'wanjiadenghuo', 'claudeagent']);
   for (const id of ['conduit', 'omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat', 'cheapcodex', 'flushapi', 'justdowork', 'kktoken', 'nofx']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
   assert.equal(new Set(CATALOG.map((s) => s.id)).size, CATALOG.length);
   assert.equal(MIRASIM.signupUrl, 'https://mirasim.ai/r/go-kx9cd5');

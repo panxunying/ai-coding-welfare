@@ -189,6 +189,12 @@
       "remarks": "Zum Erhalt der QQ-Gruppe 1064350952 beitreten und QQ verknüpfen; 50 Einheiten gelten nur für die vorgesehene GPT-Gruppe für einen Monat, Test-/Check-in-Guthaben ist allgemeines Guthaben",
       "signupLabel": "Nach QQ-Beitritt und Kontoverknüpfung erhalten",
       "signupExtraLabel": "allgemeines Testguthaben"
+    },
+    "claudeagent": {
+      "summary": "Die befristete Aktion umfasst Flash-Modelle von DeepSeek, GLM und MiniMax. Für Claude gibt es einen separaten Zugang mit Abrechnung nach Verbrauch.",
+      "registration": "Der Einladungslink trägt den Code automatisch ein. Wähle einen Benutzernamen und ein Passwort und gib den Bestätigungscode aus der E-Mail ein.",
+      "notes": "Die Aktionsgruppe heißt im Modellverzeichnis 福利组. Laufzeit und Kontingent stehen auf der Website. Wähle für Claude beim Erstellen des API-Schlüssels die Gruppe claude官转. Die Kosten werden vom Guthaben abgezogen.",
+      "remarks": "Ein Nutzer berichtet von guten Antworten über den nach Verbrauch abgerechneten Claude-Zugang."
     }
   }
 }

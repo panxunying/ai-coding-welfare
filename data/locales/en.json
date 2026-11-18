@@ -189,6 +189,12 @@
       "remarks": "Join QQ group 1064350952 and link QQ to claim; 50 units cover only the designated GPT group for one month, while trial/check-in credits are general balance",
       "signupLabel": "Claim after joining QQ and linking your account",
       "signupExtraLabel": "general trial credit"
+    },
+    "claudeagent": {
+      "summary": "The limited-time promo group offers Flash models from DeepSeek, GLM and MiniMax. Claude is available through a separate pay-as-you-go relay.",
+      "registration": "The referral link fills in the code for you. Choose a username and password, then enter the verification code sent to your email.",
+      "notes": "Look for 福利组 in the model guide and check the site for current limits and dates. For Claude, select claude官转 when creating an API key. Usage is billed to your balance.",
+      "remarks": "A user reports good response quality on the pay-as-you-go Claude relay."
     }
   }
 }

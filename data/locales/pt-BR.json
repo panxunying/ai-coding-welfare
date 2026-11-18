@@ -189,6 +189,12 @@
       "remarks": "Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral",
       "signupLabel": "Receba após entrar no QQ e vincular a conta",
       "signupExtraLabel": "crédito geral de teste"
+    },
+    "claudeagent": {
+      "summary": "O grupo promocional oferece, por tempo limitado, modelos Flash da DeepSeek, GLM e MiniMax. O acesso ao Claude usa um serviço separado, com cobrança por uso.",
+      "registration": "O link de convite preenche o código automaticamente. Escolha um nome de usuário e uma senha e informe o código de verificação recebido por e-mail.",
+      "notes": "Na lista de modelos, procure o grupo 福利组. Consulte o site para ver a cota e o período da promoção. Para usar o Claude, selecione claude官转 ao criar a chave de API. O valor do uso é descontado do saldo.",
+      "remarks": "Um usuário relatou que as respostas do Claude são de boa qualidade no serviço com cobrança por uso."
     }
   }
 }

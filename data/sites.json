@@ -1350,6 +1350,48 @@
         "站点公开面读不到任何机器可读的状态：robots.txt 禁掉了 /api/ 与控制台各页，本页只探 sitemap.xml 判断站点还活着，所以「实时数据」一栏只有延迟"
       ],
       "community": []
+    },
+    {
+      "id": "claudeagent",
+      "name": "Claude Agent",
+      "subtitle": "限时福利组可体验 DeepSeek、GLM 和 MiniMax。另有 Claude 官转，有用户反馈回答质量好。",
+      "remarks": "Claude 官转按量计费，有用户反馈回答质量好。",
+      "recommended": false,
+      "panel": "newapi",
+      "credits": {
+        "signup": null,
+        "invite": null,
+        "dailyCheckin": null,
+        "unit": "site-usd",
+        "note": "限时福利组开放指定 Flash 模型，活动期限和可用额度以站内公告为准。"
+      },
+      "signupUrl": "https://claudeagent.com.cn/sign-up?aff=MW5x",
+      "homeUrl": "https://claudeagent.com.cn",
+      "docsUrl": "https://claudeagent.com.cn/guides/models/",
+      "statusApi": "https://claudeagent.com.cn/api/status",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": ["限时福利组", "Claude 官转", "Claude Code"],
+      "highlights": [
+        "在站方模型表中查看「福利组」，可以找到 DeepSeek、GLM 和 MiniMax 的 Flash 模型。",
+        "在「令牌」页选择「claude官转」即可按量调用 Claude。站方说明同一段对话会沿用同一个上游账号，以便复用提示缓存。"
+      ],
+      "endpoints": {
+        "anthropic": "https://claudeagent.com.cn",
+        "openai": "https://claudeagent.com.cn/v1"
+      },
+      "modelsSummary": "Claude / DeepSeek / GLM / MiniMax",
+      "modelsNote": "官转组提供 Claude Opus 和 Sonnet。具体型号和对应分组可查阅站方模型表。",
+      "faq": [
+        ["限时福利组也能用 Claude 官转吗？", "站方模型表将 DeepSeek、GLM 和 MiniMax 的 Flash 模型列在「福利组」。调用 Claude 官转需选择「claude官转」分组，费用按实际用量从余额扣除。"]
+      ],
+      "register": {
+        "methods": ["用户名和密码 + 邮箱验证"],
+        "requirements": ["使用本页邀请链接，注册页会自动填入邀请码。填写用户名和密码，再输入邮箱收到的验证码。"]
+      },
+      "earnMore": [],
+      "caveats": [],
+      "community": []
     }
   ]
 }
