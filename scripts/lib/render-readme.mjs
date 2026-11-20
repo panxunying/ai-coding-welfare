@@ -82,7 +82,9 @@ function overviewTable(sites, liveById) {
         : sub ? `[查看 ${sub.name} →](${s.signupUrl})` : route.state === 'oauth'
           ? `[${route.oauth[0]} 注册 →](${s.signupUrl})`
           : `[点此注册 →](${s.signupUrl})`;
-    const code = s.inviteCode ? ` \`${s.inviteCode}\` |` : ' 注册链接中已自带 |';
+    // 注册链接不带任何参数（如 OmniAI：邀请码要进群领），就没有「自带」可言，写「—」交给备注列说明
+    const refInLink = new URL(s.signupUrl).search !== '';
+    const code = s.inviteCode ? ` \`${s.inviteCode}\` |` : refInLink ? ' 注册链接中已自带 |' : ' — |';
     return (
       `| **${s.name}**${s.recommended ? ' 🔥' : ''} | ${state} | ${first} | ${detail} | ${checkin} | ${proto} | ${models} | ${cta} |` +
       (hasCode ? code : '') +
