@@ -22,7 +22,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-11-20 07:19 UTC
+**Datenstand:** 2026-11-20 15:48 UTC
 
 ## Anbieterübersicht
 
@@ -32,6 +32,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 | **星驰管家** | Erreichbar | **$1000** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://t.me/xingchi66bot?start=inv_8111640723) | Multiplikator 0.25, GPT6a und großzügiges Guthaben; verwende diesen Einladungslink für den Registrierungsbonus |
 | **AgentRouter** | Erreichbar | **$175** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://agentrouter.org/register?aff=szt3) | Zur Registrierung ist ein mindestens 1 Jahr altes GitHub-Konto erforderlich |
 | **AnyRouter** | Erreichbar | **$150** | $25/Tag · Täglicher Check-in | [Dienst öffnen / registrieren](https://anyrouter.top/register?aff=Z24N) | Zur Registrierung ist ein LinuxDO-Konto der Stufe 2 erforderlich |
+| **OmniAI** | Erreichbar | **Nicht öffentlich angegeben** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://sub.omniai.cc) | Einladungscode in der Telegram-Gruppe https://t.me/omniai_zh abholen |
 | **Happy Code** | Erreichbar | **$100** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://happycodeai.com/register?aff=5KUZBJEE7FYT) | Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern |
 | **Prime Relay** | Erreichbar | **$20** | Tägliche Check-ins verfügbar | [Dienst öffnen / registrieren](https://www.primerelay.online/register?aff=2FXZ7SBATLN2) | Beitritt zur QQ-Gruppe 239561070 erforderlich |
 | **Codex Relay** | Erreichbar | **$10** | Nicht öffentlich angegeben | [Dienst öffnen / registrieren](https://codex-relay.codes/register?aff=6jAq) | — |
@@ -63,7 +64,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -103,7 +104,7 @@ Registrierung über einen Telegram-Einladungslink mit großzügigem Guthaben, ei
 - **Über diesen Einladungslink registrieren**: $1000
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 - **Hinweise**: Multiplikator 0.25, GPT6a und großzügiges Guthaben; verwende diesen Einladungslink für den Registrierungsbonus
 
 
@@ -185,7 +186,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 - **Hinweise**: Zur Registrierung ist ein LinuxDO-Konto der Stufe 2 erforderlich
 
 
@@ -211,6 +212,41 @@ Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten 
 Nicht öffentlich angegeben
 
 [Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/anyrouter/)
+## OmniAI
+
+Kostenloser, unbegrenzter API-Zugriff auf GPT-6-Modelle. Den Einladungscode gibt es in der Telegram-Gruppe.
+
+[Dienst öffnen / registrieren](https://sub.omniai.cc) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/omniai/)
+
+
+- **Guthaben am ersten Tag / Tarif**: Nicht öffentlich angegeben
+- **Tägliches Guthaben**: Nicht öffentlich angegeben
+- **Status**: Erreichbar
+- **Datenstand**: 2026-11-20 15:48 UTC
+- **Hinweise**: Einladungscode in der Telegram-Gruppe https://t.me/omniai_zh abholen
+
+
+### Voraussetzungen für die Registrierung
+
+Tritt der Telegram-Gruppe bei, um einen Einladungscode zu erhalten. Wer neu in der Gruppe ist und keinen Code hat, kann den Dienst auf Plattformen wie Xiaohongshu oder X bewerben und anschließend einen Screenshot in der Gruppe einreichen.
+
+### Prämien, Einschränkungen und wichtige Hinweise
+
+OmniAI bietet kostenlose, unbegrenzte GPT-6-APIs. So können Entwickler sich auf Kreativität und Code konzentrieren, statt auf Tokenkosten. Verfügbare Modelle und API-Einrichtung stehen in der Konsole.
+
+### Client-Einrichtung
+
+Erstelle im Dashboard einen API-Schlüssel und verwende nur ein für dein Konto verfügbares Modell. Anthropic-Basis-URLs enthalten kein /v1, OpenAI-kompatible URLs meist schon. Ein Protokoll-Endpunkt garantiert nicht die Unterstützung aller Modelle oder Clients.
+
+- [Dashboard](https://sub.omniai.cc)
+
+### Öffentlicher Modell-Datenstand
+
+Aufgeführt werden nur Modelle aus dem öffentlichen Datenstand; fehlende Daten bedeuten nicht, dass keine Modelle vorhanden sind. Aktuelle Preise, Kontogruppen und Verfügbarkeit im Dashboard prüfen. Preise pro Anfrage sind keine Tokenpreise.
+
+Nicht öffentlich angegeben
+
+[Vollständige Quellnotizen (Chinesisch)](https://panxunying.github.io/ai-coding-welfare/sites/omniai/)
 ## Happy Code
 
 Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 beitreten und den Gruppeninhaber nach dem Testpaket für Neukunden fragen.
@@ -222,7 +258,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -258,7 +294,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -294,7 +330,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -329,7 +365,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -365,7 +401,7 @@ Der QQ-Gruppe 1064350952 beitreten und das QQ- mit dem Website-Konto verknüpfen
 - **Nach QQ-Beitritt und Kontoverknüpfung erhalten**: 50 interne Einheiten (keine USD) + ¥2 allgemeines Testguthaben
 - **Tägliches Guthaben**: Nach einer Aufladung von CNY 10: zufällig CNY 0,1–1 allgemeines Guthaben pro täglichem Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 - **Hinweise**: Zum Erhalt der QQ-Gruppe 1064350952 beitreten und QQ verknüpfen; 50 Einheiten gelten nur für die vorgesehene GPT-Gruppe für einen Monat, Test-/Check-in-Guthaben ist allgemeines Guthaben
 
 
@@ -401,7 +437,7 @@ Die befristete Aktion umfasst Flash-Modelle von DeepSeek, GLM und MiniMax. Für 
 - **Guthaben am ersten Tag / Tarif**: Nicht öffentlich angegeben
 - **Tägliches Guthaben**: Kein Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-20 07:19 UTC
+- **Datenstand**: 2026-11-20 15:48 UTC
 - **Hinweise**: Ein Nutzer berichtet von guten Antworten über den nach Verbrauch abgerechneten Claude-Zugang.
 
 

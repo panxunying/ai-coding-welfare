@@ -5,8 +5,16 @@
   <link rel="self" href="https://panxunying.github.io/ai-coding-welfare/feed.xml"/>
   <link href="https://panxunying.github.io/ai-coding-welfare/"/>
   <id>https://panxunying.github.io/ai-coding-welfare/</id>
-  <updated>2026-11-20T07:19:38.922Z</updated>
+  <updated>2026-11-20T15:48:49.491Z</updated>
   <author><name>AI Coding 福利站导航</name></author>
+  <entry>
+    <title>2026-11-20 · 1 项变动</title>
+    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-20"/>
+    <id>tag:panxunying.github.io,2026-11-20:changelog</id>
+    <updated>2026-11-20T15:48:49.491Z</updated>
+    <summary>新收录 OmniAI：免费使用 GPT-6 系列 API，不限调用额度与次数。</summary>
+    <content type="html">&lt;ul&gt;&lt;li&gt;🆕 新收录 OmniAI：免费使用 GPT-6 系列 API，不限调用额度与次数。&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>2026-11-18 · 2 项变动</title>
     <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-18"/>
@@ -318,13 +326,5 @@
     <updated>2026-09-03T21:03:47.898Z</updated>
     <summary>KKtoken AI 恢复在线（另有 2 项变动）</summary>
     <content type="html">&lt;ul&gt;&lt;li&gt;🟢 KKtoken AI 恢复在线&lt;/li&gt;&lt;li&gt;🔴 KKtoken AI 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;li&gt;🔴 RawChat 公益站 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>2026-09-01 · 6 项变动</title>
-    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-09-01"/>
-    <id>tag:panxunying.github.io,2026-09-01:changelog</id>
-    <updated>2026-09-01T16:41:56.046Z</updated>
-    <summary>TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking（另有 5 项变动）</summary>
-    <content type="html">&lt;ul&gt;&lt;li&gt;➖ TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking&lt;/li&gt;&lt;li&gt;🆕 新收录 CheapCodex：邀请再加 $20，每日签到 $20&lt;/li&gt;&lt;li&gt;🆕 新收录 NOFX：邀请再加 10 积分，每日签到 $5&lt;/li&gt;&lt;li&gt;🆕 新收录 AnyRouter：注册送 $75，邀请再加 $50，每日签到 $25&lt;/li&gt;&lt;li&gt;➖ GoRouter 下线模型：claude-opus-4-8、claude-opus-4-8-thinking&lt;/li&gt;&lt;li&gt;🆕 新收录 KKtoken AI：注册送 $75，邀请再加 $25，每日签到 $20&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
 </feed>
