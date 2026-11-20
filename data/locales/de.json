@@ -104,6 +104,12 @@
       "registration": "Öffne den vollständigen Empfehlungslink, behalte aff=6jAq bei und folge den Registrierungsanweisungen. Melde dich an, um dein Startguthaben von 10 US-Dollar einzusehen.",
       "notes": "Verfügbare Modelle, Preise, API-Schlüssel, Endpunkte und Anweisungen zur Client-Einrichtung findest du in der Konsole."
     },
+    "omniai": {
+      "summary": "Kostenloser, unbegrenzter API-Zugriff auf GPT-6-Modelle. Den Einladungscode gibt es in der Telegram-Gruppe.",
+      "registration": "Tritt der Telegram-Gruppe bei, um einen Einladungscode zu erhalten. Wer neu in der Gruppe ist und keinen Code hat, kann den Dienst auf Plattformen wie Xiaohongshu oder X bewerben und anschließend einen Screenshot in der Gruppe einreichen.",
+      "notes": "OmniAI bietet kostenlose, unbegrenzte GPT-6-APIs. So können Entwickler sich auf Kreativität und Code konzentrieren, statt auf Tokenkosten. Verfügbare Modelle und API-Einrichtung stehen in der Konsole.",
+      "remarks": "Einladungscode in der Telegram-Gruppe https://t.me/omniai_zh abholen"
+    },
     "happycode": {
       "summary": "Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 beitreten und den Gruppeninhaber nach dem Testpaket für Neukunden fragen.",
       "registration": "Den vollständigen Empfehlungslink mit aff=5KUZBJEE7FYT öffnen. Mit einer unterstützten E-Mail-Adresse und Bestätigungscode oder über NodeLoc registrieren. Anschließend der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern.",

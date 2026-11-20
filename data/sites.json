@@ -267,6 +267,85 @@
       "community": []
     },
     {
+      "id": "omniai",
+      "name": "OmniAI",
+      "subtitle": "GPT-6 系列 API 不限额度使用 · 免费公益站 · 进 Telegram 群领取邀请码",
+      "remarks": "需进 Telegram 群 https://t.me/omniai_zh 领取邀请码",
+      "recommended": false,
+      "panel": "sub2api",
+      "credits": {
+        "signup": null,
+        "invite": null,
+        "dailyCheckin": null,
+        "approx": false,
+        "unit": "tokens",
+        "note": "免费使用 GPT-6 系列 API，不限调用额度与次数。"
+      },
+      "signupUrl": "https://sub.omniai.cc",
+      "homeUrl": "https://sub.omniai.cc",
+      "docsUrl": null,
+      "statusApi": "https://sub.omniai.cc/api/v1/settings/public",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": [
+        "GPT-6",
+        "免费使用",
+        "不限调用额度",
+        "邀请码注册",
+        "Sub2API"
+      ],
+      "highlights": [
+        "OmniAI 公益站 GPT-6 API 不限额度使用，量大管饱！",
+        "不必因为 TOKEN 成本而减少尝试，让更多精力回归创意和代码",
+        "进入 Telegram 群领取邀请码：https://t.me/omniai_zh",
+        "新进群没有邀请码的，可在小红书、推特等平台推广，截图后回群领取邀请码"
+      ],
+      "endpoints": {
+        "anthropic": null,
+        "openai": null
+      },
+      "setup": {
+        "client": "控制台内查看",
+        "note": "登录 OmniAI 控制台查看 API 接入地址、可用模型和 API Key 创建说明。",
+        "steps": [
+          "打开 OmniAI 页面，按站方要求完成注册或获取邀请码",
+          "登录控制台查看 GPT-6 系列模型及可用服务",
+          "按控制台说明获取 API Key、接入地址和模型 ID，再配置客户端"
+        ],
+        "dashboardUrl": "https://sub.omniai.cc"
+      },
+      "modelsSummary": "GPT-6 系列",
+      "modelsNote": "支持 GPT-6 系列模型，登录控制台查看可用模型与接入说明。",
+      "faq": [
+        [
+          "OmniAI 提供多少免费额度？",
+          "GPT-6 系列 API 免费使用，不限调用额度与次数。"
+        ],
+        [
+          "如何获取 OmniAI 邀请码？",
+          "进入 Telegram 群 https://t.me/omniai_zh 领取；没有邀请码的可在小红书、推特等平台推广后截图回群申请。"
+        ],
+        [
+          "OmniAI 支持哪些模型和 API 地址？",
+          "提供 GPT-6 系列 API，具体模型名称及接入地址登录后在控制台查看。"
+        ]
+      ],
+      "register": {
+        "methods": [
+          "账号密码（启用邀请码）"
+        ],
+        "requirements": [
+          "进入 Telegram 群 https://t.me/omniai_zh 领取邀请码",
+          "新进群没有邀请码的，可在小红书、推特等平台推广，截图后回群领取邀请码"
+        ]
+      },
+      "earnMore": [],
+      "caveats": [],
+      "community": [
+        "Telegram 群：https://t.me/omniai_zh"
+      ]
+    },
+    {
       "id": "happycode",
       "name": "Happy Code",
       "subtitle": "注册可获得 $100 额度，加入 QQ 群领取新人体验包",

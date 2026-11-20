@@ -1245,6 +1245,12 @@ test('有需要手填邀请码的站才出「邀请码」列，并保留手填�
   const cols = (l) => l.split('|').length;
   assert.equal(cols(head), cols(sep));
   assert.equal(cols(head), cols(row));
+
+  // 注册链接没带邀请参数的站（邀请码要进群领）不能写「注册链接中已自带」
+  const bare = { ...SITE, id: 'bare', name: 'Bare', signupUrl: 'https://bare.test' };
+  const mixed = renderReadme({ meta: META, sites: [coded, bare], live, groups: [], history: HIST });
+  const bareRow = mixed.split('\n').find((l) => l.startsWith('| **Bare**'));
+  assert.ok(bareRow.endsWith(' — |') && !bareRow.includes('注册链接中已自带'));
 });
 test('投稿公告在首屏：README 的 [!TIP] 排在总表前，首页排在大标题上方，两边都给提交和逛 Issue 两个入口', () => {
   const live = { generatedAt: iso(0), sites: [{ id: 'demo', online: true, registerOpen: true }] };
@@ -1391,8 +1397,8 @@ for (const locale of TRANSLATED_LANGUAGES) {
 }
 // 订阅渲染使用未归档样例；真实推荐列表仍从 CATALOG 读取归档状态。
 const MIRASIM = { ...CATALOG.find((s) => s.id === 'mirasim'), archived: undefined };
-test('在架站点按目录排序，Claude Agent 排末位，归档站点进入历史区', () => {
-  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'xingchi', 'agentrouter', 'anyrouter', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'wanjiadenghuo', 'claudeagent']);
+test('在架站点按目录排序，OmniAI 排第五，Claude Agent 排末位，归档站点进入历史区', () => {
+  assert.deepEqual(activeSites(CATALOG).map((site) => site.id), ['docode', 'xingchi', 'agentrouter', 'anyrouter', 'omniai', 'happycode', 'primerelay', 'codex-relay', 'matrix', 'wanjiadenghuo', 'claudeagent']);
   for (const id of ['conduit', 'omnirush', 'mirasim', 'artbloom', 'gorouter', 'tabitoken', 'rawchat', 'cheapcodex', 'flushapi', 'justdowork', 'kktoken', 'nofx']) assert.equal(isArchived(CATALOG.find((s) => s.id === id)), true);
   assert.equal(new Set(CATALOG.map((s) => s.id)).size, CATALOG.length);
   assert.equal(MIRASIM.signupUrl, 'https://mirasim.ai/r/go-kx9cd5');
