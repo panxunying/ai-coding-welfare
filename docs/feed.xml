@@ -5,8 +5,16 @@
   <link rel="self" href="https://panxunying.github.io/ai-coding-welfare/feed.xml"/>
   <link href="https://panxunying.github.io/ai-coding-welfare/"/>
   <id>https://panxunying.github.io/ai-coding-welfare/</id>
-  <updated>2026-11-22T06:52:11.045Z</updated>
+  <updated>2026-11-22T19:43:01.345Z</updated>
   <author><name>AI Coding 福利站导航</name></author>
+  <entry>
+    <title>2026-11-22 · 1 项变动</title>
+    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-22"/>
+    <id>tag:panxunying.github.io,2026-11-22:changelog</id>
+    <updated>2026-11-22T19:43:01.345Z</updated>
+    <summary>DoCode 发了公告：新上架GPT【ultrafast】分组，8 倍速度极致体验。</summary>
+    <content type="html">&lt;ul&gt;&lt;li&gt;📢 DoCode 发了公告：新上架GPT【ultrafast】分组，8 倍速度极致体验。&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>2026-11-20 · 1 项变动</title>
     <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-11-20"/>
@@ -318,13 +326,5 @@
     <updated>2026-09-04T20:47:10.029Z</updated>
     <summary>TaBiAI claude-opus-5 价格 $0.8 / 次 → $0.35 / 次（另有 1 项变动）</summary>
     <content type="html">&lt;ul&gt;&lt;li&gt;🏷️ TaBiAI claude-opus-5 价格 $0.8 / 次 → $0.35 / 次&lt;/li&gt;&lt;li&gt;🏷️ TaBiAI claude-opus-5-thinking 价格 $0.8 / 次 → $0.4 / 次&lt;/li&gt;&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>2026-09-03 · 3 项变动</title>
-    <link href="https://panxunying.github.io/ai-coding-welfare/changelog/#2026-09-03"/>
-    <id>tag:panxunying.github.io,2026-09-03:changelog</id>
-    <updated>2026-09-03T21:03:47.898Z</updated>
-    <summary>KKtoken AI 恢复在线（另有 2 项变动）</summary>
-    <content type="html">&lt;ul&gt;&lt;li&gt;🟢 KKtoken AI 恢复在线&lt;/li&gt;&lt;li&gt;🔴 KKtoken AI 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;li&gt;🔴 RawChat 公益站 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
 </feed>
