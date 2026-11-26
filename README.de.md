@@ -22,7 +22,7 @@ Community-Gateways, kostenloses API-Guthaben und günstige Tarife für Claude Co
 
 Übersetzter Leitfaden zu den aufgeführten Diensten. Beträge, Modell-IDs, Preise und Empfehlungslinks stammen aus denselben Daten wie die chinesische Ausgabe. Ausführliche Vergleiche, Verlauf, Anbieterdokumentation und manche Benutzeroberflächen bleiben auf Chinesisch.
 
-**Datenstand:** 2026-11-25 21:44 UTC
+**Datenstand:** 2026-11-26 08:22 UTC
 
 ## Anbieterübersicht
 
@@ -64,7 +64,7 @@ New-API-Gateway für Claude und GPT; Prämien werden in internen Einheiten verge
 - **Empfehlungsbonus**: 250 interne Einheiten (keine USD)
 - **Tägliches Guthaben**: Kostenlose Verlosung + Rabattgutscheine für Aufladungen
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 - **Hinweise**: Tritt der QQ-Gruppe bei, um viele weitere Vorteile freizuschalten
 
 
@@ -104,7 +104,7 @@ Registrierung über einen Telegram-Einladungslink mit großzügigem Guthaben, ei
 - **Über diesen Einladungslink registrieren**: $1000
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 - **Hinweise**: Multiplikator 0.25, GPT6a und großzügiges Guthaben; verwende diesen Einladungslink für den Registrierungsbonus
 
 
@@ -186,7 +186,7 @@ New-API-Gateway mit Registrierungs-/Empfehlungsprämien, täglichen Check-ins un
 - **Empfehlungsbonus**: $50
 - **Tägliches Guthaben**: $25/Tag · Täglicher Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 - **Hinweise**: Zur Registrierung ist ein LinuxDO-Konto der Stufe 2 erforderlich
 
 
@@ -222,7 +222,7 @@ Kostenloser, unbegrenzter API-Zugriff auf GPT-6-Modelle. Den Einladungscode gibt
 - **Guthaben am ersten Tag / Tarif**: Nicht öffentlich angegeben
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 - **Hinweise**: Einladungscode in der Telegram-Gruppe https://t.me/omniai_zh abholen
 
 
@@ -258,7 +258,7 @@ Bei Happy Code registrieren und $100 Guthaben erhalten. Der QQ-Gruppe 367746547 
 - **Registrierung**: $100
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 - **Hinweise**: Der QQ-Gruppe 367746547 beitreten und beim Gruppeninhaber das Testpaket für Neukunden anfordern
 
 
@@ -294,7 +294,7 @@ Prime Relay bietet am Registrierungstag $20 Guthaben und unterstützt tägliche 
 - **Registrierung**: $20
 - **Tägliches Guthaben**: Tägliche Check-ins verfügbar
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 - **Hinweise**: Beitritt zur QQ-Gruppe 239561070 erforderlich
 
 
@@ -330,7 +330,7 @@ Registriere dich bei Codex Relay und erhalte 10 US-Dollar API-Guthaben.
 - **Registrierung**: $10
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -365,7 +365,7 @@ OpenAI-kompatibles Gateway und App-Store mit internen Punkten, Empfehlungsprämi
 - **Empfehlungsbonus**: 600 Punkte
 - **Tägliches Guthaben**: Nicht öffentlich angegeben
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 
 
 ### Voraussetzungen für die Registrierung
@@ -396,13 +396,12 @@ Der QQ-Gruppe 1064350952 beitreten und das QQ- mit dem Website-Konto verknüpfen
 
 [Dienst öffnen / registrieren](https://wjapi.vip/register?aff=H6QJLZT5GQHW) · [Details](https://panxunying.github.io/ai-coding-welfare/de/sites/wanjiadenghuo/)
 
-> Zwischengespeicherte Daten: Die letzte Prüfung lieferte keine neuen Daten. Letzter erfolgreicher Datenstand: 2026-11-25 08:38 UTC.
 
 - **Guthaben am ersten Tag / Tarif**: 50 interne Einheiten (keine USD) + ¥2 allgemeines Testguthaben
 - **Nach QQ-Beitritt und Kontoverknüpfung erhalten**: 50 interne Einheiten (keine USD) + ¥2 allgemeines Testguthaben
 - **Tägliches Guthaben**: Nach einer Aufladung von CNY 10: zufällig CNY 0,1–1 allgemeines Guthaben pro täglichem Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 08:38 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 - **Hinweise**: Zum Erhalt der QQ-Gruppe 1064350952 beitreten und QQ verknüpfen; 50 Einheiten gelten nur für die vorgesehene GPT-Gruppe für einen Monat, Test-/Check-in-Guthaben ist allgemeines Guthaben
 
 
@@ -438,7 +437,7 @@ Die befristete Aktion umfasst Flash-Modelle von DeepSeek, GLM und MiniMax. Für 
 - **Guthaben am ersten Tag / Tarif**: Nicht öffentlich angegeben
 - **Tägliches Guthaben**: Kein Check-in
 - **Status**: Erreichbar
-- **Datenstand**: 2026-11-25 21:43 UTC
+- **Datenstand**: 2026-11-26 08:22 UTC
 - **Hinweise**: Ein Nutzer berichtet von guten Antworten über den nach Verbrauch abgerechneten Claude-Zugang.
 
 
