@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-26T21:35:23.390Z",
+  "generatedAt": "2026-11-27T08:37:34.283Z",
   "sites": [
     {
       "id": "docode",
-      "checkedAt": "2026-11-26T21:35:12.069Z",
+      "checkedAt": "2026-11-27T08:37:22.975Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1872,
+      "latencyMs": 3243,
       "error": null,
       "systemName": "DoCode",
       "version": "",
@@ -58,7 +58,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1267,
+        "ms": 2635,
         "attempts": 1,
         "url": "https://docode.cc/register?aff=zMRe"
       },
@@ -76,10 +76,10 @@
     },
     {
       "id": "xingchi",
-      "checkedAt": "2026-11-26T21:35:10.958Z",
+      "checkedAt": "2026-11-27T08:37:21.910Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 922,
+      "latencyMs": 2340,
       "error": null,
       "systemName": null,
       "version": null,
@@ -103,7 +103,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 923,
+        "ms": 2341,
         "attempts": 1,
         "url": "https://t.me/xingchi66bot?start=inv_8111640723"
       },
@@ -116,9 +116,9 @@
     },
     {
       "id": "agentrouter",
-      "checkedAt": "2026-11-26T21:35:17.160Z",
+      "checkedAt": "2026-11-27T08:37:27.906Z",
       "online": true,
-      "latencyMs": 304,
+      "latencyMs": 306,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260918-cbda758f",
@@ -246,7 +246,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2123,
+        "ms": 3225,
         "attempts": 1,
         "url": "https://agentrouter.org/register?aff=szt3"
       },
@@ -277,10 +277,10 @@
     },
     {
       "id": "anyrouter",
-      "checkedAt": "2026-11-26T21:35:17.614Z",
+      "checkedAt": "2026-11-27T08:37:28.367Z",
       "apiOk": false,
       "pricingOk": false,
-      "latencyMs": 203,
+      "latencyMs": 189,
       "error": "invalid json",
       "systemName": null,
       "version": null,
@@ -304,7 +304,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2647,
+        "ms": 3900,
         "attempts": 1,
         "url": "https://anyrouter.top/register?aff=Z24N"
       },
@@ -317,10 +317,10 @@
     },
     {
       "id": "omniai",
-      "checkedAt": "2026-11-26T21:35:12.770Z",
+      "checkedAt": "2026-11-27T08:37:23.692Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2608,
+      "latencyMs": 4023,
       "error": null,
       "systemName": "OmniAi",
       "version": "0.2.18",
@@ -346,7 +346,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2606,
+        "ms": 4028,
         "attempts": 1,
         "url": "https://sub.omniai.cc"
       },
@@ -359,13 +359,13 @@
     },
     {
       "id": "happycode",
-      "checkedAt": "2026-11-26T21:35:12.943Z",
+      "checkedAt": "2026-11-27T08:37:23.850Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2727,
+      "latencyMs": 4132,
       "error": null,
       "systemName": "Happy Code",
-      "version": "0.0.141",
+      "version": "0.0.142",
       "registerOpen": true,
       "passwordRegister": true,
       "checkinEnabled": null,
@@ -389,7 +389,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2720,
+        "ms": 4120,
         "attempts": 1,
         "url": "https://happycodeai.com/register?aff=5KUZBJEE7FYT"
       },
@@ -402,10 +402,10 @@
     },
     {
       "id": "primerelay",
-      "checkedAt": "2026-11-26T21:35:12.663Z",
+      "checkedAt": "2026-11-27T08:37:23.663Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2617,
+      "latencyMs": 4083,
       "error": null,
       "systemName": null,
       "version": null,
@@ -429,7 +429,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2632,
+        "ms": 4043,
         "attempts": 1,
         "url": "https://www.primerelay.online/register?aff=2FXZ7SBATLN2"
       },
@@ -442,10 +442,10 @@
     },
     {
       "id": "codex-relay",
-      "checkedAt": "2026-11-26T21:35:12.901Z",
+      "checkedAt": "2026-11-27T08:37:24.077Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2854,
+      "latencyMs": 4496,
       "error": null,
       "systemName": null,
       "version": null,
@@ -469,7 +469,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2854,
+        "ms": 4546,
         "attempts": 1,
         "url": "https://codex-relay.codes/register?aff=6jAq"
       },
@@ -482,10 +482,10 @@
     },
     {
       "id": "matrix",
-      "checkedAt": "2026-11-26T21:35:13.609Z",
+      "checkedAt": "2026-11-27T08:37:24.965Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 3560,
+      "latencyMs": 5381,
       "error": null,
       "systemName": null,
       "version": null,
@@ -509,7 +509,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3603,
+        "ms": 5440,
         "attempts": 1,
         "url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_"
       },
@@ -522,10 +522,10 @@
     },
     {
       "id": "wanjiadenghuo",
-      "checkedAt": "2026-11-26T21:35:13.199Z",
+      "checkedAt": "2026-11-27T08:37:24.779Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 3012,
+      "latencyMs": 5075,
       "error": null,
       "systemName": "万家灯火",
       "version": "2.25.2",
@@ -551,7 +551,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3025,
+        "ms": 5064,
         "attempts": 1,
         "url": "https://wjapi.vip/register?aff=H6QJLZT5GQHW"
       },
@@ -564,10 +564,10 @@
     },
     {
       "id": "claudeagent",
-      "checkedAt": "2026-11-26T21:35:13.318Z",
+      "checkedAt": "2026-11-27T08:37:24.863Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 3266,
+      "latencyMs": 5277,
       "error": null,
       "systemName": "Claude Agent",
       "version": "v1.0.0-rc.21-rentals-v82-20261122",
@@ -619,7 +619,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 3266,
+        "ms": 5266,
         "attempts": 1,
         "url": "https://claudeagent.com.cn/sign-up?aff=MW5x"
       },
