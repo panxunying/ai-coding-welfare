@@ -22,7 +22,7 @@ Community gateways, free API credits and low-cost plans for Claude Code, Codex a
 
 A translated guide to the listed services. Amounts, model IDs, prices and referral URLs are generated from the same data as the Chinese edition. Detailed comparison, history, upstream documentation and some service interfaces remain in Chinese.
 
-**Snapshot updated:** 2026-11-27 21:19 UTC
+**Snapshot updated:** 2026-11-28 07:52 UTC
 
 ## Site overview
 
@@ -64,7 +64,7 @@ New API gateway with Claude and GPT services; bonuses use internal site units, n
 - **Referral bonus**: 250 site units (not USD)
 - **Daily credits**: Free prize draw + top-up discount coupons
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 - **Remarks**: Join the QQ group to unlock many more perks
 
 
@@ -104,7 +104,7 @@ Telegram referral signup with generous credits, a 0.25 multiplier and GPT6a acce
 - **Register through this referral link**: $1000
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 - **Remarks**: 0.25 multiplier, GPT6a and generous credits; use this referral link to claim the signup reward
 
 
@@ -186,7 +186,7 @@ New API gateway with signup/referral credits, daily check-ins and Anthropic/Open
 - **Referral bonus**: $50
 - **Daily credits**: $25/day · Daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 - **Remarks**: Registration requires a level 2 LinuxDO account
 
 
@@ -222,7 +222,7 @@ Free, unlimited GPT-6-series API access. Join the Telegram group to get an invit
 - **First-day credits / plan**: Not publicly specified
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 - **Remarks**: Join the Telegram group https://t.me/omniai_zh to get an invitation code
 
 
@@ -258,7 +258,7 @@ Register with Happy Code to receive $100 in credits. Join QQ group 367746547 and
 - **Signup**: $100
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 - **Remarks**: Join QQ group 367746547 and ask the group owner for the newcomer trial pack
 
 
@@ -294,7 +294,7 @@ Prime Relay offers $20 in credits on the first day of registration and supports 
 - **Signup**: $20
 - **Daily credits**: Daily check-ins supported
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 - **Remarks**: Must join QQ group 239561070
 
 
@@ -330,7 +330,7 @@ Register with Codex Relay to receive $10 in API credits.
 - **Signup**: $10
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 
 
 ### Registration requirements
@@ -365,7 +365,7 @@ OpenAI-compatible gateway and app store using internal points, with referral and
 - **Referral bonus**: 600 points
 - **Daily credits**: Not publicly specified
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 
 
 ### Registration requirements
@@ -401,7 +401,7 @@ Join QQ group 1064350952 and link your QQ and site accounts to receive 50 intern
 - **Claim after joining QQ and linking your account**: 50 site units (not USD) + ¥2 general trial credit
 - **Daily credits**: After a CNY 10 top-up: random CNY 0.1–1 in general balance per daily check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 - **Remarks**: Join QQ group 1064350952 and link QQ to claim; 50 units cover only the designated GPT group for one month, while trial/check-in credits are general balance
 
 
@@ -437,7 +437,7 @@ The limited-time promo group offers Flash models from DeepSeek, GLM and MiniMax.
 - **First-day credits / plan**: Not publicly specified
 - **Daily credits**: No check-in
 - **Status**: Reachable
-- **Snapshot updated**: 2026-11-27 21:19 UTC
+- **Snapshot updated**: 2026-11-28 07:52 UTC
 - **Remarks**: A user reports good response quality on the pay-as-you-go Claude relay.
 
 

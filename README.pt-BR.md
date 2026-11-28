@@ -22,7 +22,7 @@ Gateways comunitários, créditos de API gratuitos e planos econômicos para Cla
 
 Guia traduzido dos serviços listados. Valores, IDs de modelos, preços e links de indicação são gerados a partir dos mesmos dados da edição chinesa. Comparações detalhadas, histórico, documentação dos provedores e algumas interfaces continuam em chinês.
 
-**Dados atualizados em:** 2026-11-27 21:19 UTC
+**Dados atualizados em:** 2026-11-28 07:52 UTC
 
 ## Visão geral
 
@@ -64,7 +64,7 @@ Gateway New API com Claude e GPT; os bônus usam unidades internas, não dólare
 - **Bônus de indicação**: 250 unidades internas (não USD)
 - **Créditos diários**: Sorteio grátis + cupons de desconto para recarga
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 - **Observações**: Entre no grupo do QQ para desbloquear muito mais benefícios
 
 
@@ -104,7 +104,7 @@ Cadastro por indicação no Telegram com créditos generosos, multiplicador de 0
 - **Cadastre-se por este link de indicação**: $1000
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 - **Observações**: Multiplicador de 0.25, GPT6a e créditos generosos; use este link de indicação para receber o bônus de cadastro
 
 
@@ -186,7 +186,7 @@ Gateway New API com bônus de cadastro/indicação, check-ins diários e rotas A
 - **Bônus de indicação**: $50
 - **Créditos diários**: $25/dia · Check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 - **Observações**: O cadastro exige uma conta LinuxDO de nível 2
 
 
@@ -222,7 +222,7 @@ Acesso gratuito e ilimitado à API da série GPT-6. Entre no grupo do Telegram p
 - **Créditos no primeiro dia / plano**: Não divulgado publicamente
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 - **Observações**: Entre no grupo do Telegram https://t.me/omniai_zh para receber o código de convite
 
 
@@ -258,7 +258,7 @@ Cadastre-se no Happy Code para receber $100 em créditos. Entre no grupo QQ 3677
 - **Cadastro**: $100
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 - **Observações**: Entre no grupo QQ 367746547 e peça ao dono do grupo o pacote de teste para novos usuários
 
 
@@ -294,7 +294,7 @@ O Prime Relay oferece $20 em créditos no primeiro dia de cadastro e permite che
 - **Cadastro**: $20
 - **Créditos diários**: Check-in diário disponível
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 - **Observações**: É necessário entrar no grupo do QQ 239561070
 
 
@@ -330,7 +330,7 @@ Cadastre-se no Codex Relay para receber US$ 10 em créditos de API.
 - **Cadastro**: $10
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 
 
 ### Requisitos de cadastro
@@ -365,7 +365,7 @@ Gateway compatível com OpenAI e loja de apps com pontos internos, indicações 
 - **Bônus de indicação**: 600 pontos
 - **Créditos diários**: Não divulgado publicamente
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 
 
 ### Requisitos de cadastro
@@ -401,7 +401,7 @@ Entre no grupo QQ 1064350952 e vincule suas contas QQ e do site para receber 50 
 - **Receba após entrar no QQ e vincular a conta**: 50 unidades internas (não USD) + ¥2 crédito geral de teste
 - **Créditos diários**: Após recarregar CNY 10: CNY 0,1–1 aleatórios em saldo geral por check-in diário
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 - **Observações**: Entre no grupo QQ 1064350952 e vincule o QQ para receber; as 50 unidades cobrem apenas o grupo GPT indicado por um mês, enquanto os créditos de teste/check-in são saldo geral
 
 
@@ -437,7 +437,7 @@ O grupo promocional oferece, por tempo limitado, modelos Flash da DeepSeek, GLM 
 - **Créditos no primeiro dia / plano**: Não divulgado publicamente
 - **Créditos diários**: Sem check-in
 - **Status**: Acessível
-- **Dados atualizados em**: 2026-11-27 21:19 UTC
+- **Dados atualizados em**: 2026-11-28 07:52 UTC
 - **Observações**: Um usuário relatou que as respostas do Claude são de boa qualidade no serviço com cobrança por uso.
 
 
